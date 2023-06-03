@@ -1,0 +1,17 @@
+"ec_scope" : "equip.pmd" {
+
+	features {
+		@include "/models/equipment/pba/features.pba.part"
+	}
+
+	animations {
+		"lower" : "/models/equipment/rfscope/lower.pma"
+		"raise" : "/models/equipment/rfscope/raise.pma"
+	}
+
+	behaviors {
+
+		@include "/models/equipment/pba/raise.pba.bhv"
+		@include "/models/equipment/pba/lower.pba.bhv"
+	}
+}

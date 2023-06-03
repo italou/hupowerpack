@@ -1,0 +1,18 @@
+SiiNunit
+{
+
+body_desc : _nameless.0001
+{
+ model_file : "/models/hunters/ita/hunter.pmd"
+ look : winter
+ variant : default
+ is_collidable : false
+ unique_instances : 1
+}
+
+
+body_inst : _nameless {
+ body_desc : _nameless.0001
+}
+
+}

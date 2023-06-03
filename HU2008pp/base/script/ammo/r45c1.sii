@@ -1,0 +1,37 @@
+SiiNunit
+#.45 Colt Remington
+#
+#         Cartridge Type: Remington Express
+#           Bullet Style: Semi-Wadcutter
+#           Index Number: R45C1
+# Short-Range Trajectory: 50 yards
+#  Long-Range Trajectory: 100 yards
+{
+
+projectile : _nameless
+{
+ bc: 0.170
+ muzzle: 960
+ weight: 225
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/casing/projectile.pmd"
+ look: default
+ variant: rifle
+}
+
+}
+

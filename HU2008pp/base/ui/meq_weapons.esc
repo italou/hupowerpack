@@ -1,0 +1,478 @@
+estruct {
+	client {
+		entities {
+			entity "ui.window" {
+				evalues {
+					"wclass" : "edited"
+					"coords" : "0 1 1024 768"
+					"name" : "window"
+				}
+				entities {
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "2 2 130 48"
+							"id" : "9999"
+							"name" : "uifx"
+						}
+						entities {
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "844 76 1003 172"
+							"layer" : "-1"
+							"id" : "20"
+							"name" : "scope group"
+						}
+						entities {
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "39"
+									"value2" : "@@df_s1_4@@"
+									"value" : "@@df_s1_4@@"
+									"button_type" : "2"
+									"layer" : "3"
+									"id" : "71"
+									"area" : "845 110 921 128"
+									"coords" : "845 103 914 124"
+									"name" : "scope1"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "39"
+									"value2" : "@@df_s4_14@@"
+									"value" : "@@df_s4_14@@"
+									"button_type" : "2"
+									"layer" : "3"
+									"id" : "73"
+									"area" : "924 110 1000 128"
+									"coords" : "924 103 997 124"
+									"name" : "scope3"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "39"
+									"value2" : "@@df_s4_12rf@@"
+									"value" : "@@df_s4_12rf@@"
+									"button_type" : "2"
+									"layer" : "3"
+									"id" : "74"
+									"area" : "924 88 1111 106"
+									"coords" : "924 81 997 102"
+									"name" : "scope4"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "39"
+									"value2" : "@@df_s3_9@@"
+									"value" : "@@df_s3_9@@"
+									"button_type" : "2"
+									"layer" : "3"
+									"id" : "72"
+									"area" : "845 88 921 106"
+									"coords" : "845 81 914 102"
+									"name" : "scope2"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "39"
+									"value2" : "@@g_wp_noscope@@"
+									"value" : "@@g_wp_noscope@@"
+									"button_type" : "2"
+									"layer" : "3"
+									"id" : "70"
+									"area" : "850 127 1014 145"
+									"coords" : "850 120 997 141"
+									"name" : "scope0"
+								}
+							}
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "63"
+									"value" : "@@mm_scope@@"
+									"layer" : "3"
+									"coords" : "844 140 1003 172"
+									"name" : "scope text"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "362 90 831 158"
+							"layer" : "1"
+							"id" : "60"
+							"name" : "backpack"
+						}
+						entities {
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "18"
+									"button_type" : "2"
+									"layer" : "3"
+									"id" : "101"
+									"tooltip" : "@@mm_weaptip@@"
+									"area" : "599 90 831 158"
+									"coords" : "599 90 831 158"
+									"name" : "secondary"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "18"
+									"button_type" : "2"
+									"layer" : "3"
+									"id" : "100"
+									"tooltip" : "@@mm_weaptip@@"
+									"area" : "362 90 594 158"
+									"coords" : "362 90 594 158"
+									"name" : "primary"
+								}
+							}
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "14"
+							"value" : "40|@@mm_ok@@"
+							"layer" : "1"
+							"id" : "1"
+							"tooltip" : "@@mt_eq_back@@"
+							"coords" : "915 0 1018 68"
+							"name" : "ok"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ui_static_back.mat xscale=stretch yscale=stretch>"
+							"layer" : "-5"
+							"coords" : "0 0 1024 768"
+							"name" : "ui static background"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "39"
+							"value" : ".22 Remington Rifle"
+							"layer" : "2"
+							"id" : "30"
+							"coords" : "353 609 1002 659"
+							"name" : "t_wname"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "37"
+							"value" : "@@mm_weaponlist@@"
+							"layer" : "2"
+							"id" : "5"
+							"coords" : "25 678 1008 728"
+							"name" : "title"
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "0 0 1024 768"
+							"layer" : "-1"
+							"name" : "background"
+						}
+						entities {
+							entity "ui.comp.group" {
+								evalues {
+									"fitting" : "true"
+									"coords" : "352 70 1008 180"
+									"layer" : "2"
+									"name" : "scopeselect"
+								}
+								entities {
+									entity "ui.comp.text" {
+										evalues {
+											"text" : "<img src=/material/ui/frame_v.mat yscale=stretch left=0.5 right=1>"
+											"layer" : "2"
+											"coords" : "838 74 843 176"
+											"name" : "v2"
+										}
+									}
+									entity "ui.comp.common.frame" {
+										evalues {
+											"layer" : "1"
+											"coords" : "352 70 1008 180"
+										}
+									}
+								}
+							}
+							entity "ui.comp.common.frame" {
+								evalues {
+									"coords" : "352 198 1008 673"
+								}
+							}
+							entity "ui.comp.common.frame" {
+								evalues {
+									"coords" : "16 69 337 673"
+								}
+							}
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<color value=@@rgb_bck@@ ><img src=/material/ui/top.mat height=64><img src=/material/ui/color.mat  width=1024 height=640 color=@@rgb_bck@@><img src=/material/ui/bottom.mat  height=64>"
+									"layer" : "-4"
+									"coords" : "0 0 1024 768"
+								}
+							}
+							entity "ui.comp.uifx.common.text" {
+								evalues {
+									"look" : "38"
+									"layer" : "2"
+									"id" : "999"
+									"coords" : "20 20 811 46"
+									"name" : "tooltip"
+								}
+							}
+						}
+					}
+					entity "ui.comp.weapon" {
+						evalues {
+							"layer" : "3"
+							"id" : "50"
+							"tooltip" : "@@mt_wp_model@@"
+							"coords" : "354 200 1005 608"
+							"name" : "weapon"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "15"
+							"layer" : "2"
+							"id" : "40"
+							"coords" : "371 343 990 593"
+							"name" : "desc"
+						}
+					}
+					entity "ui.comp.common.list" {
+						evalues {
+							"look" : "35"
+							"item_data" : "0"
+							"item_text" : ""
+							"item_active" : "true"
+							"item_pml" : ".22 Remington Rifle"
+							"item_width" : "300.00052"
+							"coords" : "20 88 310 600"
+							"layer" : "1"
+							"id" : "10"
+							"name" : "weapon list"
+						}
+						entities {
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "63"
+									"value" : "@@mm_weapons_info@@"
+									"layer" : "2"
+									"coords" : "20 617 333 649"
+								}
+							}
+							entity "ui.comp.common.slider" {
+								evalues {
+									"value" : "448"
+									"action_on_drag" : "true"
+									"layer" : "1"
+									"coords" : "313 85 334 600"
+								}
+							}
+						}
+					}
+				}
+			}
+			entity "ui.handler.menu.eq_weapons" {
+				evalues {
+				}
+			}
+		}
+	}
+}

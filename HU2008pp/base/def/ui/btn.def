@@ -1,0 +1,470 @@
+###########################
+#
+#	button templates
+#	DO NOT CHANGE NUMBERING!!
+#
+###########################
+
+def template00 {
+	name:"Hu4_Menuitem"
+	n_pml:"<color value=@@rgb_lbrown@@><font @@__fnt_menu@@>%0</font>"
+	s_pml:"<color value=@@rgb_yellow@@><font @@__fnt_menu@@>%0</font>"
+	s2_pml:"<color value=@@rgb_yellow@@><font @@__fnt_menu@@>%0</font>"
+	p_pml:"<color value=@@rgb_yellow@@><font @@__fnt_menu@@>%0</font>"
+	d_pml:"<color value=@@rgb_dbtn@@><font @@__fnt_menu@@>%0</font>"
+	height:"32"
+}
+
+
+
+def template01 {
+	name:"Equipment Item Icon"
+	n_pml:"<img src=/material/ui/color.mat color=@@rgb_equip@@ width=68 height=68><ret><img src=%0 width=68 height=68>"
+	s_pml:"<img src=/material/ui/color.mat color=@@rgb_equip@@ width=68 height=68><ret><img src=%1 width=68 height=68><ret><img src=%0 width=68 height=68>"
+	p_pml:"<img src=/material/ui/color.mat color=@@rgb_equip@@ width=68 height=68><ret><img src=%1 width=68 height=68><ret><img src=%0 width=68 height=68>"
+	d_pml:"<img src=/material/ui/color.mat color=@@rgb_equip@@ width=68 height=68>"
+	width:"68"
+	height:"68"
+}
+
+def template02 {
+	name:"Hu4_HUD Weapon Icon"
+	n_pml:"<img src=%0 width=220 height=60></align><ret><offset vshift=50><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	s_pml:"<img src=%0 width=220 height=60></align><ret><offset vshift=50><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	s2_pml:"<img src=%0 width=220 height=60></align><ret><offset vshift=50><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	p_pml:"<img src=%0 width=220 height=60></align><ret><offset vshift=50><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_pbtn@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	d_pml:"<img src=%0 width=220 height=60></align><ret><offset vshift=50><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	width:"232"
+	height:"68"
+}
+
+def template03 {
+	name:"Hu4_Tier Button x64"
+	n_pml:"<img src=/material/ui/tbtn.mat ><ret><offset vshift=18><align hstyle=center><font @@__fnt_menu@@><color value=@@rgb_btnn@@>%0</font></align>"
+	s_pml:"<img src=/material/ui/tbtns.mat ><ret><offset vshift=18><align hstyle=center><font @@__fnt_menu@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s2_pml:"<img src=/material/ui/tbtns.mat ><ret><offset vshift=18><align hstyle=center><font @@__fnt_menu@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	p_pml:"<img src=/material/ui/tbtns.mat ><ret><offset vshift=18><align hstyle=center><font @@__fnt_menu@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	d_pml:"<img src=/material/ui/tbtnd.mat ><ret><offset vshift=18><align hstyle=center><font @@__fnt_menu@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"64"
+	width:"64"
+}
+
+def template04 {
+	name:"Minigame High Score"
+	n_pml:"_dont use_"
+	s_pml:"_dont use_"
+	s2_pml:"_dont use_"
+	p_pml:"_dont use_"
+	d_pml:"<font @@__fnt_text@@><color value=@@rgb_nbtn@@><offset vshift=4><align hstyle=right right=20>%0</align><ret><offset vshift=4 hshift=25>%1<ret><offset vshift=4><align hstyle=right right=240>%2</align><ret><offset vshift=4><align hstyle=right right=320>%3</align><ret><offset vshift=4><align hstyle=right right=410>%4</align><ret><offset vshift=4 hshift=440>%5</font>"
+	height:"22"
+}
+
+def template05 {
+	name:"Hu4_Text Right Top ?x22 disabled"
+	n_pml:"DONT USE"
+	s_pml:"DONT USE"
+	p_pml:"DONT USE"
+	d_pml:"<align hstyle=right><font @@__fnt_text@@>%0</font></align>"
+	height:"22"
+}
+
+def template06 {
+	name:"HU4_Modeline"
+	n_pml:"<font @@__fnt_text@@><color value=@@rgb_nbtn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><font @@__fnt_text@@><color value=@@rgb_nbtn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><font @@__fnt_text@@><color value=@@rgb_s2btn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font>"
+	p_pml:"<font @@__fnt_text@@><color value=@@rgb_sbtn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font>"
+	d_pml:"<font @@__fnt_text@@><color value=@@rgb_dbtn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font>"
+	height:"22"
+}
+
+def template07 {
+	name:"Hu4_Item Left Center ?x21"
+	n_pml:"<offset hshift=10><align vstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset hshift=10><align vstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset hshift=10><align vstyle=center><font @@__fnt_text@@><color value=@@rgb_s2btn@@>%0</font></align>"
+	p_pml:"<offset hshift=10><align vstyle=center><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	d_pml:"<offset hshift=10><align vstyle=center><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"21"
+}
+
+def template08 {
+	name:"[Icon SCS]"
+	n_pml:"<img src=/material/ui/logo/scs_icon.mat xscale=stretch yscale=stretch>"
+	s_pml:"<img src=/material/ui/logo/scs_icon.mat xscale=stretch yscale=stretch color=7fffffff>"
+	p_pml:"<img src=/material/ui/logo/scs_icon.mat xscale=stretch yscale=stretch color=7fffffff>"
+}
+
+def template09 {
+	name:"[Icon Gametitle]"
+	n_pml:"<img src=/material/ui/logo/gametitle.mat xscale=stretch yscale=stretch>"
+	s_pml:"<img src=/material/ui/logo/gametitle.mat xscale=stretch yscale=stretch color=7fffffff>"
+	p_pml:"<img src=/material/ui/logo/gametitle.mat xscale=stretch yscale=stretch color=7fffffff>"
+}
+
+def template10 {
+	name:"Start Pos"
+	n_pml:"<img src=/material/ui/icon/m_spos_on.mat width=16 height=16>"
+	s_pml:"<img src=/material/ui/icon/m_spos_on.mat width=16 height=16>"
+	s2_pml:"<img src=/material/ui/icon/m_spos_on.mat width=16 height=16>"
+	p_pml:"<img src=/material/ui/icon/m_spos_on.mat width=16 height=16>"
+	d_pml:"<img src=/material/ui/icon/m_spos_on.mat width=16 height=16>"
+	width:"16"
+	height:"16"
+}
+
+def template11 {
+	name:"HUD Item Icon Thumbnail"
+	n_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><img src=%0 width=64 height=64><ret><offset hshift=4 vshift=4><font @@__fnt_main@@><color value=@@rgb_nbtn@@>%2</font>"
+	s_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><img src=%1 width=64 height=64 color=80ffffff><ret><offset hshift=2 vshift=2><img src=%0 width=64 height=64><ret><offset hshift=4 vshift=4><font @@__fnt_main@@><color value=@@rgb_sbtn@@>%2</font>"
+	s2_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><img src=%1 width=64 height=64><ret><offset hshift=2 vshift=2><img src=%0 width=64 height=64><ret><offset hshift=4 vshift=4><font @@__fnt_main@@><color value=@@rgb_sbtn@@>%2</font>"
+	p_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><img src=%1 width=64 height=64><ret><offset hshift=2 vshift=2><img src=%0 width=64 height=64><ret><offset hshift=4 vshift=4><font @@__fnt_main@@><color value=@@rgb_nbtn@@>%2</font>"
+	d_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><color value=@@rgb_dimg@@><img src=%0 width=64 height=64><ret><offset hshift=4 vshift=4><font @@__fnt_main@@><color value=@@rgb_dbtn@@>%2</font>"
+	width:"68"
+	height:"68"
+}
+
+def template12 {
+	name:"Dialog Center Center Colored"
+	n_pml:"<offset hshift=2 vshift=5><font @@__fnt_main@@><color value=@@rgb_shadow@@>%0</font><ret><offset vshift=3><font @@__fnt_main@@><color value=%1>%0</font>"
+	s_pml:"<offset hshift=2 vshift=5><font @@__fnt_main@@><color value=@@rgb_shadow@@>%0</font><ret><offset vshift=3><font @@__fnt_main@@><color value=@@rgb_sbtn@@>%0</font>"
+	p_pml:"<offset hshift=2 vshift=5><font @@__fnt_main@@><color value=@@rgb_shadow@@>%0</font><ret><offset vshift=3><font @@__fnt_main@@><color value=@@rgb_pbtn@@>%0</font>"
+	d_pml:"<offset hshift=2 vshift=5><font @@__fnt_main@@><color value=@@rgb_shadow@@>%0</font><ret><offset vshift=3><font @@__fnt_main@@><color value=@@rgb_dbtn@@>%0</font>"
+	height:"26"
+}
+
+def template13 {
+	name:"Bonus"
+	n_pml:"<img src=%0 width=64 height=64><ret><font @@__fnt_text@@>\0<offset hshift=-2>%1<ret><offset hshift=2>%1<ret><offset vshift=-2>%1<ret><offset vshift=2>%1<ret>\w%1</font>"
+	s_pml:"<img src=%0 width=64 height=64><ret><font @@__fnt_text@@>\0<offset hshift=-2>%1<ret><offset hshift=2>%1<ret><offset vshift=-2>%1<ret><offset vshift=2>%1<ret>\w%1</font>"
+	s2_pml:"<img src=%0 width=64 height=64><ret><font @@__fnt_text@@>\0<offset hshift=-2>%1<ret><offset hshift=2>%1<ret><offset vshift=-2>%1<ret><offset vshift=2>%1<ret>\w%1</font>"
+	p_pml:"<img src=%0 width=64 height=64><ret><font @@__fnt_text@@>\0<offset hshift=-2>%1<ret><offset hshift=2>%1<ret><offset vshift=-2>%1<ret><offset vshift=2>%1<ret>\w%1</font>"
+	d_pml:"<img src=%0 width=64 height=64><ret><font @@__fnt_text@@>\0<offset hshift=-2>%1<ret><offset hshift=2>%1<ret><offset vshift=-2>%1<ret><offset vshift=2>%1<ret>\w%1</font>"
+	width:"64"
+	height:"64"
+}
+
+def template14 {
+	name:"Hu4_Dialog Center Center"
+	n_pml:"<img src=/material/ui/btn_l.mat><img src=/material/ui/btn_m.mat width=%0><img src=/material/ui/btn_r.mat><ret><align hstyle=center><offset vshift=18><font @@__fnt_menu@@><color value=@@rgb_btnn@@>%1</font></align>"
+	s_pml:"<img src=/material/ui/btns_l.mat><img src=/material/ui/btns_m.mat width=%0><img src=/material/ui/btns_r.mat><ret><align hstyle=center><offset vshift=18><font @@__fnt_menu@@><color value=@@rgb_nbtn@@>%1</font></align>"
+	p_pml:"<img src=/material/ui/btns_l.mat><img src=/material/ui/btns_m.mat width=%0><img src=/material/ui/btns_r.mat><ret><align hstyle=center><offset vshift=18><font @@__fnt_menu@@><color value=@@rgb_nbtn@@>%1</font></align>"
+	d_pml:"<img src=/material/ui/btn_l.mat><img src=/material/ui/btn_m.mat width=%0><img src=/material/ui/btn_r.mat><ret><align hstyle=center><offset vshift=18><font @@__fnt_menu@@><color value=@@rgb_dbtn@@>%1</font></align>"
+	height:"68"
+}
+
+def template15 {
+	name:"Hu4_Modeline (dropdown)"
+	n_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><font @@__fnt_text@@><color value=@@rgb_nbtn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font><ret><align hstyle=right><img src=/material/ui/d_down.mat></align>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><font @@__fnt_text@@><color value=@@rgb_nbtn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font><ret><align hstyle=right>\w<img src=/material/ui/d_down.mat></align>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><font @@__fnt_text@@><color value=@@rgb_s2btn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font><ret><align hstyle=right>\w<img src=/material/ui/d_down.mat></align>"
+	p_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><font @@__fnt_text@@><color value=@@rgb_s2btn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font><ret><align hstyle=right>\w<img src=/material/ui/d_down.mat></align>"
+	d_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><font @@__fnt_text@@><color value=@@rgb_dbtn@@><offset vshift=2 hshift=4>%0<ret><offset vshift=2 hshift=160>%1<ret><offset vshift=2 hshift=220>%2</font><ret><align hstyle=right><img src=/material/ui/d_down.mat></align>"
+	height:"21"
+}
+
+def template16 {
+	name:"Hu4_Item Center Center ?x21 (dropdown)"
+	n_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align><ret><align hstyle=right><img src=/material/ui/d_down.mat></align>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align><ret><align hstyle=right>\w<img src=/material/ui/d_down.mat></align>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_s2btn@@>%0</font></align><ret><align hstyle=right>\w<img src=/material/ui/d_down.mat></align>"
+	p_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_s2btn@@>%0</font></align><ret><align hstyle=right>\w<img src=/material/ui/d_down.mat></align>"
+	d_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%0</font></align><ret><align hstyle=right><img src=/material/ui/d_down.mat></align>"
+	height:"21"
+}
+
+def template17 {
+	name:"OLD-Command Radio Center Center ?x19"
+	n_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><align hstyle=center vstyle=center><font @@__fnt_main@@><color value=@@ui_clr_nbtn@@>%0</font></align>"
+	s_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><align hstyle=center vstyle=center><font @@__fnt_main@@><color value=@@ui_clr_sbtn@@>%0</font></align>"
+	s2_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><align hstyle=center vstyle=center><font @@__fnt_main@@><color value=@@ui_clr_s2btn@@>%0</font></align>"
+	p_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><align hstyle=center vstyle=center><font @@__fnt_main@@><color value=@@ui_clr_pbtn@@>%0</font></align>"
+	d_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><align hstyle=center vstyle=center><font @@__fnt_main@@><color value=@@ui_clr_dbtn@@>%0</font></align>"
+	height:"19"
+	type:"radio"
+}
+
+def template18 {
+	name:"Hu4_Backpack/Equipment Weapon Icon"
+	n_pml:"<align hstyle=center><img src=/material/ui/stain.mat width=228 height=68 color=@@rgb_equip@@></align><ret><offset hshift=8><img src=%0 width=220 height=60></align><ret><offset vshift=46><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	s_pml:"<align hstyle=center><img src=/material/ui/stain.mat width=228 height=68 color=@@rgb_equip@@></align><ret><offset hshift=8><img src=%0 width=220 height=60></align><ret><offset vshift=46><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	s2_pml:"<align hstyle=center><img src=/material/ui/stain.mat width=228 height=68 color=@@rgb_equip@@></align><ret><offset hshift=8><img src=%3 width=220 height=60><ret><offset hshift=8><img src=%0 width=220 height=60></align><ret><offset vshift=46><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	p_pml:"<align hstyle=center><img src=/material/ui/stain.mat width=228 height=68 color=@@rgb_equip@@></align><ret><offset hshift=8><img src=%3 width=220 height=60><ret><offset hshift=8><img src=%0 width=220 height=60></align><ret><offset vshift=46><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	d_pml:"<align hstyle=center><img src=/material/ui/stain.mat width=228 height=68 color=@@rgb_equip@@></align><ret><offset hshift=8><color value=@@rgb_dimg@@><img src=%0 width=220 height=60></align><ret><offset vshift=46><align hstyle=center><font @@__fnt_text@@>%1</align><ret><offset hshift=4 vshift=4>%2</font>"
+	width:"232"
+	height:"68"
+}
+
+def template19 {
+	name:"Backpack Item Icon"
+	n_pml:"<img src=%0 width=68 height=68>"
+	s_pml:"<img src=%1 width=68 height=68><ret><img src=%0 width=68 height=68>"
+	p_pml:"<img src=%1 width=68 height=68><ret><img src=%0 width=68 height=68>"
+	d_pml:""
+	width:"68"
+	height:"68"
+}
+
+def template20 {
+	name:"Hu4_Challenge Left Top ?x32"
+	n_pml:"<font @@__fnt_text@@><color value=@@rgb_nbtn@@><offset hshift=14><align vstyle=center>%1</align><ret><align vstyle=center hstyle=right right=-5>%2</align><ret><align vstyle=center hstyle=right right=-38>%3</align></font>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><font @@__fnt_text@@><color value=@@rgb_nbtn@@><offset hshift=14><align vstyle=center>%1</align><ret><align vstyle=center hstyle=right right=-5>%2</align><ret><align vstyle=center hstyle=right right=-38>%3</align></font>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><font @@__fnt_text@@><color value=@@rgb_s2btn@@><offset hshift=14><align vstyle=center>%1</align><ret><align vstyle=center hstyle=right right=-5>%2</align><ret><align vstyle=center hstyle=right right=-38>%3</align></font>"
+	p_pml:"<font @@__fnt_text@@><color value=@@rgb_sbtn@@><offset hshift=14><align vstyle=center>%1</align><ret><align vstyle=center hstyle=right right=-5>%2</align><ret><align vstyle=center hstyle=right right=-38>%3</align></font>"
+	d_pml:"<font @@__fnt_text@@><color value=@@rgb_dbtn@@><offset hshift=14><align vstyle=center>%1</align><ret><align vstyle=center hstyle=right right=-5>%2</align><ret><align vstyle=center hstyle=right right=-38>%3</align></font>"
+	height:"22"
+}
+
+def template21 {
+	name:"[Animal Slot (tournament)]"
+	n_pml:"<img src=/material/ui/color.mat width=132 height=86 color=@@rgb_main@@><ret><align hstyle=center><img src=%0 width=64 height=64></align><ret><offset vshift=66><align hstyle=center><font @@__fnt_text@@>%1</font></align>"
+	width:"132"
+	height:"86"
+}
+
+def template22 {
+	name:"Hu4_Tournament Left Top ?x32"
+	n_pml:"<offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</align><ret><align vstyle=center hstyle=right right=-5>%1</align></font>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</align><ret><align vstyle=center hstyle=right right=-5>%1</align></font>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_text@@><color value=@@rgb_s2btn@@>%0</align><ret><align vstyle=center hstyle=right right=-5>%1</align></font>"
+	p_pml:"<offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</align><ret><align vstyle=center hstyle=right right=-5>%1</align></font>"
+	d_pml:"<offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%0</align><ret><align vstyle=center hstyle=right right=-5>%1</align></font>"
+	height:"22"
+}
+
+def template23 {
+	name:"Hu4_Text Right Top ?x24"
+	n_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	s2_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	p_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_pbtn@@>%0</font></align>"
+	d_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"24"
+}
+
+def template24 {
+	name:"Hu4_Item Center Center ?x22 (listbox)"
+	n_pml:"<offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_s2btn@@>%0</font></align>"
+	p_pml:"<offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	d_pml:"<offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"22"
+}
+
+def template25 {
+	name:"Hu4_Gear State ?x22"
+	n_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align><ret><font face=/system/font/default.font xscale=1 yscale=1 p2p=true><align hstyle=right>%1</align></font>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align><ret><font face=/system/font/default.font xscale=1 yscale=1 p2p=true><align hstyle=right>%1</align></font>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_s2btn@@>%0</font></align><ret><font face=/system/font/default.font xscale=1 yscale=1 p2p=true><align hstyle=right>%1</align></font>"
+	p_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align><ret><font face=/system/font/default.font xscale=1 yscale=1 p2p=true><align hstyle=right>%1</align></font>"
+	d_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%0</font></align><ret><font face=/system/font/default.font xscale=1 yscale=1 p2p=true><align hstyle=right>%1</align></font>"
+	height:"22"
+}
+
+def template26 {
+	name:"Hu4_Item Center Center ?x22"
+	n_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_s2btn@@>%0</font></align>"
+	p_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	d_pml:"<img src=/material/ui/color.mat xscale=repeat yscale=repeat color=@@rgb_main@@><ret><offset vshift=2><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"22"
+}
+
+def template27 {
+	name:"Hu4_Editor Toolbar"
+	n_pml:"<img src=%0 color=@@rgb_lbrown@@><ret><offset hshift=2 vshift=20><font face=/system/font/default.font><color value=@@rgb_nbtn@@>%1</font>"
+	s_pml:"<img src=%0 color=@@rgb_sbtn@@><ret><offset hshift=2 vshift=20><font face=/system/font/default.font><color value=@@rgb_nbtn@@>%1</font>"
+	s2_pml:"<img src=%0 color=@@rgb_sbtn@@><ret><offset hshift=2 vshift=20><font face=/system/font/default.font><color value=@@rgb_nbtn@@>%1</font>"
+	p_pml:"<img src=%0 color=@@rgb_sbtn@@><ret><offset hshift=2 vshift=20><font face=/system/font/default.font><color value=@@rgb_nbtn@@>%1</font>"
+	d_pml:"<img src=%0 color=@@rgb_dbtn@@>"
+	width:"32"
+	height:"32"
+}
+
+def template28 {
+	name:"[Animal Slot (dropdown)]"
+	n_pml:"<img src=/material/ui/color.mat width=132 height=86 color=@@rgb_main@@><ret><align hstyle=center><img src=%1 width=64 height=64></align><ret><align hstyle=right><img src=/material/ui/d_down.mat></align><ret><offset vshift=66><align hstyle=center><font @@__fnt_text@@>%3</font></align>"
+	s_pml:"<img src=/material/ui/color.mat width=132 height=86 color=@@rgb_main@@><ret><align hstyle=center><img src=%1 width=64 height=64><ret><img src=%2 width=64 height=64></align><ret><color value=@@rgb_sbtn@@><align hstyle=right><img src=/material/ui/d_down.mat></align><ret><offset vshift=66><align hstyle=center><font @@__fnt_text@@>%3</font></align>"
+	s2_pml:"<img src=/material/ui/color.mat width=132 height=86 color=@@rgb_main@@><ret><align hstyle=center><img src=%1 width=64 height=64><ret><img src=%2 width=64 height=64></align><ret><color value=@@rgb_sbtn@@><align hstyle=right><img src=/material/ui/d_down.mat></align><ret><offset vshift=66><align hstyle=center><font @@__fnt_text@@>%3</font></align>"
+	p_pml:"<img src=/material/ui/color.mat width=132 height=86 color=@@rgb_main@@><ret><align hstyle=center><img src=%1 width=64 height=64><ret><color value=@@rgb_pbtn@@><align hstyle=right><img src=/material/ui/d_down.mat></align><ret><offset vshift=66><align hstyle=center><font @@__fnt_text@@>%3</font></align>"
+	d_pml:"<img src=/material/ui/color.mat width=132 height=86 color=@@rgb_main@@><ret><align hstyle=center><img src=%0 width=64 height=64><ret><color value=@@rgb_dbtn@@><align hstyle=right><img src=/material/ui/d_down.mat></align><ret><offset vshift=66><align hstyle=center><font @@__fnt_text@@>%3</font></align>"
+	width:"132"
+	height:"86"
+}
+
+def template29 {
+	name:"[Animal Slot]"
+	n_pml:"<img src=%1 width=64 height=64>"
+	s_pml:"<img src=%1 width=64 height=64><ret><img src=%2 width=64 height=64>"
+	s2_pml:"<img src=%1 width=64 height=64><ret><img src=%2 width=64 height=64>"
+	p_pml:"<img src=%1 width=64 height=64><ret><img src=%2 width=64 height=64>"
+	d_pml:"<img src=%0 width=64 height=64>"
+	width:"64"
+	height:"64"
+}
+
+def template30 {
+	name:"Text Right Top ?x24 (txt like)"
+	n_pml:"<align hstyle=right><font @@__fnt_main@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s_pml:"<align hstyle=right><font @@__fnt_main@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s2_pml:"<align hstyle=right><font @@__fnt_main@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	p_pml:"<align hstyle=right><font @@__fnt_main@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	d_pml:"<align hstyle=right><font @@__fnt_main@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"24"
+}
+
+def template31 {
+	name:"Hu4_Equipment Item Thumbnail"
+	n_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><img src=%0 width=64 height=64>"
+	s_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><img src=%1 width=64 height=64><ret><offset hshift=2 vshift=2><img src=%0 width=64 height=64>"
+	s2_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><img src=%1 width=64 height=64><ret><offset hshift=2 vshift=2><img src=%0 width=64 height=64>"
+	p_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><img src=%0 width=64 height=64>"
+	d_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ xscale=stretch yscale=stretch><ret><offset hshift=2 vshift=2><color value=@@rgb_dimg@@><img src=%0 width=64 height=64>"
+	width:"68"
+	height:"68"
+}
+
+def template32 {
+	name:"Hu4_Menuitem Right"
+	n_pml:"<align hstyle=right><color value=@@rgb_lbrown@@><font @@__fnt_menu@@>%0</font></align>"
+	s_pml:"<align hstyle=right><color value=@@rgb_yellow@@><font @@__fnt_menu@@>%0</font></align>"
+	s2_pml:"<align hstyle=right><color value=@@rgb_yellow@@><font @@__fnt_menu@@>%0</font></align>"
+	p_pml:"<align hstyle=right><color value=@@rgb_yellow@@><font @@__fnt_menu@@>%0</font></align>"
+	d_pml:"<align hstyle=right><color value=@@rgb_dbtn@@><font @@__fnt_menu@@>%0</font></align>"
+	height:"32"
+}
+
+def template33 {
+	name:"HUD Menuitem"
+	n_pml:"<offset hshift=10><color value=@@rgb_main@@><font @@__fnt_main@@>%0</font>"
+	s_pml:"<offset hshift=10><color value=@@rgb_sbtn@@><font @@__fnt_main@@>%0</font>"
+	p_pml:"<offset hshift=10><color value=@@rgb_sbtn@@><font @@__fnt_main@@>%0</font>"
+	d_pml:"<offset hshift=10><color value=@@rgb_dbtn@@><font @@__fnt_main@@>%0</font>"
+	height:"24"
+}
+
+def template34 {
+	name:"[Icon HUCorner]"
+	n_pml:"<img src=/material/ui/logo/hucorner.mat xscale=stretch yscale=stretch>"
+	s_pml:"<img src=/material/ui/logo/hucorner.mat xscale=stretch yscale=stretch color=7fffffff>"
+	p_pml:"<img src=/material/ui/logo/hucorner.mat xscale=stretch yscale=stretch color=7fffffff>"
+}
+
+def template35 {
+	name:"Hu4_Item Left Center ?x32"
+	n_pml:"<offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_main@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_main@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_main@@><color value=@@rgb_s2btn@@>%0</font></align>"
+	p_pml:"<offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_main@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	d_pml:"<offset hshift=26><align hstyle=left vstyle=center><font @@__fnt_main@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"32"
+}
+
+def template36 {
+	name:"Hu4_Command Center Center"
+	n_pml:"<align hstyle=center><font @@__fnt_main@@><color value=@@rgb_lbrown@@>%0</font></align>"
+	s_pml:"<align hstyle=center><font @@__fnt_main@@><color value=@@rgb_yellow@@>%0</font></align>"
+	s2_pml:"<align hstyle=center><font @@__fnt_main@@><color value=@@rgb_yellow@@>%0</font></align>"
+	p_pml:"<align hstyle=center><font @@__fnt_main@@><color value=@@rgb_yellow@@>%0</font></align>"
+	d_pml:"<align hstyle=center><font @@__fnt_main@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"24"
+}
+
+def template37 {
+	name:"Hu4_Weapon Icon"
+	n_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ width=204 height=45><ret><img src=%0 width=204 height=48></align><ret><offset vshift=27><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%1</align><ret><offset hshift=4 vshift=1>%2</font>"
+	s_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ width=204 height=45><ret><img src=%0 width=204 height=48></align><ret><offset vshift=27><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%1</align><ret><offset hshift=4 vshift=1>%2</font>"
+	s2_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ width=204 height=45><ret><img src=%0 width=204 height=48></align><ret><offset vshift=27><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%1</align><ret><offset hshift=4 vshift=1>%2</font>"
+	p_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ width=204 height=45><ret><img src=%0 width=204 height=48></align><ret><offset vshift=27><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_pbtn@@>%1</align><ret><offset hshift=4 vshift=1>%2</font>"
+	d_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ width=204 height=45><ret><img src=%0 width=204 height=48></align><ret><offset vshift=27><align hstyle=center><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%1</align><ret><offset hshift=4 vshift=1>%2</font>"
+	width:"204"
+	height:"45"
+}
+
+def template38 {
+	name:"Hu4 Item Icon"
+	n_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ width=64 height=45><ret><align hstyle=center><img src=%0 width=48 height=45>"
+	s_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ width=64 height=45><ret><align hstyle=center><img src=%1 width=48 height=45><ret><img src=%0 width=48 height=48>"
+	p_pml:"<img src=/material/ui/stain.mat color=@@rgb_equip@@ width=64 height=45><ret><align hstyle=center><img src=%1 width=48 height=45><ret><img src=%0 width=48 height=48>"
+	d_pml:""
+	width:"64"
+	height:"45"
+}
+
+def template39 {
+	name:"Hu4_Small Button ?x21"
+	n_pml:"<align vstyle=center hstyle=center><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><align vstyle=center hstyle=center><font @@__fnt_text@@><color value=@@rgb_btnn@@>%0</font></align>"
+	s2_pml:"<img src=/material/ui/selection.mat xscale=stretch yscale=stretch><ret><align vstyle=center hstyle=center><font @@__fnt_text@@><color value=@@rgb_btnn@@>%0</font></align>"
+	p_pml:"<align vstyle=center hstyle=center><font @@__fnt_text@@><color value=@@rgb_yellow@@>%0</font></align>"
+	d_pml:"<align vstyle=center hstyle=center><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"21"
+}
+
+def template40 {
+	name:"Hu4_sysProfiler tree button"
+	n_pml:"<align vstyle=center>%0.<ret><offset hshift=32>\y%1\w<ret><offset hshift=350>%2<ret><offset hshift=420>%3<ret><offset hshift=490>%4<ret><offset hshift=560>%5<ret><offset hshift=630>%6<ret><offset hshift=700>%7<ret><offset hshift=770>%8</align>"
+	height:"16"
+	width:"900"
+}
+
+def template41 {
+	name:"Hu4_sysProfiler flat button"
+	n_pml:"<align vstyle=center>%0.<ret><offset hshift=32>\y%1\w<ret><offset hshift=350>%2<ret><offset hshift=420>%3<ret><offset hshift=490>%4<ret><offset hshift=560>%5<ret><offset hshift=630>%6<ret><offset hshift=700>%7</align>"
+	height:"16"
+	width:"900"
+}
+
+def template42 {
+	name:"Hu4_Menuitem Centered"
+	n_pml:"<align hstyle=center><color value=@@rgb_lbrown@@><font @@__fnt_menu@@>%0</font></align>"
+	s_pml:"<align hstyle=center><color value=@@rgb_yellow@@><font @@__fnt_menu@@>%0</font></align>"
+	s2_pml:"<align hstyle=center><color value=@@rgb_yellow@@><font @@__fnt_menu@@>%0</font></align>"
+	p_pml:"<align hstyle=center><color value=@@rgb_yellow@@><font @@__fnt_menu@@>%0</font></align>"
+	d_pml:"<align hstyle=center><color value=@@rgb_dbtn@@><font @@__fnt_menu@@>%0</font></align>"
+	height:"32"
+}
+
+def template43 {
+	name:"Hu4_Button Left"
+	n_pml:"<img src=/material/ui/btn_left.mat>"
+	s_pml:"<color value=@@rgb_sbtn@@><img src=/material/ui/btn_left.mat>"
+	s2_pml:"<img src=/material/ui/btn_left.mat>"
+	p_pml:"<img src=/material/ui/btn_left.mat>"
+	d_pml:"<color value=40ffffff><img src=/material/ui/btn_left.mat>"
+	height:"16"
+	width:"16"
+}
+
+def template44 {
+	name:"Hu4_Button Right"
+	n_pml:"<img src=/material/ui/btn_right.mat>"
+	s_pml:"<color value=@@rgb_sbtn@@><img src=/material/ui/btn_right.mat>"
+	s2_pml:"<img src=/material/ui/btn_right.mat>"
+	p_pml:"<img src=/material/ui/btn_right.mat>"
+	d_pml:"<color value=40ffffff><img src=/material/ui/btn_right.mat>"
+	height:"16"
+	width:"16"
+}
+
+def template45 {
+	name:"Hu4_Text AIScript Toggle Right Top ?x24"
+	n_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_pbtn@@>%0</font></align>"
+	s_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	s2_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	p_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	d_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_dbtn@@>%0</font></align>"
+	height:"24"
+}
+
+def template46 {
+	name:"Hu4_Text AIScript Reset Right Top ?x24"
+	n_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	s_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	s2_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_sbtn@@>%0</font></align>"
+	p_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_nbtn@@>%0</font></align>"
+	d_pml:"<align hstyle=right><font @@__fnt_text@@><color value=@@rgb_pbtn@@>%0</font></align>"
+	height:"24"
+}

@@ -1,0 +1,66 @@
+"500_magnum_revolver" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/colt/features.pba.part"
+	}
+
+	animations {
+		"raise"	: "/models/weapons/357revolver/raise.pma"
+		"lower"	: "/models/weapons/357revolver/lower.pma"
+
+		"open" : "/models/weapons/357revolver/open.pma"
+		"close" : "/models/weapons/357revolver/close.pma"
+		"load" : "/models/weapons/357revolver/load.pma"
+
+		"reload" : "/models/weapons/357revolver/reload.pma"
+		"fire" : "/models/weapons/357revolver/fire.pma"
+		"daoler" : "/models/weapons/357revolver/daoler.pma"
+
+		"s_raise" : "/models/weapons/357revolver/s_raise.pma"
+		"s_lower" : "/models/weapons/357revolver/s_lower.pma"
+		"s_reload" : "/models/weapons/357revolver/s_reload.pma"
+
+		"i_raise" : "/models/weapons/357revolver/i_raise.pma"
+		"i_lower" : "/models/weapons/357revolver/i_lower.pma"
+		"i_fire" : "/models/weapons/357revolver/i_fire.pma"
+		"i_reload" : "/models/weapons/357revolver/i_reload.pma"
+
+		"aim2hold" : "/models/weapons/357revolver/aim2hold.pma"
+		"hold2aim" : "/models/weapons/357revolver/hold2aim.pma"
+
+		"special" : "/models/weapons/357revolver/special.pma"
+		"i_special" : "/models/weapons/357revolver/i_special.pma"
+
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/colt/raise.pba.bhv"
+		@include "/models/weapons/pba/colt/lower.pba.bhv"
+
+		@include "/models/weapons/357revolver/open.pba.bhv"
+		@include "/models/weapons/357revolver/close.pba.bhv"
+		@include "/models/weapons/357revolver/load.pba.bhv"
+
+		@include "/models/weapons/357revolver/reload.pba.bhv"
+		@include "/models/weapons/pba/colt/fire.pba.bhv"
+
+		@include "/models/weapons/pba/colt/s_lower.pba.bhv"
+		@include "/models/weapons/pba/colt/s_raise.pba.bhv"
+		@include "/models/weapons/357revolver/s_reload.pba.bhv"
+		@include "/models/weapons/357revolver/s_open.pba.bhv"
+		@include "/models/weapons/357revolver/s_close.pba.bhv"
+
+		@include "/models/weapons/pba/colt/i_lower.pba.bhv"
+		@include "/models/weapons/pba/colt/i_raise.pba.bhv"
+		@include "/models/weapons/357revolver/i_reload.pba.bhv"
+		@include "/models/weapons/pba/colt/i_fire.pba.bhv"
+		@include "/models/weapons/357revolver/i_open.pba.bhv"
+		@include "/models/weapons/357revolver/i_close.pba.bhv"
+
+		@include "/models/weapons/pba/colt/hold2up.pba.bhv"
+		@include "/models/weapons/pba/colt/up2hold.pba.bhv"
+
+		@include "/models/weapons/357revolver/special.pba.bhv"
+		@include "/models/weapons/357revolver/i_special.pba.bhv"
+	}
+}

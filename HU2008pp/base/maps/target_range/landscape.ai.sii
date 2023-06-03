@@ -1,0 +1,29 @@
+SiiNunit
+{
+ai_polygon : ai_polygon2 {
+ vertices: 4
+ vertices[0]: ai_polygon2.ai_vertex2
+ vertices[1]: ai_polygon2.ai_vertex4
+ vertices[2]: ai_polygon2.ai_vertex6
+ vertices[3]: ai_polygon2.ai_vertex8
+ cell_category: CATEGORY_forbidden
+ inside: true
+}
+
+ai_vertex : ai_polygon2.ai_vertex2 {
+ placement: (-1500, 110, -1500) 1 (1; 0, 0, 0)
+}
+
+ai_vertex : ai_polygon2.ai_vertex4 {
+ placement: (-1500, 110, 1500) 1 (1; 0, 0, 0)
+}
+
+ai_vertex : ai_polygon2.ai_vertex6 {
+ placement: (1500, 110, 1500) 1 (1; 0, 0, 0)
+}
+
+ai_vertex : ai_polygon2.ai_vertex8 {
+ placement: (1500, 110, -1500) 1 (1; 0, 0, 0)
+}
+
+}

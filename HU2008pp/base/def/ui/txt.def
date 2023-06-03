@@ -1,0 +1,509 @@
+###########################
+#
+#	text templates
+#	DO NOT CHANGE NUMBERING!!
+# Last used: 78
+###########################
+
+def template00 {
+	name:"HUD Tooltip"
+	text:"<align hstyle=center><font @@__fnt_main@@>%0</font></align>"
+}
+
+def template01 {
+	name:"[Hunter State Stand]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_stand.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template02 {
+	name:"[Hunter State Crouch]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_crouch.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template03 {
+	name:"[Hunter State Prone]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_lay.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template04 {
+	name:"HUD Item Icon"
+	text:"<offset hshift=14><img src=%0 width=64 height=64><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>%1</font></align>"
+	width:"92"
+	height:"88"
+}
+
+def template05 {
+	name:"Hu4_HUD Weapon Icon"
+	text:"<offset hshift=4><img src=%0 width=252 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>%1</align><ret><offset hshift=4><color value=@@rgb_nbtn@@>%2</font><ret><offset vshift=58 hshift=250><font @@fnt_ammo@@>%3</font>"
+	width:"260"
+	height:"88"
+}
+
+def template06 {
+	name:"Hu4_Main Left Top ?x24"
+	text:"<font @@__fnt_main@@>%0</font>"
+	height:"24"
+}
+
+def template07 {
+	name:"Hu4_Txt Right Top ?22"
+	text:"<align hstyle=right vstyle=center><font @@__fnt_text@@>%0</font></align>"
+	height:"22"
+}
+
+def template08 {
+	name:"Hu4_Small Text Center Center"
+	text:"<align hstyle=center vstyle=center><font @@__fnt_text@@>%0</font></align>"
+}
+
+def template09 {
+	name:"Hu4_Any Left Center"
+	text:"<align hstyle=left vstyle=center>%0</align>"
+}
+
+def template10 {
+	name:"Hu4_Any Right Center"
+	text:"<align hstyle=right vstyle=center>%0</align>"
+}
+
+def template11 {
+	name:"[Hunter State Treestand]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_treestand.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template12 {
+	name:"Map DB Image"
+	text:"<color value=@@rgb_margini@@><img src=/material/ui/color.mat width=274 height=9><br><img src=/material/ui/color.mat width=9 height=256><offset hshift=256><img src=/material/ui/color.mat width=9 height=256><br><img src=/material/ui/color.mat width=274 height=9><ret><offset hshift=9 vshift=9><img src=%0 width=256 height=256 color=ffffffff>"
+	width:"274"
+	height:"274"
+}
+
+def template13 {
+	name:"[Hunter State Tripod]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_tripod.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template14 {
+	name:"HUD Wind Speed"
+	text:"<color value=ffd3edea><font @@__fnt_text@@>%0</font>"
+}
+
+def template15 {
+	name:"Hu4_Small Txt Left Top"
+	text:"<font @@__fnt_text@@>%0</font>"
+}
+
+def template16 {
+	name:"Hu4_Main Center Top ?x24"
+	text:"<align hstyle=center><font @@__fnt_main@@>%0</font></align>"
+	height:"24"
+}
+
+def template17 {
+	name:"[Activate: Climb Ladder]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_climbbxstnd.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_climb@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template18 {
+	name:"[Activate: Leave Ladder]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_leavebxstnd.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_leave@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template19 {
+	name:"[Activate: Enter Entrance]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_enterdoor.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_enter@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template20 {
+	name:"[Activate: Exit Entrance]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_exitdoor.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_exit@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template21 {
+	name:"[Activate: Claim animal]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_claimanimal.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_pick@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template22 {
+	name:"Hu4_Main Center Center"
+	text:"<align hstyle=center vstyle=center><font @@__fnt_main@@>%0</font></align>"
+}
+
+def template23 {
+	name:"Hu4_Small Text Left Top ?x22"
+	text:"<font @@__fnt_text@@>%0</font>"
+	height:"22"
+}
+
+def template24 {
+	name:"Hu4_Small Text Right Top ?x22"
+	text:"<align hstyle=right><font @@__fnt_text@@>%0</font></align>"
+	height:"22"
+}
+
+def template25 {
+	name:"Hu4_Small Txt Left Center"
+	text:"<align vstyle=center><font @@__fnt_text@@>%0</font></align>"
+}
+
+def template26 {
+	name:"3D Text Center Center"
+	text:"<align hstyle=center vstyle=center><font face=3d.font xscale=5 yscale=5>%0</font></align>"
+}
+
+def template27 {
+	name:"[Hunter State Ladder]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_bxstnd.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template28 {
+	name:"[Hunter State Blind]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_blind.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+# Template for the Tent Blind (game fix)
+def template72 {
+	name:"[Hunter State Blind]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_tblnd.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template29 {
+	name:"[Hunter State Tripod]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_tripod.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+# Templates for the Camo Tripod
+def template71 {
+	name:"[Hunter State Tripod]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_camotp.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template30 {
+	name:"[Hunter State Treestand]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_treestand.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template31 {
+	name:"Awards Center Center"
+	text:"<align hstyle=center vstyle=center><font @@__fnt_text@@>%0</font></align>"
+}
+
+def template32 {
+	name:"HUD Crosshair"
+	text:"<color value=%0><img src=/material/ui/ingame/xhair.mat width=64 height=64>"
+	width:"64"
+	height:"64"
+}
+
+def template33 {
+	name:"[Activate: Clear Targets]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_cleartargets.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_clear@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template34 {
+	name:"HUD Caption 1"
+	text:"<color value=@@rgb_hud1@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch><ret><offset hshift=10><color value=@@rgb_nbtn@@><font @@__fnt_caps@@>%0</font></align>"
+	height:"24"
+}
+
+def template35 {
+	name:"HUD Caption 2"
+	text:"<offset hshift=10><font @@__fnt_caps@@>%0</font></align>"
+	height:"24"
+}
+
+def template36 {
+	name:"HUD Item Name"
+	text:"<ret><offset hshift=10 vshift=2><font @@__fnt_text@@>%0</font></align>"
+	height:"23"
+}
+
+def template37 {
+	name:"Hu4_Caption"
+	text:"<offset vshift=-2><color value=@@rgb_yellow@@><align hstyle=right><font @@__fnt_menubig@@>%0</font></align>"
+	height:"50"
+}
+
+def template38 {
+	name:"Hu4_Tooltip"
+	text:"<offset hshift=26 vshift=-2><font @@__fnt_main@@>%0</font>"
+	height:"26"
+}
+
+def template39 {
+	name:"Hu4_Caption Centered (White)"
+	text:"<align hstyle=center><offset vshift=0><color value=@@rgb_nbtn@@><font @@__fnt_menubig@@>%0</font></align>"
+	height:"50"
+}
+
+def template40 {
+	name:"Inventory Camo Icon"
+	text:"<align hstyle=center vstyle=center><img src=%0 xscale=stretch yscale=stretch></align>"
+}
+
+def template41 {
+	name:"Awards Left Center"
+	text:"<align hstyle=left vstyle=center><font @@__fnt_text@@>%0</font></align>"
+}
+
+def template42 {
+	name:"Challenges Tier Name"
+	text:"<img src=/material/ui/color.mat xscale=stretch yscale=stretch color=@@rgb_caption@@><ret><offset hshift=5><color value=@@rgb_main@@><font @@__fnt_caps@@>%0</font>"
+	height:"23"
+}
+
+def template43 {
+	name:"Caption Ext"
+	text:"<img src=/material/ui/color.mat xscale=stretch yscale=stretch color=@@rgb_caption@@><ret><align %1><color value=@@rgb_main@@><font @@__fnt_caps@@>%0</font></align>"
+	height:"23"
+}
+
+def template44 {
+	name:"Hu4_Txt Left Center"
+	text:"<align vstyle=center><font @@__fnt_main@@ color=@@rgb_yellow@@>%0</font></align>"
+}
+
+def template45 {
+	name:"HUD Pale Caps"
+	text:"<color value=7fd3edea><align hstyle=center><font @@__fnt_text@@>%0</font></align>"
+}
+
+def template46 {
+	name:"Hu4_Caption1_yellow"
+	text:"<align hstyle=center><offset hshift=30 vshift=-5><color value=@@rgb_yellow@@><font @@__fnt_menubig@@>%0</font></align>"
+	height:"50"
+}
+
+def template47 {
+	name:"[Activate: Mount ATV]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gonatv.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_mount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template48 {
+	name:"[Activate: Dismount ATV]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gofatv.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_dismount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+# Templates for the Forest King ATV
+def template65 {
+	name:"[Activate: Mount ATV]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gonfka.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_mount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template66 {
+	name:"[Activate: Dismount ATV]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_goffka.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_dismount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+# Templates for the Grizzly ATV
+def template76 {
+	name:"[Activate: Mount ATV]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gongav.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_mount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template77 {
+	name:"[Activate: Dismount ATV]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gofgav.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_dismount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template49 {
+	name:"[Activate: Mount Horse]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gonhorse.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_mount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template50 {
+	name:"[Activate: Dismount Horse]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gofhorse.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_dismount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+# Templates for the Black Horse
+def template68 {
+	name:"[Activate: Mount Horse]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gonhblck.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_mount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template69 {
+	name:"[Activate: Dismount Horse]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gofhblck.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_dismount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+# Templates for the Zebra Horse
+def template73 {
+	name:"[Activate: Mount Zebra]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gonzebra.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_mount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template74 {
+	name:"[Activate: Dismount Zebra]"
+	text:"<offset hshift=12><img src=/material/ui/ingame/x_gofzebra.mat width=64 height=64></align><ret><offset vshift=68><align hstyle=center><font @@__fnt_text@@>@@df_ac_dismount@@</align></font>"
+	width:"88"
+	height:"88"
+}
+
+def template51 {
+	name:"Hu4_Splash progress"
+	text:"<img src=/material/ui/selection.mat width=%0 yscale=stretch>"
+}
+
+def template52 {
+	name:"Hu4_sysProfiler sumary"
+	text:"<align hstyle=center>\y%0\w</align><br offset=5>Profiled time: <align hstyle=right>%1ms (%2%)</align><br>Missed Time:<align hstyle=right>%3ms (%4%)</align>"
+}
+
+def template53 {
+	name:"Hu4_Menuitem Centered"
+	text:"<align hstyle=center><color value=@@rgb_lbrown@@><font @@__fnt_menu@@>%0</font></align>"
+	height:"32"
+}
+
+def template54 {
+	name:"Logo"
+	text:"<align hstyle=center vstyle=center><img src=/material/ui/logo/%0.mat color=%1FFFFFF></align>"
+}
+
+def template55 {
+	name:"Hu4_Splash screen text"
+	text:"<align hstyle=center>\0<font @@__fnt_menu@@>%0</font></align>"
+	height:"32"
+}
+
+def template56 {
+	name:"[Hunter State ATV]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_atv.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+# Templates for the Forest King ATV
+def template67 {
+	name:"[Hunter State ATV]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_fka.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+# Templates for the Grizzly ATV
+def template78 {
+	name:"[Hunter State ATV]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_gav.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template57 {
+	name:"[Hunter State Horse]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_horse.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+# Templates for the Black Horse
+def template70 {
+	name:"[Hunter State Horse]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_hblck.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+# Templates for the Zebra Horse
+def template75 {
+	name:"[Hunter State Zebra]"
+	text:"<align hstyle=right vstyle=bottom><img src=/material/ui/ingame/state_zebra.mat></align>"
+	width:"128"
+	height:"128"
+}
+
+def template58 {
+	name:"Hu4_Main Right Top ?x24"
+	text:"<font @@__fnt_main@@><align hstyle=right>%0</align></font>"
+	height:"24"
+}
+
+def template59 {
+	name:"Hu4_Main Center Top"
+	text:"<align hstyle=center vstyle=top><font @@__fnt_main@@>%0</font></align>"
+}
+
+def template60 {
+	name:"Hu4_EyesSquint Top"
+	text:"<img src=/material/ui/ingame/lid_top.mat yscale=stretch width=514 color=%0><img src=/material/ui/ingame/lid_top.mat width=514 yscale=stretch left=1 right=0 color=%0>"
+}
+
+def template61 {
+	name:"Hu4_EyesSquint Bottom"
+	text:"<img src=/material/ui/ingame/lid_top.mat yscale=stretch width=514 color=%0 top=1 bottom=0><img src=/material/ui/ingame/lid_top.mat width=514 yscale=stretch left=1 right=0 color=%0 top=1 bottom=0>"
+}
+
+def template62 {
+	name:"Hu4_Caption Small Left"
+	text:"<font @@__fnt_menu@@>%0</font>"
+	height:"32"
+}
+
+def template63 {
+	name:"Hu4_Caption Small Center"
+	text:"<align hstyle=center><font @@__fnt_menu@@>%0</font></align>"
+	height:"32"
+}
+
+def template64 {
+	name:"Hu4_Caption Small Right"
+	text:"<align hstyle=right><font @@__fnt_menu@@>%0</font></align>"
+	height:"32"
+}

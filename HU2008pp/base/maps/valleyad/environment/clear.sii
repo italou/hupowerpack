@@ -1,0 +1,28 @@
+SiiNunit
+{
+
+fog : .fog.clear {
+  far_density: 0.8f
+  base_color: (0.224f, 0.384f, 0.494f)
+}
+
+environment : .clear {
+  pretty_name: "@@df_weather_clear@@"
+  
+  skybox_look_name: "alberta"
+  skybox_variant_name: "alberta"
+  skybox_cloudiness: 0.0f
+ 
+  temperature: temperature.mild
+  humidity: humidity.dry
+  wind: wind.calm
+  sun: sun.normal
+  fog: .fog.clear
+  rain: rain.normal
+  snow: snow.normal
+  lightning: lightning.normal
+
+  ambient_sounds_fullpath: "/sounds/ambient/amb_north_clear.sii"
+}
+
+}

@@ -1,0 +1,7 @@
+material : "hu.dif_spec" {
+	texture[0] : "/models/vehicles/h2/saddle.tobj"
+	ambient : { 0.8595 , 0.8595 , 0.8595 }
+	diffuse : { 0.9091 , 0.9091 , 0.9091 }
+	specular : { 0.16528 , 0.16528 , 0.16528 }
+	shininess : 1
+}

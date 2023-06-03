@@ -1,0 +1,43 @@
+"citoriXS" : "weapon.pmd" {
+	features {
+		@include "/models/weapons/pba/rifle/features.pba.part"
+	}
+
+	animations {
+		"raise"	: "/models/weapons/10gaover/raise.pma"
+		"lower"	: "/models/weapons/10gaover/lower.pma"
+
+		"open" : "/models/weapons/10gaover/open.pma"
+		"close" : "/models/weapons/10gaover/close.pma"
+		"load" : "/models/weapons/10gaover/load.pma"
+
+		"fire" : "/models/weapons/10gaover/fire.pma"
+
+		"i_raise" : "/models/weapons/10gaover/i_raise.pma"
+		"i_lower" : "/models/weapons/10gaover/i_lower.pma"
+		"i_fire" : "/models/weapons/10gaover/i_fire.pma"
+
+		"aim2hold" : "/models/weapons/10gaover/aim2hold.pma"
+		"hold2aim" : "/models/weapons/10gaover/hold2aim.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/rifle/raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/lower.pba.bhv"
+
+		@include "/models/weapons/10gaover/open.pba.bhv"
+		@include "/models/weapons/10gaover/close.pba.bhv"
+		@include "/models/weapons/10gaover/load.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/fire.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/i_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_fire.pba.bhv"
+		@include "/models/weapons/10gaover/i_open.pba.bhv"
+		@include "/models/weapons/10gaover/i_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/hold2up.pba.bhv"
+		@include "/models/weapons/pba/rifle/up2hold.pba.bhv"
+	}
+}

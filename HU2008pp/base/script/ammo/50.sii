@@ -1,0 +1,24 @@
+SiiNunit
+#.50 Hornady A-Max
+{
+
+projectile : _nameless
+{
+ bc: 1.050
+ muzzle: 2618
+ weight: 750
+
+ model: .model
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+}
+

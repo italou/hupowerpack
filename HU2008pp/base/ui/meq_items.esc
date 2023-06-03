@@ -1,0 +1,558 @@
+estruct {
+	client {
+		entities {
+			entity "ui.window" {
+				evalues {
+					"wclass" : "edited"
+					"coords" : "0 0 1024 768"
+					"name" : "window"
+				}
+				entities {
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "2 2 130 48"
+							"id" : "9999"
+							"name" : "uifx"
+						}
+						entities {
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "63"
+							"value" : "@@mm_items_info@@"
+							"layer" : "2"
+							"coords" : "20 617 333 649"
+						}
+					}					
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "15"
+							"value" : "brutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemubrutalne dlouhy popisek itemu"
+							"layer" : "1"
+							"id" : "50"
+							"coords" : "371 222 988 593"
+							"name" : "desc"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "39"
+							"value" : "Antler Scraper"
+							"layer" : "2"
+							"id" : "30"
+							"coords" : "353 609 1002 659"
+							"name" : "t_wname"
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "14"
+							"value" : "40|@@mm_ok@@"
+							"layer" : "1"
+							"id" : "1"
+							"tooltip" : "@@mt_eq_back@@"
+							"coords" : "916 -1 1020 67"
+							"name" : "back"
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "392 89 971 157"
+							"layer" : "2"
+							"name" : "accessories"
+						}
+						entities {
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "31"
+									"layer" : "3"
+									"id" : "107"
+									"tooltip" : "@@mt_eq_click2remitem@@"
+									"coords" : "903 89 971 157"
+									"name" : "item7"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "31"
+									"layer" : "3"
+									"id" : "103"
+									"tooltip" : "@@mt_eq_click2remitem@@"
+									"coords" : "611 89 679 157"
+									"name" : "item3"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "31"
+									"layer" : "3"
+									"id" : "106"
+									"tooltip" : "@@mt_eq_click2remitem@@"
+									"coords" : "830 89 898 157"
+									"name" : "item6"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "31"
+									"layer" : "3"
+									"id" : "100"
+									"tooltip" : "@@mt_eq_click2remitem@@"
+									"coords" : "392 89 460 157"
+									"name" : "item0"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "31"
+									"layer" : "3"
+									"id" : "101"
+									"tooltip" : "@@mt_eq_click2remitem@@"
+									"coords" : "465 89 533 157"
+									"name" : "item1"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "31"
+									"layer" : "3"
+									"id" : "102"
+									"tooltip" : "@@mt_eq_click2remitem@@"
+									"coords" : "538 89 606 157"
+									"name" : "item2"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "31"
+									"layer" : "3"
+									"id" : "105"
+									"tooltip" : "@@mt_eq_click2remitem@@"
+									"coords" : "757 89 825 157"
+									"name" : "item5"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "31"
+									"layer" : "3"
+									"id" : "104"
+									"tooltip" : "@@mt_eq_click2remitem@@"
+									"coords" : "684 89 752 157"
+									"name" : "item4"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"coords" : "138 329 202 393"
+							"name" : "frames"
+						}
+						entities {
+							entity "ui.comp.common.frame" {
+								evalues {
+									"layer" : "1"
+									"coords" : "352 70 1008 180"
+								}
+							}
+							entity "ui.comp.common.frame" {
+								evalues {
+									"look" : "5"
+									"coords" : "352 198 1008 673"
+								}
+							}
+							entity "ui.comp.common.frame" {
+								evalues {
+									"coords" : "16 69 337 673"
+								}
+							}
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ui_static_back.mat xscale=stretch yscale=stretch>"
+							"layer" : "-5"
+							"coords" : "0 0 1024 768"
+							"name" : "ui static background"
+						}
+					}
+					entity "ui.comp.common.list" {
+						evalues {
+							"look" : "31"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "true"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_pml" : "/material/ui/icon/i_antlers.mat |short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/w_compound_bow.mat|short| "
+							"item_pml" : "/material/ui/icon/i_antlers.mat |short| "
+							"item_pml" : "/material/ui/icon/i_antlers.mat |short| "
+							"item_pml" : "/material/ui/icon/i_antlers.mat |short| "
+							"item_pml" : "/material/ui/icon/i_antlers.mat |short| "
+							"item_pml" : "/material/ui/icon/i_antlers.mat |short| "
+							"item_pml" : "/material/ui/icon/i_antlers.mat |short| "
+							"item_pml" : "/material/ui/icon/i_antlers.mat |short| "
+							"item_pml" : "/material/ui/icon/i_antlers.mat |short| "
+							"item_gap" : "6.00000"
+							"item_width" : "68.00000"
+							"item_height" : "68.00000"
+							"multi_column" : "true"
+							"coords" : "31 76 330 600"
+							"layer" : "1"
+							"id" : "10"
+							"name" : "items"
+						}
+						entities {
+# MOD MOD MOD
+							entity "ui.comp.common.slider" {
+								evalues {
+									"value" : "448"
+									"action_on_drag" : "true"
+									"layer" : "1"
+									"coords" : "317 85 338 600"
+								}
+							}							
+# MOD MOD MOD
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "-1 -1 1023 767"
+							"layer" : "-1"
+							"name" : "bgr"
+						}
+						entities {
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<color value=@@rgb_bck@@ ><img src=/material/ui/top.mat height=64><img src=/material/ui/color.mat  width=1024 height=640 color=@@rgb_bck@@><img src=/material/ui/bottom.mat  height=64>"
+									"layer" : "-4"
+									"coords" : "-1 -1 1023 767"
+								}
+							}
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "37"
+									"value" : "@@mm_items@@"
+									"layer" : "2"
+									"coords" : "24 678 1008 728"
+								}
+							}						
+							entity "ui.comp.uifx.common.text" {
+								evalues {
+									"look" : "38"
+									"layer" : "2"
+									"id" : "999"
+									"coords" : "20 20 895 46"
+									"name" : "tooltip"
+								}
+							}						
+						}
+					}
+				}
+			}
+			entity "ui.handler.menu.eq_items" {
+				evalues {
+				}
+			}
+		}
+	}
+}

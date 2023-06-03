@@ -1,0 +1,10 @@
+material : "hu.dif_spec.nm_offs.env" {
+	texture[0] : "/models/weapons/citorixs/stock.tobj"
+	normalmap : "/models/weapons/10gaover/stock_no.tobj"
+	texture[1] : "/material/environment/generic_reflection.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.15702 , 0.12332 , 0.0444367 }
+	shininess : 4
+	env_factor : { 1 , 1 , 1 }
+}

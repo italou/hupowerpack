@@ -1,0 +1,2334 @@
+# ---------------------------------------------------------------------
+# localization database
+#
+# Strings are looked up at runtime by using the @@name@@ convention
+#   
+# Here is an example of what you would enter into the UI script or entity text field:
+#	@@my_tag@@
+#	where @@my_tag@@ references a line in this file in the following format:
+#       my_tag:"My text referenced by the tag"
+#	
+# ** IMPORTANT: Only text within quotes should be translated! **
+# ---------------------------------------------------------------------
+
+
+# * do not alter the following line *
+def translate {
+
+### DYNAMIC FONT SETUP
+
+__fnt_text_x:"face=text_768.font spacing=1"
+__fnt_text_1200:"face=text_1200.font p2p=true spacing=1"
+__fnt_text_1024:"face=text_1024.font p2p=true spacing=1"
+__fnt_text_864:"face=text_864.font p2p=true spacing=1"
+__fnt_text_768:"face=text_768.font p2p=true spacing=1"
+__fnt_text_600:"face=text_600.font p2p=true spacing=1"
+__fnt_text_480:"face=text_480.font p2p=true spacing=1"
+__fnt_text_384:"face=text_384.font p2p=true spacing=1"
+
+__fnt_main_x:"face=main_768.font spacing=1"
+__fnt_main_1200:"face=main_1200.font p2p=true spacing=1"
+__fnt_main_1024:"face=main_1024.font p2p=true spacing=1"
+__fnt_main_864:"face=main_864.font p2p=true spacing=1"
+__fnt_main_768:"face=main_768.font p2p=true spacing=1"
+__fnt_main_600:"face=main_600.font p2p=true spacing=1"
+__fnt_main_480:"face=main_480.font p2p=true spacing=1"
+__fnt_main_384:"face=main_384.font p2p=true spacing=1"
+
+__fnt_caps_x:"face=caps_768.font spacing=1"
+__fnt_caps_1200:"face=caps_1200.font p2p=true spacing=1"
+__fnt_caps_1024:"face=caps_1024.font p2p=true spacing=1"
+__fnt_caps_864:"face=caps_864.font p2p=true spacing=1"
+__fnt_caps_768:"face=caps_768.font p2p=true spacing=1"
+__fnt_caps_600:"face=caps_600.font p2p=true spacing=1"
+__fnt_caps_480:"face=caps_480.font p2p=true spacing=1"
+__fnt_caps_384:"face=caps_384.font p2p=true spacing=1"
+
+__fnt_menu_x:"face=menu_768.font spacing=1"
+__fnt_menu_1200:"face=menu_1200.font p2p=true spacing=1"
+__fnt_menu_1024:"face=menu_1024.font p2p=true spacing=1"
+__fnt_menu_864:"face=menu_864.font p2p=true spacing=1"
+__fnt_menu_768:"face=menu_768.font p2p=true spacing=1"
+__fnt_menu_600:"face=menu_600.font p2p=true spacing=1"
+__fnt_menu_480:"face=menu_480.font p2p=true spacing=1"
+__fnt_menu_384:"face=menu_384.font p2p=true spacing=1"
+
+__fnt_menubig_x:"face=menubig_768.font spacing=1"
+__fnt_menubig_1200:"face=menubig_1200.font p2p=true spacing=1"
+__fnt_menubig_1024:"face=menubig_1024.font p2p=true spacing=1"
+__fnt_menubig_864:"face=menubig_864.font p2p=true spacing=1"
+__fnt_menubig_768:"face=menubig_768.font p2p=true spacing=1"
+__fnt_menubig_600:"face=menubig_600.font p2p=true spacing=1"
+__fnt_menubig_480:"face=menubig_480.font p2p=true spacing=1"
+__fnt_menubig_384:"face=menubig_384.font p2p=true spacing=1"
+
+fnt_ammo:"face=ammo.font xscale=0.4 yscale=0.4"
+
+### UI CONSTANTS
+
+
+rgb_lbrown:"ff306898"		# main menu item
+rgb_yellow:"ff0081e5"		# selected item
+rgb_bck:"b0000000"		# menu background
+rgb_btnn:"ff003848"		# normal button text
+
+rgb_caption:"b2ffffff"		# caption color
+rgb_main:"ff000000"		# main (fill & static text) color
+rgb_equip:"60306898"		# equipment item color 60% alpha
+rgb_boxfill:"ff001E14"		# dialog box fill
+rgb_boxfull:"ff7faca8"		# dialog box fullfill
+rgb_scrfill:"993da394"		# screen fill
+rgb_margini:"ff003848"		# inner margin
+rgb_margino:"ff075f47"		# inner margin
+
+# The normal (non-under-highlighted button use
+# these colors as written in comments. The
+# button with hightlight use:
+#
+# nbtn - normal state w/o highlight
+# nbtn - selected state with highlight
+# s2btn - selected/pushed state with highlight
+# sbtn - pushed state w/o highlight
+
+rgb_nbtn:"ffffffff"		# normal button
+rgb_sbtn:"@@rgb_yellow@@"	# selected button
+rgb_s2btn:"ff000000"		# selected/pushed button
+rgb_pbtn:"ff003848"		# pushed button
+
+#
+
+rgb_dbtn:"ffaaaaaa"		# disabled button
+rgb_dimg:"40ffffff"		# disabled image
+rgb_shadow:"aa000000"		# font shadow
+rgb_frame:"40000000"		# menu frame
+rgb_tooltip:"40000000"		# tooltip fill color
+rgb_mmbelt:"ccffffff"		# main menu white belt
+rgb_mmcapt:"b2ffffff"		# main menu caption
+rgb_mmfill:"4cffffff"		# main menu fill
+
+rgb_hudfill:"66ffffff"		# hud fill
+rgb_hudbelt:"b2ffffff"		# hud belt
+rgb_hud1:"4cffffff"	
+rgb_hud2:"ccffffff"
+
+siz_hitem:"19"			# item height
+siz_hcaption:"23"		# caption height
+
+siz_msgbox_btn:"100"		# messagbox button width
+siz_troom_btn:"290"		# trophy room "add trophy" button width
+
+# English version:
+
+### DEFS
+
+# The game cursor message that is shown when the cursor
+# is hovering above an user interface element that has associated URL.
+ui_visit_website_pointer:"<align hstyle=center>visit<br offset=-3>website</align>"
+
+game_web:"HuntingUnlimited2008.com"
+game_name:"Hunting Unlimited 2008"
+game_series:"Hunting Unlimited"
+game_url:"http://@@game_web@@"
+
+publisher:"ValuSoft"
+publisher_web:"http://www.ValuSoft.com"
+
+# equipment.def
+
+df_8ga_s:"8ga Side-by-Side"
+df_8ga_l:"8-Gauge Double Barrel Shotgun"
+df_8ga_desc:"Not very many people get the chance to hunt with the classic Elephant Gun. Some argue whether it is a shotgun or a rifle. One thing is for sure, the large and powerful slugs will take down the biggest game out there. This classic packs a punch that you will not forget.<br offset=10>Very powerful with good short to mid-range accuracy. Not for small animals.<br offset=10>Projectile: 2 oz. bullet<br offset=10>Number of shots between reloads: 2"
+
+df_10ga_s:"10ga Over Under"
+df_10ga_l:"10-Gauge Over-And-Under Shotgun"
+df_10ga_desc:"The 10 gauge over under can be effective at close range against larger animals, but it is not generally considered a big game animal weapon. With a very wide spread the buckshot does not travel far, but offers very forgiving accuracy.<br offset=10>Powerful short range with two shots and forgiving accuracy.<br offset=10>Projectile: 00 Buck shot<br>Muzzle velocity: 1325 fps<br offset=10>Number of shots between reloads: 2"
+
+df_10ga_turkey_s:"10ga DB Camo"
+df_10ga_turkey_l:"10-Gauge Over-And-Under Double Barrel Camo"
+df_10ga_turkey_desc:"The biggest gun you'll find and the biggest boom as well. This camouflaged double barrel 10 gauge shotgun packs a big punch. The Turkey load has a very high velocity and a tight pattern. That gives this weapon a long range for hitting your bird. You better get it with one of the 2 barrels because after the booms you'll be lucky see another turkey for a while.<br offset=10>Projectile: 1-3/4 oz. #4 Turkey Load<br>Muzzle velocity: 1800 fps<br offset=10>Number of shots between reloads: 2"
+
+df_12a_s:"12ga Auto Loader"
+df_12a_l:"12-Gauge Auto Loading Shotgun"
+df_12a_desc:"This 12 gauge auto loader is perfect for close range deer hunts. It has very limited rage making it unsuitable for long shots. It is very fast, and has a heavy powerful slug.<br offset=10>Projectile: 1 oz. Sabot slug<br>Muzzle velocity: 1350 fps<br offset=10>Number of shots between reloads: 5"
+
+df_12a_turkey_s:"12ga Auto Camo"
+df_12a_turkey_l:"12-Gauge Auto Camo"
+df_12a_turkey_desc:"This is the standard 12 gauge used for hunting many animals but camouflaged so it's not spotted by the keen eyes of the turkey. The turkey shot has the extra power needed to penetrate the feathers of the bird and do the job first time. With the tighter pattern of the shot your aim has to be top notch.<br offset=10>Projectile: 2 oz. #5 Turkey Load<br>Muzzle velocity: 1500 fps<br offset=10>Number of shots between reloads: 5"
+
+df_12p_s:"12ga Pump"
+df_12p_l:"12-Gauge Pump Shotgun"
+df_12p_desc:"Having a 12 gauge pump with buckshot is a great for close shots through dense vegetation. Of course, having it as your second for extra protection against dangerous and charging animals is even better.<br offset=10>Short range with forgiving accuracy.<br offset=10>Projectile: 00 Buck shot<br>Muzzle velocity: 1250 fps<br offset=10>Number of shots between reloads: 5"
+
+df_12p_turkey_s:"12ga Pump Camo"
+df_12p_turkey_l:"12-Gauge Pump Camo"
+df_12p_turkey_desc:"The working man's gun, the 12 gauge pump is a standard in hunting. The down side with the gun when turkey hunting is the sound the pump action makes because you'll only get one shot off. You'll need to have a round in the chamber and be close to your prey. The turkey load has a close range with a tight pattern. So be ready when the turkey appears.<br offset=10>Projectile: 1-3/4 oz. #4 Turkey Load<br>Muzzle velocity: 1500 fps<br offset=10>Number of shots between reloads: 5"
+
+df_9mm_s:"9mm Semi-Auto"
+df_9mm_l:"9MM Semi-Automatic Pistol"
+df_9mm_desc:"The 9 mm is not commonly thought of as a hunting arm, but it is powerful enough to hunt smaller game. It is a decent choice for your backup to carry during a hunt.<br offset=10>Fast action, short range.<br offset=10>Bullet weight: 147 gr<br>Muzzle velocity: 1015 fps<br offset=10>Number of shots between reloads: 10"
+
+df_44_s:".44 Revolver"
+df_44_l:".44 Caliber 6 Shot Revolver"
+df_44_desc:"Being a modified blackpowder revolver that now uses cartridges, this .44 has that old time feel. It has an extremely powerful shot, but it is not overly accurate. you will need to practice with this one to get the shot down.<br offset=10>Very powerful at short range.<br offset=10>Bullet weight: 250 gr<br>Muzzle velocity: 1235 fps<br offset=10>Number of shots between reloads: 6"
+
+df_357r_s:".357 Magnum"
+df_357r_l:".357 Magnum Revolver"
+df_357r_desc:"The .357 Magnum revolver has the power and the accuracy to take down most of the big game animals. As long as you use it within its short range, it is a very solid hunting arm for large animals. Add a scope to it and it is a formidable weapon.<br offset=10>Accurate at short range, but powerful enough for mid-range.<br offset=10>Bullet weight: 180 gr<br>Muzzle velocity: 1185 fps<br offset=10>Number of shots between reloads: 6"
+
+df_54_s:" Muzzleloader"
+df_54_l:".54 Caliber Muzzleloader"
+df_54_desc:"The reload time of this .54 caliber black powder rifle can be long, but with an accurate shot at close or medium range, you will not need more than one. This black powder can take any scope as well, just make sure you don't try to overextend the range.<br offset=10>Accurate at short range.<br offset=10>Bullet weight: 550 gr<br>Muzzle velocity: 1500 fps<br offset=10>Number of shots between reloads: 1"
+
+df_303_s:".303 British"
+df_303_l:".303 British Bolt Action Rifle"
+df_303_desc:"This .303 British bolt action rifle is perfect for short and medium range. With the heavy bullet and good range it is versatile and comfortable in many hunting situations.<br offset=10>Bullet weight: 180 gr<br>Muzzle velocity: 2465 fps<br offset=10>Number of shots between reloads: 5"
+
+df_270_s:".270 Win"
+df_270_l:".270 Win Bolt Action Rifle"
+df_270_desc:"Our .270 bolt action rifle sports a 140 grain bullet making it perfect for medium to long range hunting. With the flat trajectory you will be able to get small and medium sized game at long distances. Given practice, even the larger game can be taken with this rifle.<br offset=10>Bullet weight: 140 gr<br>Muzzle velocity: 2920 fps<br offset=10>Number of shots between reloads: 5"
+
+df_280_s:".280 Rem"
+df_280_l:".280 Rem Bolt Action Rifle"
+df_280_desc:"The .280 is basically a larger version of the .270 so it has similar characteristics. The main difference is that the .280 will make taking slightly larger game easier, but at slightly shorter distances.<br offset=10>Bullet weight: 140 gr<br>Muzzle velocity: 3040 fps<br offset=10>Number of shots between reloads: 5"
+
+df_22-250_s:".22-250 Rem"
+df_22-250_l:".22-250 Rem Bolt Action Rifle"
+df_22-250_desc:"The 22-250 is one of the best and most flexible high powered 22 centerfire rifles out there. It is highly accurate at long range. This weapon is not recommended for use on deer or other medium sized game. The light bullets are made to expand quickly, and will not offer the penetration needed to take down a larger animal.<br offset=10>Bullet weight: 50 gr<br>Muzzle velocity: 3810 fps<br offset=10>Number of shots between reloads: 5"
+
+df_375_s:".375 Magnum"
+df_375_l:".375 Magnum Bolt Action Rifle"
+df_375_desc:"If you are going for grizzly or elephant, this is the rifle for you. This .375 bolt action has a 270 grain bullet, making it simply the most powerful firearm in @@game_name@@.<br offset=10>Bullet weight: 270 gr<br>Muzzle velocity: 2675 fps<br offset=10>Number of shots between reloads: 5"
+
+df_30-06_s:".30-06 Bolt"
+df_30-06_l:".30-06 Bolt Action Rifle"
+df_30-06_desc:"The .30-06 bolt action rifle is the workhorse of big game hunts everywhere. Ours has a heavy 180 grain bullet that supplies the knock down power needed for just about any big game animal at short range. It can be argued that the .30-06 has taken more deer than any caliber rifle out there.<br offset=10>Bullet weight: 180 gr<br>Muzzle velocity: 2755 fps<br offset=10>Number of shots between reloads: 5"
+
+df_338_s:".338 Ultra Magnum"
+df_338_l:".338 Ultra Magnum Bolt Action Rifle"
+df_338_desc:"With a heavy 250 grain bullet, this .338 Ultra magnum bolt action rifle is only for the biggest of the big. Best used at medium to long range on the big game of your choice. Your shoulder will appreciate it if you use this rifle sparingly.<br offset=10>Bullet weight: 250 gr<br>Muzzle velocity: 2655 fps<br offset=10>Number of shots between reloads: 5"
+
+df_308_s:".308 Bolt"
+df_308_l:".308 Bolt Action Rifle"
+df_308_desc:"The .308 bolt action rifle with 165 grain bullet is another popular combination for hunters of all ages. Perfect for deer and other medium to small sized animals, this rifle will excel in most any hunting situation.<br offset=10>Bullet weight: 168 gr<br>Muzzle velocity: 2675 fps<br offset=10>Number of shots between reloads: 5"
+
+df_6mm_s:"6mm Bolt"
+df_6mm_l:"6MM Bolt Action Rifle"
+df_6mm_desc:"Our 6mm bolt action rifle has a flat trajectory over a very long range. It has adequate knock down power for antelope or other smaller animals. This is the rifle you want for your longest shot trophy.<br offset=10>Bullet weight: 100 gr<br>Muzzle velocity: 3105 fps<br offset=10>Number of shots between reloads: 5"
+
+df_7mm_s:"7mm Auto Loader"
+df_7mm_l:"7MM Auto Loading Rifle"
+df_7mm_desc:"The 7mm auto loading rifle will hunt everything in North America and is fast becoming a favorite. With its long range and impressive stopping power, it is almost overkill for all but the longest of shots.<br offset=10>Bullet weight: 150 gr<br>Muzzle velocity: 3100 fps<br offset=10>Number of shots between reloads: 5"
+
+df_300_s:".300 Win Mag"
+df_300_l:".300 Win Mag Auto Loading Rifle"
+df_300_desc:"The combination of a .300 Win Mag auto-loader with 150 grain bullets is excellent for long shots. It has the stopping power for medium to large game over long distances. It has a very fast action allowing you to recover if your first shot was not spot on.<br offset=10>Bullet weight: 150 gr<br>Muzzle velocity: 3265 fps<br offset=10>Number of shots between reloads: 5"
+
+df_243_s:".243 Lever"
+df_243_l:".243 Lever Action Rifle"
+df_243_desc:"For deer and varmint hunting, the .243 is one of the most used calibers. With its accurate and easy shooting, it is a definite favorite in deer camps.<br offset=10>Bullet weight: 100 gr<br>Muzzle velocity: 3095 fps<br offset=10>Number of shots between reloads: 7"
+
+df_30-30_s:".30-30 Lever"
+df_30-30_l:".30-30 Lever Action Rifle"
+df_30-30_desc:"The .30-30 lever action rifle is a classic. With its slow but heavy 150 grain bullet, it is best used for short range hunts. An American favorite, most every hunter has one in their collection. Along with the .30-06, this rifle has taken more deer than just about any other.<br offset=10>Bullet weight: 150 gr<br>Muzzle velocity: 2390 fps<br offset=10>Number of shots between reloads: 7"
+
+df_45-70_s:".45-70 Lever"
+df_45-70_l:".45-70 Lever Action Rifle"
+df_45-70_desc:"If you want to hunt medium to large sized animals, this is the rifle for you. Light and reliable, this leaver action will allow you to hunt anything from deer to bear. Chances are you won't be cycling the leaver more than once.<br offset=10>Bullet weight: 300 gr<br>Muzzle velocity: 1880 fps<br offset=10>Number of shots between reloads: 7"
+
+df_cbow_s:"Compound Bow"
+df_cbow_l:"Compound Bow"
+df_cbow_desc:"The Compound bow is a challenging weapon for any hunter. At close range it is strong enough to take down any animal.<br offset=10>Accurate, fast and powerful bow at short range to mid-range."
+
+df_rbow_s:"Recurve Bow"
+df_rbow_l:"Recurve Bow"
+df_rbow_desc:"The recurve bow is a bridge from the past to the current technology of bows. It has a moderate draw and a very powerful weight. This reliable bow is perfect for taking anything from the smallest deer to the largest elk at close range.<br offset=10>Accurate and powerful bow at short range."
+
+df_lbow_s:"Long Bow"
+df_lbow_l:"Long Bow"
+df_lbow_desc:"Bow traditionalists love their long bows. There is no sight. Practice makes perfect for short-range hunting. The ultimate trophy is a Grizzly with a longbow.<br offset=10>Short range bow that takes skill and practice for accuracy."
+
+df_xbow_s:"Crossbow"
+df_xbow_l:"Crossbow"
+df_xbow_desc:"The powerful crossbow is accurate at its range and very good in stealth hunts. It has more knock down power than other bows, and decent range if judged properly. Long reload times means you need to place that first shot properly.<br offset=10>Short to medium-short range."
+
+df_air_s:"Air Gun"
+df_air_l:"Air Gun"
+df_air_desc:"The air gun is what everybody starts out their hunting career with! No recoil, accurate at short distances and easy to fire and reload. This cannot be used to shoot at any big game, but for small animals and rodents, or target shooting, this is a fun rifle to use.<br offset=10>Projectile: .177 caliber pellet<br>Muzzle velocity: 900 fps<br offset=10>Number of shots between reloads: 1"
+
+
+
+df_50_s:".50 BMG "
+df_50_l:".50 BMG Bolt Action Rifle"
+df_50_desc:"Fitted with a Lilja .50 BMG barrel, this rifle can REALLY reach out. Topped with the NEW 5-22x NXS ranging scope, full advantage of the far reaching capability of the Hornady .50 A-MAX round can be attained.<br offset=10>Bullet weight: 750 gr Hornady A-MAX<br>Muzzle velocity: 2618 fps <br>Number of shots between reloads: 5<br offset=10>Author: Lone Wolf"
+
+df_500_s:".500 S&W Magnum"
+df_500r_l:".500 S&W Magnum Revolver"
+df_500r_desc:"The .500 S&W Magnum is a cartridge that was developed by CorBon for Smith & Wesson for use in their Model 500 revolvers and introduced in February 2003 at the SHOT trade show. It is the most powerful handgun cartridge commercially manufactured.<br offset=10>Bullet weight: 500 gr Hornady FP-XTP<br>Muzzle velocity: 1425 fps<br>Number of shots between reloads: 5<br offset=10>Author: Lone Wolf"
+
+df_416_s:".416 Barrett"
+df_416_l:"Barrett Model 99"
+df_416_desc:"This isn't the same .416 Teddy Roosevelt used. The new Barrett Model 99 Auto has everything you need to take down large game in close. It also retains super sonic speed out to 2500 yds and equipped with the Leupold 4.5-18 RF scope it's lethal as a sniper rifle also.<br offset=10>Bullet weight: 400 gr <br>Muzzle velocity: 3250 fps<br>Number of shots between reloads: 5<br offset=10>Author: Imasniper"
+
+df_107_s:"M107 SASR"
+df_107_l:"M107 SASR"
+df_107_desc:"The M107 is a .50 caliber Special Application Scoped Rifle. This is a shoulder fired, semi-automatic, sniper rifle. Equipped with a Leupold 4.5-18 RF scope it is capable of bringing down the biggest animal the game has to offer at extended ranges.<br offset=10>Bullet weight: 660 gr<br>Muzzle velocity: 2800 fps<br>Number of shots between reloads: 10<br offset=10>Author: Imasniper and ^v^LadyHawke^v^"
+
+df_pzb39_s:"PzB 39"
+df_pzb39_l:"PzB 39 Panzerbuchse"
+df_pzb39_desc:"Another custom made weapon for Aussie Guy based on the german WW2 PzB 39 Panzerbuchse Anti-Tank rifle. small round lots of powder extreme high speed projectile<br offset=10>Bullet weight: 225 gr<br>Muzzle velocity: 4150 fps<br offset=10>Number of shots between reloads: 1<br offset=10>Author: Aussie Guy"
+
+df_45_s:".45 Auto"
+df_45_l:"M1911"
+df_45_desc:"This Colt 1911 was designed to the specifications of Bblack. The extended clip and his custom hand loads puts this side arm a step above the rest while still keeping it traditional.<br offset=10>Bullet weight: 230 gr<br>Muzzle velocity: 886 fps<br>Number of shots between reloads: 9<br offset=10>Author: Imasniper"
+
+df_44_s:".44 Revolver"
+df_44_l:".44 Caliber 6 Shot Revolver"
+df_44_desc:"Being a modified blackpowder revolver that now uses cartridges, this .44 has that old time feel.  It has an extremely powerful shot, but it is not overly accurate.  you will need to practice with this one to get the shot down.<br offset=10>Very powerful at short range.<br offset=10>Bullet weight: 250 gr<br>Muzzle velocity: 1235 fps<br offset=10>Number of shots between reloads: 6<br offset=10>Author: Aussie Guy"
+
+df_284_s:".284 Firebird"
+df_284_l:".284 Lazzeroni Firebird Bolt Action Rifle"
+df_284_desc:"The .284 Firebird is based on the rifle and cartridge of the same name from Lazzeroni.<br offset=10>Bullet weight: 120 gr<br offset=10>Muzzle velocity: 3971 fps<br offset=10>Number of shots between reloads: 4<br offset=10>When you want to reach out and thump something!<br offset=10>Author: Big~Daddy"
+
+df_8mm_s:"8mm Mauser"
+df_8mm_l:"8MM Mauser Bolt"
+df_8mm_desc:"It took some searching, but we were able to find an 8mm Mauser for Bblack. This version of the rifle first appeared about 1935 and was used for decades before it was lost to obscurity. We cleaned the dust off and found out that this round does a great job on deer and elk at medium to long ranges.<br offset=10>Bullet weight: 220 gr<br>Muzzle velocity: 2178 fps<br>Number of shots between reloads:5<br offset=10>Author: Imasniper"
+
+df_bboltss_s:".30-06 A-Bolt Stalker"
+df_bboltss_l:"Browning A-Bolt Stainless Stalker"
+df_bboltss_desc:"From butt to muzzle, the Stainless Stalker is made to resist rough conditions with its weather-resistant, stainless steel barrel and action and its non-glare, textured black graphite-fiberglass stock.<br offset=10>Bullet weight: 147 gr<br>Muzzle velocity: 3020 fps<br offset=10>Number of shots between reloads: 4<br offset=10>Author: ita"
+
+df_citorixs_s:"12ga Citori XS Sporting"
+df_citorixs_l:"12Ga Browning Citori XS Sporting"
+df_citorixs_desc:"The Citori XS Sporting ported barrel shotgun combines the handsome look of a silver nitride receiver with gold accenting and a walnut stock with European styling. A Schnabel forearm places your hands closer to the shotgun's bore for optimized hand/eye coordination and the tapered rib helps you acquire targets quickly. Moreover, the XS is the most versatile shotgun Browning has ever designed.<br offset=10>Projectile: 300 Gr. OZ Winchester XP3 Sabot Slug<br>Muzzle velocity: 2000 fps<br offset=10>Number of shots between reloads: 2<br offset=10>Author: ita"
+
+df_338lap_s:".338 LM Timberwolf"
+df_338lap_l:".338 Lapua Magnum Bolt Action Rifle"
+df_338lap_desc:"The .338 Lost River Ballistic Technologies J40 match bullet is one of the most aerodynamic .338 caliber bullets available.  This makes engaging static targets up to 1800 meters (1969 yards) feasible. The .338 Lapua Magnum is an excellent choice for sniping, and is increasingly being used by big-game hunters and civilian long-range shooting enthusiasts. Camo is the CADPAT TW (Temperate Woodland) scheme eh.<br offset=10>Bullet weight: 270 gr<br>Muzzle velocity: 2850 fps<br>Number of shots between reloads: 5<br offset=10>Author: The HU Mod Squad"
+
+df_223_s:".223 Rem Lever"
+df_223_l:".223 Rem Lever Action Rifle"
+df_223_desc:"Using a traditional lever action, this .223 is loaded with Nosler Partition SP match grade ammunition.  Great for small to medium game with negligible recoil.<br offset=10>Bullet weight: 60 gr<br>Muzzle velocity: 3160 fps<br offset=10>Number of shots between reloads: 7<br offset=10>Author: Lone Wolf"
+
+df_45muzz_s:".45 Muzzleloader"
+df_45muzz_l:".45 Caliber Muzzleloader"
+df_45muzz_desc:"Loaded with a PowerBelt Platinum AeroTip Bullet, the range and lethality of this vintage smokepole has been greatly improved over the traditional lead conicals.  Care must be taken not to excede the recommended powder loads.<br offset=10>Bullet weight: 300 gr<br>Muzzle velocity: 1980 fps<br offset=10>Number of shots between reloads: 1<br offset=10>Author: Lone Wolf"
+
+df_sakotrg42_s:"Sako TRG-42"
+df_sakotrg42_l:".338 Lapua Sniper"
+df_sakotrg42_desc:"The Sako TRG-42 Sniper Rifle were manufactured by the Finnish firearm manufacturer SAKO. The TRG-42 is designed to fire the high powered .338 Lapua Magnum round and provides plenty of knockdown power with superb accuracy. 
+.<br offset=10>Bullet weight: 250 gr<br>Muzzle velocity: 3002 fps<br offset=10>Number of shots between reloads: 10<br offset=10>Author: Bolt-Thrower"
+
+df_psef7gx_s:"X-Force 7 GX Comp Bow"
+df_psef7gx_l:"PSE X-FORCE 7 GX"
+df_psef7gx_desc:"The X-Force 7 GX is a top end speed bow measured at a maximum 342 fps. Its combination of X Technologies limbs, GX Cam System and the small brace height all combined to make this a bow that delivers at high speeds.<br offset=10>Tunned for 100 yards it's ideal for long range bowhunt.<br offset=10>Author: ita"
+
+df_r700cdl_s:".243 Win Rem 700 CDL"
+df_r700cdl_l:".243 Win Remington Model 700 CDL"
+df_r700cdl_desc:"The Remington Model 700 CDL (Classic Deluxe) offers renowned accuracy in a classically styled design. Combined with the Premier Scirocco Bonded ammunition, it's the most versatile and reliable rifle for big-game hunting.<br offset=10>Bullet weight: 90 gr<br>Muzzle velocity: 3120 fps<br offset=10>Number of shots between reloads: 4<br offset=10>Author: ita"
+
+df_25-06_r700cdl_s:".25-06 Remington 700 CDL"
+df_25-06_r700cdl_l:".25-06 Remington Model 700 CDL"
+df_25-06_r700cdl_desc:"The Remington Model 700 CDL (Classic Deluxe) offers renowned accuracy in a classically styled design. Using the Premier Core-Lokt Ultra Bonded bullet, it offers a unique combination of excellent accuracy, superb weight retention and expansion with overall superior terminal results.
+<br offset=10>Bullet weight: 115 gr<br>Muzzle velocity: 3000 fps<br offset=10>Number of shots between reloads: 4<br offset=10>Author: ita"
+
+df_7mm08_r700cdl_s:"7mm-08 Remington 700 CDL"
+df_7mm08_r700cdl_l:"7mm-08 Remington Model 700 CDL"
+df_7mm08_r700cdl_desc:"Ideal for medium and big game, the Remington Model 700 CDL (Classic Deluxe) along with the 7mm-08 Remington Premier AccuTip bullet delivers an unprecedented combination of laser-flat trajectory and devastating terminal performance.<br offset=10>Bullet weight: 140 gr<br>Muzzle velocity: 2860 fps<br offset=10>Number of shots between reloads: 4<br offset=10>Author: ita"
+
+df_35w_r700cdl_s:".35 Whelen Rem 700 CDL"
+df_35w_r700cdl_l:".35 Whelen Remington Model 700 CDL"
+df_35w_r700cdl_desc:"The Remington Model 700 CDL (Classic Deluxe) offers renowned accuracy in a classically styled design. Standard calibers feature 24-inch carbon steel barrels, while magnum calibers sport 26-inch barrels to maximize ballistic performance.<br offset=10>Bullet weight: 250 gr<br>Muzzle velocity: 2400 fps<br offset=10>Number of shots between reloads: 4<br offset=10>Author: ita"
+
+df_recurvbow2_s:"Jaguar Take-Down Black"
+df_recurvbow2_l:"Jaguar Take-Down Black Recurve Bow"
+df_recurvbow2_desc:"The Jaguar Take-Down is built for durability, performance and convenience. Its lightweight aluminum/magnesium riser has a solid limb alignment system to secure the wood/glass laminate limbs.<br offset=10>Accurate and powerful bow that includes adjustable sights.<br offset=10>Author: ita"
+
+df_17hmr_s:".17 Rem BA Henry Lever"
+df_17hmr_l:".17 Rem BigArn Henry Lever"
+df_17hmr_desc:"Ideal for small to medium game, this Henry Lever Action features an exceptionally smooth action, so smooth many first timers remark that they cannot believe the rifle has any internal parts. Along with the .17 Remington it delivers exceptional performance and unmatched reliability.<br offset=10>Bullet weight: 20 gr<br>Muzzle velocity: 4250 fps<br offset=10>Number of shots between reloads: 11<br offset=10>Author: ita"
+
+df_45clever_s:".45 Colt Henry Lever"
+df_45clever_l:".45 Colt Henry Lever"
+df_45clever_desc:"The adventure and romance of America’s Old West are imbedded in this Action Lever Rifle. The Henry .45 Colt has the smoothest actions of any centerfire lever action rifles on the market today.<br offset=10>Bullet weight: 225 gr<br>Muzzle velocity: 960 fps<br offset=10>Number of shots between reloads: 8<br offset=10>Author: ita"
+
+df_ithacads_s:"12ga Ithaca DeerSlayer III"
+df_ithacads_l:"12ga Ithaca DeerSlayer III"
+df_ithacads_desc:"When you are standing at the edge of a wide field and suddenly the buck of a lifetime appears - but he's a long way away - you'll be happy that the Deerslayer III is your slug gun of choice. Called a 'laser beam', the DSIII uses a fluted heavy-walled rifled barrel to produce its impressive results.<br offset=10>Projectile: 3/4 oz. Sabot slug<br>Muzzle velocity: 1900 fps<br offset=10>Number of shots between reloads: 5<br offset=10>Author: ita & Arnoldwleedy"
+
+df_ithacats_s:"20ga Ithaca TurkeySlayer III"
+df_ithacats_l:"20ga Ithaca TurkeySlayer III"
+df_ithacats_desc:"If you're serious about upland bird hunting, there's no better weapon than the TurkeySlayer. Ideal for turkeys, it can also be used for roosters, grouse, chuker, quail and more. You've got confidence when you shoot the best.<br offset=10>Projectile: 1-3/4 oz. #4 Turkey Load<br>Muzzle velocity: 1350 fps<br offset=10>Number of shots between reloads: 5<br offset=10>Author: ita & Arnoldwleedy"
+
+df_debsbg_s:"7mm Debs Big Girl"
+df_debsbg_l:"7mm Debs Big Girl Rem Ultra Mag"
+df_debsbg_desc:"Packed with the 7mm Remington Ultra Mag, Debs Big Girl gives you the full power to hunt down from medium to big game. With this weapon, you'll leave all the big boys crying out like little girls!<br offset=10>Bullet weight: 150 gr<br>Muzzle velocity: 3325 fps<br offset=10>Number of shots between reloads: 5<br offset=10>Author: ita"
+
+df_debsxe_s:".30-378 Debs UH XE"
+df_debsxe_l:".30-378 Debs Ultimate Hunter Xpecial Edition"
+df_debsxe_desc:"Debs Ultimate Hunter XE auto rifle was forged in HU Corner's secret furnace. This 'Xpecial Edition' has a solid construction to withstand its specially made ammo. Based on the .30-378 Magnum from Weatherby, Debs UH is packed with a special fusion between A-Max and TSX ammo types. This offers an amazing stopping power even at long ranges and a flatter trajectory! Its only disadvantage is that it can only carry 3 cartridges at a time. - Author: ita<br offset=10>Bullet weight: 165 gr<br>Muzzle velocity: 3740 fps<br offset=10>Number of shots between reloads: 3"
+
+df_7mwsm70_s:"7mm WSM Model 70"
+df_7mwsm70_l:"7mm Win Short Mag Model 70"
+df_7mwsm70_desc:"The Winchester Model 70 is a bolt action sporting rifle. It has an iconic place in American sporting culture and has been held in high regard by shooters since it was introduced in 1936, earning the epithet 'The Rifleman's Rifle'.<br offset=10>Bullet weight: 160 gr<br>Muzzle velocity: 3000 fps<br offset=10>Number of shots between reloads: 4<br offset=10>Author: ita"
+
+df_9mmussaed_s:"9mm USS ARIZONA"
+df_9mmussaed_l:"9mm USS ARIZONA Tribute Edition"
+df_9mmussaed_desc:"On December 7, 1941 the United States of America became directly involved in the greatest of human conflicts, World War II. Even before bombs fell on Pearl Harbor that Sunday morning, it was clear to many Americans that they would soon be at war with Japan. What was unexpected was the seemingly apocalyptic nature of the raid. Emblazoned on the minds of millions of Americans, the single most powerful image associated with the Pearl Harbor attack, was the smoking metal and twisted mast of USS Arizona.<br offset=10>Bullet weight: 95 gr<br>Muzzle velocity: 1000 fps<br offset=10>Number of shots between reloads: 10<br offset=10>Author: edwards72"
+
+df_450bm_s:".450 BM Chameleon"
+df_450bm_l:".450 BushMaster Chameleon"
+df_450bm_desc:"At a muzzle velocity of 2200 fps, the 250 grain bullet delivers nearly a ton of energy at 150 yards. The “Deadliest Mushroom in the Woods” takes on new meaning when coupled with this dynamic stealth hunting rifle. The Chameleon camo changes based on the hunter camo.<br offset=10>Bullet weight: 250 gr<br>Muzzle velocity: 2214 fps<br offset=10>Number of shots between reloads: 5<br offset=10>Author: ita"
+
+df_50_muzzleloader_s:".50 FPB Muzzleloader"
+df_50_muzzleloader_l:".50 FPB Hornady Muzzleloader "
+df_50_muzzleloader_desc:"Not only is the new 300 gr. FPB clean and convenient, it’s extremely accurate. Engineered and tested to work flawlessly in all 50 cal muzzleloaders, the FPB features exclusive Flex Tip Technology from Hornady.<br offset=10>Bullet weight: 300 gr<br>Muzzle velocity: 2100 fps<br offset=10>Number of shots between reloads: 1<br offset=10>Author: edwards72"
+
+df_m40a37_s:"7.62mm M40A3"
+df_m40a37_l:"7.62x51mm M40A3 Bolt Rifle"
+df_m40a37_desc:"The M40A3 is a bolt-action sniper rifle specifically designed to ensure and obtain unsurpassed shooting accuracy and performance at distances of 1000 yds and beyond.<br offset=10>Bullet weight: 175 gr<br>Muzzle velocity: 2600 fps<br offset=10>Number of shots between reloads: 5<br offset=10>Author: 3000yrd shot"
+
+df_408cheytac_s:".408 CT Timberwolf"
+df_408cheytac_l:".408 CheyTac Bolt Action Rifle"
+df_408cheytac_desc:"The .408 CheyTac made by Rocky Mountain Bullets is ideal for large-game long-range hunting.  Excellent ballistics for this FMJ hunting round will remain supersonic out to @ 2100 yards. Another quality rifle built by the Canadian arms company PGW Defence Technologies Inc for the civilian market. Camo is a custom Black-Red digital pattern as requested by Brian T.<br offset=10>Bullet weight: 420 gr<br>Muzzle velocity: 2750 fps<br>Number of shots between reloads: 5<br offset=10>Author: Lone Wolf.  Icon by 3000yrd shot."
+
+df_577_s:".577 T-Rex"
+df_577_l:".577 T-Rex Double Rifle"
+df_577_desc:"The .577 Tyrannosaur or .577 T-rex is a type of cartridge developed for big game hunting in Africa. The .577 contains a .585-inch (14.9 mm) diameter 750-grain (49 g) Monolithic Solid Projectile which when fired moves at 2,480 ft/s (760 m/s) producing 10,240 foot-pounds force (13,880 J) of muzzle energy.   Taylor Knock Out value: 154.19<br offset=10>Bullet weight: 750 gr<br>Muzzle velocity: 2480 fps<br offset=10>Number of shots between reloads: 2<br offset=10>Author: MuratInce"
+
+df_762mosinnagant_s:"7.62x54R Mosin Nagant"
+df_762mosinnagant_l:"7.62x54R Mosin Nagant M38 Rifle"
+df_762mosinnagant_desc:"The M38 has survived the test of time by being compact, sturdy, and quite accurate for short to medium ranges. It fires a 7.62X54R ('Rimmed') cartridge, is as powerful as a .30-06, and holds the distinction of being in service from 1891 to the present, longer than any other military cartridge.<br offset=10>Bullet weight: 180 gr<br>Muzzle velocity: 2542 fps<br>Number of shots between reloads: 5<br offset=10>Author: Stormbringer"
+
+
+### MOD TAG
+
+
+df_s1_4:"4.5-18x"
+df_s3_9:"5-22x"
+df_s4_14:"8-40x"
+df_s4_12rf:"8-40x"
+
+
+df_rfbinocs_s:"Binocs"
+df_rfbinocs_l:"Range Finding Binoculars"
+df_rfbinocs_desc:"This rugged and precise unit allows you to zoom in on your target and also to check the range, in yards. You can change the zoom keys in the Options menu if you like. Put the crosshair on the item you wish to check for distance, and the viewer will tell you how far it is away.<br offset=10>'Glassing' is a handy way to aide in your hunts. Find a good high spot and search in all directions, looking for any movement which might indicate an animal is present. This is critical in missions or free hunts that don't give you many tips to go on.<br offset=10>Also check out the Spotting Scope, which is similar to the binoculars, but allow for more zoom."
+
+df_spscope_s:"Scope"
+df_spscope_l:"Spotting Scope"
+df_spscope_desc:"Like the RF Binoculars, the Spotting Scope allows you to zoom in on animals or other targets from a long ways away. The Spotting scope allows for more magnification than the Binoculars, which can aide you in those very far off shots.<br offset=10>The Spotting Scope is especially useful for picking the specific trophy animal out of a group of similar sized animals, or for finding a slightly different animal from the rest.<br offset=10>Never go on a hunt without either the Binoculars or the Spotting Scope."
+
+df_map_s:"Map"
+df_map_l:"Area Map"
+df_map_desc:"The Map is an outdoor person's best friend. You will truly never be lost if you have both a map and compass. It may take you a little time to find landmarks, but once you do, you are back on track.<br offset=10>Your hunting position is always shown on the map, so in @@game_name@@ you will have a slight advantage over real world hunting. One way to hunt is to zig zag your map, moving into the wind. Move slowly and glass the area often from high locations, and you will find game animals everywhere if you are persistent."
+
+df_burine_s:"Buck Urine"
+df_burine_l:"Buck Urine"
+df_burine_desc:"Buck Urine is mainly for white-tailed deer hunters. This works similar in effect to cover scent in masking some human scent, but mainly it will tend to attract bucks during the rut. Bucks are very territorial, and if they smell that an intruder is near their herd, they will get ornery very quickly and want to find that trespasser. That is where you come in, as they will move right to where you are, thinking your area holds a buck.<br offset=10>Give a few drops or squirts when you get to an area you want to bring the bucks into. Don't use too much, or they will know something is not quite right. If you find a scrape in the woods or on a trail, this is the perfect place to use it."
+
+df_cscent_s:"Cover Scent"
+df_cscent_l:"Cover Scent"
+df_cscent_desc:"Cover Scent does just what it is called, it covers your human scent. For animals like white-tailed deer, elk, pronghorns and bear, this is essential. For other animals it is likewise important.<br offset=10>Give a few quirts when you start to hunt, and then give a few more after awhile. Once you see some animals you want to stalk, it would be very helpful to give a few more squirts just before you start. Don't use too much, or put it on when you are too close to animals, however, as that can spook them."
+
+df_elkscent_s:"Elk Scent"
+df_elkscent_l:"Elk Scent"
+df_elkscent_desc:"Elk scent is used just like the Buck Urine for Whitetails. Place it where you want elk bulls to come to, and then bugle some and wait for them to come. Placing it upwind of a herd can be a good trick, but make sure you are using cover scent if you move upwind of any game animals, so they don't smell you.<br offset=10>A few good squirts will work well, and you might want to give it a few more squirts if some time has passed and the elk still are not within shooting distance."
+
+df_tarsalgland_s:"Tarsal Gland Scent"
+df_tarsalgland_l:"Tarsal Gland Scent"
+df_tarsalgland_desc:"This is the scent given off by the buck's tarsal gland during the rut. It is very potent and very stinky. The tarsal gland is on the buck's hind legs, and hunting purists will even hang the tarsal gland itself, from previously shot bucks, near trails or near scrapes to help lure in big bucks.<br offset=10>Give this several squirts when you are in location near areas where you wish the bucks to come to. Used along with Buck Urine for maximum effect, but don't give too many squirts all at once."
+
+df_gruntcall_s:"Grunt Call"
+df_gruntcall_l:"Grunt Call"
+df_gruntcall_desc:"The Grunt call for white-tailed deer is the mainstay of the calling accessories. This works for calling deer, stopping deer to get a good shot at them, and even for bringing in does, who in turn can bring in more bucks.<br offset=10>The key here is to use it wisely. Give a grunt or two, but not too many, nor too often. If you have a deer that is walking and not giving you a shot, give one grunt to stop it. They usually will stop and look around, alerted that a buck is nearby. This can also work on other game animals, and not just Whitetails.<br offset=10>Always bring some sort of call with you on your hunt, and the Grunt is the obvious choice most of the time."
+
+df_predatorcall_s:"Predator Call"
+df_predatorcall_l:"Predator Call"
+df_predatorcall_desc:"This ugly sounding call mimics the sounds of a wounded animal, the type of animal predators love to go after. This will work on bear, cougar and just about anything that would eat meat. You don't want to be that meat, so once you start using it, be ready for some quick action with your firearms.<br offset=10>If going after bear, using this along with the Bear Bait come work quite effectively. Use this in short but consistent bursts, so the predators know the wounded animal is still in the vicinity. Once you spot the predator game animal, then you really don't need to use it anymore, just be sure your scent isn't picked up. Use the Cover Scent to help with that."
+
+df_doebleat_s:"Doe Bleat"
+df_doebleat_l:"Doe Bleat"
+df_doebleat_desc:"The Doe Bleat is used much like the Grunt Call, but it mimics the bleat of a doe. This is effective for rallying does or fawns, which in turn can bring in the bucks. But it is also effective in bringing in that lone buck who is looking for a doe in heat.<br offset=10>The Doe Bleat will not work as well as the Grunt for most situations, but for those bucks who are looking for love, this one will make them come running in to you.<br offset=10>Use this in short bursts. Wait a bit. Then use it again in short bursts. You want that buck to know there is a doe out there ready for action, or simply looking for its fawn."
+
+df_ecowcall_s:"Elk Cow Call"
+df_ecowcall_l:"Elk Cow Call"
+df_ecowcall_desc:"The Elk Cow Call will help make sure the bulls think there is a cow ready for them. That is what is on their minds in the fall, and you can make them come right in to you will the cow call. It is especially effective if you see any lone bulls, or else bulls who are not following around a herd.<br offset=10>The cow call is less effective on bulls that are already with a herd of cows. Then the Elk Bugle call would be more effective.<br offset=10>Give a few bursts, wait a bit, then give some more. Don't let up with the elk, but don't blow it too often in a short time span."
+
+df_elkbugle_s:"Elk Bugle Call"
+df_elkbugle_l:"Elk Bugle Call"
+df_elkbugle_desc:"Like the Grunt Call for Whitetails, the Elk Bugle Call is the mainstay tool for calling in elk bulls. Elk are extremely territorial and this is especially true of their herds of cows. Once you see a herd, get the bugle call ready. Move into a spot that allows a good shot, and start the bugling.<br offset=10>Give a couple bugles at most, usually only one is enough. Then wait. Give another if the bull doesn't move away from his cows, but he will surely get mad enough to come and see who is intruding, and then you will have your chance.<br offset=10>You can also use the bugle to stop an elk to get a standing shot. This will also work on grizzlies."
+
+df_mcowcall_s:"Moose Cow Call"
+df_mcowcall_l:"Moose Cow Call"
+df_mcowcall_desc:"Moose do not have great eyesight, but they have very good hearing. And since moose don't really gather in herds, they must listen for their potential mates. That is where the Moose Cow Call comes in. Use it to make a bull moose think you are its next mate. You can use the moose cow call fairly often if you have not yet seen a moose and are searching. Remember to use the binoculars often as well, as the moose are often easy to see if they are not hidden in brush, and they most likely won't see you.<br offset=10>If you see a bull with a cow, then the Moose Bull Call would be a better option. Always have some type of moose call with you, when moose hunting."
+
+df_mbullcall_s:"Moose Bull Call"
+df_mbullcall_l:"Moose Bull Call"
+df_mbullcall_desc:"The Moose Bull Call is loud and deep, and will travel a long distance. This is used to make a bull moose come out to fight with another bull, as they often don't travel together at most times of the year. During the rut, they will be looking for love, and another bull is no part of that. If they hear one, they will do their best to get rid of him.<br offset=10>Use this especially once you see a bull, and need to pull him closer or out of heavy vegetation. Don't use it too often in quick succession, as the moose have good hearing and you don't want to spook them off.<br offset=10>Consider using the Bull Call and the Antler Scraper together to make for a very lifelike sound of bull aggression in the swampland or woods."
+
+df_ascraper_s:"Antler Scraper"
+df_ascraper_l:"Moose Antler Scraper"
+df_ascraper_desc:"The Antler Scraper is used to mimic the sound of a big bull moose rooting around and marking his territory in the woods and brush. The moose doesn't have great eyesight, but they will hear the telltales sounds of an intruder marking in THEIR territory. They will have none of that!<br offset=10>Use this along with the Bull Moose Call, and use it several times in one location. Don't over use it, as moose are not going to be doing this all too often in one area. But along with the bull call, this will surely get a big bull's attention."
+
+df_boxcall_s:"Turkey Box Call"
+df_boxcall_l:"Turkey Box Call"
+df_boxcall_desc:"A favored turkey hunting tool, the box call has been in use since 1897. The call is operated by running the lid of the call along the edges of the box. The box has a hollow chamber that creates the turkey vocal sounds.<br offset=10>The box call has a high volume that is needed on windy days and with practice can replicate the entire range of turkey sounds, including gobbles."
+
+df_rantlers_s:"Rattling Antlers"
+df_rantlers_l:"Rattling Antlers"
+df_rantlers_desc:"Mule deer hunters rarely use the rattles, but Whitetail hunters often do with great success. This is a very effective tool, especially if you know one or more bucks are in the area. You can use the rattles quite rigorously, but once you see a buck is coming in, you might want to keep them quiet until the buck stops showing interest.<br offset=10>You can also use them on mule bucks, but they are not as effective. If you have an open slot, give them a try! You might be pleasantly surprised.<br offset=10>Rattling antler, buck urine, grunt call. That is a great combination, especially if you add the Whitetail decoy."
+
+df_bearbait_s:"Bear Bait"
+df_bearbait_l:"Bear Bait"
+df_bearbait_desc:"Stinky, messy, dirty and foul. That is how you get both a black bear and a brown bear close to you. And since you don't want them chomping on you, the Bear Bait is just the ticket. Place it out where you can get a good shot, in a likely bear area and then use the Predator call to help lure them in.<br offset=10>Remember where you place the bait, as you might need to pick it up and use it in a different spot."
+
+df_saltlick_s:"Salt Lick"
+df_saltlick_l:"Salt Lick"
+df_saltlick_desc:"The Salt Lick is one of those items that just might help you out, but maybe not. You never know until you try. Used along with a decoy and some Buck Urine, you might be able to use it to pull in some wayward deer.<br offset=10>Good to use near water holes or trails."
+
+df_pronghorndecoy_s:"Pronghorn Decoy"
+df_pronghorndecoy_l:"Pronghorn Decoy"
+df_pronghorndecoy_desc:"Pronghorn have great eyesight, and sometimes all they need is a little encouragement to move a little closer to you. The decoy is a perfect solution.<br offset=10>Find a hilltop or a watering hole, and place the decoy, preferably downwind of where you expect some pronghorn to be. Then get in prone position or move off to a nearby sniping spot and wait for them to notice your decoy and meander in. Make sure to take a good shot, as those pronghorn are fast!"
+
+df_wtaildecoy_s:"Whitetail Decoy"
+df_wtaildecoy_l:"Whitetail Decoy"
+df_wtaildecoy_desc:"Whitetails are often fooled by decoys, and that is to your advantage. Use it along with the Grunt Call and Buck Urine for best effect. Make sure to place it in a location that makes it visible from long distances, and also affords you a good shot once deer would move in.<br offset=10>You may need to use it later, so remember where you placed it. You pick it up the same way you place it."
+
+df_turkeydecoy_s:"Wild Turkey Decoy"
+df_turkeydecoy_l:"Wild Turkey Decoy"
+df_turkeydecoy_desc:"The decoys are of a tom (male turkey) and hen (female). In the fall, wild turkeys start to gather. Place the decoys along the edge of the woods. If placed properly, the decoys will lure the birds in. The real birds will see the decoys and will move towards them.<br offset=10>Don't be fooled, the birds are still wary of movement and sound. Try to keep you movements slow and deliberate. If the turkeys hear or see you they will be gone in a flash."
+
+df_tripod_s:"Tripod"
+df_tripod_l:"Tripod"
+df_tripod_desc:"The Tripod Stand is the perfect choice for a hunting platform out in open country, to help you get a slight advantage in the brush and areas with little elevation. It is a bit noisy, so you will not want to enter it if the animals are in close proximity.<br offset=10>One good tip is that it is also good for hilly terrain. Find a nice hilltop and set the Tripod on the top. You will have excellent visibility in all directions, allowing you to take longer shots, and also to glass the area more effectively.<br offset=10>Often setting up a decoy or bait out quite a distance away, and using the Tripod to keep a good eye on it, will help you get that shot on the wariest of game animals."
+
+df_treestand_s:"Treestand"
+df_treestand_l:"Treestand"
+df_treestand_desc:"The Treestand is well known to most hunters. It is very effective, but you do need to place it on an acceptable tree, and on the correct side of the tree. To do this, walk up to the tree you wish to place it in, and to the side of the tree you wish it to be facing. Then activate the Treestand. You will then need to enter it using your assigned key.<br offset=10>Often a great way to use a Treestand is to find a valley with a good tree right near the upper edge of one of the valley walls. Place your Treestand there, and wait for animals to use the valley. This is a beautiful way to hunt, and very effective as well."
+
+df_groundblind_s:"Tent Blind"
+df_groundblind_l:"Tent Blind"
+df_groundblind_desc:"The Tent Blind is very effective for many hunting situations. It can be popped up quickly and just about anywhere except water or a greatly sloped piece of terrain. It is especially effective for bow hunters or muzzleloader hunters who need closer shots. Just remember that some angles get cut off on you, so try to place the blind as close as you can to where you think the animals will emerge and give you a shot.<br offset=10>Using the Tent Blind and the decoys, along with calls, is a very effective and exciting way to hunt."
+
+df_blindbox_s:"Ground Blind"
+df_blindbox_l:"Ground Blind"
+df_blindbox_desc:"Like the Tent Blind, the Ground Blind is quick to set up and effective. But the Ground Blind is not as forgiving as the Tent Blind, but it does afford you have 360 degree shooting with no interference or bad angles.<br offset=10>Always have a blind with you, if you have the space for it."
+
+df_atv_s:"ATV"
+df_atv_l:"ATV"
+df_atv_desc:"The ATV is very useful for those exploratory hunts or just checking out the country side. Be careful, however, as the ATV will spook all nearby animals, and many animals that fairly far away. If you bring the Spotting Scope and the ATV, it is a very effective way to cover a lot of ground. Try to stay to the high areas, so that you see any animals the ATV may spook out of hiding. Then stalk then on foot the rest of the way."
+
+df_horse_s:"Horse (Brown)"
+df_horse_l:"Horse (Brown)"
+df_horse_desc:"Horseback hunting has a long tradition in the US, especially out west, where much of the @@game_name@@ hunting takes place. Horses do not spook animals nearly as much as the ATV will. This can be a very rewarding method of hunting, and the pictures you can get with your horse behind you and your trophy are well worth the time spent taking them!"
+
+df_bt_na:"You cannot throw bait here!"
+df_bt_bbaitna:"You cannot throw bait here!"
+df_bt_bsaltna:"You cannot put it here!"
+df_bt_pdecoyna:"You cannot put it here!"
+df_bd_na:"You cannot place it here!"
+
+
+df_wolfcall_s:"Wolf Call"
+df_wolfcall_l:"Wolf Call"
+df_wolfcall_desc:"This call will mimic the sound of a wolf howl after killing it's prey.<br offset=10>Use it in long consistent bursts, so the wolves know there's a fresh killed animal around. Once you spot the wolf, then you really don't need to use it anymore, just be sure your scent isn't picked up. Use the Cover Scent to help with that.<br offset=10>Author: ita"
+
+df_wolfdecoy_s:"Wolf Decoy"
+df_wolfdecoy_l:"Wolf Decoy"
+df_wolfdecoy_desc:"This decoy can be used to attract wolves during mating season. Use it along with the Wolf Call for best effect. Just remember to use it in a safe place because wolves can be very agressive during this seasson.<br offset=10>You may need to use it later, so remember where you placed it. You pick it up the same way you place it.<br offset=10>Author: ita"
+
+df_bloodscent_s:"Blood Scent"
+df_bloodscent_l:"Blood Scent"
+df_bloodscent_desc:"This scent is all in one when it comes to predators, but use it wisely as it can attract all kind of predators nearby. Give it one or two squirts, wait a while and you'll see the effect.<br offset=10>For maximum effect use it along with one of the predators calls.<br offset=10>Author: ita"
+
+df_atv2_s:"Forest King ATV"
+df_atv2_l:"Forest King ATV"
+df_atv2_desc:"Next generation of ATV's, the Forest King ATV brings a new level on camo equipment. With a woodland pattern it's ideal for the woods and forests.<br offset=10>Author: Bolt-Thrower"
+
+df_horse2_s:"Horse (Black)"
+df_horse2_l:"Horse (Black)"
+df_horse2_desc:"Horseback hunting has a long tradition in the US, especially out west, where much of the @@game_name@@ hunting takes place. Horses do not spook animals nearly as much as the ATV will. This can be a very rewarding method of hunting, and the pictures you can get with your horse behind you and your trophy are well worth the time spent taking them!<br offset=10>Author: Imasniper"
+
+df_horse3_s:"Zebra"
+df_horse3_l:"Zebra (Equus)"
+df_horse3_desc:"Zebras are African equids best known for their distinctive white and black stripes. Their stripes come in different patterns unique to each individual. They are generally social animals and can be seen in small harems to large herds. In addition to their stripes, zebras have erect, mohawk-like manes. Unlike their closest relatives, horses and asses, zebras have never been truly domesticated.<br>The name 'zebra' comes from the Old Portuguese word zevra which means 'wild ass'. <br offset=10>Author: ita"
+
+df_atv3_s:"Grizzly ATV"
+df_atv3_l:"Grizzly ATV"
+df_atv3_desc:"With a powerful big bore engine, this award- and shootout-winning ATV leads the way with electric power steering, fuel injection, Yamaha exclusive automatic Ultramatic transmission, On-Command 2WD/4WD with Diff Lock, independent rear suspension, digital meter, 4-wheel disc brakes and more.<br offset=10>Author: ita"
+
+df_tripodcamo_s:"Tripod (Forest Camo)"
+df_tripodcamo_l:"Tripod (Forest Camo)"
+df_tripodcamo_desc:"Now with Forest Camo, this Tripod Stand is the ideal choice for a stealth hunt. It is a bit noisy, so you will not want to enter it if the animals are in close proximity.<br offset=10>One good tip is that it is also good for hilly terrain. Find a nice hilltop and set the Tripod on the top. You will have excellent visibility in all directions, allowing you to take longer shots, and also to glass the area more effectively.<br offset=10>Often setting up a decoy or bait out quite a distance away, and using the Tripod to keep a good eye on it, will help you get that shot on the wariest of game animals.<br offset=10>Author: ita"
+
+df_doewafer_s:"Doe Scent Wafers"
+df_doewafer_l:"H S Doe Estrus Scent Wafers"
+df_doewafer_desc:"Simply put these wafers onto your hunting stand to effectively mask human scent with a natural cover scent. Solid Scent Wafers have a pure concentrated scent that masks odors. Scent can't spill, freeze or wash away. With these Doe Estrus Scent Wafers you can effectively cover your scent and attract rutting bucks to your stand. Used along with a decoy and some Buck Urine, you might be able to use it to pull in some wayward deer.<br offset=10>For wear scent use the Cover Scent to achieve better scent cover.<br offset=10>Author: ita"
+
+df_ecscope_s:"Euro Spot Scope"
+df_ecscope_l:"Euro Spotting Camo Scope"
+df_ecscope_desc:"The Euro Spotter features a 75mm APO Fluoride objective lens, 20-60x variable eyepiece and a Eurobrite fully multicoated optical system. It delivers incredibly sharp, brilliant images with near-perfect color reproduction and unmatched contrast. With light transmission of 99.8% per lens surface, the Euro Spotter excels at low light, long-distance observation.<br offset=10>Author: ita"
+
+df_unicall_s:"Universal Call"
+df_unicall_l:"Universal Call"
+df_unicall_desc:"Not as good as the others calls, you can always use this call to lure all kinds of animals.<br offset=10>Author: ita"
+
+
+# containers.def
+
+df_ct_boxstand:"Box Stand"
+df_ct_carrion_elk:"Carrion (Elk)"
+df_ct_carrion_moose:"Carrion (Moose)"
+df_ct_gravestone1:"Gravestone 1"
+df_ct_gravestone2:"Gravestone 2"
+df_ct_campfire:"Camp Fire"
+df_ct_oldtire:"Old Tire"
+df_ct_skull:"Animal Skull"
+df_ct_barrel:"Barrel (Silver)"
+df_ct_barrel_green:"Barrel (Rusty)"
+df_ct_scarecrow_pumpkin:"Scarecrow (Pumpkin)"
+df_ct_scarecrow_metal:"Scarecrow (Pot)"
+df_ct_tentgreen:"Tent (Green Camo)"
+df_ct_tentsand:"Tent (Sand Camo)"
+df_ct_flagusa:"Flagpole (USA)"
+df_ct_flagcanada:"Flagpole (Canada)"
+df_ct_flagzambia:"Flagpole (Zambia)"
+df_ct_flagportugal:"Flagpole (Portugal)"
+df_ct_flagbrazil:"Flagpole (Brazil)"
+df_ct_flagspain:"Flagpole (Spain)"
+df_ct_epole_light:"Electric Pole (Light)"
+df_ct_epole_dark:"Electric Pole (Dark)"
+df_ct_epoleend_light:"Electric Pole End (Light)"
+df_ct_epoleend_dark:"Electric Pole End (Dark)"
+df_ct_epoled_light:"Electric Pole 2 (Light)"
+df_ct_epoled_dark:"Electric Pole 2 (Dark)"
+df_ct_epoledend_light:"Electric Pole End 2 (Light)"
+df_ct_epoledend_dark:"Electric Pole End 2 (Dark)"
+df_ct_ammolay:"Ammo Box Laying"
+df_ct_ammostnd:"Ammo Box Standing"
+df_ct_can:"Can"
+df_ct_haypack:"Haypack"
+df_ct_totem:"Totem"
+df_ct_ranger_civil:"Ranger (Civil)"
+df_ct_ranger_army:"Ranger (Army)"
+df_ct_ranger_white:"Ranger (White)"
+df_ct_tractor:"Tractor"
+df_ct_tank_army:"Tank (Army)"
+df_ct_tank_rusty:"Tank (Rusty)"
+df_ct_carwreck:"Car Wrecks"
+df_ct_landrover_blue:"Landrover (Blue)"
+df_ct_landrover_green:"Landrover (Green)"
+df_ct_landroverd_blue:"Landrover Door (Blue)"
+df_ct_landroverd_green:"Landrover Door (Green)"
+df_ct_boat:"Wood Boat (Stained)"
+df_ct_boat_light:"Wood Boat (Light)"
+df_ct_sinkboat:"Boat (Sink)"
+df_ct_dc10:"DC10 Rusty Airplane"
+df_ct_plane:"Plane"
+df_ct_bucket:"Bucket"
+df_ct_federsilver:"Feeder (Silver Wood)"
+df_ct_federstained:"Feeder (Stained Wood)"
+df_ct_federlight:"Feeder (light Wood)"
+df_ct_drag:"Drag"
+df_ct_bridge:"Bridge (Wood)"
+df_ct_footbridge:"Bridge (Foot)"
+df_ct_arizbridge:"Bridge (Arizona)"
+df_ct_barrage:"Barrage"
+df_ct_damm:"Damm"
+df_ct_axe:"Axe"
+df_ct_board_light:"Boards (Light)"
+df_ct_board_silver:"Boards (Silver)"
+df_ct_board_stained:"Boards (Stained)"
+df_ct_boardb_light:"Board Broken (Light)"
+df_ct_boardb_silver:"Board Broken (Silver)"
+df_ct_boardb_stained:"Board Broken (Stained)"
+df_ct_boardb1_light:"Board Broken1 (Light)"
+df_ct_boardb1_silver:"Board Broken1 (Silver)"
+df_ct_boardb1_stained:"Board Broken1 (Stained)"
+df_ct_bomb:"Bomb"
+df_ct_branchdry:"Branch"
+df_ct_brokentree1:"Broken Tree 1"
+df_ct_brokentree2:"Broken Tree 2"
+df_ct_brokentree3:"Broken Tree 3"
+df_ct_brokentree4:"Broken Tree 4"
+df_ct_trunk:"Trunk"
+df_ct_log:"Log"
+df_ct_log_cuted:"Log (Cuted)"
+df_ct_log_trunk:"Log (Trunk 1)"
+df_ct_log_trunk1:"Log (Trunk 2)"
+df_ct_log_trunk2:"Log (Trunk 3)"
+df_ct_log2:"Log 2"
+df_ct_log2_cuted:"Log 2 (Cuted)"
+df_ct_log2_trunk:"Log 2 (Trunk 1)"
+df_ct_log2_trunk1:"Log 2 (Trunk 2)"
+df_ct_log2_trunk2:"Log 2 (Trunk 3)"
+df_ct_chair:"Chair"
+df_ct_chairbroken:"Chair (Broken)"
+df_ct_desk:"Desk"
+df_ct_desk_long:"Desk (Long)"
+df_ct_diggings:"Diggings"
+df_ct_diggings_desert:"Diggings (Desert)"
+df_ct_drain:"Drain"
+df_ct_fan:"Fan"
+df_ct_fencing_board:"Fencing (Board)"
+df_ct_fencing_gateright:"Fencing (Right Gate)"
+df_ct_fencing_gateleft:"Fencing (Left Gate)"
+df_ct_fencing_pale:"Fencing (Pole)"
+df_ct_xfence:"Fencing (Wire)"
+df_ct_house:"House"
+df_ct_house2floor:"House 2"
+df_ct_hgarage:"Garage"
+df_ct_h2garage:"Garage 2"
+df_ct_hguard:"Guard"
+df_ct_hcabin:"Cabin"
+df_ct_reservoir:"Reservoir"
+df_ct_silo:"Silo"
+df_ct_siloladder:"Silo Ladder"
+df_ct_hshed:"Shed"
+df_ct_hcowshed:"Cow Shed"
+df_ct_hroof:"House Roof"
+df_ct_hbigruins:"House Wrecks"
+df_ct_ruinhouse:"House Ruins"
+df_ct_hchurchruins:"Church Ruins"
+df_ct_hut:"Hut"
+df_ct_hutruins:"Hut Ruins"
+df_ct_ruinfoundation:"Foundation Ruins (Wall)"
+df_ct_ruinfoundation_snow:"Foundation Ruins (Snow)"
+df_ct_ruinstation:"Station Ruins (Wall)"
+df_ct_ruinstationafr:"Station Ruins (Wood)"
+df_ct_lighthouse:"Lighthouse"
+df_ct_ladder:"Ladder"
+df_ct_pool:"Pool"
+df_ct_pumppod:"Pump Base"
+df_ct_pumpwheel:"Pump Wheel"
+df_ct_rail:"Rail"
+df_ct_rail_curved:"Rail (Curved)"
+df_ct_rail_end:"Rail (End)"
+df_ct_sack:"Sack"
+df_ct_sign_farm:"Sign (Farm)"
+df_ct_sign_res:"Sign (Restricted)"
+df_ct_signvert:"Sign (Trail)"
+df_ct_stonecolorado:"Stone (Colorado)"
+df_ct_stonealberta:"Stone (Alberta)"
+df_ct_stoneoregon:"Stone (Oregon)"
+df_ct_stonegroup_gra:"Granite Stone Group"
+df_ct_stonegroup_gra3:"Granite Stone Group (3)"
+df_ct_stonegroup_gra5:"Granite Stone Group (5)"
+df_ct_stonegroup_gra6:"Granite Stone Group (6)"
+df_ct_stonegroup_afr:"Desert Stone Group"
+df_ct_stonegroup_afr3:"Desert Stone Group (3)"
+df_ct_stonegroup_afr5:"Desert Stone Group (5)"
+df_ct_stonegroup_afr6:"Desert Stone Group (6)"
+df_ct_stonegroup_moss:"Moss Stone Group"
+df_ct_stonegroup_moss3:"Moss Stone Group (3)"
+df_ct_stonegroup_moss5:"Moss Stone Group (5)"
+df_ct_stonegroup_moss6:"Moss Stone Group (6)"
+df_ct_stonegroup_riv:"River Stone Group"
+df_ct_stonegroup_riv3:"River Stone Group (3)"
+df_ct_stonegroup_riv5:"River Stone Group (5)"
+df_ct_stonegroup_riv6:"River Stone Group (6)"
+df_ct_target:"Target"
+df_ct_targetbow:"Bow Target"
+df_ct_targetroof:"Target Roof"
+df_ct_targetroofr:"Target Roof (Right)"
+df_ct_targetroofl:"Target Roof (Left)"
+df_ct_tollbar:"Tollbar (Red-White)"
+df_ct_tollbar_stained:"Tollbar (Stained)"
+df_ct_acatia:"Acatia Tree"
+df_ct_african_tree:"African Tree"
+df_ct_african_brokentunk:"African Tree (Trunk)"
+df_ct_ash_simple:"Ash Tree Simple (Green)"
+df_ct_ash_triple:"Ash Tree Triple (Green)"
+df_ct_ash2_simple:"Ash Tree Simple (Autumn)"
+df_ct_ash2_triple:"Ash Tree Triple (Autumn)"
+df_ct_baobab:"Baobab Tree"
+df_ct_beech:"Beech Tree"
+df_ct_beech_catapult:"Beech Tree Catapult"
+df_ct_birch_single:"Birch Tree Single (Green)"
+df_ct_birch_double:"Birch Tree Double (Green)"
+df_ct_birch2_single:"Birch Tree Single (Autumn)"
+df_ct_birch2_double:"Birch Tree Double (Autumn)"
+df_ct_hornbeam:"Hornbeam Tree (Green)"
+df_ct_hornbeam_catapult:"Hornbeam Tree V (Green)"
+df_ct_hornbeam2:"Hornbeam Tree (Autumn)"
+df_ct_hornbeam2_catapult:"Hornbeam Tree V (Autumn)"
+df_ct_joshua4:"Joshua Tree (4 pin)"
+df_ct_joshua6:"Joshua Tree (6 pin)"
+df_ct_maple:"Maple Tree (Green)"
+df_ct_maple2:"Maple Tree Asym (Green)"
+df_ct_maple_atm:"Maple Tree (Autumn)"
+df_ct_maple2_atm:"Maple Tree Asym (Autumn)"
+df_ct_oak:"Oak Tree (Green)"
+df_ct_oak2:"Oak Tree Asym (Green)"
+df_ct_oak_atm:"Oak Tree (Autumn)"
+df_ct_oak2_atm:"Oak Tree Asym (Autumn)"
+df_ct_pine:"Pine Tree"
+df_ct_pine_old:"Pine Tree Old"
+df_ct_poplar:"Poplar Tree"
+df_ct_spruce:"Spruce Tree (Green)"
+df_ct_spruce_leaning:"Spruce Tree Lean (Green)"
+df_ct_spruce_old:"Spruce Tree Old (Green)"
+df_ct_spruce_small:"Spruce Tree Small (Green)"
+df_ct_spruce_tall:"Spruce Tree Tall (Green)"
+df_ct_sprucesnow:"Spruce Tree (Snow)"
+df_ct_sprucesnow_leaning:"Spruce Tree Lean (Snow)"
+df_ct_sprucesnow_old:"Spruce Tree Old (Snow)"
+df_ct_sprucesnow_small:"Spruce Tree Small (Snow)"
+df_ct_sprucesnow_tall:"Spruce Tree Tall (Snow)"
+df_ct_tabular_green:"Tabular Tree (Green)"
+df_ct_tabular:"Tabular Tree (Autumn)"
+df_ct_willow_single:"Willow Tree Single (Green)"
+df_ct_willow_double:"Willow Tree Double (Green)"
+df_ct_willow2_single:"Willow Tree Single (Autumn)"
+df_ct_willow2_double:"Willow Tree Double (Autumn)"
+df_ct_torso_catapult:"Tree Catapult Torso"
+df_ct_torso_high:"Tree High Torso"
+df_ct_torso_low:"Tree Low Torso"
+df_ct_corn:"Corn Plant"
+df_ct_saguaro_single:"Saguaro Cactus (Single)"
+df_ct_saguaro_triple:"Saguaro Cactus (Triple)"
+df_ct_hunt_man_clss:"Man Hunter (Classic)"
+df_ct_hunt_man_atm:"Man Hunter (Autumn)"
+df_ct_hunt_man_dsrt:"Man Hunter (Desert)"
+df_ct_hunt_man_wntr:"Man Hunter (Winter)"
+df_ct_hunt_man2_clss:"Man Hunter 2 (Classic)"
+df_ct_hunt_man2_atm:"Man Hunter 2 (Autumn)"
+df_ct_hunt_man2_dsrt:"Man Hunter 2 (Desert)"
+df_ct_hunt_man2_wntr:"Man Hunter 2 (Winter)"
+df_ct_hunt_manc_clss:"Man Hunter Camo (Classic)"
+df_ct_hunt_manc_atm:"Man Hunter Camo (Autumn)"
+df_ct_hunt_manc_dsrt:"Man Hunter Camo (Desert)"
+df_ct_hunt_manc_wntr:"Man Hunter Camo (Winter)"
+df_ct_hunt_lady_clss:"Lady Hunter (Classic)"
+df_ct_hunt_lady_atm:"Lady Hunter (Autumn)"
+df_ct_hunt_lady_dsrt:"Lady Hunter (Desert)"
+df_ct_hunt_lady_wntr:"Lady Hunter (Winter)"
+df_ct_hunt_boy_clss:"Boy Hunter (Classic)"
+df_ct_hunt_boy_atm:"Boy Hunter (Autumn)"
+df_ct_hunt_boy_dsrt:"Boy Hunter (Desert)"
+df_ct_hunt_boy_wntr:"Boy Hunter (Winter)"
+df_ct_hunt_ita_clss:"Ita Hunter (Classic)"
+df_ct_hunt_ita_atm:"Ita Hunter (Autumn)"
+df_ct_hunt_ita_dsrt:"Ita Hunter (Desert)"
+df_ct_hunt_ita_wntr:"Ita Hunter (Winter)"
+df_ct_hunt_fat_clss:"Fat Hunter (Classic)"
+df_ct_hunt_fat_atm:"Fat Hunter (Autumn)"
+df_ct_hunt_fat_dsrt:"Fat Hunter (Desert)"
+df_ct_hunt_fat_wntr:"Fat Hunter (Winter)"
+
+
+# game.def
+
+df_area_alberta:"Northern Rockies"
+df_area_arizona:"Southwest"
+df_area_colorado:"Southern Rockies"
+df_area_minnesota:"Upper Midwest"
+df_area_montana:"Central Rockies"
+df_area_oregon:"Pacific Northwest"
+df_area_texas:"South Central Plains"
+df_area_africa:"Africa"
+
+df_area_alberta_desc:"From the rugged mountains to rolling hills and farmland, the Northern Rockies is a hunter's paradise. With a plethora of hunting outfitters, you will have everything you need to have the hunt of a lifetime. Moose, bear, deer, turkey and elk are just a few of the species here for you. Take home a record trophy from this expansive and varied locale."
+
+df_area_arizona_desc:"From tall mountain ranges to grasslands and sand dunes, the Southwest has it all. It is home to turkeys, whitetails, mule deer, pronghorn, elk, mountain goats, bison and cougars. Being in the high desert, water makes for a very important resource. Keep close to the water source and you are sure to bag that record animal. The terrain goes from huge flat expanses to rough mountains, and long shots are the key to success. Bring your canteen and head for the best hunting in the southwest."
+
+df_area_colorado_desc:"From the peaks of the mountains to the expanse of the eastern plains, the Southern Rockies is your hunting dreamland. A large variety of animals means that you will have no problem finding the trophy of your choice. Although elk and mule deer are most abundant, there is also a growing population of moose, pronghorn, bighorn sheep, bear, and cougar. The Whitetail deer and turkeys can be found on the plains. The diverse landscape of the Southern Rockies is the perfect place for big game hunters."
+
+df_area_minnesota_desc:"The Upper Midwest is where you'll find some of the biggest White Tail Deer around. You also find turkey, bison, moose, elk, bear and cougar. With a scattering of wooded areas surrounded by farm fields and many sources of water, the animals here have a year round food source. The gentle rolling hills and shallow river valleys make it easy for you to get to the best hunting locations."
+
+df_area_montana_desc:"The rolling hills, dramatic mountains, abundant lakes, grassy plains and diverse wildlife of the Central Rockies offer superb hunting opportunities.  Whitetail and mule deer are in abundance. Elk, moose, pronghorn, bighorn, mountain goat, black bear and cougar can also be found inhabiting the unspoiled wildernesses. Grab your gear and get ready for a prime hunting getaway."
+
+df_area_oregon_desc:"The Pacific Northwest has some of the most dramatic landscapes in the country. With the high mountain passes of the Oregon Cascades, the lush greenery of the Columbia Gorge, rugged seacoast and the Ponderosa pines of the high desert, the Pacific Northwest has it all. Turkey, bison, deer, elk, and bear are just the beginning of your hunting options. Because of the plentiful foliage and water, animal populations are at an all time high. This will allow you to carefully choose the trophy you decide to take with you."
+
+df_area_texas_desc:"The arid area of the South Central Plains makes hunting a true challenge. With little vegetation, cover is hard to come buy. Scouting is the key in hunting this area. Water sources are the prime hunting locations. With long flat plains you'll be able to see far distances. Keep your spotting scope and rifle at the ready. A bow hunter will find this area a true challenge, with little cover your best bet is to setup at your hunting spot early and wait. With luck you'll spot the white tail or mule deer, bison, pronghorn, or turkey of you dreams."
+
+df_area_africa_desc:"Africa is the home of the finest safaris, amazing waterfalls, expansive lakes and of course big game. With some of the best-rated game reserves in the world, Africa offers something for everyone. Hunting is tightly controlled but you will have the opportunity to assist the wildlife managers and have a hunt of a lifetime. Lions, elephant, and wild boar are just a few of the animals available for you to hunt, as is the beautiful and much sought after kudu. With wide-open plains, the terrain is rugged and beautiful. Water is the most important feature that animals are searching for. Herd animals will be active all day, but search for water in the mornings. Prey animals do most of their work in the early morning and late evening hours, when the shadows and light work in their favor."
+
+df_weather_clear:"Clear"
+df_weather_rain:"Rain"
+df_weather_snow:"Snow"
+df_weather_snow_storm:"Snow Storm"
+df_weather_cloud:"Clouds"
+df_weather_wind:"Wind"
+df_weather_fog:"Fog"
+
+df_gcat_weapons:"Weapons"
+df_gcat_eqitems:"Equipment"
+
+df_gcat_scopes:"Scopes"
+df_gcat_muzzleloaders:"Muzzleloaders"
+df_gcat_boltrifles:"Bolt Action Rifles"
+df_gcat_leverrifles:"Lever Action Rifles"
+df_gcat_autorifles:"Automatic Rifles"
+df_gcat_shotguns:"Shotguns"
+df_gcat_bows:"Bows"
+df_gcat_crossbows:"Crossbow"
+df_gcat_pistols:"Pistols"
+
+df_gcat_scents:"Scents"
+df_gcat_calls:"Calls"
+df_gcat_lures:"Lures"
+df_gcat_blinds:"Blinds"
+df_gcat_misc:"Misc"
+
+df_gen_buck:"Buck"
+df_gen_doe:"Doe"
+df_gen_bull:"Bull"
+df_gen_cow:"Cow"
+df_gen_cub:"Young"
+df_gen_boar:"Boar"
+df_gen_sow:"Sow"
+df_gen_billy:"Billy"		# mountain goat male
+df_gen_nanny:"Nanny"		# mountain goat female
+df_gen_male:"Male"
+df_gen_felis:"Female"
+df_gen_kitten:"Kitten"
+df_gen_gobbler:"Gobbler"	# wild turkey male
+df_gen_hen:"Hen"		# wild turkey female
+df_gen_poult:"Poult"		# wild turkey young
+
+df_spc_wtail:"White-tailed Deer"
+df_spc_buffalo:"Buffalo"
+df_spc_elk:"Elk"
+df_spc_pronghorn:"Pronghorn Antelope"
+df_spc_mule:"Mule Deer"
+df_spc_goat:"Mountain Goat"
+df_spc_bighorn:"Bighorn"
+df_spc_grizzly:"Grizzly Bear"
+df_spc_blackbear:"Black Bear"
+df_spc_moose:"Moose"
+df_spc_boar:"Wild Boar"
+df_spc_kudu:"Kudu Antelope"
+df_spc_cougar:"Cougar"
+df_spc_lion:"Lion"
+df_spc_elephant:"African Elephant"
+df_spc_turkey:"Wild Turkey"
+
+df_spc_coyote:"Coyote"
+df_spc_fox:"Fox"
+df_spc_rabbit:"Rabbit"
+df_spc_rattlesnake:"Rattlesnake"
+df_spc_skunk:"Skunk"
+df_spc_squirrel:"Squirrel"
+df_spc_wolf:"Wolf"
+df_spc_lizard:"Lizard"
+df_spc_eagle:"Eagle"
+df_spc_woodpecker:"Woodpecker"
+df_spc_sparrow:"Sparrow"
+df_spc_buzzard:"Buzzard"
+df_spc_duck1:"Duck 1"
+df_spc_duck2:"Duck 2"
+df_spc_fly:"Fly"
+df_spc_butterfly1:"Butterfly 1"
+df_spc_butterfly2:"Butterfly 2"
+df_spc_butterfly3:"Butterfly 3"
+df_spc_crow:"Crow"
+df_spc_vulture:"Vulture"
+
+df_desc0_wtail:"Odocoileus virginanus<br>(there are 38 subspecies)"
+
+df_desc1_wtail:"With over 30 sub-species of White-tailed deer in existence, their range is quite extensive. White-tails range throughout the US and southern Canada as well as Central America and into Bolivia. The coloration varies depending on the sub-species in question and its locale, but generally range from a redder coat in the summer to more grey in the winter. <br offset=10>Whitetails (properly called 'White-tailed deer') generally roam in transitional areas, such as the edges of woods, groups of shrubs, or swamp. The grasses and trees supply not only their food, but also serve as a place to hide from predators, bed, and give birth. A group of deer will live within a 'home range' and will seldom extend beyond it.< br offset=10>Deer will peak physically between 5 and 8 years old, and live to be 10 to 20 years. Depending on location and sub-species, full grown bucks can be between 150 and 300 pounds. Does are slightly smaller and weigh between 90 and 200 pounds. With their intimate knowledge of their home range, deer can avoid danger by just standing still. If the need arises, a deer can outrun most of its predators including bear, wolves, and humans. They have excellent sense of smell and hearing."
+
+df_desc0_buffalo:"Bison bison"
+
+df_desc1_buffalo:"Bison, now commonly known as 'Buffalo', live only in a few parks and private farms in the US. At one time, they roamed all of North America in great numbers preferring the open prairie, but today they are found in all types of terrain.<br offset=10>Bison can get to be over 2000 pounds and have a distinctive hump on their shoulders. The hump is actually a large set of muscles to allow the bison to clear out deep snow to get grasses in the rough and cold winters.<br offset=10>Bison eat a variety of grasses and require water every day.<br offset=10>Bulls and cows both have a pecking order within the herd, and this order is very linear. Higher animals in the order get better breeding, and dominance is determined by strength. Bison can see movement at very long distances and have a very good sense of smell and hearing."
+
+df_desc0_elk:"Wapiti, Large North American deer, Cervus elaphus, or Cervus canadensis"
+
+df_desc1_elk:"Elk and white-tailed deer share much of the same territory, as they have similar dietary and terrain preferences. Elk do tend to avoid dense forests preferring the more open woodland and coniferous swamps. They have an area as large as 600 square miles that they call home. Elk are very social animals and will travel in large herds. These herds are dominated by a single cow. During the mating season, bulls will form harems and protect them from other bulls very aggressively. Elk will graze mostly in the mornings and evenings, staying relatively inactive during the day. Bull elk can grow to over 5 feet at the shoulder and can weigh over 1000 pounds. The large antlers have at least 5 points on each branch and can have a spread of over 5 feet. Not only very social animals, they are also very noisy. Males are known for their bugling, females bark, grunt and squeal, newborns squeal and bleat. Using the bugling call of the male is the best way hunters use to lure in big bulls."
+
+df_desc0_pronghorn:"Antilocapra americana"
+
+df_desc1_pronghorn:"Pronghorns are the second most popular game animal in the US after white-tails. They range from Canada through the western states, and into Mexico. What makes pronghorns very unique is that they are the only species within the family Antilocapridae. They also have a unique 'pronged' antler. Pronghorns are tan above and white below with a short black mane on the neck, and a white rump. Keeping with their unique qualities, they will move during the day, but do have a minor peak of activity at sunrise and sunset. Pronghorns have excellent vision, and can see movement on the horizon. Getting close enough to a pronghorn for even a long shot takes a lot of skill and a little luck. Most hunters stay near watering holes or use decoys to get their trophies. During the winter, herds of pronghorns can number over 1000."
+
+df_desc0_mule:"Odocoileus hemionus<br>(there are 11 subspecies)"
+
+df_desc1_mule:"Mule deer (called black-tailed deer in some parts of the country) live from northern Mexico to the southern parts of Alaska and Canada's Yukon Territory. This species of deer have very large, furry ears similar to those of a mule. The ears of the mule deer measure about 10 inches long in adults. This grey to brown colored deer is about 42 inches tall at the shoulder on average, and has a tail with a black tip. The antlers fork out noticeably when compared to the white-tails' antlers. Mule deer are less aggressive then white-tails. They will often simply run from any threat. More active during dawn and dusk, mule deer are quite inactive at other times. Bobcats, coyotes, black bear, golden eagles and feral dogs are all mule deer predators. The mule deer's home range is similar to the white-tail, depending on season and food supply."
+
+df_desc0_bighorn:"Ovis Canadensis"
+
+df_desc1_bighorn:"Found in the Rocky Mountains, the bighorn sheep inhabits alpine and grassy slopes near to rugged landscape features such as cliffs. Bighorn sheep get their name from the large curved horns which the males bear, although the females also have short horns. The horns of a fully grown male can weigh up to 30 pounds, while the whole animal itself may weigh up to 300 pounds. Bighorns are well known for using their horns in head-to-head clashes between male rams prior to the mating season - it is through this combat that a dominance hierarchy is established, yielding access to ewes for mating. Mainly grazers, bighorn sheep like to eat grass and other plants, but may also seek out natural salt licks. Bighorn sheep have excellent eyesight which they need to navigate the tricky precipice terrain they inhabit, and can see movement up to a mile away. It's difficult to surprise a bighorn, so stick to cover when hunting, move slowly, and try to use salt licks as a lure."
+
+df_desc0_goat:"Oreamnos Americanus"
+
+df_desc1_goat:"The mountain goat was usually found only in the alpine and steep areas of the Rocky Mountains in Alaska and northern Washington. In recent years, they have been successfully introduced to other parts of the country including Idaho and South Dakota. In the winter you can find large groups of mountain goats that gather in the higher elevations. In the summer they spread into smaller groups, or remain solitary, and go into lower elevated terrain. Mountain goats will gather around salt licks in large groups. Cougars and eagle are the mountain goat's main predators. They have excellent vision and can notice small movements from great distances. Like a tree, the age of a mountain goat can be found by counting the rings on the horns. Adult goats can weigh anywhere from 150 to 300 pounds."
+
+df_desc0_grizzly:"Ursus arctos<br>(Ursus arctos horribilis)"
+
+df_desc1_grizzly:"The North American brown bear (also known as the grizzly) have a brown coat that is streaked with grey. The grizzly may grow over 8 feet tall and weigh up to 1700 pounds. They eat most anything they came across from plants and insects to deer, elk, and moose. They have very poor eyesight and just average hearing. With an excellent sense of smell, a North American brown bear can follow a scent for over 2 miles. Grizzlies are mainly active in the morning and evening, but can also be active throughout the day. Bears are generally loners, but their home ranges can overlap. If this occurs, they sometimes gather at major food sources and form family foraging groups. Grizzlies have dominance hierarchies created and protected through aggression. The slow, lumbering walk and movement can be deceiving, they can move very fast over short distances. Brown bears prefer to stick to land, but can be found swimming or fishing. Adults can not climb trees. The North American brown bear has been considered the most dangerous animal for a long time, but often the real danger of attack is exaggerated. They can and will attack humans if the circumstances are correct. Always be alert when in bear country."
+
+df_desc0_blackbear:"Ursus americanus"
+
+df_desc1_blackbear:"The American black bear is the most common bear species in North America. Growing up to around 5 feet long, and weighing up to 880 pounds, the black bear has an excellent sense of smell, and eats a wide variety of food including grass, herbs, fruits, insects, carrion and sometimes rodents. Although generally black in color, subspecies may have coats of different colors including brown and surprisingly - white. The black bear can stand on its hind legs, but mainly to see something better. Attacks on humans are rare, but not unheard of - usually the bear will flee on the first signs of disturbance, but a cornered bear may defend itself aggressively."
+
+df_desc0_moose:"Alces alces<br>(in America it may be called Alces americana)<br>(there are 6 subspecies)"
+
+df_desc1_moose:"At over 6.5 feet tall at the shoulder and weighing over 1600 pounds, the moose is the largest member of the deer family. The largest recorded antler spread measured over 86 inches. The Algonquin Native American Indian tribe named the moose, which means 'eater of twigs'. Moose not only eat twigs, but also leaves, grasses, and aquatic plants. The head of the moose is very large with an overhanging upper lip, or muzzle. They also have a drooping growth of hair and skin under the chin called a bell. Moose have fantastic hearing, but very poor eyesight. They have been clocked at over 35 miles per hour, and are very good swimmers as well. The usual live span of a moose is only 5 to 6 years, they can live to be over 20 years old. Male moose use their large antlers to fight off other bulls from mates during the rut. This is a dangerous time for people as well, and moose have been known to attack humans during the rut. In some areas moose attacks are more common than bear attacks. During all seasons except summer, moose will feed on the previous summer's growth of black poplar, aspen, and other trees. In the summer and late spring, they prefer the plants that grow in water. Moose can submerge for over 40 seconds to reach their food."
+
+df_desc0_kudu:"Tragelaphus strepsiceros"
+
+df_desc1_kudu:"One of the most striking and beautiful of the antelopes, the greater kudu lives in central and southern Africa, in rocky hill country or on brush-covered plains. Farmers building fences in areas inhabited by kudu must take into account, the animal's ability to easily leap obstacles 2.5m in height. Kudu males have long, spiral horns; occasionally a female will have small ones. The greater kudu's horns are spectacular and can grow as long as 72 inches, making 2 1/2 graceful twists. The horns are seldom used in defense against predators; nor are they an impediment in wooded habitats - the kudu tilts the chin up and lays the horns against the back, moving easily through dense bush. Kudus frequently use their horns in 'wrestling' matches, locking them together and then trying to push or wrestle the opponent into submission. They have also been observed in a form of play, tossing broken branches into the air with their horns and catching them as they fall. <br>Female greater kudus are noticeably smaller than the males. By contrast, lesser kudus are even smaller, about 42 inches at the shoulder; males weigh around 220 pounds while females generally weigh about 50 pounds less. Lesser kudus have smaller horns than the greater kudus and conspicuous white patches on the upper and lower parts of the neck. Although both species are bluish-gray, grayish-brown or rust color, the lesser has five to six more lateral white stripes, for a total of 11 to 15. Both species have a crest of long hair along the spine, and greater kudus also have a fringe under the chin.<br> Their cryptic coloring and markings protect kudus by camouflaging them. If alarmed, they usually stand perfectly still - making them very difficult to spot. Kudus normaly restrict their movements to a small home range, but the scarcity of food in dry season may force them to roam more widely."
+
+df_desc0_boar:"Sus scrofa Linnaeus"
+
+df_desc1_boar:"Of all members of the pig family, wild boar occupies the largest range. They originally occurred in Europe, Asia, North Africa, and the Malay Archipelago, but were later introduced throughout the world. The wild boar is known for its omnivorous and sometimes indiscriminate diet. They are often stereotyped as unclean animals. The diet includes shrubs, weeds, bird eggs, snakes, grasshoppers, mice, roots, tubers, even manure. Such a wide range of food sources has enabled them to survive in a wide array of environments, from deserts to mountainous terrain."
+
+df_desc0_cougar:"Felis concolor"
+
+df_desc1_cougar:"Also known as the puma, mountain lion, and panther. The cougar is a large and adaptable wildcat. It lives in habitats ranging from snow-covered mountains to tropical rainforests. Cougars are found in every enviroment except the arctic. Adult males can be over 8 feet long and weigh over 180 pounds with the female being 7 feet long and up to 140 pounds. Cougar generally hunt at dawn and dusk. Still, they are active by day in areas undisturbed by man. Instead of occupying a permanent den, Cougars rest and find shelter in caves, among rocky outcrops, and in dense vegetation. They generally migrate from the mountains in winter to follow deer and other prey."
+
+df_desc0_lion:"Panthera leo"
+
+df_desc1_lion:"The lion is the largest of the African carnivores. The lion lives a rather lazy lifestyle, being active for only two to four hours every day. They are most active at night, and rest during the day. A lion pride consists of a group of 2 to 12 closely related adult females with their young, attended by 1 to 6 adult males. Lions differ from other cats by regularly hunting in groups. When hunting small prey, each lion pursues its own animal; with larger and more dangerous prey, co-operation is needed to split a herd or pull down and kill one animal. Male lions can weigh over 400 pounds and be over 4 feet tall with the female weighing in at over 275 pounds and being just over 3 feet tall."
+
+df_desc0_elephant:"Loxodonta africana"
+
+df_desc1_elephant:"The African Elephant is the largest land mammal in the world. Male African elephants grow over 24 feet long and will stand 11 feet tall at the shoulder and weighing up to 14,000 pounds. Males are usually larger than the females. African elephants are known for not only their size, but also their unique features and social structure. These majestic animals live wherever the food and water supply can support them. Elephants are very sensitive to human disturbances, making them move to more remote portions of the savanna. African elephants have a very dexterous trunk and powerful jaws allowing them to gather and process a wide variety of vegetation. Most of the time these creatures will frequent savannas and woodland areas, especially those by streams. African elephants will eat leaves, fruit and bark from the surrounding area. During the rainy season, elephants will diverge their eating habits and prefer herbs and grasses. The social structure is determined by the oldest and largest female. She sets the pace of the group's activities. Elephant herds contain females and young males of about 10 adults and offspring. Male elephants travel in a group of bachelors when they reach puberty. African elephants often travel long distances in search of food and water depending on its availability. The elephant communicates with rumbles, bellows, and moans. Some of their low frequency sounds can be heard over a mile away."
+
+df_desc0_turkey:"Meleagris gallopavo"
+
+df_desc1_turkey:"The wild turkey is native to North America and tends to live in or near heavy woods. The wild turkey will move depending on the season. During the summer months it likes the heavy forest and is solitary, but the late fall and winter months it tends to stay near grazing fields where it can find food easily and gather in groups. The Wild Turkey is an omnivore, foraging for berries, seeds, nuts, insects and roots. Adult Wild Turkeys can weigh up to 30 pounds, however on average they weigh 18 pounds. Wild Turkeys have excellent vision, hearing and tend to be wary, thus making them a challenge to hunt. They are capable of running at speeds up to 25 mph, of flying at up to 55 mph and are able to glide for up to a mile. When it is time to hunt them, search for signs and sounds of the wild turkey. Try to lure the birds in as close as possible using the turkey calls and decoys. You need to be quiet and hidden as much as possible and take slow, careful aim."
+
+
+df_camo_name:"Classic Camo"
+df_camo:"This is a classic camo color pattern. You will blend in most anywhere in North America with this camo choice. Being a gerneral use camo, it works well with both stalking and stand hunting styles."
+
+df_camo_autumn_name:"Autumn Camo"
+df_camo_autumn:"This camo color pattern was specifically designed for the autumn season. Best used in areas that have sufficient cover to blend in with. While stand-hunting, you will be all but invisible with this camo choice. Not recommended for stalking unless there is heavy cover to blend with."
+
+df_camo_desert_name:"Desert Camo"
+df_camo_desert:"This mostly brown camo pattern is for blending in with rock or dry foliage conditions, making it perfect for the Southwest. Other uses can also be during autumn when grass and leaves are turning brown before the snowfall."
+
+df_camo_winter_name:"Winter Camo"
+df_camo_winter:"This white and grey color pattern is designed with snow in mind. Useful in any area that has snow coverage and foliage. The grey of the pattern will blend you into both rock and tree trunks."
+
+# ui/txt.def
+
+df_ac_pick:"Bag"
+df_ac_enter:"Enter"
+df_ac_exit:"Exit"
+df_ac_climb:"Climb"
+df_ac_leave:"Leave"
+df_ac_clear:"Clear"
+df_ac_mount:"Mount"
+df_ac_dismount:"Dismount"
+
+### INTERFACE
+
+# generic
+
+mm_options:"Options"
+mm_about:"About"
+mm_quit:"Quit Game"
+mm_help:"Help"
+mm_delete:"Delete"
+mm_new:"New"
+mm_back:"Back"
+mm_ok:"Ok"
+mm_cancel:"Cancel"
+mm_yes:"Yes"
+mm_no:"No"
+mm_apply:"Apply"
+mm_close:"Close"
+mm_error:"Error"
+mm_warning:"Warning"
+mm_add:"Add"
+mm_remove:"Remove"
+mm_hunt:"Hunt"
+mm_off:"Off"
+
+mm_low:"Low"
+mm_medium:"Medium"
+mm_normal:"Normal"
+mm_high:"High"
+mm_default:"Default"
+mm_notset:"Not Set"
+mm_enabled:"Enabled"
+mm_disabled:"Disabled"
+
+
+mm_month01:"January"
+mm_month02:"February"
+mm_month03:"March"
+mm_month04:"April"
+mm_month05:"May"
+mm_month06:"June"
+mm_month07:"July"
+mm_month08:"August"
+mm_month09:"September"
+mm_month10:"October"
+mm_month11:"November"
+mm_month12:"December"
+
+# mcdcheck
+
+mm_cd_check:"CD Check"
+mm_cd_message:"Insert CD @@game_name@@ to your CD drive"
+mm_cd_quit:"QUIT"
+mm_cd_retry:"RETRY"
+
+# mmain
+
+mm_challenges:"Challenges"
+mm_freehunt:"Free Hunt"
+mm_targetrange:"HU Corner Range"
+mm_minigames:"Mini Games"
+mm_usermissions:"User Missions"
+mm_tournaments:"Tournaments"
+mm_hunterprofile:"Hunter Profile"
+mm_trophyroom:"Trophy Room"
+mm_post_mission_trophyroom:"Trophies"
+mm_gameanimals:"Game Animals"
+mm_weaponshowroom:"Weapon Locker"
+mm_mapoverview:"Map Overview"
+
+mt_mm_scs:"Check for news and updates on SCS Software website"
+mt_mm_publisher:"Check for news and updates on @@publisher@@ website"
+mt_mm_gametitle:"Check for news and updates on @@game_name@@ website"
+
+mt_mm_challenges:"Play Challenges and win Awards: grouped by increasing difficulty"
+mt_mm_freehunt:"Play in Free Hunt mode"
+mt_mm_targetrange:"Enter HU Corner range to test and sight in weapons"
+mt_mm_minigames:"Play mini games"
+mt_mm_usermissions:"Play and design user created missions"
+mt_mm_tournaments:"Show your courage in tournaments"
+mt_mm_options:"Adjust game settings for graphics, sound and control scheme"
+mt_mm_about:"About the makers"
+mt_mm_quit:"Exit the game"
+mt_mm_hunterprofile:"Select or create a player profile, or change your appearance"
+mt_mm_trophyroom:"Examine the trophies you have collected so far"
+mt_mm_help:"Display brief game help covering basic topics"
+mt_mm_gameanimals:"Learn more about the animals in the game"
+mt_mm_weaponshowroom:"Examine available sporting arms and their properties"
+mt_mm_mapoverview:"Learn more about the hunting areas portrayed in the game"
+
+# manimaldb
+
+mm_details:"DETAILS"
+mm_screenshot:"TAKE SHOT"
+
+mt_ma_gender:"Switch gender"
+mt_ma_mousedrag:"Left click & drag to rotate. Right click to zoom in/out."
+mt_ma_animaldetails:"Display animal details"
+mt_ma_screenshot:"Take a screenshot"
+
+# mtroom
+
+mm_shotby:"Weapon Used: "
+mm_shotdistance:"Shot Distance: "
+mm_killzone:"Kill Zone: "
+mm_hunttime:"Hunt Time: "
+mm_takenon:"Taken on: "
+mm_ascore:"Trophy Score: "
+mm_aweight:"Animal Weight: "
+mm_cheated:"* CHEATED *"
+mm_lascore:"Antler/Horn<br>Left Score: "
+mm_rascore:"Antler/Horn<br>Right Score: "
+mm_allshots:"Total Shots Taken: "
+mm_allhits:"Total Hunt Hits: "
+mm_thishits:"This Animal Hits: "
+mm_trophysummary:"TROPHY SUMMARY"
+
+mm_antler_scores:"ANTLER SCORES"
+mm_left_antler:"Left Antler"
+mm_right_antler:"Right Antler"
+mm_normal_tynes:"Normal Tine Lengths"
+mm_abnormal_tynes:"Non-Typical Tine Lengths"
+mm_total_tyne_lengths:"Total Tine Lengths"
+mm_antler_tip_spread:"Tip-to-tip Spread"
+mm_antler_inner_spread:"Inner Spread"
+mm_typical_tynes:"Typical Tines"
+mm_atypical_tynes:"Non-Typical Tines"
+
+mm_add2global:"Move to Trophy Room"
+mm_deltrophy:"Delete Trophy"
+mm_exit:"EXIT"
+mm_trophy:"Trophy"
+
+mm_tr_scorena:"N/A"
+mm_tabled:"[see @@mm_antler_scores@@]"
+
+mm_tr_prev:"Select previous trophy"
+mm_tr_next:"Select next trophy"
+
+mt_tr_delete:"Delete this animal from trophy list"
+mt_tr_add2global:"Add this animal to permanent trophy collection"
+mt_tr_exit:"Exit trophy room"
+
+# mhunter/mnewhunter
+
+mm_hunter_info:"Click To Select Profile"
+
+mm_delhunter:"Delete"
+mm_newhunter:"New"
+mm_edithunter:"Edit Hunter"
+mm_hunterlist:"Hunter List"
+mm_namecolon:"Name: "
+mm_newprofile:"NEW PROFILE"
+mm_model:"Model"
+mm_hat:"Hat"
+
+mm_totalshots:"fired shots."
+mm_totalhits:"hits."
+mm_totalhunts:"hunts."
+mm_totalkills:"killed animals."
+mm_totalbags:"bagged animals."
+mm_totaltrophies:"trophies kept."
+mm_awards:"Awards: "
+mm_challengesscore:"points scored in Challenges."
+
+mt_ht_edit:"Click to edit selected profile"
+mt_ht_new:"Click to create new profile"
+mt_ht_delete:"Click to delete selected profile"
+mt_ht_back:"Return back to main menu"
+mt_ht_mprev:"Select previous model"
+mt_ht_mnext:"Select next model"
+mt_ht_name:"Set hunter name"
+mt_ht_hprev:"Select previous hat"
+mt_ht_hnext:"Select next hat"
+mt_ht_ok:"Confirm changes"
+mt_ht_cancel:"Cancel changes"
+
+mm_male:"Male"
+mm_female:"Female"
+mm_cub:"Young"
+
+# mequipment
+
+mt_eq_back:"Confirm selection"
+mt_eq_hunt:"Go hunting"
+
+mt_eq_weapons:"Click to select weapons"
+mt_eq_items:"Click to select hunting gear"
+mt_eq_camos:"Click to select camo type"
+mt_eq_click2remitem:"Click to remove item"
+mt_eq_click2remweapon:"Click to remove weapon"
+
+# mfreehunt
+
+mm_map:"Map: "
+mm_animalpopulation:"ANIMAL POPULATION"
+
+mm_dangerousyes:"Dangerous Animals On"
+mm_dangerousno:"Dangerous Animals Off"
+
+mt_fh_map:"Select hunting area"
+mt_fh_population:"Determine population density"
+mt_fh_species:"Select which species populate the area"
+
+# mchallenges
+
+mm_score:"Score"
+mm_missions:"Missions"
+mm_tierscore:"Tier Score: "
+mm_totalscore:"Total Score: "
+mm_challengename:"Challenge"
+
+# mmissions
+
+mm_edit:"Edit"
+
+mt_um_delete:"Delete selected mission from harddrive"
+mt_um_edit:"Edit selected mission"
+mt_um_new:"Create new mission"
+
+# mtournaments
+
+mm_tournamentname:"Name"
+mm_tournamentbestscore:"Your best score"
+mm_tournamentscore:"Score String"
+mm_tournamentvalid:"Deadline : "
+
+mt_to_score:"Get score string for selected tournament"
+mt_to_delete:"Delete selected tournament"
+
+# minformer
+
+mm_presskeymouse:"Press a key/mouse button"
+mm_presskeymousejoy:"Press a key/mouse button/joystick button"
+mm_movejoydesired:"Move joystick in desired axis"
+
+# mconfirm
+
+mm_confirmcaption:"APPLYING CHANGES"
+mm_confirmchanges:"Confirm new settings.<br>Reverting back to old settings in %.0f seconds."
+
+
+# mcontrols
+
+mm_mousesensitivity:"Mouse Sensitivity: "
+mm_invertmouse:"Invert Mouse: "
+mm_filtermouse:"Filter Mouse: "
+mm_controls:"Controls"
+mm_controlsc:"CONTROLS"
+mm_mousesettings:"MOUSE SETTINGS"
+mm_primarysecondary:"PRIMARY + SECONDARY"
+
+mm_catmovement:"Movement"
+mm_cathunt:"Hunt"
+mm_catother:"Game Binds"
+mm_cat3rdcam:"3rd Person"
+
+mt_oc_catmovement:"Configure movement controls"
+mt_oc_cathunt:"Configure hunt controls"
+mt_oc_catother:"Configure other controls"
+mt_oc_cat3rdcam:"Configure 3rd person camera controls"
+
+mt_oc_mousesensitivity:"Adjust mouse sensitivity"
+mt_oc_invertmouse:"Invert mouse Y axis motion"
+mt_oc_filtermouse:"Enable/Disable mouse motion smoothing"
+
+# mgraphics
+
+mm_advancedsettings:"ADVANCED SETTINGS"
+mm_performancesettings:"DETAILS & PERFORMANCE SETTINGS"
+mm_texturefiltering:"Texture Filtering: "
+mm_texturedetail:"Texture Detail: "
+mm_texturequality:"Texture Quality: "
+mm_texturecompression:"Texture Compression: "
+mm_brightness:"Brightness: "
+mm_synceveryframe:"Sync Every Frame: "
+mm_fullscreen:"Fullscreen: "
+mm_colordepth:"Color Depth: "
+mm_videomode:"Video Mode: "
+mm_renderer:"Renderer: "
+mm_graphicsdriver:"Graphics Driver: "
+mm_anisotropic:"Texture Sharpness: "
+mm_path:"Rendering path: "
+
+mm_bullettime:"Bullet Cam: "
+mm_treequality:"Tree Quality: "
+mm_shadows:"Shadows: "
+mm_zclip:"Viewing Distance: "
+mm_gore:"Gore: "
+mm_uimap:"Disable UI Map: "
+mm_grassdensity:"Detailed Vegetation Density: "
+mm_water_quality:"Water Quality: "
+
+mt_og_anisotropic:"Change texture sharpness settings"
+mt_og_texturefiltering:"Click to change texture filtering type"
+mt_og_texturedetail:"Click to change texture detail"
+mt_og_texturequality:"Click to change texture quality"
+mt_og_texturecompression:"Click to enable/disable texture compression"
+mt_og_brightness:"Adjust display brightness"
+mt_og_synceveryframe:"Enable/Disable synchronization on every frame"
+mt_og_fullscreen:"Click to change between windowed and fulscreen mode"
+mt_og_colordepth:"Click to change display color depth"
+mt_og_videomode:"Click to change display resolution"
+mt_og_renderer:"Click to change renderer"
+mt_og_graphicsdriver:"Click to change graphics driver"
+mt_og_path:"Click to change rendering path"
+
+mt_og_bullettime:"Click to change bullet cam settings"
+mt_og_treequality:"Adjust tree rendering quality"
+mt_og_shadows:"Click to change shadow rendering settings"
+mt_og_water_quality:"Click to change water rendering settings"
+mt_og_zclip:"Adjust viewing distance"
+mt_og_gore:"Determine whether gore death animations & blood will be used"
+mt_og_uimap:"Disable/enable UI background map"
+mt_og_grassdensity:"Set detailed vegetation density"
+
+# msound
+
+mm_sound:"Sound"
+mm_sounddriver:"Sound Driver: "
+mm_musicvolume:"Music Volume: "
+mm_sfxvolume:"SFX Volume: "
+mm_soundquality:"Sound Quality: "
+mm_reversestereo:"Reverse Stereo: "
+mm_soundbalance:"Sound Balance: "
+mm_disablemusic:"Disable Music: "
+mm_disablesound:"Disable Sound: "
+mm_disableuifocussound:"Disable UI Focus Sound: "
+mm_disablescenicmusic:"Disable Scenic Music: "
+
+mt_os_sounddriver:"Click to change sound driver"
+mt_os_musicvolume:"Adjust music volume"
+mt_os_sfxvolume:"Adjust sound volume"
+mt_os_soundquality:"Click to change sound quality"
+mt_os_soundbalance:"Adjust sound balance"
+mt_os_reversestereo:"Enable/Disable reversed stereo"
+mt_os_disablemusic:"Enable/Disable game music"
+mt_os_disablescenicmusic:"Enable/Disable game scenic music"
+mt_os_disablesound:"Enable/Disable game sounds"
+mt_os_disableuifocussound:"Enable/Disable UI focus sound"
+
+# mminigames
+
+mm_madhunt:"MAD HUNT"
+mm_archeryrange:"ARCHERY RANGE"
+mm_squirrelbash:"SQUIRREL BASH"
+mm_eagleflak:"BUZZARD BLAST"
+mm_deerdrive:"DEER DRIVE"
+
+mm_highscores:"HIGH SCORES"
+mm_play:"PLAY"
+mm_clearscore:"CLEAR SCORE"
+
+mt_mg_madhunt:"Click to select Mad Hunt game"
+mt_mg_archeryrange:"Click to select Archery Range game"
+mt_mg_squirrelbash:"Click to select Squirrel Bash game"
+mt_mg_eagleflak:"Click to select Buzzard Blast game"
+mt_mg_deerdrive:"Click to select Deer Drive game"
+mt_mg_back:"Return back to Main Menu"
+mt_mg_play:"Play selected mini game"
+mt_mg_clearscore:"Clear high scores for the selected mini game"
+mt_mg_weapons:"Click to select minigame weapon"
+
+mm_minibcamon:"Bullet Cam On"
+mm_minibcamoff:"Bullet Cam Off"
+
+# moptions
+
+mm_defaults:"Defaults"
+mm_graphics:"Graphics"
+mm_settings:"Settings"
+mm_actions:"Actions"
+
+mt_oo_cancel:"Return without any changes"
+mt_oo_apply:"Apply changes and return"
+mt_oo_defaults:"Load default values for settings on this page"
+mt_oo_graphics:"Configure graphics options"
+mt_oo_controls:"Configure controls"
+mt_oo_sound:"Configure sound options" 
+
+#muserwarn
+
+mm_userwarn:"Welcome to the @@game_name@@ User Mission Editor.<br offset=20> This feature is very powerful and lets you create very cool and detailed missions. Because there are so many possibilities and combinations, @@publisher@@ and SCS \ycannot\w support teaching users how to create missions.<br offset=10> There are several help files and tutorials available on the web by @@publisher@@ and SCS, and other users. Please go to @@game_web@@ for more info. Have fun, and remember the best way to learn is to experiment."
+
+# mweapon
+
+mm_scope:"Choose Scope"
+mm_weaponlist:"Weapon Selection"
+
+mt_wp_scope:"Click to select weapon scope"
+mt_wp_model:"Left click & drag to rotate/zoom. Right click to animate"
+
+et_closedialog:"Close dialog"
+
+# meq_weapons
+
+mm_weapons:"WEAPON SELECTION"
+mm_primary:"PRIMARY"
+mm_secondary:"SECONDARY"
+mm_weapons_info:"Click To Select Weapon"
+
+mm_weaptip:"Left click to setup, right click to remove"
+
+# meq_items
+
+mm_items:"Equipment"
+mm_backpack:"ACCESSORIES"
+mm_items_info:"Click To Equip Item"
+mm_noitem:"<align hstyle=center>Hover your mouse on item's icon to see its description</align>"
+
+# meq_camos
+
+mm_camos:"Camo Types"
+mm_camos_info:"Click To Change Camo"
+
+mt_ct_next:"Select next camo type"
+mt_ct_prev:"Select prev camo type"
+mt_ct_model:"Left click & drag to rotate"
+
+# mhelp
+
+df_hlp00_cap:"Welcome"
+df_hlp00:"Welcome to @@game_name@@"
+df_hlp00_txt00:"<align hstyle=center><color value=@@rgb_sbtn@@>Welcome to @@game_name@@<color value=@@rgb_nbtn@@></align><br offset=5>Welcome to @@game_name@@! For fans of the @@game_series@@ series, this installment has new locations and species for your hunting enjoyment and excitement. For new hunters, we are sure that you will find the @@game_name@@ experience extremely exciting and rewarding!<br offset=20>@@game_name@@ has a set of ToolTips to assist you in understanding the features of the game.  Every time you place your mouse pointer over a menu item, you will see text at the bottom of the display which gives you more information about that particular item or feature."
+df_hlp00_txt01:"<br offset=20>As in the last installment of @@game_series@@, you can embark on a Free Hunt without limitations.  You can also play the action packed and quick paced Challenges, where you are put right into the action. Hours of hunting are ahead of you."
+df_hlp00_txt02:"<br offset=20>@@game_name@@ has an improved in-game Mission Editor.  We have improved the usability, as well as the custom ability of the editor.  Create your own missions with improved animal interaction and share them with your buddies!<br offset=20>We have implemented graphic and Artificial Intelligence improvements to more accurately represent real life.  Along with an improved 'bullet cam' so you can see exactly where your shots are landing.  Allowing you to get closer to the action than ever before.<br offset=20>In @@game_name@@, we have brought back the Target Range.  Test out your sharp shooting skills and just plain have a blast!"
+df_hlp00_txt03:"<br offset=20>This in-game Help menu explains the basics of the game.  If you are having a true emergency, call 911.  Hands on experience and experimentation are the best way to understand all the options of the game.<br offset=20>The Game Animals menu will teach you a little about the huntable animals in the game, as well as letting you see them up close and in their habitat.<br offset=20>The Weapon Locker is a similar feature that gives you a brief description of the rifles, shotguns, and bows in @@game_name@@.  Some of the firearms may not be traditional hunting arms, but are fun for the target range or some of the more interesting Challenges.<br offset=20>The Map Overview menu gives you a look at each of the hunting areas available to you."
+df_hlp00_txt04:"<br offset=20>We at @@publisher@@ and SCS Software hope that you will enjoy the many hunts with @@game_name@@.  Now go out and have the hunt of a lifetime!"
+df_hlp00_txt05:"^"
+
+df_hlp01_cap:"Hunter And Trophies"
+df_hlp01:"Hunter Profile and Trophy Room"
+df_hlp01_txt00:"<align hstyle=center><color value=@@rgb_sbtn@@>Hunter Profile and Trophy Room<color value=@@rgb_nbtn@@></align><br offset=5>The default hunter is '@@g_pp_unnamed@@', but you can create your own hunting persona by selecting the Hunter Profile menu option.  Click on Create Hunter and you can enter your name, as well as choose from one of four body styles.  Select OK to accept the hunter and return to the previous menu.  You are also able to edit created hunters in this area as well."
+df_hlp01_txt01:"<br offset=20>When you start @@game_name@@ you will see the current hunter in the bottom right hand corner.  Select the Hunter Profile option to change the hunter.<br offset=20>Each hunter will collect awards as missions are completed.  This is displayed on the Main Menu as cups that appear over the name of the active hunter.  Trophy Cups will be awarded as the hunter completes the challenge objectives."
+df_hlp01_txt02:"<br offset=20><align hstyle=center><color value=@@rgb_sbtn@@>Trophy Room<color value=@@rgb_nbtn@@></align><br offset=5>You have a separate Trophy Room for each hunter that is created.  You can only view the trophy room of the active hunter.  You must have killed an animal, and moved it to your trophy room, in order for it to be listed and displayed.  Make sure to add your trophy to the trophy room after you exit your hunts, or it will be lost forever."
+df_hlp01_txt03:"<br offset=20>The Trophy Room shows your animal in full 3D with your hit locations.  All the important animal statistics are saved with your trophy."
+df_hlp01_txt04:"^"
+
+df_hlp02_cap:"Challenges"
+df_hlp02:"Challenges"
+df_hlp02_txt00:"<align hstyle=center><color value=@@rgb_sbtn@@>Challenges<color value=@@rgb_nbtn@@></align><br offset=5>The Challenges in @@game_name@@ are set up on a tier system.  You will have to complete the challenges on one tier to allow you to move onto the next.  Each tier has a different theme, allowing you to learn new skills.  You will get points for completing a mission, but you will also get points for the way you completed the mission.  Missions may have specific 'bonus' modifiers that will get you more points."
+df_hlp02_txt01:"<br offset=20>In the Challenges, you are set up with the equipment appropriate for the challenge.  Sometimes you may change these selections, and sometimes you are not able to."
+df_hlp02_txt02:"<br offset=20>@@game_name@@ no longer exits you from a mission automatically, as HU did. You can choose to continue on a mission for as long as you want. However, after a certain amount of time, or after you have spooked the animals, you may not get any points. You can always press @@__key_ingamemenu@@ and Restart the hunt. You will get a Thumbs Up icon if you have successfully completed your mission."
+df_hlp02_txt03:"<br offset=20><align hstyle=center><color value=@@rgb_sbtn@@>Changing Weapons and Items<color value=@@rgb_nbtn@@></align><br offset=5>In order to change a hunting item, simply click on the item (or empty slot).  This will bring up an inventory management screen where you can drag an item down to your slots.  You can remove items form your slots by clicking them."
+df_hlp02_txt04:"^"
+
+df_hlp03_cap:"Free Hunt"
+df_hlp03:"Free Hunt"
+df_hlp03_txt00:"<align hstyle=center><color value=@@rgb_sbtn@@>Free Hunt<color value=@@rgb_nbtn@@></align><br offset=5>In Free Hunt mode you are able to hunt at your own pace, with unlimited replay ability.  You are able to choose the map, weather, time, animal species and rate of occurrence, as well as your equipment.<br offset=20>Free Hunt allows you to explore the hunting areas at your leisure, as well as have an open hunt."
+df_hlp03_txt01:"<br offset=20>When selecting a Free Hunt you are able to determine what animal types and density of each animal.  You are also able select if you wish to have dangerous animals within the map.  The AI of each animal species determines if any particular animal is dangerous or not.  Your actions as the hunter in game will change how the animals perceive you.  They can go from docile to aggressive in mere seconds, so you will have to be aware of your surroundings and watch for signs that things might be dangerous."
+df_hlp03_txt02:"<br offset=20>The inventory system works the same in Free Hunt as it does in the Challenges.  Click on an inventory slot to open the full inventory.  @@game_name@@ will remember the items you have in your inventory and will be your default until you change them."
+df_hlp03_txt03:"^"
+
+df_hlp04_cap:"The Hunt View"
+df_hlp04:"The Hunt View"
+df_hlp04_txt00:"<align hstyle=center><color value=@@rgb_sbtn@@>Your HUD<color value=@@rgb_nbtn@@></align><br offset=5>The HUD (Heads Up Display) gives you all the information needed as you embark on your hunt. Remember to press @@__key_ingamemenu@@ to look at your Options at any time, including your Key Controls, and also to exit your hunt at any time (like when your boss is near)."
+df_hlp04_txt01:"<br offset=20><align hstyle=center><color value=@@rgb_sbtn@@>Compass and Wind Direction<color value=@@rgb_nbtn@@></align><br offset=5>In the Upper Left corner is your compass, and just next to it is your wind indicator. The orange-colored arrow symbol points to the direction you are currently facing. The orange LED indicator points in the direction the wind is blowing. You usually will want to hunt downwind of animals so they cannot smell you. It is always good to use cover scent if it is available to you. The strength of the wind is also indicated here."
+df_hlp04_txt02:"<br offset=20><align hstyle=center><color value=@@rgb_sbtn@@>Player Posture<color value=@@rgb_nbtn@@></align><br offset=5>The lower right corner has an icon of a hunter. It designates the position the hunter is currently in - Standing @@__key_cam_stand@@, Crouched @@__key_cam_crouch@@ or Prone @@__key_cam_prone@@. You move faster in more upright positions, but you also make more noise and are easier to see to the animals. You also will find that your aim is much improved by being in a prone position. Check out the Take Trophy Picture feature, which allows you to take great shots crouched near your downed trophy!"
+df_hlp04_txt03:"<br offset=20><align hstyle=center><color value=@@rgb_sbtn@@>Using Your Rifle, Bow or Shotgun<color value=@@rgb_nbtn@@></align><br offset=5>Your currently selected weapon is always shown on the bottom left of your display. Use your Raise Weapon and Fire Weapon keys to activate it. You can zoom in and out if you are using a scope. Remember that your aim is more steady if you are prone rather than standing."
+df_hlp04_txt04:"<br offset=20><align hstyle=center><color value=@@rgb_sbtn@@>Using Accessories<color value=@@rgb_nbtn@@></align><br offset=5>Use your Activate key to use the currently selected hunting item shown next to your weapon. Use your Next or Previous Item key to select a new item as the current item. You can also use quick keys to activate a certain item. These are the 1-8 keys on the keyboard.<br offset=20>For example, if the Grunt Call is in the number two slot and you want to use it while the binoculars are UP, just press the 2 key, rather than cycling through the list and selecting the grunt call. As you cycle through the list, the binoculars will go down. "
+df_hlp04_txt05:"The quick keys allow you to use two items at the same time. In this example you would be able to watch the animals reaction to the call through the binoculars.<br offset=20>You are also able to see a summary of your hunt using the In-Game Score Dialog key. "
+df_hlp04_txt06:"This shows you what animals you have taken and what type of modifiers are available if using a Challenge hunt."
+df_hlp04_txt07:"^"
+
+df_hlp05_cap:"Mission Editor"
+df_hlp05:"User Mission Editor"
+df_hlp05_txt00:"<align hstyle=center><color value=@@rgb_sbtn@@>User Mission Editor<color value=@@rgb_nbtn@@></align><br offset=5>In the User Missions you are able to play and create your own challenges.  This is a powerful level editor, but designed to be very intuitive and easy to use.  Creating a mission will not take long at all.<br offset=20>The Editor uses the ToolTips function as well.  If you have any questions about what something does, just put the pointer over the text and read what the ToolTip tells you about the feature."
+df_hlp05_txt01:"<br offset=20>The user created missions are located in the<BR>My Documents/@@game_name@@/Missions/<BR>folder on your computer. These are small files and easily emailed to your friends. They simply need to copy them into their folder (same as above) and they will then show up in their list.<br offset=20>More information about the Mission Editor and other cool things you can do to customize @@game_name@@ for your own use will be available on the @@game_web@@ website. Check it out for more links and tips."
+df_hlp05_txt02:"^"
+
+df_hlp06_cap:"Screenshots"
+df_hlp06:"Screenshots"
+df_hlp06_txt00:"<align hstyle=center><color value=@@rgb_sbtn@@>Screenshots<color value=@@rgb_nbtn@@></align><br offset=5>You can take very cool screenshots of your hunts using the @@__key_screenshot@@ key. Shots will be taken in PNG file format, a very common format that most graphics programs will recognize. Internet Explorer will view this format, but if you do not have a graphics program that will read it, we recommend going online and doing a search for a shareware or freeware program that will allow you to open the PNG files. The screenshots are placed in the<BR>My Documents/@@game_name@@/Screenshots/<BR>folder. As mentioned above, the Take Trophy Picture key is very cool and can be used for great screenshots of your hunt!"
+df_hlp06_txt01:"You can rotate all around to get the perfect angle on yourself as the Trophy Hunter."
+df_hlp06_txt02:"<br offset=20><align hstyle=center><color value=@@rgb_sbtn@@>Cheats<color value=@@rgb_nbtn@@></align><br offset=5>@@game_name@@ does have some cheats, but we will leave that up to you to find them! Have fun!"
+df_hlp06_txt03:"^"
+
+df_hlp07_cap:"Tournaments"
+df_hlp07:"Using Tournament Support"
+df_hlp07_txt00:"<align hstyle=center><color value=@@rgb_sbtn@@>Using Tournament Support<color value=@@rgb_nbtn@@></align><br offset=5>@@game_name@@ includes support for Online Tournament creation and participation. Please go to @@game_web@@ to create or participate in a Tournament. Details instructions are displayed there, and it is very easy to use."
+df_hlp07_txt01:"<br offset=20>To set a tournament up in @@game_name@@, you simply download a tourney file and save it to the My Documents/@@game_name@@/Tournaments/ folder. The tournament will then be available from within the Tournaments menu in the game. Once you have played the Tourney, you will be able to get a 'Score String' which you will copy from within the game and submit to the Tournament site. This will allow you to compete with other players from around the world."
+df_hlp07_txt02:"^"
+
+# muserwarn
+
+em_usermissions:"USER MISSIONS"
+
+# eselect
+
+em_selectarea:"SELECT AREA"
+em_filename:"Filename: "
+
+et_es_filename:"Enter mission file name here"
+et_es_ok:"Proceed to mission editor"
+et_es_cancel:"Return back"
+
+# mmapdb
+
+mm_md_prev:"Select previous map"
+mm_md_next:"Select next map"
+
+# emain
+
+et_em_select:"Set select mode"
+et_em_animal:"Place animal"
+et_em_ambient:"Place ambient animal"
+et_em_scriptpoint:"Place script point"
+et_em_player:"Place player start position"
+et_em_delete:"Set delete mode"
+et_em_trail:"Place animal trail"
+et_em_object:"Place object container"
+et_em_checkpoint:"Place checkpoint"
+et_em_cam1:"Set low camera"
+et_em_cam2:"Set mid camera"
+et_em_cam3:"Set high camera"
+et_em_cam4:"Set helicam"
+et_em_wspace:"Toggle workspace window"
+et_em_save:"Save mission to disk"
+et_em_run:"Run mission"
+et_em_exit:"Exit editor"
+
+et_em_general:"Edit mission general settings"
+et_em_goal:"Edit mission goals"
+et_em_gear:"Edit mission gear selection"
+et_em_missionobjects:"Toggle mission object list"
+
+em_generalsettings:"General Settings"
+em_goalsettings:"Goal Settings"
+em_gearsettings:"Gear Settings"
+em_missionobjects:"Mission Objects"
+em_windtext:"wind"
+
+#etrail
+
+em_bond:"Bound To: "
+em_blood:"Blood: "
+em_intensity:"Intensity: "
+em_trailproperties:"TRAIL PROPERTIES"
+
+et_tr_name:"Set trail name"
+et_tr_bond:"Set trail bond (connects trail segments)"
+et_tr_type:"Set trail type"
+et_tr_blood:"Determine if trail has also blood stains"
+et_tr_intensity:"Determine blood trail intensity"
+
+#echeckpoint
+
+em_chpointproperties:"CHECKPOINT PROPERTIES"
+em_message:"Message: "
+em_diameter:"Diameter: "
+em_score:"Score: "
+
+et_cp_name:"Set checkpoint name"
+et_cp_message:"Set checkpoint message"
+et_cp_diameter:"Set checkpoint diameter"
+et_cp_score:"Determine whether player will be awarded bonus points when walking through this point"
+
+# egeneral
+
+em_generalsettings_cap:"GENERAL SETTINGS"
+em_missiontier:"Mission Tier: "
+em_missionname:"Mission Name: "
+em_missionbriefing:"Mission Briefing: "
+em_weather:"Forecast: "
+em_month:"Month: "
+em_wind:"Wind: "
+em_timeofday:"Time: "
+em_author:"Author: "
+em_password:"Password: "
+em_dangerousanimals:"Dangerous Animals: "
+
+et_ge_missionname:"Enter mission name here"
+et_ge_missionbriefing:"Enter mission briefing here"
+et_ge_weather:"Select weather forecast"
+et_ge_month:"Select month"
+et_ge_wind:"Select wind type"
+et_ge_timeofday:"Set time of day"
+et_ge_author:"Enter mission author name here"
+et_ge_password:"Set edit password here"
+et_ge_dangerousanimals:"Determine whether animals can kill hunter"
+
+# egoal
+
+em_goalsettings_cap:"GOAL SETTINGS"
+em_slot1:"Slot 1: "
+em_slot2:"Slot 2: "
+em_slot3:"Slot 3: "
+em_tagsettings:"TAG SETTINGS"
+em_autogoals:"AUTOMATIC GOALS"
+em_warndist:"Warn At Distance: "
+
+et_go_slot:"Select hunting tag"
+et_go_warndist:"Flash warning when animals are further than specified distance (set to 0 to disable it)"
+
+# egear
+
+em_gearsettings_cap:"GEAR SETTINGS"
+em_secondaryslot:"Secondary Slot: "
+em_geartype:"Gear Type: "
+em_categories:"CATEGORIES"
+em_available:"AVAILABLE"
+em_items:"ITEMS"
+em_availableweapons:"Weapons : %u preselected of %u total available"
+em_availableequipment:"Equipment : %u preselected of %u total available"
+
+et_gr_secondaryslot:"Enable/Disable secondary weapon slot"
+et_gr_geartype:"Select gear type"
+
+# eweaponscope
+
+em_selectscopecaption:"SELECT SCOPE"
+
+# eanimal
+
+em_animalproperties:"ANIMAL PROPERTIES"
+em_species:"Species: "
+em_type:"Type: "
+em_scale:"Scale: "
+em_mate:"Mate: "
+em_left_antler_beam:"Left Antler Beam: "
+em_right_antler_beam:"Right Antler Beam: "
+em_lantler_scale:"L. Scale: "
+em_rantler_scale:"R. Scale: "
+em_antler_typicality:"Typicality: "
+em_antler_atypicality:"Atypicality: "
+em_bonustag:"Bonus Tag: "
+em_script:"Script "
+em_preset:"PRESET: "
+em_stressfactors:"STRESS FACTORS"
+em_startvalues:"START VALUES"
+
+em_growth_relief:"Growth/Relief: "
+em_hunterperception:"Hunter Perception: "
+em_enemyperception:"Enemy Perception: "
+em_preyperception:"Prey Perception: "
+em_mateperception:"Mate Perception: "
+em_partnerperception:"Partner Perception: "
+em_rivalperception:"Rival Perception: "
+em_painperception:"Pain Awareness: "
+em_callperception:"Calls Perception: "
+em_sex:"Lust: "
+
+em_hunger:"Hunger: "
+em_tiredness:"Tiredness: "
+em_thirst:"Thirst: "
+em_stress:"Stress: "
+em_aggression:"Aggression: "
+em_attack:"Attack Prob.: "
+em_an_score:"score"
+e_an_nomate:"[No Mate]"
+em_ps_calm:"Calm"
+em_ps_default:"Default"
+em_ps_insensitive:"Insensitive"
+em_ps_sensitive:"Sensitive"
+em_ps_aggressive:"Aggressive"
+
+et_em_growth_relief:"Determines how fast input generated by this sense grows/washes away"
+et_em_hunterperc:"Determines animal sensitivity to hunter presence"
+et_em_enemyperc:"Determines animal sensitivity to enemy presence"
+et_em_preyperc:"Determines animal sensitivity to prey presence"
+et_em_mateperc:"Determines animal sensitivity to its mate"
+et_em_partnerperc:"Determines animal sensitivity to its partner"
+et_em_rivalperc:"Determines animal sensitivity to its rival"
+et_em_painperc:"Determines animal sensitivity to pain"
+et_em_callperc:"Determines animal sensitivity to calls & lures"
+
+et_em_script:"Edit animal AI script"
+et_em_name:"Set animal name"
+et_em_species:"Choose animal species"
+et_em_type:"Choose animal type"
+et_em_preset:"Choose preset AI values"
+et_em_scale:"Set animal scale"
+et_em_mate:"Set animal mate (must be created before this animal creation)"
+et_em_lantler:"Choose left antler"
+et_em_rantler:"Choose right antler"
+et_em_bonustag:"Choose if hunter will receive bonus points for killing this specific animal"
+et_em_hunger:"Set start value for hunger"
+et_em_thirst:"Set start value for thirst"
+et_em_tiredness:"Set start value for tiredness"
+et_em_stress:"Set start value for stress"
+et_em_aggression:"Set start value for aggression"
+et_em_attack:"Set attack probability"
+et_em_sex:"Set start value for lust for opposite sex"
+
+#efactfade
+
+em_growth_relief_caption:"GROWTH/RELIEF SPEED"
+em_growth:"Growth Speed: "
+em_relief:"Relief Speed: "
+et_ff_growth:"Determines how fast input generated by this sense grows"
+et_ff_relief:"Determines how fast input generated by this sense washes away"
+
+#escript
+
+em_script_caption:"SCRIPT"
+em_close:"CLOSE"
+em_reached:"REACHED"
+em_set:"SET"
+em_unset:"N/A"
+em_inherited:"INHERIT"
+em_conditions:"CONDITIONS"
+em_factors:"FACTORS"
+em_action:"Action: "
+em_param:"Parameter :"
+em_stresslevel:"Stress Level: "
+em_time:"Time: "
+em_totaltime:"Total time: "
+em_danger:"Danger Level: "
+em_hit:"Hit: "
+em_alert:"Alert: "
+em_navigation:"Navigation: "
+em_notfilled:"Please select script action."
+em_commands:"SCRIPT COMMANDS"
+em_command_properties:"COMMAND PROPERTIES"
+em_exit_properties:"SCRIPT EXIT PROPERTIES"
+em_scriptexit:"SCRIPT EXIT"
+
+et_sc_action:"Select AI scrip action"
+et_sc_param:"Set action parameter"
+et_sc_stresslevel:"Set stress level value"
+et_sc_time:"Set maximum command processing time"
+et_sc_totaltime:"Set maximum script processing time"
+et_sc_danger:"Set maximum danger level value"
+et_sc_hit:"End command when hit"
+et_sc_alert:"End command when alerted"
+et_sc_navigation:"Set navigation state condition"
+et_sc_legacy:"Legacy command cannot be changed. You have to SET it first."
+et_sc_scriptexit:"Set script exit factors and conditions"
+et_sc_commbtn:"Select script command"
+et_sc_commset:"Set or unset script command"
+et_sc_factor:"Enable or disable factor value"
+et_sc_condition:"Enable or disable condition value"
+et_sc_exitset:"Set or unset exit factors and conditions"
+
+et_sca_move:"Move to specified script_point"
+et_sca_feed:"Find food area and feed there"
+et_sca_drink:"Find food area and drink there"
+et_sca_appetite:"Fulfill specified appetite need"
+et_sca_scrape:"Start SCRAPE behavior processor"
+et_sca_rest:"Start REST behavior processor"
+et_sca_search_mate:"Search for mate specified for this animal"
+et_sca_flee_from_hunter:"Flee from hunter"
+et_sca_flee:"Flee from specified animal"
+et_sca_attack_hunter:"Attack hunter"
+et_sca_pursue_animal:"Pursue specified animal"
+et_sca_harass:"Try to find & harass some partner"
+et_sca_serious_injury:"Start SERIOUS INJURY behavior processor" 
+et_sca_play_behavior:"Play specified behavior"
+et_sca_restart_script:"Restart script to first command"
+
+e_sc_replacequestion:"This action will delete current command.<br>Do you want to continue?"
+e_sc_replacecaption:"CONFIRM COMMAND DELETE"
+
+#escriptpoint
+
+em_scriptpointproperties:"SCRIPT POINT PROPERTIES"
+em_radius:"Radius: "
+
+et_sp_name:"Set script point name"
+et_sp_radius:"Set script point action area radius"
+
+#econtainer
+
+em_containerproperties:"CONTAINER PROPERTIES"
+
+em_ct_altitude:"Altitude:"
+et_ct_name:"Set container name"
+et_ct_type:"Choose predefined container type"
+et_ct_altitude:"Adjust container altitude"
+
+#eambient
+
+em_ambientproperties:"AMBIENT ANIMAL PROPERTIES"
+
+et_aa_name:"Set ambient animal name"
+et_aa_type:"Choose predefined ambient animal type"
+
+#eplayerstart
+
+em_pstartprops:"PLAYER START PROPERTIES"
+
+et_ps_name:"Set player start name"
+
+#gpause
+
+gm_paused:"GAME PAUSED<br>Press @@__key_gamepause@@ to continue"
+
+#ghud
+
+gm_changeweapon:"Change weapon"
+gm_changescope:"Change scope"
+gm_gamemenu:"Game menu"
+gm_exithunt:"Exit hunt"
+gm_exitrange:"Exit range"
+gm_exitminigame:"Exit mini game"
+gm_return2game:"Return to game"
+gm_return2range:"Return to range"
+gm_restartgame:"Restart hunt"
+gm_selecteqitem:"Select Hunting Gear"
+gm_tags:"Tags"
+
+mm_wind:"wind"
+mm_heading:"heading"
+
+gm_mini_score:"Score: "
+gm_mini_hitratio:"Hit Ratio: "
+
+#gmap
+
+gm_placemark:"Press F7 to mark spot."
+gm_clearmark:"Press F8 to clear marks."
+
+#gscore
+#gminiscore
+
+gm_score:"HUNT SCORE"
+gm_mini_scorecap:"MINIGAME SCORE"
+
+gm_mini_name:"Name: "
+gm_shotsfired:"Shots Fired: "
+gm_mini_weapon:"Weapon Used: "
+gm_mini_round:"Round: "
+
+gm_penalty:"Killed & Not Bagged Animal Penalty: "
+
+### CODE
+
+# vehicle.h
+
+g_vh_nodismount:"There is not enough space to dismount"
+g_vh_slowdown:"You have to slow down first"
+
+# items/weapon.cpp
+
+g_wp_sightsadj:"Sights elevation adjusted to %.1f moa"
+g_wp_sightsrst:"Sights elevation was reset to factory settings (%.1f moa = zero at %d yards)"
+
+# items/weapon_rifle.cpp 
+
+g_wr_noammo:"You must reload"
+
+# items/dropable.cpp
+
+g_dr_pick:"You have to pick it up first!"
+
+# ui/ingame/scopehdl.cpp
+
+g_ui_outrange:"Out Of Range"
+g_ui_yds:"yds"
+
+# storage/pprofile.cpp
+
+g_pp_unnamed:"JohnDoe"	# ONLY ALPHANUMERIC CHARS + '_' WILL BE PART OF FILENAME !!
+
+# ui/mchallengeshdl.cpp
+
+g_cg_tierdisabled:"You must achieve a passing score in the previous tier before this tier is unlocked."
+g_cg_tiernextmedal:"%s (%d points more to %s)"
+
+# ui/mminigameshdl.h
+
+g_mg_archeryrange:"Hone your archery skills to perfection in this fast-paced target-range, then invite your buddies to better your score. You have two minutes. Each hit awards you a score and some extra time at the range. The closer your aim is to bullseye, the better your award."
+g_mg_squirrelbash:"Squirrel Bash! Carried over from HU2 - it's a classic! Squirrels are everywhere. The little critters have overrun your backyard, and you'd better make sure they don't overrun your house too. You have just forty-five seconds to shoot as many of them as possible. Each squirrel shot will buy you some extra time and some points for your records, but watch out - these squirrels are fast, and they're gonna get a lot faster... "
+g_mg_madhunt:"NOT AVAILABLE. Your hunting buddies invited you to meet them out here at this obscure map-reference...strange, you can't seem to see them anywhere. What you can see though is a whole bunch of CRAZY animals just begging to be in the sights of your 7mm. Something's not quite right about these animals though. Shoot as many as possible. Each hit gets you extra time and some points. The longer you stay out there, the higher the score-rewards will be! Good luck!"
+g_mg_eagleflak:"Buzzard Bash! The buzzards have mutated and are now waging war against you! They have learned how to drop old bombs on you, and are trying their best to make you into buzzrd food. Use your trusty old 9mm pistol and blast the critters out of the sky! You get extra time for knocking down a buzzard, and also for detonating each bomb. Pretty far out, and pretty fun!"
+g_mg_deerdrive:"Deer Drive! Your buddies are driving the woods toward you, and you are holding all your party's deer tags! You can only take bucks during this hunt. Shoot as many as possible. Each hit gets you extra time and some points. The longer you stay out there, the higher the score-rewards will be! Good luck! - And of course, this is just a fun game, and is in no way meant to represent actuall hunting and the taking of this many deer. It's a game, have fun!"
+
+g_mg_clearcaption:"CLEAR HIGH SCORES"
+g_mg_clearquestion:"Do you realy want to clear high scores table for this minigame?"
+
+g_mg_noweaponcaption:"NO WEAPON SELECTED"
+g_mg_noweapontext:"You must select minigame weapon in order to play." 
+
+# ui/mmainhdl.cpp
+
+g_mm_version:"(pp v1.01) ver. "
+g_mm_emptyroom:"Your trophy room is empty."
+
+# ui/mtournamentshdl.cpp
+
+g_to_scoretournament:" Score string for tournament '%s' (%d points achieved)"
+g_to_scorebeginstring:"-BEGIN (CUT BELOW)"
+g_to_scoreendstring:"-END"
+
+# ui/mhunterhdl.cpp
+
+g_ht_deletequestion:"Do you really want to delete profile %s?"
+g_ht_deletecaption:"DELETE PROFILE"
+g_ht_cannotcreate:"Profile with given name already exists or could not be created"
+g_ht_notspecified:"_not specified_"
+
+# ui/mweaponhdl.cpp
+
+g_wp_noscope:"None Attached"
+g_wp_nascope:"Not Available"
+
+# ui/mmisionhdl.cpp
+
+mm_missions_info:"Click To Select Mission"
+
+g_mu_unnamed:"unnamed"
+g_mu_filename:"Enter filename"
+g_mu_replacequestion:"File '%s' already exists.<br>Do you want to overwrite it?"
+g_mu_replacecaption:"CONFIRM FILE OVERWRITE"
+g_mu_deletequestion:"Do you really want to delete mission '%s'?"
+g_mu_deletecaption:"DELETE MISSION"
+g_mu_summary:"%s at %s; %s conditions"
+
+# equipment select code
+
+g_eq_dragweapon:"Click on weapon to equip"
+g_eq_dragitem:"Click item to equip"
+
+g_select_weapon:"Click to select"
+
+# ui/mcontrolshdl.cpp
+
+g_oc_primaryplussecondary:"%s or %s"
+g_oc_notrigger:"*none*"
+g_oc_axis:"Axis"
+g_oc_noaxis:"No Axis"
+g_oc_ctlconflictcap:"CONFLICTING CONTROLS"
+g_oc_ctlconflict:"'<color value=@@rgb_sbtn@@>%s<color value=@@rgb_nbtn@@>' is already assigned to '<color value=@@rgb_sbtn@@>%s<color value=@@rgb_nbtn@@>'.<br>Do you want to reassign it?"
+
+# ui/mcontrolshdl.cpp (trigger names)
+
+g_oc_forward:"Forward: "
+g_oc_backward:"Backward: "
+g_oc_strafeleft:"Strafe Left: "
+g_oc_straferight:"Strafe Right: "
+g_oc_run:"Run Modifier: "
+g_oc_runtoggle:"Run Toggle: "
+g_oc_turnleft:"Turn Left: "
+g_oc_turnright:"Turn Right: "
+g_oc_lookup:"Look Up: "
+g_oc_lookdown:"Look Down: "
+g_oc_stand:"Stand: "
+g_oc_crouch:"Crouch: "
+g_oc_prone:"Prone: "
+
+g_oc_weapfire:"Fire Weapon: "
+g_oc_weapirons:"Toggle Scope/Iron Sights: "
+g_oc_weapload:"Reload Weapon: "
+g_oc_weapuse:"Raise/Lower Weapon: "
+g_oc_weapcycle:"Cycle Weapons: "
+g_oc_zoomin:"Scope Zoom In: "
+g_oc_zoomout:"Scope Zoom Out: "
+g_oc_incelevation:"Increase Sights Elevation: "
+g_oc_decelevation:"Decrease Sights Elevation: "
+g_oc_rstelevation:"Reset Sights Elevation: "
+g_oc_itemuse:"Use Current Item: "
+g_oc_itemprev:"Select Previous Item: "
+g_oc_itemnext:"Select Next Item: "
+g_oc_activate:"Interact (pick trophy...): "
+g_oc_photopose:"Take Trophy Picture: "
+
+g_oc_3rdperson:"Toggle 3rd Person View: "
+g_oc_vrotleft:"Rotate View Left: "
+g_oc_vrotright:"Rotate View Right: "
+g_oc_vrotup:"Rotate View Up: "
+g_oc_vrotdown:"Rotate View Down: "
+g_oc_vzoomin:"Zoom In: "
+g_oc_vzoomout:"Zoom Out: "
+
+g_oc_ingamemenu:"Show/Hide In-Game Menu: "
+g_oc_ingamescore:"Show In-Game Score Dialog: "
+g_oc_gamepause:"Pause Game: "
+g_oc_mapmark:"Mark Place on In-Game Map: "
+g_oc_mapclear:"Clear Marks from In-Game Map:: "
+g_oc_screenshot:"Take Screenshot: "
+
+# ui/mtroomhdl.cpp
+
+g_tr_dist:"%.1f yds"
+g_tr_weight:"%.0f lbs"
+
+g_tr_freehunt:"%s"
+g_tr_challenge:"%s - Challenge '%s'"
+g_tr_mission:"%s - Mission '%s'"
+g_tr_tournament:"%s - Tournament '%s'"
+
+g_tr_deletequestion:"Do you really want to delete this trophy?"
+g_tr_deletecaption:"DELETE TROPHY"
+
+# ui/mtournamentshdl.cpp
+
+g_tn_notournaments:"You do not have any tournaments downloaded and ready to play.<BR>Look for tournaments at \y@@game_web@@"
+g_tn_deadline:"%d day(s) %d hour(s) %d min(s)"
+
+g_tn_expired:"<color value=@@rgb_sbtn@@>EXPIRED"
+
+g_tn_deletequestion:"Do you really want to delete tournament '%s'?"
+g_tn_deletecaption:"DELETE TOURNAMENT"
+
+# ui/mfreehunthdl.cpp
+
+g_fh_pnone:"NONE"
+g_fh_plow:"LOW"
+g_fh_pmid:"MID"
+g_fh_phigh:"HIGH"
+
+# ui/mgraphicshdl.cpp
+
+g_og_unfiltered:"Linear"
+g_og_bilinear:"Bilinear"
+g_og_trilinear:"Trilinear"
+g_og_16bit:"16 bit"
+g_og_32bit:"32 bit"
+g_og_bits:"bit"
+g_og_hz:"Hz"
+
+g_og_btnever:"Never"
+g_og_btpromising:"Promising Shots"
+g_og_btalways:"All Shots"
+
+g_og_shnone:"None"
+g_og_shanimals:"Animals"
+g_og_shtrees:"Trees"
+g_og_shall:"Animals & Trees"
+
+g_og_rescaption:"WARNING"
+g_og_restext:"The game will now try to change current graphic settings. This operation may take a while..."
+
+g_og_devcaption:"WARNING"
+g_og_devtext:"Game needs to be restarted for this changes to take effect.<br>Apply changes?"
+
+# ui/msoundhdl.cpp
+
+g_os_nosound:"No Sound"
+g_os_11khz:"11 kHz"
+g_os_22khz:"22 kHz"
+g_os_44khz:"44 kHz"
+
+# ui/mmissionshdl.cpp
+
+g_um_tag4:"%s Tag"
+g_um_tagany:"Any Species Tag"
+
+# ui/edit/etrailhdl.cpp
+
+e_tr_anchor:"Anchor"
+
+# ui/edit/eselecthdl.cpp
+
+e_se_no_items:"No Items"
+e_se_replacequestion:"File '%s' already exists.<br>Do you want to overwrite it?"
+e_se_replacecaption:"CONFIRM FILE OVERWRITE"
+
+# ui/edit/emainhdl.cpp
+
+e_ma_deletequestion:"Do you really want to delete object '%s'?"
+e_ma_deletecaption:"DELETE OBJECT"
+e_ma_invposcaption:"PLACEMENT ERROR"
+e_ma_invpostext:"You cannot place it here."
+e_ma_passwordcaption:"ENTER PASSWORD"
+
+# ui/edit/egoalhdl.cpp
+
+e_go_notused:"- Not Used -"
+e_go_anyspecies:"- Any Species -"
+e_go_timebonuscaption:"ENTER TIME BONUS VALUE (SECONDS)"
+e_go_warndist:"%d yds"
+e_go_warndist_off:"OFF"
+e_go_warndistcaption:"ENTER WARNING DISTANCE (YARDS)"
+
+# ui/edit/egearhdl.cpp
+
+e_gr_na:"N/A"
+e_gr_all:"All"
+e_gr_available:"Available"
+e_gr_peritem:"Per Item"
+e_gr_preselected:"Preselected"
+
+et_gr_catname:"Click to display category items"
+et_gr_cattype:"Click to change category settings"
+et_gr_itemtype:"Click to set enable/disable, doubleclick to preselect"
+
+# actors/hunter.cpp
+
+g_ht_targetenter:"Press @@__key_ingamemenu@@ to change weapons or scopes, or to leave the range, @@__key_weap_irons@@ to aim."
+g_ht_glimpseanimal:"About %d yards %s from you..."
+g_ht_died:"You need to be more cautious!<br>Press @@__key_ingamemenu@@ to try again"
+
+g_ht_north:"north"
+g_ht_west:"west"
+g_ht_south:"south"
+g_ht_east:"east"
+
+# ai/ai_base.cpp
+
+aa_move:"MOVE"
+aa_wander:"WANDER"
+aa_feed:"FEED"
+aa_appetite:"APPETITE"
+aa_pursueanimal:"PURSUE ANIMAL"
+aa_drink:"DRINK"
+aa_rest:"REST"
+aa_hide:"HIDE"
+aa_sex:"MATING"
+aa_scrape:"SCRAPE"
+aa_searchmate:"SEARCH MATE"
+aa_fleehunter:"FLEE FROM HUNTER"
+aa_flee:"FLEE"
+aa_attackhunter:"ATTACK HUNTER"
+aa_fightanimal:"FIGHT ANIMAL"
+aa_fighttree:"FIGHT TREE"
+aa_seriousinjury:"SERIOUS INJURY"
+aa_playbehavior:"PLAY BEHAVIOR"
+aa_restartscript:"RESTART SCRIPT"
+aa_undefined:"UNDEFINED"
+
+aa_foodappetite:"FOOD APPETITE"
+aa_sexualappetite:"MATING APPETITE"
+
+# logic/level_ctrl.cpp
+
+bn_sniper:"'Long shot' awarded for long shot vital hit"
+bn_stealth:"'Close range shot' awarded for vital hit shot from very short distance"
+bn_sharpshooter:"'Single shot' awarded if you shot every killed animal with just one shot"
+bn_vitalhit:"'Vital Shot' awarded for a shot to the vitals"
+bn_vitalhead:"'Head Shot' awarded for killshot in the head"
+bn_vitalheart:"'Heart Shot' awarded for killshot in the heart"
+bn_vitallungs:"'Lung Shot' awarded for killshot in the lungs"
+bn_vitalspine:"'Spine Shot' awarded for killshot in the spine"
+bn_timelimit:"'Time Limit' awarded for completing mission before timer runs out"
+bn_animal:"'Correct Animal' awarded when a mission specified animal is bagged"
+bn_checkpoint:"'Checkpoint' awarded when mission defined checkpoint is reached"
+
+sp_loading_units:"LOADING UNITS"
+sp_assigning_units:"ASSIGNING UNITS"
+sp_initializing_units:"INITIALIZING UNITS"
+sp_loading_geometry:"LOADING GEOMETRY"
+sp_game_init:"INITIALIZING GAME"
+
+g_lc_cantbag:"You cannot bag this animal, no suitable tag available!"
+g_lc_targetscleared:"Targets cleared"
+g_lc_headshot:"Head shot!"
+g_lc_heartshot:"Heart shot!"
+g_lc_lungsshot:"Lung shot!"
+g_lc_spineshot:"Spine shot!"
+
+az_lungs:"Lungs"
+az_bowls:"Bowls"
+az_heart:"Heart"
+az_spine:"Spine"
+az_head:"Head"
+az_brain:"Brain"
+az_nothit:"Not Hit"
+
+g_lc_targetcloseupview:"To help with your aiming, a close-up view of the target is visible at the top-right corner of your display"
+g_lc_targethitscore:"Hit score: %d points"
+g_lc_miniscoreno:"YOU SCORE %d POINTS"
+g_lc_miniscoreyes:"YOU SCORE %d POINTS (RANKED %d.)"
+
+g_lc_an_notbagged_any:"Any Species Tag (not used yet)"
+g_lc_an_notbagged4:"%s Tag (not used yet)"
+g_lc_an_yesbagged:"%s %s<br>Trophy Score: %.2f<ret><offset hshift=270>Game Points: %.0f"
+g_lc_an_yesbagged_fh:"%s %s<br>Trophy Score: %.2f"
+g_lc_finalscore:"Final Score: %.0f points"
+g_lc_penalty:"%.0f points "
+
+g_lc_accomplished:"<img src=/material/ui/ingame/x_ok.mat><br>Hunt goals were accomplished.<br>Press @@__key_ingamescore@@ to end the hunt."
+g_lc_distfailed:"<img src=/material/ui/ingame/x_fail.mat><br>Animals are now more than %.0f yards away. You'll most likely fail on your hunt.<br>Press @@__key_ingamemenu@@ to Restart your hunt, or you can continue on."
+
+g_lc_miniadvanced:"<font xscale=3.0 yscale=3.0>ROUND %u</font>"
+g_lc_miniscore:"%dx%d<br>%s%d sec"
+
+g_lc_huntovercaption:"HUNTING TIME OVER"
+g_lc_huntoverquestion:"It's too late...<br>Do you want to try it again?"
+
+# environment/environment.cpp
+
+g_hour_00:"12 AM"
+g_hour_01:"1 AM"
+g_hour_02:"2 AM"
+g_hour_03:"3 AM"
+g_hour_04:"4 AM"
+g_hour_05:"5 AM"
+g_hour_06:"6 AM"
+g_hour_07:"7 AM"
+g_hour_08:"8 AM"
+g_hour_09:"9 AM"
+g_hour_10:"10 AM"
+g_hour_11:"11 AM"
+g_hour_12:"12 PM"
+g_hour_13:"1 PM"
+g_hour_14:"2 PM"
+g_hour_15:"3 PM"
+g_hour_16:"4 PM"
+g_hour_17:"5 PM"
+g_hour_18:"6 PM"
+g_hour_19:"7 PM"
+g_hour_20:"8 PM"
+g_hour_21:"9 PM"
+g_hour_22:"10 PM"
+g_hour_23:"11 PM"
+
+g_clock_00:"12:%02d AM"
+g_clock_01:"1:%02d AM"
+g_clock_02:"2:%02d AM"
+g_clock_03:"3:%02d AM"
+g_clock_04:"4:%02d AM"
+g_clock_05:"5:%02d AM"
+g_clock_06:"6:%02d AM"
+g_clock_07:"7:%02d AM"
+g_clock_08:"8:%02d AM"
+g_clock_09:"9:%02d AM"
+g_clock_10:"10:%02d AM"
+g_clock_11:"11:%02d AM"
+g_clock_12:"12:%02d PM"
+g_clock_13:"1:%02d PM"
+g_clock_14:"2:%02d PM"
+g_clock_15:"3:%02d PM"
+g_clock_16:"4:%02d PM"
+g_clock_17:"5:%02d PM"
+g_clock_18:"6:%02d PM"
+g_clock_19:"7:%02d PM"
+g_clock_20:"8:%02d PM"
+g_clock_21:"9:%02d PM"
+g_clock_22:"10:%02d PM"
+g_clock_23:"11:%02d PM"
+
+
+# actors/hunter[_1st].cpp
+
+g_ht_pronena:"You cannot get prone now!"
+g_ht_crouchna:"You cannot crouch now!"
+g_ht_standna:"You cannot stand up now!"
+g_ht_bowna:"You cannot raise bow here!"
+g_ht_toodeep:"It is too deep here!"
+g_ht_cantuseitem:"You cannot use it now!"
+
+# ghudhdl.cpp
+
+g_hd_wind0:"calm"
+g_hd_wind1:"light"
+g_hd_wind2:"gentle"
+g_hd_wind3:"moderate"
+g_hd_wind4:"strong"
+
+g_hd_weapusetip:"@@__key_weap_use@@ to raise/lower, then @@__key_weap_fire@@ to fire"
+g_hd_interacttip:"@@__key_item_activate@@ to activate"
+
+g_hd_trophyposetip:"Press @@__key_photopose@@ to exit Trophy Pose"
+g_hd_bulletcamtip:"Press [Esc], [Space] or [Mouse Button] to exit"
+
+# gmaphdl.cpp
+
+g_mp_mark2near:"There is already a mark nearby"
+
+# target.cpp
+
+g_tg_score:"Score:  %0.f"
+
+# game_process.cpp
+
+g_gp_failedsshot:"Failed to create the screenshot '%s'."
+
+### DATA
+
+# pba files
+
+pba_attack_hunter:"Attack Hunter"
+pba_food_appetite:"Appetite (Food)"
+pba_kill_hunter:"Kill Hunter"
+pba_stand_graze:"Graze (Stand)"
+pba_stand_graze1:"Graze (Stand) v.1"
+pba_stand_graze2:"Graze (Stand) v.2"
+pba_stand_graze_scrape:"Graze & Scrape (Stand)"
+pba_stand_graze_scrape1:"Graze & Scrape (Stand) v.1"
+pba_stand_sniff:"Sniff (Stand)"
+pba_alert:"Alert (Forward)"
+pba_alert_ne:"Alert (Forward/Right)"
+pba_alert_nw:"Alert (Forward/Left)"
+pba_alert_se:"Alert (Backward/Right)"
+pba_alert_sw:"Alert (Backward/Left)"
+pba_head_ex:"Extend Head"
+pba_head_shake:"Shake Head"
+pba_tail_up:"Shake Head"
+pba_gallop:"Gallop"
+pba_gallop_leap:"Leap"
+pba_lay:"Lay"
+pba_lay_look_left:"Look Left (Lay)"
+pba_lay_look_right:"Look Right (Lay)"
+pba_ramp:"Ramp"
+pba_ramp_walk:"Ramp Walk"
+pba_stand:"Stand"
+pba_stand_graze_scrape:"Graze/Scrape (Stand)"
+pba_stand_graze_scrape1:"Graze/Scrape (Stand) v.1"
+pba_stand_look_left:"Look Left (Stand)"
+pba_stand_look_right:"Look Right (Stand)"
+pba_stand_scrape:"Scrape (Stand)"
+pba_stand_scrape1:"Scrape (Stand) v.1"
+pba_stand_sniff:"Sniff (Stand)"
+pba_trott:"Trott"
+pba_trott1:"Trott v.1"
+pba_walk:"Walk"
+pba_walk_graze:"Graze (Walk)"
+pba_walk_look_left:"Look Left (Walk)"
+pba_walk_look_right:"Look Right (Walk)"
+pba_call:"Call"
+pba_look:"Look (Forward)"
+pba_look_ne:"Look (Forward/Right)"
+pba_look_nw:"Look (Forward/Left)"
+pba_look_se:"Look (Backward/Right)"
+pba_look_sw:"Look (Backward/Left)"
+
+reticle_color_dark:"ff404000"
+reticle_color_mild:"ff808000"
+reticle_color_bright:"ffa0a000"
+
+target_range_msg:"HU Corner Range"
+
+# mcredits
+
+ccap:"<br offset=35><color value=@@rgb_sbtn@@>"
+ctxt:"<br offset=5><color value=@@rgb_nbtn@@>"
+
+# * do not alter the following line *
+}
+

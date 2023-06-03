@@ -1,0 +1,11 @@
+SiiNunit {
+
+world : .world.arizona {
+ landscape_filename: "/maps/arizona/landscape.lnd"
+ billboards_filename: "/models/billboards.sii"
+ world_units_filename: "/maps/arizona/landscape.game.sii"
+ grass_filename: "/maps/arizona/grass.sii"
+ scenic_music_filename: "/script/scenic_music/desert.sii"
+}
+
+}

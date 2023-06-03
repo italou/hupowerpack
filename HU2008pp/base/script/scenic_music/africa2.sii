@@ -1,0 +1,11 @@
+SiiNunit {
+
+scenic_music : .scenic.music.africa {
+ target_sighted_filename: "/music/scenic/zambia/target_sighted.ogg"
+ animal_attacks_animal_filename: "/music/scenic/zambia/animal_keys_animal.ogg"
+ animal_attacks_hunter_filename: "/music/scenic/zambia/animal_keys_hunter.ogg"
+ level_opener_filename: "/music/scenic/africa/level_opener.ogg"
+ tutorial_opener_filename: "/music/tutorial_opener.ogg"
+}
+
+}

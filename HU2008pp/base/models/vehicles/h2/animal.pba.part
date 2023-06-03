@@ -1,0 +1,159 @@
+#
+# BEWARE!!! backwalk is mapped to trott state
+#
+
+@include "/models/animals/pba/attributes.pba.part"
+@include "/models/animals/pba/features.pba.part"
+
+animations {
+	"stand"	: "/models/vehicles/horse/stand.pma"
+	"walk"	: "/models/vehicles/horse/walk.pma"
+	"stand2walk"	: "/models/vehicles/horse/stand2walk.pma"
+	"walk2stand"	: "/models/vehicles/horse/walk2stand.pma"
+	"gallop"	: "/models/vehicles/horse/gallop.pma"
+	"leap"	: "/models/vehicles/horse/leap.pma"
+
+	"graze"	: "/models/vehicles/horse/grazing.pma" {
+		priority : "5"
+	}
+	"graze1"	: "/models/vehicles/horse/grazing1.pma" {
+		priority : "5"
+	}
+	"graze2"	: "/models/vehicles/horse/grazing1.pma" {
+		priority : "5"
+	}
+	"head_down"	: "/models/vehicles/horse/head_down.pma" {
+		priority : "5"
+	}
+	"head_ex"	: "/models/vehicles/horse/head_ex.pma" {
+		priority : "5"
+	}
+	"head_left"	: "/models/vehicles/horse/head_left.pma" {
+		priority : "5"
+	}
+	"head_right"	: "/models/vehicles/horse/head_right.pma" {
+		priority : "5"
+	}
+	"head_up"	: "/models/vehicles/horse/head_up.pma" {
+		priority : "5"
+	}
+	"call"	: "/models/vehicles/horse/call.pma" {
+		priority : "5"
+	}
+	"shake"	: "/models/vehicles/horse/shake.pma" {
+		priority : "5"
+	}
+	"scrape"	: "/models/vehicles/horse/scrape.pma" {
+		priority : "5"
+	}
+	"chew"	: "/models/vehicles/horse/chew.pma" {
+		priority : "15"
+	}
+	"sniff"	: "/models/vehicles/horse/sniff.pma" {
+		priority : "15"
+	}
+	"blink"	: "/models/vehicles/horse/blink_l.pma" {
+		priority : "15"
+	}
+	"eye_l"	: "/models/vehicles/horse/eye_l.pma" {
+		priority : "15"
+	}
+	"eye_r"	: "/models/vehicles/horse/eye_r.pma" {
+		priority : "15"
+	}
+	"ears_1"	: "/models/vehicles/horse/e_f_1.pma" {
+		priority : "15"
+	}
+	"ear_l"	: "/models/vehicles/horse/e_f_l.pma" {
+		priority : "15"
+	}
+	"ear_l1"	: "/models/vehicles/horse/e_f_l1.pma" {
+		priority : "15"
+	}
+	"ear_r"	: "/models/vehicles/horse/e_f_r.pma" {
+		priority : "15"
+	}
+	"ear_r1"	: "/models/vehicles/horse/e_f_r1.pma" {
+		priority : "15"
+	}
+	"alert"	: "/models/vehicles/horse/allert.pma" {
+		priority : "15"
+	}
+	"tail_flip"	: "/models/vehicles/horse/tail_flip.pma" {
+		priority : "15"
+	}
+	"tail_flip1"	: "/models/vehicles/horse/tail_flip1.pma" {
+		priority : "15"
+	}
+
+	"mount"		: "/models/vehicles/horse/mount.pma"
+	"dismount"	: "/models/vehicles/horse/dismount.pma"
+	"bolt"		: "/models/vehicles/horse/stand_idle.pma"
+	"turn_left"	: "/models/vehicles/horse/turn_left.pma"
+	"turn_right"	: "/models/vehicles/horse/turn_right.pma"
+	"backwalk"	: "/models/vehicles/horse/backwalk.pma"
+	"stand2backwalk"	: "/models/vehicles/horse/stnd2bckwlk.pma"
+	"backwalk2stand"	: "/models/vehicles/horse/bckwlk2stnd.pma"
+}
+
+behaviors {
+	# complete for processors - depends on processors
+	@include "/models/animals/pba/complete/stand.pba.bhv"
+	@include "/models/animals/pba/complete/walk.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/gallop.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/stand_look_left.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/stand_look_right.pba.bhv"
+	@include "/models/animals/pba/complete/stand_graze.pba.bhv"
+	@include "/models/animals/pba/complete/stand_sniff.pba.bhv"
+	@include "/models/animals/pba/complete/gallop_leap.pba.bhv"
+	@include "/models/animals/pba/complete/stand_scrape.pba.bhv"
+	@include "/models/animals/pba/complete/stand_graze_scrape.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/mount.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/dismount.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/bolt.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/turn_left.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/turn_right.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/backwalk.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/backoff.pba.bhv"
+	@include "/models/vehicles/horse/behaviors/backoff_fwd.pba.bhv"
+
+	# addons for processors
+	@include "/models/animals/pba/addons/chew.pba.bhv"
+	@include "/models/animals/pba/addons/ears_1.pba.bhv"
+	@include "/models/vehicles/horse/addons/ear_l.pba.bhv"
+	@include "/models/vehicles/horse/addons/ear_r.pba.bhv"
+	@include "/models/animals/pba/addons/blink.pba.bhv"
+	@include "/models/vehicles/horse/addons/eye_l.pba.bhv"
+	@include "/models/vehicles/horse/addons/eye_r.pba.bhv"
+	@include "/models/animals/pba/addons/sniff.pba.bhv"
+	@include "/models/vehicles/horse/addons/shake.pba.bhv"
+	@include "/models/vehicles/horse/addons/tail_flip.pba.bhv"
+	@include "/models/vehicles/horse/addons/tail_flip1.pba.bhv"
+}
+
+transitions {
+	simple {
+		@include "/models/animals/pba/simple_transitions/head_up.pba.bhv"
+		@include "/models/animals/pba/simple_transitions/head_down.pba.bhv"
+		@include "/models/animals/pba/simple_transitions/head_left.pba.bhv"
+		@include "/models/animals/pba/simple_transitions/head_right.pba.bhv"
+		@include "/models/animals/pba/simple_transitions/body_stand.pba.bhv"
+		@include "/models/animals/pba/simple_transitions/body_walk.pba.bhv"
+		@include "/models/animals/pba/simple_transitions/body_gallop.pba.bhv"
+	}
+
+	complex {
+		@include "/models/animals/pba/complex_transitions/stand2gallop.pba.bhv"
+		@include "/models/animals/pba/complex_transitions/stand2walk.pba.bhv"
+		@include "/models/animals/pba/complex_transitions/walk2stand.pba.bhv"
+		@include "/models/animals/pba/complex_transitions/walk2gallop.pba.bhv"
+		@include "/models/animals/pba/complex_transitions/gallop2walk.pba.bhv"
+		@include "/models/animals/pba/complex_transitions/gallop2stand.pba.bhv"
+		@include "/models/animals/pba/complex_transitions/stand2stand.pba.bhv"
+		@include "/models/animals/pba/complex_transitions/walk2walk.pba.bhv"
+		@include "/models/animals/pba/complex_transitions/gallop2gallop.pba.bhv"
+
+		@include "/models/vehicles/horse/complex_transitions/backwalk2stand.pba.bhv"
+		@include "/models/vehicles/horse/complex_transitions/stand2backwalk.pba.bhv"
+	}
+}

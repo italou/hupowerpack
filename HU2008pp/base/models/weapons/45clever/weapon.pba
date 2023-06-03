@@ -1,0 +1,48 @@
+"45c_lever" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/rifle/features.pba.part"
+	}
+
+	animations {
+		"raise"	: "/models/weapons/3030lever/raise.pma"
+		"lower"	: "/models/weapons/3030lever/lower.pma"
+
+		"open" : "/models/weapons/3030lever/open.pma"
+		"close" : "/models/weapons/3030lever/close.pma"
+		"load" : "/models/weapons/3030lever/load.pma"
+
+		"reload" : "/models/weapons/3030lever/reload.pma"
+		"fire" : "/models/weapons/3030lever/fire.pma"
+
+		"i_raise" : "/models/weapons/3030lever/i_raise.pma"
+		"i_lower" : "/models/weapons/3030lever/i_lower.pma"
+		"i_fire" : "/models/weapons/3030lever/i_fire.pma"
+		"i_reload" : "/models/weapons/3030lever/i_reload.pma"
+
+		"aim2hold" : "/models/weapons/3030lever/aim2hold.pma"
+		"hold2aim" : "/models/weapons/3030lever/hold2aim.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/rifle/raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/lower.pba.bhv"
+
+		@include "/models/weapons/3030lever/open.pba.bhv"
+		@include "/models/weapons/3030lever/close.pba.bhv"
+		@include "/models/weapons/3030lever/load.pba.bhv"
+
+		@include "/models/weapons/3030lever/reload.pba.bhv"
+		@include "/models/weapons/pba/rifle/fire.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/i_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_raise.pba.bhv"
+		@include "/models/weapons/3030lever/i_reload.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_fire.pba.bhv"
+		@include "/models/weapons/3030lever/i_open.pba.bhv"
+		@include "/models/weapons/3030lever/i_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/hold2up.pba.bhv"
+		@include "/models/weapons/pba/rifle/up2hold.pba.bhv"
+	}
+}

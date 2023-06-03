@@ -1,0 +1,27 @@
+SiiNunit
+{
+
+fog : .fog.cloud {
+  far_density: 0.9f
+  base_color: (0.204f, 0.275f, 0.294f)
+}
+
+environment : .rain {
+  pretty_name: "@@df_weather_rain@@"
+  skybox_look_name: "africa_c"
+  skybox_variant_name: "africa"
+  skybox_cloudiness: 0.7f
+
+  temperature: temperature.mild
+  humidity: humidity.wet
+  wind: wind.gentle
+  sun: sun.normal
+  fog: .fog.cloud
+  rain: rain.normal
+  snow: snow.normal
+  lightning: lightning.normal
+
+  ambient_sounds_fullpath: "/sounds/ambient/amb_desert_rain.sii"
+}
+
+}

@@ -1,0 +1,10 @@
+material : "hu.dif_spec.nm_offs.env" {
+	texture[0] : "/models/weapons/50cmagbolt/stock.tobj"
+	normalmap : "/models/weapons/375magbolt/stock_no.tobj"
+	texture[1] : "/material/environment/generic_reflection.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.0909 , 0.0909 , 0.0909 }
+	shininess : 99
+	env_factor : { 1 , 1 , 1 }
+}

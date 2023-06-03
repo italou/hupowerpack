@@ -1,0 +1,8 @@
+material : "hu.dif.nm_offs" {
+	texture[0] : "/models/vehicles/a2/rw.tobj"
+	normalmap[0] : "/models/vehicles/a2/fw_nm.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0 , 0 , 0 }
+	shininess : 16
+}

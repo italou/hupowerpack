@@ -1,0 +1,8 @@
+material : "hu.dif_spec.nm_offs" {
+	texture[0] : "/models/vehicles/h3/zebra.tobj"
+	normalmap[0] : "/models/vehicles/horse/nm.tobj"
+	ambient : { 0.91736 , 0.91736 , 0.91736 }
+	diffuse : { 0.66116 , 0.66116 , 0.66116 }
+	specular : { 0.14876 , 0.14876 , 0.14876 }
+	shininess : 30
+}

@@ -1,0 +1,10 @@
+material : "hu.dif_spec.nm_offs.env" {
+	texture[0] : "/models/weapons/17hmrlever/rest.tobj"
+	normalmap : "/models/weapons/243lever/rest_no.tobj"
+	texture[1] : "/material/environment/generic_reflection.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.75206 , 0.75206 , 0.75206 }
+	shininess : 60
+	env_factor : { 1 , 1 , 1 }
+}

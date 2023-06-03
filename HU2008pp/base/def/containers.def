@@ -1,0 +1,1490 @@
+extdefs "basedefs.def"
+
+#################
+# model containers
+#################
+def box_stand:container_base {
+	name:"@@df_ct_boxstand@@"
+	script:"/script/container/boxstand.sii"
+	avoid_by_animals:"true"
+	map_icon:"/materials/ui/icon/m_boxstand.mat"
+}
+
+def carrion_elk:container_base {
+	name:"@@df_ct_carrion_elk@@"
+	script:"/script/container/carrion_elk.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def carrion_moose:container_base {
+	name:"@@df_ct_carrion_moose@@"
+	script:"/script/container/carrion_moose.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def gravestone_cross:container_base {
+	name:"@@df_ct_gravestone1@@"
+	script:"/script/container/gravestone_cross.sii"
+	avoid_by_animals:"true"
+}
+
+def gravestone_desk:container_base {
+	name:"@@df_ct_gravestone2@@"
+	script:"/script/container/gravestone_desk.sii"
+	avoid_by_animals:"true"
+}
+
+def camp_fire:container_base {
+	name:"@@df_ct_campfire@@"
+	script:"/script/container/campfire.sii"
+	align2surface:"true"
+}
+
+def pneu:container_base {
+	name:"@@df_ct_oldtire@@"
+	script:"/script/container/pneu.sii"
+	align2surface:"true"
+}
+
+def skull:container_base {
+	name:"@@df_ct_skull@@"
+	script:"/script/container/skull.sii"
+	align2surface:"true"
+}
+
+def barrel:container_base {
+	name:"@@df_ct_barrel@@"
+	script:"/script/container/barrel.sii"
+	align2surface:"true"
+}
+
+def barrel_green:container_base {
+	name:"@@df_ct_barrel_green@@"
+	script:"/script/container/barrel_green.sii"
+	align2surface:"true"
+}
+
+def scarecrows:container_base {
+	name:"@@df_ct_scarecrow_pumpkin@@"
+	script:"/script/container/scarecrows.sii"
+	avoid_by_animals:"true"
+}
+
+def scarecrows_metal:container_base {
+	name:"@@df_ct_scarecrow_metal@@"
+	script:"/script/container/scarecrows_metal.sii"
+	avoid_by_animals:"true"
+}
+
+def tent_green:container_base {
+	name:"@@df_ct_tentgreen@@"
+	script:"/script/container/tent_green.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def tent_yellow:container_base {
+	name:"@@df_ct_tentsand@@"
+	script:"/script/container/tent_yellow.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def flag_usa:container_base {
+	name:"@@df_ct_flagusa@@"
+	script:"/script/container/flag_usa.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def flag_canada:container_base {
+	name:"@@df_ct_flagcanada@@"
+	script:"/script/container/flag_canada.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def flag_zambia:container_base {
+	name:"@@df_ct_flagzambia@@"
+	script:"/script/container/flag_zambia.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def flag_portugal:container_base {
+	name:"@@df_ct_flagportugal@@"
+	script:"/script/container/flag_portugal.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def flag_brazil:container_base {
+	name:"@@df_ct_flagbrazil@@"
+	script:"/script/container/flag_brazil.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def flag_spain:container_base {
+	name:"@@df_ct_flagspain@@"
+	script:"/script/container/flag_spain.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def epole_light:container_base {
+	name:"@@df_ct_epole_light@@"
+	script:"/script/container/epole_light.sii"
+	align2surface:"true"
+}
+
+def epole_dark:container_base {
+	name:"@@df_ct_epole_dark@@"
+	script:"/script/container/epole_dark.sii"
+	align2surface:"true"
+}
+
+def epoleend_light:container_base {
+	name:"@@df_ct_epoleend_light@@"
+	script:"/script/container/epoleend_light.sii"
+	align2surface:"true"
+}
+
+def epoleend_dark:container_base {
+	name:"@@df_ct_epoleend_dark@@"
+	script:"/script/container/epoleend_dark.sii"
+	align2surface:"true"
+}
+
+def epoled_light:container_base {
+	name:"@@df_ct_epoled_light@@"
+	script:"/script/container/epoled_light.sii"
+	align2surface:"true"
+}
+
+def epoled_dark:container_base {
+	name:"@@df_ct_epoled_dark@@"
+	script:"/script/container/epoled_dark.sii"
+	align2surface:"true"
+}
+
+def epoledend_light:container_base {
+	name:"@@df_ct_epoledend_light@@"
+	script:"/script/container/epoledend_light.sii"
+	align2surface:"true"
+}
+
+def epoledend_dark:container_base {
+	name:"@@df_ct_epoledend_dark@@"
+	script:"/script/container/epoledend_dark.sii"
+	align2surface:"true"
+}
+
+def ammobox_lay:container_base {
+	name:"@@df_ct_ammolay@@"
+	script:"/script/container/ammo_lay.sii"
+	align2surface:"true"
+}
+
+def ammobox_stnd:container_base {
+	name:"@@df_ct_ammostnd@@"
+	script:"/script/container/ammo_stand.sii"
+	align2surface:"true"
+}
+
+def can:container_base {
+	name:"@@df_ct_can@@"
+	script:"/script/container/can.sii"
+	align2surface:"true"
+}
+
+def haypack:container_base {
+	name:"@@df_ct_haypack@@"
+	script:"/script/container/haypack.sii"
+	align2surface:"true"
+}
+
+def totem:container_base {
+	name:"@@df_ct_totem@@"
+	script:"/script/container/totem.sii"
+	align2surface:"true"
+}
+
+def ranger_civil:container_base {
+	name:"@@df_ct_ranger_civil@@"
+	script:"/script/container/ranger_civil.sii"
+	align2surface:"true"
+}
+
+def ranger_army:container_base {
+	name:"@@df_ct_ranger_army@@"
+	script:"/script/container/ranger_army.sii"
+	align2surface:"true"
+}
+
+def ranger_white:container_base {
+	name:"@@df_ct_ranger_white@@"
+	script:"/script/container/ranger_white.sii"
+	align2surface:"true"
+}
+
+def tractor:container_base {
+	name:"@@df_ct_tractor@@"
+	script:"/script/container/tractor.sii"
+	align2surface:"true"
+}
+
+def tank_army:container_base {
+	name:"@@df_ct_tank_army@@"
+	script:"/script/container/tank_army.sii"
+	align2surface:"true"
+}
+
+def tank_rusty:container_base {
+	name:"@@df_ct_tank_rusty@@"
+	script:"/script/container/tank_rusty.sii"
+	align2surface:"true"
+}
+
+def carwreck:container_base {
+	name:"@@df_ct_carwreck@@"
+	script:"/script/container/carwreck.sii"
+	align2surface:"true"
+}
+
+def landrover_blue:container_base {
+	name:"@@df_ct_landrover_blue@@"
+	script:"/script/container/landrover_blue.sii"
+	align2surface:"true"
+}
+
+def landrover_green:container_base {
+	name:"@@df_ct_landrover_green@@"
+	script:"/script/container/landrover_green.sii"
+	align2surface:"true"
+}
+
+def landroverd_blue:container_base {
+	name:"@@df_ct_landroverd_blue@@"
+	script:"/script/container/landroverd_blue.sii"
+	align2surface:"true"
+}
+
+def landroverd_green:container_base {
+	name:"@@df_ct_landroverd_green@@"
+	script:"/script/container/landroverd_green.sii"
+	align2surface:"true"
+}
+
+def boat:container_base {
+	name:"@@df_ct_boat@@"
+	script:"/script/container/boat.sii"
+	align2surface:"true"
+}
+
+def boat_light:container_base {
+	name:"@@df_ct_boat_light@@"
+	script:"/script/container/boat_light.sii"
+	align2surface:"true"
+}
+
+def sinkboat:container_base {
+	name:"@@df_ct_sinkboat@@"
+	script:"/script/container/sinkboat.sii"
+	align2surface:"true"
+}
+
+def dc10:container_base {
+	name:"@@df_ct_dc10@@"
+	script:"/script/container/dc10.sii"
+	align2surface:"true"
+}
+
+def plane:container_base {
+	name:"@@df_ct_plane@@"
+	script:"/script/container/plane.sii"
+	align2surface:"true"
+}
+
+def bucket:container_base {
+	name:"@@df_ct_bucket@@"
+	script:"/script/container/bucket.sii"
+	align2surface:"true"
+}
+
+def feeder_slvr:container_base {
+	name:"@@df_ct_federsilver@@"
+	script:"/script/container/feeder_silver.sii"
+	align2surface:"true"
+}
+
+def feeder_stnd:container_base {
+	name:"@@df_ct_federstained@@"
+	script:"/script/container/feeder_stained.sii"
+	align2surface:"true"
+}
+
+def feeder_lght:container_base {
+	name:"@@df_ct_federlight@@"
+	script:"/script/container/feeder_light.sii"
+	align2surface:"true"
+}
+
+def drag:container_base {
+	name:"@@df_ct_drag@@"
+	script:"/script/container/drag.sii"
+	align2surface:"true"
+}
+
+def bridge:container_base {
+	name:"@@df_ct_bridge@@"
+	script:"/script/container/bridge.sii"
+	align2surface:"true"
+}
+
+def footbridge:container_base {
+	name:"@@df_ct_footbridge@@"
+	script:"/script/container/footbridge.sii"
+	align2surface:"true"
+}
+
+def arizbridge:container_base {
+	name:"@@df_ct_arizbridge@@"
+	script:"/script/container/arizbridge.sii"
+	align2surface:"true"
+}
+
+def barrage:container_base {
+	name:"@@df_ct_barrage@@"
+	script:"/script/container/barrage.sii"
+	align2surface:"true"
+}
+
+def damm:container_base {
+	name:"@@df_ct_damm@@"
+	script:"/script/container/damm.sii"
+	align2surface:"true"
+}
+
+def axe:container_base {
+	name:"@@df_ct_axe@@"
+	script:"/script/container/axe.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def board_light:container_base {
+	name:"@@df_ct_board_light@@"
+	script:"/script/container/board_light.sii"
+	align2surface:"true"
+}
+
+def board_silver:container_base {
+	name:"@@df_ct_board_silver@@"
+	script:"/script/container/board_silver.sii"
+	align2surface:"true"
+}
+
+def board_stained:container_base {
+	name:"@@df_ct_board_stained@@"
+	script:"/script/container/board_stained.sii"
+	align2surface:"true"
+}
+
+def boardb_light:container_base {
+	name:"@@df_ct_boardb_light@@"
+	script:"/script/container/boardb_light.sii"
+	align2surface:"true"
+}
+
+def boardb_silver:container_base {
+	name:"@@df_ct_boardb_silver@@"
+	script:"/script/container/boardb_silver.sii"
+	align2surface:"true"
+}
+
+def boardb_stained:container_base {
+	name:"@@df_ct_boardb_stained@@"
+	script:"/script/container/boardb_stained.sii"
+	align2surface:"true"
+}
+
+def boardb1_light:container_base {
+	name:"@@df_ct_boardb1_light@@"
+	script:"/script/container/boardb1_light.sii"
+	align2surface:"true"
+}
+
+def boardb1_silver:container_base {
+	name:"@@df_ct_boardb1_silver@@"
+	script:"/script/container/boardb1_silver.sii"
+	align2surface:"true"
+}
+
+def boardb1_stained:container_base {
+	name:"@@df_ct_boardb1_stained@@"
+	script:"/script/container/boardb1_stained.sii"
+	align2surface:"true"
+}
+
+def bomb:container_base {
+	name:"@@df_ct_bomb@@"
+	script:"/script/container/bomb.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def branchdry:container_base {
+	name:"@@df_ct_branchdry@@"
+	script:"/script/container/branchdry.sii"
+	align2surface:"true"
+}
+
+def brokentree1:container_base {
+	name:"@@df_ct_brokentree1@@"
+	script:"/script/container/brokentree1.sii"
+	align2surface:"true"
+}
+
+def brokentree2:container_base {
+	name:"@@df_ct_brokentree2@@"
+	script:"/script/container/brokentree2.sii"
+	align2surface:"true"
+}
+
+def brokentree3:container_base {
+	name:"@@df_ct_brokentree3@@"
+	script:"/script/container/brokentree3.sii"
+	align2surface:"true"
+}
+
+def brokentree4:container_base {
+	name:"@@df_ct_brokentree4@@"
+	script:"/script/container/brokentree4.sii"
+	align2surface:"true"
+}
+
+def trunk:container_base {
+	name:"@@df_ct_trunk@@"
+	script:"/script/container/trunk.sii"
+	align2surface:"true"
+}
+
+def log:container_base {
+	name:"@@df_ct_log@@"
+	script:"/script/container/log.sii"
+	align2surface:"true"
+}
+
+def log_cuted:container_base {
+	name:"@@df_ct_log_cuted@@"
+	script:"/script/container/log_cuted.sii"
+	align2surface:"true"
+}
+
+def log_trunk:container_base {
+	name:"@@df_ct_log_trunk@@"
+	script:"/script/container/log_trunk.sii"
+	align2surface:"true"
+}
+
+def log_trunk1:container_base {
+	name:"@@df_ct_log_trunk1@@"
+	script:"/script/container/log_trunk1.sii"
+	align2surface:"true"
+}
+
+def log_trunk2:container_base {
+	name:"@@df_ct_log_trunk2@@"
+	script:"/script/container/log_trunk2.sii"
+	align2surface:"true"
+}
+
+def log2:container_base {
+	name:"@@df_ct_log2@@"
+	script:"/script/container/log2.sii"
+	align2surface:"true"
+}
+
+def log2_cuted:container_base {
+	name:"@@df_ct_log2_cuted@@"
+	script:"/script/container/log2_cuted.sii"
+	align2surface:"true"
+}
+
+def log2_trunk:container_base {
+	name:"@@df_ct_log2_trunk@@"
+	script:"/script/container/log2_trunk.sii"
+	align2surface:"true"
+}
+
+def log2_trunk1:container_base {
+	name:"@@df_ct_log2_trunk1@@"
+	script:"/script/container/log2_trunk1.sii"
+	align2surface:"true"
+}
+
+def log2_trunk2:container_base {
+	name:"@@df_ct_log2_trunk2@@"
+	script:"/script/container/log2_trunk2.sii"
+	align2surface:"true"
+}
+
+def chair:container_base {
+	name:"@@df_ct_chair@@"
+	script:"/script/container/chair.sii"
+	align2surface:"true"
+}
+
+def chairbroken:container_base {
+	name:"@@df_ct_chairbroken@@"
+	script:"/script/container/chairbroken.sii"
+	align2surface:"true"
+}
+
+def desk:container_base {
+	name:"@@df_ct_desk@@"
+	script:"/script/container/desk.sii"
+	align2surface:"true"
+}
+
+def desk_long:container_base {
+	name:"@@df_ct_desk_long@@"
+	script:"/script/container/desk_long.sii"
+	align2surface:"true"
+}
+
+def diggings:container_base {
+	name:"@@df_ct_diggings@@"
+	script:"/script/container/diggings.sii"
+	align2surface:"true"
+}
+
+def diggings_desert:container_base {
+	name:"@@df_ct_diggings_desert@@"
+	script:"/script/container/diggings_desert.sii"
+	align2surface:"true"
+}
+
+def drain:container_base {
+	name:"@@df_ct_drain@@"
+	script:"/script/container/drain.sii"
+	align2surface:"true"
+}
+
+def fan:container_base {
+	name:"@@df_ct_fan@@"
+	script:"/script/container/fan.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def fencing_board:container_base {
+	name:"@@df_ct_fencing_board@@"
+	script:"/script/container/fencing_board.sii"
+	align2surface:"true"
+}
+
+def fencing_gateright:container_base {
+	name:"@@df_ct_fencing_gateright@@"
+	script:"/script/container/fencing_gateright.sii"
+	align2surface:"true"
+}
+
+def fencing_gateleft:container_base {
+	name:"@@df_ct_fencing_gateleft@@"
+	script:"/script/container/fencing_gateleft.sii"
+	align2surface:"true"
+}
+
+def fencing_pale:container_base {
+	name:"@@df_ct_fencing_pale@@"
+	script:"/script/container/fencing_pale.sii"
+	align2surface:"true"
+}
+
+def xfence:container_base {
+	name:"@@df_ct_xfence@@"
+	script:"/script/container/xfence.sii"
+	align2surface:"true"
+}
+
+def house:container_base {
+	name:"@@df_ct_house@@"
+	script:"/script/container/house.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def house2floor:container_base {
+	name:"@@df_ct_house2floor@@"
+	script:"/script/container/house2floor.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hgarage:container_base {
+	name:"@@df_ct_hgarage@@"
+	script:"/script/container/hgarage.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def h2garage:container_base {
+	name:"@@df_ct_h2garage@@"
+	script:"/script/container/h2garage.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hguard:container_base {
+	name:"@@df_ct_hguard@@"
+	script:"/script/container/hguard.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hcabin:container_base {
+	name:"@@df_ct_hcabin@@"
+	script:"/script/container/hcabin.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def reservoir:container_base {
+	name:"@@df_ct_reservoir@@"
+	script:"/script/container/reservoir.sii"
+	align2surface:"true"
+}
+
+def silo:container_base {
+	name:"@@df_ct_silo@@"
+	script:"/script/container/silo.sii"
+	align2surface:"true"
+}
+
+def siloladder:container_base {
+	name:"@@df_ct_siloladder@@"
+	script:"/script/container/siloladder.sii"
+	align2surface:"true"
+}
+
+def hshed:container_base {
+	name:"@@df_ct_hshed@@"
+	script:"/script/container/hshed.sii"
+	align2surface:"true"
+}
+
+def hcowshed:container_base {
+	name:"@@df_ct_hcowshed@@"
+	script:"/script/container/hcowshed.sii"
+	align2surface:"true"
+}
+
+def hroof:container_base {
+	name:"@@df_ct_hroof@@"
+	script:"/script/container/hroof.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hbigruins:container_base {
+	name:"@@df_ct_hbigruins@@"
+	script:"/script/container/hbigruins.sii"
+	align2surface:"true"
+}
+
+def ruinhouse:container_base {
+	name:"@@df_ct_ruinhouse@@"
+	script:"/script/container/ruinhouse.sii"
+	align2surface:"true"
+}
+
+def hchurchruins:container_base {
+	name:"@@df_ct_hchurchruins@@"
+	script:"/script/container/hchurchruins.sii"
+	align2surface:"true"
+}
+
+def hut:container_base {
+	name:"@@df_ct_hut@@"
+	script:"/script/container/hut.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hutruins:container_base {
+	name:"@@df_ct_hutruins@@"
+	script:"/script/container/hutruins.sii"
+	align2surface:"true"
+}
+
+def ruinfoundation:container_base {
+	name:"@@df_ct_ruinfoundation@@"
+	script:"/script/container/ruinfoundation.sii"
+	align2surface:"true"
+}
+
+def ruinfoundation_snow:container_base {
+	name:"@@df_ct_ruinfoundation_snow@@"
+	script:"/script/container/ruinfoundation_snow.sii"
+	align2surface:"true"
+}
+
+def ruinstation:container_base {
+	name:"@@df_ct_ruinstation@@"
+	script:"/script/container/ruinstation.sii"
+	align2surface:"true"
+}
+
+def ruinstationafr:container_base {
+	name:"@@df_ct_ruinstationafr@@"
+	script:"/script/container/ruinstationafr.sii"
+	align2surface:"true"
+}
+
+def lighthouse:container_base {
+	name:"@@df_ct_lighthouse@@"
+	script:"/script/container/lighthouse.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def ladder:container_base {
+	name:"@@df_ct_ladder@@"
+	script:"/script/container/ladder.sii"
+	align2surface:"true"
+}
+
+def pool:container_base {
+	name:"@@df_ct_pool@@"
+	script:"/script/container/pool.sii"
+	align2surface:"true"
+}
+
+def pumppod:container_base {
+	name:"@@df_ct_pumppod@@"
+	script:"/script/container/pumppod.sii"
+	align2surface:"true"
+}
+
+def pumpwheel:container_base {
+	name:"@@df_ct_pumpwheel@@"
+	script:"/script/container/pumpwheel.sii"
+	align2surface:"true"
+}
+
+def rail:container_base {
+	name:"@@df_ct_rail@@"
+	script:"/script/container/rail.sii"
+	align2surface:"true"
+}
+
+def rail_curved:container_base {
+	name:"@@df_ct_rail_curved@@"
+	script:"/script/container/rail_curved.sii"
+	align2surface:"true"
+}
+
+def rail_end:container_base {
+	name:"@@df_ct_rail_end@@"
+	script:"/script/container/rail_end.sii"
+	align2surface:"true"
+}
+
+def sack:container_base {
+	name:"@@df_ct_sack@@"
+	script:"/script/container/sack.sii"
+	align2surface:"true"
+}
+
+def sign_farm:container_base {
+	name:"@@df_ct_sign_farm@@"
+	script:"/script/container/sign_farm.sii"
+	align2surface:"true"
+}
+
+def sign_res:container_base {
+	name:"@@df_ct_sign_res@@"
+	script:"/script/container/sign_res.sii"
+	align2surface:"true"
+}
+
+def signvert:container_base {
+	name:"@@df_ct_signvert@@"
+	script:"/script/container/signvert.sii"
+	align2surface:"true"
+}
+
+def stonecolorado:container_base {
+	name:"@@df_ct_stonecolorado@@"
+	script:"/script/container/stone_col.sii"
+	align2surface:"true"
+}
+
+def stonealberta:container_base {
+	name:"@@df_ct_stonealberta@@"
+	script:"/script/container/stone_alb.sii"
+	align2surface:"true"
+}
+
+def stoneoregon:container_base {
+	name:"@@df_ct_stoneoregon@@"
+	script:"/script/container/stone_ore.sii"
+	align2surface:"true"
+}
+
+def stonegroup_gra:container_base {
+	name:"@@df_ct_stonegroup_gra@@"
+	script:"/script/container/stonegroup_gra.sii"
+	align2surface:"true"
+}
+
+def stonegroup_gra3:container_base {
+	name:"@@df_ct_stonegroup_gra3@@"
+	script:"/script/container/stonegroup_gra3.sii"
+	align2surface:"true"
+}
+
+def stonegroup_gra5:container_base {
+	name:"@@df_ct_stonegroup_gra5@@"
+	script:"/script/container/stonegroup_gra5.sii"
+	align2surface:"true"
+}
+
+def stonegroup_gra6:container_base {
+	name:"@@df_ct_stonegroup_gra6@@"
+	script:"/script/container/stonegroup_gra6.sii"
+	align2surface:"true"
+}
+
+def stonegroup_afr:container_base {
+	name:"@@df_ct_stonegroup_afr@@"
+	script:"/script/container/stonegroup_afr.sii"
+	align2surface:"true"
+}
+
+def stonegroup_afr3:container_base {
+	name:"@@df_ct_stonegroup_afr3@@"
+	script:"/script/container/stonegroup_afr3.sii"
+	align2surface:"true"
+}
+
+def stonegroup_afr5:container_base {
+	name:"@@df_ct_stonegroup_afr5@@"
+	script:"/script/container/stonegroup_afr5.sii"
+	align2surface:"true"
+}
+
+def stonegroup_afr6:container_base {
+	name:"@@df_ct_stonegroup_afr6@@"
+	script:"/script/container/stonegroup_afr6.sii"
+	align2surface:"true"
+}
+
+def stonegroup_moss:container_base {
+	name:"@@df_ct_stonegroup_moss@@"
+	script:"/script/container/stonegroup_moss.sii"
+	align2surface:"true"
+}
+
+def stonegroup_moss3:container_base {
+	name:"@@df_ct_stonegroup_moss3@@"
+	script:"/script/container/stonegroup_moss3.sii"
+	align2surface:"true"
+}
+
+def stonegroup_moss5:container_base {
+	name:"@@df_ct_stonegroup_moss5@@"
+	script:"/script/container/stonegroup_moss5.sii"
+	align2surface:"true"
+}
+
+def stonegroup_moss6:container_base {
+	name:"@@df_ct_stonegroup_moss6@@"
+	script:"/script/container/stonegroup_moss6.sii"
+	align2surface:"true"
+}
+
+def stonegroup_riv:container_base {
+	name:"@@df_ct_stonegroup_riv@@"
+	script:"/script/container/stonegroup_riv.sii"
+	align2surface:"true"
+}
+
+def stonegroup_riv3:container_base {
+	name:"@@df_ct_stonegroup_riv3@@"
+	script:"/script/container/stonegroup_riv3.sii"
+	align2surface:"true"
+}
+
+def stonegroup_riv5:container_base {
+	name:"@@df_ct_stonegroup_riv5@@"
+	script:"/script/container/stonegroup_riv5.sii"
+	align2surface:"true"
+}
+
+def stonegroup_riv6:container_base {
+	name:"@@df_ct_stonegroup_riv6@@"
+	script:"/script/container/stonegroup_riv6.sii"
+	align2surface:"true"
+}
+
+def target:container_base {
+	name:"@@df_ct_target@@"
+	script:"/script/container/target.sii"
+	align2surface:"true"
+}
+
+def targetbow:container_base {
+	name:"@@df_ct_targetbow@@"
+	script:"/script/container/targetbow.sii"
+	align2surface:"true"
+}
+
+def targetroof:container_base {
+	name:"@@df_ct_targetroof@@"
+	script:"/script/container/targetroof.sii"
+	align2surface:"true"
+}
+
+def targetroofr:container_base {
+	name:"@@df_ct_targetroofr@@"
+	script:"/script/container/targetroofr.sii"
+	align2surface:"true"
+}
+
+def targetroofl:container_base {
+	name:"@@df_ct_targetroofl@@"
+	script:"/script/container/targetroofl.sii"
+	align2surface:"true"
+}
+
+def tollbar:container_base {
+	name:"@@df_ct_tollbar@@"
+	script:"/script/container/tollbar.sii"
+	align2surface:"true"
+}
+
+def tollbar_stained:container_base {
+	name:"@@df_ct_tollbar_stained@@"
+	script:"/script/container/tollbar_stained.sii"
+	align2surface:"true"
+}
+
+def acatia:container_base {
+	name:"@@df_ct_acatia@@"
+	script:"/script/container/acatia.sii"
+	align2surface:"true"
+}
+
+def african_tree:container_base {
+	name:"@@df_ct_african_tree@@"
+	script:"/script/container/african_tree.sii"
+	align2surface:"true"
+}
+
+def african_brokentunk:container_base {
+	name:"@@df_ct_african_brokentunk@@"
+	script:"/script/container/african_brokentunk.sii"
+	align2surface:"true"
+}
+
+def ash_simple:container_base {
+	name:"@@df_ct_ash_simple@@"
+	script:"/script/container/ash_simple.sii"
+	align2surface:"true"
+}
+
+def ash_triple:container_base {
+	name:"@@df_ct_ash_triple@@"
+	script:"/script/container/ash_triple.sii"
+	align2surface:"true"
+}
+
+def ash2_simple:container_base {
+	name:"@@df_ct_ash2_simple@@"
+	script:"/script/container/ash2_simple.sii"
+	align2surface:"true"
+}
+
+def ash2_triple:container_base {
+	name:"@@df_ct_ash2_triple@@"
+	script:"/script/container/ash2_triple.sii"
+	align2surface:"true"
+}
+
+def baobab:container_base {
+	name:"@@df_ct_baobab@@"
+	script:"/script/container/baobab.sii"
+	align2surface:"true"
+}
+
+def beech:container_base {
+	name:"@@df_ct_beech@@"
+	script:"/script/container/beech.sii"
+	align2surface:"true"
+}
+
+def beech_catapult:container_base {
+	name:"@@df_ct_beech_catapult@@"
+	script:"/script/container/beech_catapult.sii"
+	align2surface:"true"
+}
+
+def birch_single:container_base {
+	name:"@@df_ct_birch_single@@"
+	script:"/script/container/birch_single.sii"
+	align2surface:"true"
+}
+
+def birch_double:container_base {
+	name:"@@df_ct_birch_double@@"
+	script:"/script/container/birch_double.sii"
+	align2surface:"true"
+}
+
+def birch2_single:container_base {
+	name:"@@df_ct_birch2_single@@"
+	script:"/script/container/birch2_single.sii"
+	align2surface:"true"
+}
+
+def birch2_double:container_base {
+	name:"@@df_ct_birch2_double@@"
+	script:"/script/container/birch2_double.sii"
+	align2surface:"true"
+}
+
+def hornbeam:container_base {
+	name:"@@df_ct_hornbeam@@"
+	script:"/script/container/hornbeam.sii"
+	align2surface:"true"
+}
+
+def hornbeam_catapult:container_base {
+	name:"@@df_ct_hornbeam_catapult@@"
+	script:"/script/container/hornbeam_catapult.sii"
+	align2surface:"true"
+}
+
+def hornbeam2:container_base {
+	name:"@@df_ct_hornbeam2@@"
+	script:"/script/container/hornbeam2.sii"
+	align2surface:"true"
+}
+
+def hornbeam2_catapult:container_base {
+	name:"@@df_ct_hornbeam2_catapult@@"
+	script:"/script/container/hornbeam2_catapult.sii"
+	align2surface:"true"
+}
+
+def joshua4:container_base {
+	name:"@@df_ct_joshua4@@"
+	script:"/script/container/joshua4.sii"
+	align2surface:"true"
+}
+
+def joshua6:container_base {
+	name:"@@df_ct_joshua6@@"
+	script:"/script/container/joshua6.sii"
+	align2surface:"true"
+}
+
+def maple:container_base {
+	name:"@@df_ct_maple@@"
+	script:"/script/container/maple.sii"
+	align2surface:"true"
+}
+
+def maple2:container_base {
+	name:"@@df_ct_maple2@@"
+	script:"/script/container/maple2.sii"
+	align2surface:"true"
+}
+
+def maple_atm:container_base {
+	name:"@@df_ct_maple_atm@@"
+	script:"/script/container/maple_atm.sii"
+	align2surface:"true"
+}
+
+def maple2_atm:container_base {
+	name:"@@df_ct_maple2_atm@@"
+	script:"/script/container/maple2_atm.sii"
+	align2surface:"true"
+}
+
+def oak:container_base {
+	name:"@@df_ct_oak@@"
+	script:"/script/container/oak.sii"
+	align2surface:"true"
+}
+
+def oak2:container_base {
+	name:"@@df_ct_oak2@@"
+	script:"/script/container/oak2.sii"
+	align2surface:"true"
+}
+
+def oak_atm:container_base {
+	name:"@@df_ct_oak_atm@@"
+	script:"/script/container/oak_atm.sii"
+	align2surface:"true"
+}
+
+def oak2_atm:container_base {
+	name:"@@df_ct_oak2_atm@@"
+	script:"/script/container/oak2_atm.sii"
+	align2surface:"true"
+}
+
+def pine:container_base {
+	name:"@@df_ct_pine@@"
+	script:"/script/container/pine.sii"
+	align2surface:"true"
+}
+
+def pine_old:container_base {
+	name:"@@df_ct_pine_old@@"
+	script:"/script/container/pine_old.sii"
+	align2surface:"true"
+}
+
+def poplar:container_base {
+	name:"@@df_ct_poplar@@"
+	script:"/script/container/poplar.sii"
+	align2surface:"true"
+}
+
+def spruce:container_base {
+	name:"@@df_ct_spruce@@"
+	script:"/script/container/spruce.sii"
+	align2surface:"true"
+}
+
+def spruce_leaning:container_base {
+	name:"@@df_ct_spruce_leaning@@"
+	script:"/script/container/spruce_leaning.sii"
+	align2surface:"true"
+}
+
+def spruce_old:container_base {
+	name:"@@df_ct_spruce_old@@"
+	script:"/script/container/spruce_old.sii"
+	align2surface:"true"
+}
+
+def spruce_small:container_base {
+	name:"@@df_ct_spruce_small@@"
+	script:"/script/container/spruce_small.sii"
+	align2surface:"true"
+}
+
+def spruce_tall:container_base {
+	name:"@@df_ct_spruce_tall@@"
+	script:"/script/container/spruce_tall.sii"
+	align2surface:"true"
+}
+
+def sprucesnow:container_base {
+	name:"@@df_ct_sprucesnow@@"
+	script:"/script/container/sprucesnow.sii"
+	align2surface:"true"
+}
+
+def sprucesnow_leaning:container_base {
+	name:"@@df_ct_sprucesnow_leaning@@"
+	script:"/script/container/sprucesnow_leaning.sii"
+	align2surface:"true"
+}
+
+def sprucesnow_old:container_base {
+	name:"@@df_ct_sprucesnow_old@@"
+	script:"/script/container/sprucesnow_old.sii"
+	align2surface:"true"
+}
+
+def sprucesnow_small:container_base {
+	name:"@@df_ct_sprucesnow_small@@"
+	script:"/script/container/sprucesnow_small.sii"
+	align2surface:"true"
+}
+
+def sprucesnow_tall:container_base {
+	name:"@@df_ct_sprucesnow_tall@@"
+	script:"/script/container/sprucesnow_tall.sii"
+	align2surface:"true"
+}
+
+def tabular_green:container_base {
+	name:"@@df_ct_tabular_green@@"
+	script:"/script/container/tabular_green.sii"
+	align2surface:"true"
+}
+
+def tabular:container_base {
+	name:"@@df_ct_tabular@@"
+	script:"/script/container/tabular.sii"
+	align2surface:"true"
+}
+
+def willow_single:container_base {
+	name:"@@df_ct_willow_single@@"
+	script:"/script/container/willow_single.sii"
+	align2surface:"true"
+}
+
+def willow_double:container_base {
+	name:"@@df_ct_willow_double@@"
+	script:"/script/container/willow_double.sii"
+	align2surface:"true"
+}
+
+def willow2_single:container_base {
+	name:"@@df_ct_willow2_single@@"
+	script:"/script/container/willow2_single.sii"
+	align2surface:"true"
+}
+
+def willow2_double:container_base {
+	name:"@@df_ct_willow2_double@@"
+	script:"/script/container/willow2_double.sii"
+	align2surface:"true"
+}
+
+def torso_catapult:container_base {
+	name:"@@df_ct_torso_catapult@@"
+	script:"/script/container/torso_catapult.sii"
+	align2surface:"true"
+}
+
+def torso_high:container_base {
+	name:"@@df_ct_torso_high@@"
+	script:"/script/container/torso_high.sii"
+	align2surface:"true"
+}
+
+def torso_low:container_base {
+	name:"@@df_ct_torso_low@@"
+	script:"/script/container/torso_low.sii"
+	align2surface:"true"
+}
+
+def corn:container_base {
+	name:"@@df_ct_corn@@"
+	script:"/script/container/corn.sii"
+	align2surface:"true"
+}
+
+def saguaro_single:container_base {
+	name:"@@df_ct_saguaro_single@@"
+	script:"/script/container/saguaro_single.sii"
+	align2surface:"true"
+}
+
+def saguaro_triple:container_base {
+	name:"@@df_ct_saguaro_triple@@"
+	script:"/script/container/saguaro_triple.sii"
+	align2surface:"true"
+}
+
+def hunt_man_clss:container_base {
+	name:"@@df_ct_hunt_man_clss@@"
+	script:"/script/container/hunt_man_clss.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_man_atm:container_base {
+	name:"@@df_ct_hunt_man_atm@@"
+	script:"/script/container/hunt_man_atm.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_man_dsrt:container_base {
+	name:"@@df_ct_hunt_man_dsrt@@"
+	script:"/script/container/hunt_man_dsrt.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_man_wntr:container_base {
+	name:"@@df_ct_hunt_man_wntr@@"
+	script:"/script/container/hunt_man_wntr.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_man2_clss:container_base {
+	name:"@@df_ct_hunt_man2_clss@@"
+	script:"/script/container/hunt_man2_clss.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_man2_atm:container_base {
+	name:"@@df_ct_hunt_man2_atm@@"
+	script:"/script/container/hunt_man2_atm.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_man2_dsrt:container_base {
+	name:"@@df_ct_hunt_man2_dsrt@@"
+	script:"/script/container/hunt_man2_dsrt.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_man2_wntr:container_base {
+	name:"@@df_ct_hunt_man2_wntr@@"
+	script:"/script/container/hunt_man2_wntr.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_manc_clss:container_base {
+	name:"@@df_ct_hunt_manc_clss@@"
+	script:"/script/container/hunt_manc_clss.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_manc_atm:container_base {
+	name:"@@df_ct_hunt_manc_atm@@"
+	script:"/script/container/hunt_manc_atm.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_manc_dsrt:container_base {
+	name:"@@df_ct_hunt_manc_dsrt@@"
+	script:"/script/container/hunt_manc_dsrt.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_manc_wntr:container_base {
+	name:"@@df_ct_hunt_manc_wntr@@"
+	script:"/script/container/hunt_manc_wntr.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_lady_clss:container_base {
+	name:"@@df_ct_hunt_lady_clss@@"
+	script:"/script/container/hunt_lady_clss.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_lady_atm:container_base {
+	name:"@@df_ct_hunt_lady_atm@@"
+	script:"/script/container/hunt_lady_atm.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_lady_dsrt:container_base {
+	name:"@@df_ct_hunt_lady_dsrt@@"
+	script:"/script/container/hunt_lady_dsrt.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_lady_wntr:container_base {
+	name:"@@df_ct_hunt_lady_wntr@@"
+	script:"/script/container/hunt_lady_wntr.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_boy_clss:container_base {
+	name:"@@df_ct_hunt_boy_clss@@"
+	script:"/script/container/hunt_boy_clss.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_boy_atm:container_base {
+	name:"@@df_ct_hunt_boy_atm@@"
+	script:"/script/container/hunt_boy_atm.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_boy_dsrt:container_base {
+	name:"@@df_ct_hunt_boy_dsrt@@"
+	script:"/script/container/hunt_boy_dsrt.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_boy_wntr:container_base {
+	name:"@@df_ct_hunt_boy_wntr@@"
+	script:"/script/container/hunt_boy_wntr.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_ita_clss:container_base {
+	name:"@@df_ct_hunt_ita_clss@@"
+	script:"/script/container/hunt_ita_clss.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_ita_atm:container_base {
+	name:"@@df_ct_hunt_ita_atm@@"
+	script:"/script/container/hunt_ita_atm.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_ita_dsrt:container_base {
+	name:"@@df_ct_hunt_ita_dsrt@@"
+	script:"/script/container/hunt_ita_dsrt.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_ita_wntr:container_base {
+	name:"@@df_ct_hunt_ita_wntr@@"
+	script:"/script/container/hunt_ita_wntr.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_fat_clss:container_base {
+	name:"@@df_ct_hunt_fat_clss@@"
+	script:"/script/container/hunt_fat_clss.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_fat_atm:container_base {
+	name:"@@df_ct_hunt_fat_atm@@"
+	script:"/script/container/hunt_fat_atm.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_fat_dsrt:container_base {
+	name:"@@df_ct_hunt_fat_dsrt@@"
+	script:"/script/container/hunt_fat_dsrt.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
+def hunt_fat_wntr:container_base {
+	name:"@@df_ct_hunt_fat_wntr@@"
+	script:"/script/container/hunt_fat_wntr.sii"
+	align2surface:"true"
+	avoid_by_animals:"true"
+}
+
