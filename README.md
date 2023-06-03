@@ -22,9 +22,16 @@ For the media files used in the installer, such as icons, they are under */inno_
 > **Note:** HU 2 and HU 3 use proprietary encrypted resources files, as such I'm only providing the PowerPack installation files.
 
 ## Download
-To download the installation files, head to Releases.
 > The current version of all PowerPacks is **v1.01**.
 
+- [Hunting Unlimited 2 PowerPack](https://github.com/italou/hupowerpack/releases/download/HU2/HU2pp_V1_01.exe)
+- [Hunting Unlimited 3 PowerPack](https://github.com/italou/hupowerpack/releases/download/HU3/HU3pp_V1_01.exe)
+- [Hunting Unlimited 4 PowerPack](https://github.com/italou/hupowerpack/releases/download/HU4/HU4pp_V1_01.exe)
+- [Hunting Unlimited 2008 PowerPack](https://github.com/italou/hupowerpack/releases/download/HU2008/HU2008pp_V1_01.exe)
+- [Hunting Unlimited 2009 PowerPack](https://github.com/italou/hupowerpack/releases/download/HU2009/HU2009pp_V1_01.exe)
+- [Hunting Unlimited 2010 PowerPack](https://github.com/italou/hupowerpack/releases/download/HU2010/HU2010pp_V1_01.exe)
+  
+  
 **Checksum (SHA256):**  
 To validate if a installation file hasn't been altered, you can calculate the file checksum (SHA256), for example using [Get-FileHash](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.3), and compare with the following:
 ```
@@ -41,7 +48,7 @@ HU2010pp_V1_01.exe   AC9C642FFD74AEBE8D70B7013FE7D9A599ABA86C815013F52873F851291
 ```
 
 ## Content
-The PowerPacks for HU 2008 and above contain the same content (detailed below), while HU 3 and HU 2 will have less due to game limitations. 
+The PowerPacks for Hunting Unlimited 4, and above, contain the same content (detailed below), while HU 3 and HU 2 will have less due to game limitations. 
 ```
 Weapons
 ----------------------------------------------------------------------------
