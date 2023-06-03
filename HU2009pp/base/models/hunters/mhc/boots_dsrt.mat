@@ -1,0 +1,7 @@
+material : "hu.dif_spec" {
+	texture[0] : "/models/hunters/mhc/boots_dsrt.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0 , 0 , 0 }
+	shininess : 1
+}

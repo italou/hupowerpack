@@ -1,0 +1,15 @@
+SiiNunit
+{
+
+body_actor_desc : _nameless.0001 {
+ model_file : "/models/objects/barrel/object.pmd"
+ look : green
+ variant : default
+}
+
+
+body_actor_inst : _nameless {
+ body_actor_desc : _nameless.0001
+}
+
+}

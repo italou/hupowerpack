@@ -1,0 +1,37 @@
+SiiNunit
+# 7mm-08 Remington
+#
+#         Cartridge Type: Premier AccuTip
+#           Bullet Style: AccuTip Boat Tail
+#           Index Number: PRA7M08RB
+# Short-Range Trajectory: 150 yards
+#  Long-Range Trajectory: 200 yards
+{
+
+projectile : _nameless
+{
+ bc: 0.486
+ muzzle: 2860
+ weight: 140
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/casing/projectile.pmd"
+ look: default
+ variant: rifle
+}
+
+}
+

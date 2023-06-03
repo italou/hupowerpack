@@ -1,0 +1,58 @@
+"17hmr_lever" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/rifle/features.pba.part"
+	}
+
+	animations {
+		"raise"	: "/models/weapons/243lever/raise.pma"
+		"lower"	: "/models/weapons/243lever/lower.pma"
+
+		"open" : "/models/weapons/243lever/open.pma"
+		"close" : "/models/weapons/243lever/close.pma"
+		"load" : "/models/weapons/243lever/load.pma"
+
+		"reload" : "/models/weapons/243lever/reload.pma"
+		"fire" : "/models/weapons/243lever/fire.pma"
+
+		"s_raise" : "/models/weapons/243lever/s_raise.pma"
+		"s_lower" : "/models/weapons/243lever/s_lower.pma"
+		"s_reload" : "/models/weapons/243lever/s_reload.pma"
+
+		"i_raise" : "/models/weapons/243lever/i_raise.pma"
+		"i_lower" : "/models/weapons/243lever/i_lower.pma"
+		"i_fire" : "/models/weapons/243lever/i_fire.pma"
+		"i_reload" : "/models/weapons/243lever/i_reload.pma"
+
+		"aim2hold" : "/models/weapons/243lever/aim2hold.pma"
+		"hold2aim" : "/models/weapons/243lever/hold2aim.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/rifle/raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/lower.pba.bhv"
+
+		@include "/models/weapons/243lever/open.pba.bhv"
+		@include "/models/weapons/243lever/close.pba.bhv"
+		@include "/models/weapons/243lever/load.pba.bhv"
+
+		@include "/models/weapons/243lever/reload.pba.bhv"
+		@include "/models/weapons/pba/rifle/fire.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/s_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/s_raise.pba.bhv"
+		@include "/models/weapons/243lever/s_reload.pba.bhv"
+		@include "/models/weapons/243lever/s_open.pba.bhv"
+		@include "/models/weapons/243lever/s_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/i_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_raise.pba.bhv"
+		@include "/models/weapons/243lever/i_reload.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_fire.pba.bhv"
+		@include "/models/weapons/243lever/i_open.pba.bhv"
+		@include "/models/weapons/243lever/i_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/hold2up.pba.bhv"
+		@include "/models/weapons/pba/rifle/up2hold.pba.bhv"
+	}
+}

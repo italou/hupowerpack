@@ -1,0 +1,31 @@
+SiiNunit
+# .30-378 Weatherby Magnum A-Max TSX Edition
+{
+
+projectile : _nameless
+{
+ bc: 0.648
+ muzzle: 3740
+ weight: 165
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/casing/projectile.pmd"
+ look: default
+ variant: rifle
+}
+
+}
+

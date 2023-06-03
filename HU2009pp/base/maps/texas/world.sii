@@ -1,0 +1,11 @@
+SiiNunit {
+
+world : .world.texas {
+ landscape_filename: "/maps/texas/landscape.lnd"
+ billboards_filename: "/models/billboards.sii"
+ world_units_filename: "/maps/texas/landscape.game.sii"
+ grass_filename: "/maps/texas/grass.sii"
+ scenic_music_filename: "/script/scenic_music/desert.sii"
+}
+
+}

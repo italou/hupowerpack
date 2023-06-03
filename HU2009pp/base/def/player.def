@@ -1,0 +1,981 @@
+# footstep sounds for material
+# should be ALWAYS in pair
+def footsteps {
+	def dirt {
+		sound00:"/sounds/player/pl_wlk_dirt01.ogg"
+		sound01:"/sounds/player/pl_wlk_dirt01a.ogg"
+	}
+
+	def grass {
+		sound00:"/sounds/player/pl_wlk_lvs02.ogg"
+		sound01:"/sounds/player/pl_wlk_lvs02a.ogg"
+	}
+
+	def meadow {
+		sound00:"/sounds/player/pl_wlk_lvs02.ogg"
+		sound01:"/sounds/player/pl_wlk_lvs02a.ogg"
+	}
+
+	def leaves {
+		sound00:"/sounds/player/pl_wlk_lvs01.ogg"
+		sound01:"/sounds/player/pl_wlk_lvs01a.ogg"
+	}
+
+	def metal {
+		sound00:"/sounds/player/pl_wlk_dirt01.ogg"
+		sound01:"/sounds/player/pl_wlk_dirt01a.ogg"
+	}
+
+	def rock {
+		sound00:"/sounds/player/pl_wlk_rck01.ogg"
+		sound01:"/sounds/player/pl_wlk_rck02_v1.ogg"
+	}
+
+	def gravel {
+		sound00:"/sounds/player/pl_wlk_grvl01.ogg"
+		sound01:"/sounds/player/pl_wlk_grvl02.ogg"
+	}
+
+	def sand {
+		sound00:"/sounds/player/pl_wlk_dirt01.ogg"
+		sound01:"/sounds/player/pl_wlk_dirt01a.ogg"
+	}
+
+	def wood {
+		sound00:"/sounds/player/pl_wlk_dirt02a.ogg"
+		sound01:"/sounds/player/pl_wlk_dirt02b.ogg"
+	}
+
+	def snow {
+		sound00:"/sounds/player/pl_wlk_snow01a.ogg"
+		sound01:"/sounds/player/pl_wlk_snow01b.ogg"
+	}
+
+	def metal {
+	}
+
+	def brush {
+	}
+
+	def mud {
+		sound00:"/sounds/player/pl_wlk_grvl01.ogg"
+		sound01:"/sounds/player/pl_wlk_grvl02.ogg"
+	}
+
+	def mud_dry {
+		sound00:"/sounds/player/pl_wlk_dirt01.ogg"
+		sound01:"/sounds/player/pl_wlk_dirt01a.ogg"
+	}
+
+	def water {
+		sound00:"/sounds/player/pl_wlk_watr01.ogg"
+		sound01:"/sounds/player/pl_wlk_watr02.ogg"
+	}
+}
+
+def touch_brush {
+	sound00:"/sounds/player/pl_shrub01_v1.ogg"
+	sound01:"/sounds/player/pl_shrub01_v2.ogg"
+	sound02:"/sounds/player/pl_shrub02_v1.ogg"
+	sound03:"/sounds/player/pl_shrub02_v2.ogg"
+	count:"4"
+}
+
+# death sounds
+def death {
+	sound00:"/sounds/player/pl_death_01_v1.ogg"
+	sound01:"/sounds/player/pl_death_01_v2.ogg"
+	sound02:"/sounds/player/pl_death_02_v1.ogg"
+	sound03:"/sounds/player/pl_death_02_v2.ogg"
+	sound04:"/sounds/player/pl_death_02_v3.ogg"
+	count:"5"
+}
+
+# ricochet sounds
+def ricochet {
+	sound00:"/sounds/weapons/pro_bullet_ricochet_v2.ogg"
+	sound01:"/sounds/weapons/pro_bullet_ricochet_v3.ogg"
+	sound02:"/sounds/weapons/pro_bullet_ricochet_v4.ogg"
+	sound03:"/sounds/weapons/pro_bullet_ricochet_v5.ogg"
+}
+
+def bullet_hit {
+	sound00:"/sounds/weapons/pro_bullet_hit.ogg"
+}
+
+def bullet_wood {
+	sound00:"/sounds/weapons/pro_bullet_wood.ogg"
+}
+
+# multipliers that affect footstep frequency in 1st person cam
+def wobble {
+	walk:"1.0"
+	crouch:"1.2"
+	run:"1.2"
+	prone:"1.0"
+}
+
+# footstep sound scaling factor
+def sound_scale {
+	base:"0.3"
+	range:"0.7"
+}
+
+def carcass {
+	attract_type:"smell"
+	hunter_attached:"true"
+	effect_range:"400"
+	attract00:"grizzly:0.3:food"
+	attract01:"cougar:0.3:food"
+	attract02:"lion:0.3:food"
+	repell00:"all:0.2:food"
+}
+
+# hunter models
+def hunters {
+	def models {
+		def man {
+			model:"/models/hunters/man/hunter.pba"
+			hat00:"h_hat"
+			hat01:"h_cap"
+			hat02:"h_snakecap"
+			frms_parts:"firearm_eq"
+			bows_parts:"bow_eq"
+		}
+		def mhc {
+			model:"/models/hunters/mhc/hunter.pba"
+			hat00:"h_snakecap"
+			frms_parts:"firearm_eq"
+			bows_parts:"bow_eq"
+		}
+		def mh2:man {
+			model:"/models/hunters/mh2/hunter.pba"
+		}
+		def mh3:man {
+		model:"/models/hunters/mh3/hunter.pba"
+		}
+		def fat {
+			model:"/models/hunters/fat/hunter.pba"
+			hat00:"h_hat"
+			hat01:"h_cap"
+			hat02:"h_snakecap"
+			frms_parts:"firearm_eq"
+			bows_parts:"bow_eq"
+		}
+		def boy {
+			model:"/models/hunters/boy/hunter.pba"
+			hat00:"h_hat"
+			hat01:"h_cap"
+			hat02:"h_snakecap"
+			frms_parts:"firearm_eq"
+			bows_parts:"bow_eq"
+		}
+		def ita:boy {
+			model:"/models/hunters/ita/hunter.pba"
+		}
+		def lady {
+			model:"/models/hunters/lady/hunter.pba"
+			hat00:"h_hat"
+			hat01:"h_cap"
+			hat02:"h_snakecap"
+			frms_parts:"firearm_eq"
+			bows_parts:"bow_eq"
+		}
+		def ldy2:lady {
+			model:"/models/hunters/ldy2/hunter.pba"
+		}
+	}
+
+	def camo_types {
+		# camo name MUST match look name in player models
+		# and also in player item models that are camo-dependent
+		def default {
+			icon:"/material/ui/icon/c_type.mat"
+			name:"@@df_camo_name@@"
+			desc:"@@df_camo@@"
+		}
+
+		def autumn {
+			icon:"/material/ui/icon/c_type_autumn.mat"
+			name:"@@df_camo_autumn_name@@"
+			desc:"@@df_camo_autumn@@"
+		}
+
+		def desert {
+			icon:"/material/ui/icon/c_type_desert.mat"
+			name:"@@df_camo_desert_name@@"
+			desc:"@@df_camo_desert@@"
+		}
+
+		def winter {
+			icon:"/material/ui/icon/c_type_winter.mat"
+			name:"@@df_camo_winter_name@@"
+			desc:"@@df_camo_winter@@"
+		}
+
+		def orange {
+			icon:"/material/ui/icon/c_type_orange.mat"
+			name:"@@df_camo_orange_name@@"
+			desc:"@@df_camo_orange@@"
+		}
+	}
+
+	def voices {
+		def man {
+			def hurt {
+				sound00:"/sounds/vo/man/hurt/man_ouch.ogg"
+				count:"1"
+			}
+			def action {
+				sound00:"/sounds/vo/man/action/atk1.ogg"
+				sound01:"/sounds/vo/man/action/atk2.ogg"
+				sound02:"/sounds/vo/man/action/atk3.ogg"
+				sound03:"/sounds/vo/man/action/atk4.ogg"
+				sound04:"/sounds/vo/man/action/atk5.ogg"
+				sound05:"/sounds/vo/man/action/atk6.ogg"
+				sound06:"/sounds/vo/man/action/atk7.ogg"
+				sound07:"/sounds/vo/man/action/atk8.ogg"
+				sound08:"/sounds/vo/man/action/atk9.ogg"
+				count:"9"
+			}
+			def attacked {
+				sound00:"/sounds/vo/man/attacked/atk1.ogg"
+				sound01:"/sounds/vo/man/attacked/atk2.ogg"
+				sound02:"/sounds/vo/man/attacked/atk3.ogg"
+				sound03:"/sounds/vo/man/attacked/atk4.ogg"
+				sound04:"/sounds/vo/man/attacked/atk5.ogg"
+				sound05:"/sounds/vo/man/attacked/atk6.ogg"
+				count:"6"
+			}
+			def cheat {
+				sound00:"/sounds/vo/man/miss/miss2.ogg"
+				count:"1"
+			}
+			def hit {
+				sound00:"/sounds/vo/man/hit/hit1.ogg"
+				sound01:"/sounds/vo/man/hit/hit2.ogg"
+				sound02:"/sounds/vo/man/hit/hit13.ogg"
+				count:"3"
+
+			}
+			def hit_animal {
+				sound00:"/sounds/vo/man/hit/hit8.ogg"
+				sound01:"/sounds/vo/man/hit/hit9.ogg"
+				sound02:"/sounds/vo/man/hit/hit10.ogg"
+				sound03:"/sounds/vo/man/hit/hit11.ogg"
+				sound04:"/sounds/vo/man/hit/hit12.ogg"
+				count:"5"
+			}
+			def hit_animal_vitals {
+				sound00:"/sounds/vo/man/hit/hit5.ogg"
+				count:"1"
+			}
+			def hit_animal_heart {
+				sound00:"/sounds/vo/man/hit/hit3.ogg"
+				sound01:"/sounds/vo/man/hit/hit5.ogg"
+				count:"2"
+			}
+			def hit_animal_lung {
+				sound00:"/sounds/vo/man/hit/hit4.ogg"
+				sound01:"/sounds/vo/man/hit/hit5.ogg"
+				count:"2"
+			}
+			def hit_animal_spine {
+				sound00:"/sounds/vo/man/hit/hit7.ogg"
+				sound01:"/sounds/vo/man/hit/hit5.ogg"
+				count:"2"
+			}
+			def hit_animal_head {
+				sound00:"/sounds/vo/man/hit/hit6.ogg"
+				sound01:"/sounds/vo/man/hit/hit5.ogg"
+				count:"2"
+			}
+			def miss {
+				sound00:"/sounds/vo/man/miss/miss1.ogg"
+				sound01:"/sounds/vo/man/miss/miss10.ogg"
+				sound02:"/sounds/vo/man/miss/miss11.ogg"
+				sound03:"/sounds/vo/man/miss/miss12.ogg"
+				sound04:"/sounds/vo/man/miss/miss2.ogg"
+				sound05:"/sounds/vo/man/miss/miss3.ogg"
+				sound06:"/sounds/vo/man/miss/miss4.ogg"
+				sound07:"/sounds/vo/man/miss/miss5.ogg"
+				sound08:"/sounds/vo/man/miss/miss6.ogg"
+				sound09:"/sounds/vo/man/miss/miss7.ogg"
+				sound10:"/sounds/vo/man/miss/miss8.ogg"
+				sound11:"/sounds/vo/man/miss/miss9.ogg"
+				count:"12"
+			}
+			def monster {
+				sound00:"/sounds/vo/man/monster/see1.ogg"
+				sound01:"/sounds/vo/man/monster/see2.ogg"
+				sound02:"/sounds/vo/man/monster/see3.ogg"
+				sound03:"/sounds/vo/man/monster/see4.ogg"
+				sound04:"/sounds/vo/man/monster/see5.ogg"
+				sound05:"/sounds/vo/man/monster/see6.ogg"
+				sound06:"/sounds/vo/man/monster/see7.ogg"
+				sound07:"/sounds/vo/man/monster/see8.ogg"
+				count:"8"
+			}
+			def small {
+				sound00:"/sounds/vo/man/small/small1.ogg"
+				sound01:"/sounds/vo/man/small/small2.ogg"
+				sound02:"/sounds/vo/man/small/small3.ogg"
+				sound03:"/sounds/vo/man/small/small4.ogg"
+				sound04:"/sounds/vo/man/small/small5.ogg"
+				count:"5"
+			}
+			def trail {
+				sound00:"/sounds/vo/man/trail/trail1.ogg"
+				sound01:"/sounds/vo/man/trail/trail2.ogg"
+				sound02:"/sounds/vo/man/trail/trail3.ogg"
+				sound03:"/sounds/vo/man/trail/trail4.ogg"
+				sound04:"/sounds/vo/man/trail/trail5.ogg"
+				sound05:"/sounds/vo/man/trail/trail6.ogg"
+				sound06:"/sounds/vo/man/trail/trail7.ogg"
+				count:"7"
+			}
+			def trophy {
+				sound00:"/sounds/vo/man/trophy/trophy1.ogg"
+				sound01:"/sounds/vo/man/trophy/trophy2.ogg"
+				sound02:"/sounds/vo/man/trophy/trophy3.ogg"
+				sound03:"/sounds/vo/man/trophy/trophy4.ogg"
+				sound04:"/sounds/vo/man/trophy/trophy5.ogg"
+				sound05:"/sounds/vo/man/trophy/trophy6.ogg"
+				sound06:"/sounds/vo/man/trophy/trophy7.ogg"
+				count:"7"
+			}
+		}
+		def mhc {
+			def hurt {
+				sound00:"/sounds/vo/mhc/hurt/man_ouch.ogg"
+				count:"1"
+			}
+			def action {
+				sound00:"/sounds/vo/mhc/action/atk1.ogg"
+				sound01:"/sounds/vo/mhc/action/atk2.ogg"
+				sound02:"/sounds/vo/mhc/action/atk3.ogg"
+				sound03:"/sounds/vo/mhc/action/atk4.ogg"
+				sound04:"/sounds/vo/mhc/action/atk5.ogg"
+				sound05:"/sounds/vo/mhc/action/atk6.ogg"
+				sound06:"/sounds/vo/mhc/action/atk7.ogg"
+				sound07:"/sounds/vo/mhc/action/atk8.ogg"
+				sound08:"/sounds/vo/mhc/action/atk9.ogg"
+				count:"9"
+			}
+			def attacked {
+				sound00:"/sounds/vo/mhc/attacked/atk1.ogg"
+				sound01:"/sounds/vo/mhc/attacked/atk2.ogg"
+				sound02:"/sounds/vo/mhc/attacked/atk3.ogg"
+				sound03:"/sounds/vo/mhc/attacked/atk4.ogg"
+				sound04:"/sounds/vo/mhc/attacked/atk5.ogg"
+				sound05:"/sounds/vo/mhc/attacked/atk6.ogg"
+				count:"6"
+			}
+			def cheat {
+				sound00:"/sounds/vo/mhc/miss/miss2.ogg"
+				count:"1"
+			}
+			def hit {
+				sound00:"/sounds/vo/mhc/hit/hit1.ogg"
+				sound01:"/sounds/vo/mhc/hit/hit2.ogg"
+				sound02:"/sounds/vo/mhc/hit/hit13.ogg"
+				count:"3"
+
+			}
+			def hit_animal {
+				sound00:"/sounds/vo/mhc/hit/hit8.ogg"
+				sound01:"/sounds/vo/mhc/hit/hit9.ogg"
+				sound02:"/sounds/vo/mhc/hit/hit10.ogg"
+				sound03:"/sounds/vo/mhc/hit/hit11.ogg"
+				sound04:"/sounds/vo/mhc/hit/hit12.ogg"
+				count:"5"
+			}
+			def hit_animal_vitals {
+				sound00:"/sounds/vo/mhc/hit/hit5.ogg"
+				count:"1"
+			}
+			def hit_animal_heart {
+				sound00:"/sounds/vo/mhc/hit/hit3.ogg"
+				sound01:"/sounds/vo/mhc/hit/hit5.ogg"
+				count:"2"
+			}
+			def hit_animal_lung {
+				sound00:"/sounds/vo/mhc/hit/hit4.ogg"
+				sound01:"/sounds/vo/mhc/hit/hit5.ogg"
+				count:"2"
+			}
+			def hit_animal_spine {
+				sound00:"/sounds/vo/mhc/hit/hit7.ogg"
+				sound01:"/sounds/vo/mhc/hit/hit5.ogg"
+				count:"2"
+			}
+			def hit_animal_head {
+				sound00:"/sounds/vo/mhc/hit/hit6.ogg"
+				sound01:"/sounds/vo/mhc/hit/hit5.ogg"
+				count:"2"
+			}
+			def miss {
+				sound00:"/sounds/vo/mhc/miss/miss1.ogg"
+				sound01:"/sounds/vo/mhc/miss/miss10.ogg"
+				sound02:"/sounds/vo/mhc/miss/miss11.ogg"
+				sound03:"/sounds/vo/mhc/miss/miss12.ogg"
+				sound04:"/sounds/vo/mhc/miss/miss2.ogg"
+				sound05:"/sounds/vo/mhc/miss/miss3.ogg"
+				sound06:"/sounds/vo/mhc/miss/miss4.ogg"
+				sound07:"/sounds/vo/mhc/miss/miss5.ogg"
+				sound08:"/sounds/vo/mhc/miss/miss6.ogg"
+				sound09:"/sounds/vo/mhc/miss/miss7.ogg"
+				sound10:"/sounds/vo/mhc/miss/miss8.ogg"
+				sound11:"/sounds/vo/mhc/miss/miss9.ogg"
+				count:"12"
+			}
+			def monster {
+				sound00:"/sounds/vo/mhc/monster/see1.ogg"
+				sound01:"/sounds/vo/mhc/monster/see2.ogg"
+				sound02:"/sounds/vo/mhc/monster/see3.ogg"
+				sound03:"/sounds/vo/mhc/monster/see4.ogg"
+				sound04:"/sounds/vo/mhc/monster/see5.ogg"
+				sound05:"/sounds/vo/mhc/monster/see6.ogg"
+				sound06:"/sounds/vo/mhc/monster/see7.ogg"
+				sound07:"/sounds/vo/mhc/monster/see8.ogg"
+				count:"8"
+			}
+			def small {
+				sound00:"/sounds/vo/mhc/small/small1.ogg"
+				sound01:"/sounds/vo/mhc/small/small2.ogg"
+				sound02:"/sounds/vo/mhc/small/small3.ogg"
+				sound03:"/sounds/vo/mhc/small/small4.ogg"
+				sound04:"/sounds/vo/mhc/small/small5.ogg"
+				count:"5"
+			}
+			def trail {
+				sound00:"/sounds/vo/mhc/trail/trail1.ogg"
+				sound01:"/sounds/vo/mhc/trail/trail2.ogg"
+				sound02:"/sounds/vo/mhc/trail/trail3.ogg"
+				sound03:"/sounds/vo/mhc/trail/trail4.ogg"
+				sound04:"/sounds/vo/mhc/trail/trail5.ogg"
+				sound05:"/sounds/vo/mhc/trail/trail6.ogg"
+				sound06:"/sounds/vo/mhc/trail/trail7.ogg"
+				count:"7"
+			}
+			def trophy {
+				sound00:"/sounds/vo/mhc/trophy/trophy1.ogg"
+				sound01:"/sounds/vo/mhc/trophy/trophy2.ogg"
+				sound02:"/sounds/vo/mhc/trophy/trophy3.ogg"
+				sound03:"/sounds/vo/mhc/trophy/trophy4.ogg"
+				sound04:"/sounds/vo/mhc/trophy/trophy5.ogg"
+				sound05:"/sounds/vo/mhc/trophy/trophy6.ogg"
+				sound06:"/sounds/vo/mhc/trophy/trophy7.ogg"
+				count:"7"
+			}
+		}
+		def mh2:man {
+		}
+		def fat {
+			def hurt {
+				sound00:"/sounds/vo/fat/hurt/fat_ouch.ogg"
+				count:"1"
+			}
+			def action {
+				sound00:"/sounds/vo/fat/action/attack1.ogg"
+				sound01:"/sounds/vo/fat/action/attack2.ogg"
+				sound02:"/sounds/vo/fat/action/attack3.ogg"
+				sound03:"/sounds/vo/fat/action/attack4.ogg"
+				sound04:"/sounds/vo/fat/action/attack5.ogg"
+				sound05:"/sounds/vo/fat/action/attack6.ogg"
+				sound06:"/sounds/vo/fat/action/attack7.ogg"
+				sound07:"/sounds/vo/fat/action/attack8.ogg"
+				sound08:"/sounds/vo/fat/action/attack9.ogg"
+				count:"9"
+			}
+			def attacked {
+				sound00:"/sounds/vo/fat/attacked/attack10.ogg"
+				sound01:"/sounds/vo/fat/attacked/attack11.ogg"
+				sound02:"/sounds/vo/fat/attacked/attack12.ogg"
+				sound03:"/sounds/vo/fat/attacked/attack13.ogg"
+				sound04:"/sounds/vo/fat/attacked/attack14.ogg"
+				sound05:"/sounds/vo/fat/attacked/attack15.ogg"
+				count:"6"
+			}
+			def cheat {
+				sound00:"/sounds/vo/fat/miss/miss2.ogg"
+				count:"1"
+			}
+			def hit {
+				sound00:"/sounds/vo/fat/hit/hits1.ogg"
+				sound01:"/sounds/vo/fat/hit/hits2.ogg"
+				sound02:"/sounds/vo/fat/hit/hits12.ogg"
+				count:"3"
+			}
+			def hit_animal {
+				sound00:"/sounds/vo/fat/hit/hits8.ogg"
+				sound01:"/sounds/vo/fat/hit/hits9.ogg"
+				sound02:"/sounds/vo/fat/hit/hits10.ogg"
+				sound03:"/sounds/vo/fat/hit/hits11.ogg"
+				sound04:"/sounds/vo/fat/hit/hits13.ogg"
+				sound05:"/sounds/vo/fat/hit/hits14.ogg"
+				sound06:"/sounds/vo/fat/hit/hits15.ogg"
+				count:"7"
+			}
+			def hit_animal_vitals {
+				sound00:"/sounds/vo/fat/hit/hits5.ogg"
+				count:"1"
+			}
+			def hit_animal_heart {
+				sound00:"/sounds/vo/fat/hit/hits3.ogg"
+				sound01:"/sounds/vo/fat/hit/hits5.ogg"
+				count:"2"
+			}
+			def hit_animal_lung {
+				sound00:"/sounds/vo/fat/hit/hits4.ogg"
+				sound01:"/sounds/vo/fat/hit/hits5.ogg"
+				count:"2"
+			}
+			def hit_animal_spine {
+				sound00:"/sounds/vo/fat/hit/hits7.ogg"
+				sound01:"/sounds/vo/fat/hit/hits5.ogg"
+				count:"2"
+			}
+			def hit_animal_head {
+				sound00:"/sounds/vo/fat/hit/hits6.ogg"
+				sound01:"/sounds/vo/fat/hit/hits5.ogg"
+				count:"2"
+			}
+			def miss {
+				sound00:"/sounds/vo/fat/miss/miss1.ogg"
+				sound01:"/sounds/vo/fat/miss/miss10.ogg"
+				sound02:"/sounds/vo/fat/miss/miss11.ogg"
+				sound03:"/sounds/vo/fat/miss/miss12.ogg"
+				sound04:"/sounds/vo/fat/miss/miss2.ogg"
+				sound05:"/sounds/vo/fat/miss/miss3.ogg"
+				sound06:"/sounds/vo/fat/miss/miss4.ogg"
+				sound07:"/sounds/vo/fat/miss/miss5.ogg"
+				sound08:"/sounds/vo/fat/miss/miss6.ogg"
+				sound09:"/sounds/vo/fat/miss/miss7.ogg"
+				sound10:"/sounds/vo/fat/miss/miss8.ogg"
+				sound11:"/sounds/vo/fat/miss/miss9.ogg"
+				count:"12"
+			}
+			def monster {
+				sound00:"/sounds/vo/fat/monster/see1.ogg"
+				sound01:"/sounds/vo/fat/monster/see2.ogg"
+				sound02:"/sounds/vo/fat/monster/see3.ogg"
+				sound03:"/sounds/vo/fat/monster/see4.ogg"
+				sound04:"/sounds/vo/fat/monster/see5.ogg"
+				sound05:"/sounds/vo/fat/monster/see6.ogg"
+				sound06:"/sounds/vo/fat/monster/see7.ogg"
+				sound07:"/sounds/vo/fat/monster/see8.ogg"
+				count:"8"
+			}
+			def small {
+				sound00:"/sounds/vo/fat/small/small1.ogg"
+				sound01:"/sounds/vo/fat/small/small2.ogg"
+				sound02:"/sounds/vo/fat/small/small3.ogg"
+				sound03:"/sounds/vo/fat/small/small4.ogg"
+				sound04:"/sounds/vo/fat/small/small5.ogg"
+				count:"5"
+			}
+			def trail {
+				sound00:"/sounds/vo/fat/trail/trail1.ogg"
+				sound01:"/sounds/vo/fat/trail/trail2.ogg"
+				sound02:"/sounds/vo/fat/trail/trail3.ogg"
+				sound03:"/sounds/vo/fat/trail/trail4.ogg"
+				sound04:"/sounds/vo/fat/trail/trail5.ogg"
+				sound05:"/sounds/vo/fat/trail/trail6.ogg"
+				count:"6"
+			}
+			def trophy {
+				sound00:"/sounds/vo/fat/trophy/trophy1.ogg"
+				sound01:"/sounds/vo/fat/trophy/trophy2.ogg"
+				sound02:"/sounds/vo/fat/trophy/trophy3.ogg"
+				sound03:"/sounds/vo/fat/trophy/trophy4.ogg"
+				sound04:"/sounds/vo/fat/trophy/trophy5.ogg"
+				sound05:"/sounds/vo/fat/trophy/trophy6.ogg"
+				sound06:"/sounds/vo/fat/trophy/trophy7.ogg"
+				count:"7"
+			}
+		}
+		def mh3:fat {
+		}
+		def boy {
+			def hurt {
+				sound00:"/sounds/vo/boy/hurt/boy_ouch.ogg"
+				sound01:"/sounds/vo/boy/hurt/boy_auuu.ogg"
+				count:"2"
+			}
+			def action {
+				sound00:"/sounds/vo/boy/action/awesome.ogg"
+				sound01:"/sounds/vo/boy/action/beautiful.ogg"
+				sound02:"/sounds/vo/boy/action/holy_cow.ogg"
+				sound03:"/sounds/vo/boy/action/i_cant_believe_it.ogg"
+				sound04:"/sounds/vo/boy/action/survival_of_the_fitest.ogg"
+				sound05:"/sounds/vo/boy/action/that_is_incredible.ogg"
+				sound06:"/sounds/vo/boy/action/that_what_its_all.ogg"
+				sound07:"/sounds/vo/boy/action/what_till_i_tell_the_guys.ogg"
+				sound08:"/sounds/vo/boy/action/wow_look_at_that.ogg"
+				count:"9"
+			}
+			def attacked {
+				sound00:"/sounds/vo/boy/attacked/ahhhhhrghhhh.ogg"
+				sound01:"/sounds/vo/boy/attacked/help.ogg"
+				sound02:"/sounds/vo/boy/attacked/hurry_shoot.ogg"
+				sound03:"/sounds/vo/boy/attacked/oh_no.ogg"
+				sound04:"/sounds/vo/boy/attacked/run_run.ogg"
+				sound05:"/sounds/vo/boy/attacked/shoot.ogg"
+				count:"6"
+			}
+			def cheat {
+				sound00:"/sounds/vo/boy/miss/what_the.ogg"
+				count:"1"
+			}
+			def hit {
+				sound00:"/sounds/vo/boy/hit/good_shot.ogg"
+				sound01:"/sounds/vo/boy/hit/perfect_shot.ogg"
+				sound02:"/sounds/vo/boy/hit/nice_shot.ogg"
+				count:"3"
+			}
+			def hit_animal {
+				sound00:"/sounds/vo/boy/hit/not_a_deadly_shot_track_it.ogg"
+				sound01:"/sounds/vo/boy/hit/not_sure__where_that_hit.ogg"
+				sound02:"/sounds/vo/boy/hit/that_will_be_easy_to_track.ogg"
+				sound03:"/sounds/vo/boy/hit/thatll_take_him_down.ogg"
+				sound04:"/sounds/vo/boy/hit/darn_going_to_have_to_track_it.ogg"
+				sound05:"/sounds/vo/boy/hit/hit_but_no_vitals.ogg"
+				sound06:"/sounds/vo/boy/hit/hmm_body_shot.ogg"
+				count:"7"
+			}
+			def hit_animal_vitals {
+				sound00:"/sounds/vo/boy/hit/good_vital_hit.ogg"
+				count:"1"
+			}
+			def hit_animal_heart {
+				sound00:"/sounds/vo/boy/hit/heart_shot.ogg"
+				sound01:"/sounds/vo/boy/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def hit_animal_lung {
+				sound00:"/sounds/vo/boy/hit/lung_shot.ogg"
+				sound01:"/sounds/vo/boy/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def hit_animal_spine {
+				sound00:"/sounds/vo/boy/hit/got_the_spine.ogg"
+				sound01:"/sounds/vo/boy/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def hit_animal_head {
+				sound00:"/sounds/vo/boy/hit/head_shot.ogg"
+				sound01:"/sounds/vo/boy/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def miss {
+				sound00:"/sounds/vo/boy/miss/another_miss.ogg"
+				sound01:"/sounds/vo/boy/miss/aww_horrible_shot.ogg"
+				sound02:"/sounds/vo/boy/miss/back_to_the_range.ogg"
+				sound03:"/sounds/vo/boy/miss/barrel_must_be_bent.ogg"
+				sound04:"/sounds/vo/boy/miss/got_to_calm_down.ogg"
+				sound05:"/sounds/vo/boy/miss/got_to_relax.ogg"
+				sound06:"/sounds/vo/boy/miss/is_that_animal_a_ghost.ogg"
+				sound07:"/sounds/vo/boy/miss/is_this_thing_sighted.ogg"
+				sound08:"/sounds/vo/boy/miss/ooops.ogg"
+				sound09:"/sounds/vo/boy/miss/remember_to_aim.ogg"
+				sound10:"/sounds/vo/boy/miss/what_the.ogg"
+				sound11:"/sounds/vo/boy/miss/wow_bad_shot.ogg"
+				count:"12"
+			}
+			def monster {
+				sound00:"/sounds/vo/boy/monster/beautiful.ogg"
+				sound01:"/sounds/vo/boy/monster/look_at_the_size.ogg"
+				sound02:"/sounds/vo/boy/monster/monster.ogg"
+				sound03:"/sounds/vo/boy/monster/nice.ogg"
+				sound04:"/sounds/vo/boy/monster/now_thats_a_monster.ogg"
+				sound05:"/sounds/vo/boy/monster/now_thats_a_trophy.ogg"
+				sound06:"/sounds/vo/boy/monster/very_nice_animal.ogg"
+				sound07:"/sounds/vo/boy/monster/wow_look_at_him.ogg"
+				count:"8"
+			}
+			def small {
+				sound00:"/sounds/vo/boy/small/it_might_do.ogg"
+				sound01:"/sounds/vo/boy/small/its_no_monster.ogg"
+				sound02:"/sounds/vo/boy/small/not_a_trophy.ogg"
+				sound03:"/sounds/vo/boy/small/not_to_big.ogg"
+				sound04:"/sounds/vo/boy/small/thats_tiny.ogg"
+				count:"5"
+			}
+			def trail {
+				sound00:"/sounds/vo/boy/trail/could_be_a_big_animal.ogg"
+				sound01:"/sounds/vo/boy/trail/hmmm_some_tracks.ogg"
+				sound02:"/sounds/vo/boy/trail/lokky_here_oh_yeah.ogg"
+				sound03:"/sounds/vo/boy/trail/look_at_these.ogg"
+				sound04:"/sounds/vo/boy/trail/tracks_follow_them.ogg"
+				sound05:"/sounds/vo/boy/trail/wonder_where_they_lead.ogg"
+				count:"6"
+			}
+			def trophy {
+				sound00:"/sounds/vo/boy/trophy/awesome_sight.ogg"
+				sound01:"/sounds/vo/boy/trophy/better_tag_my_animal.ogg"
+				sound02:"/sounds/vo/boy/trophy/i_better_stop_shaking.ogg"
+				sound03:"/sounds/vo/boy/trophy/i_need_a_picture.ogg"
+				sound04:"/sounds/vo/boy/trophy/im_so_pumped.ogg"
+				sound05:"/sounds/vo/boy/trophy/nice_animal.ogg"
+				sound06:"/sounds/vo/boy/trophy/thats_a_beautiful_animal.ogg"
+				count:"7"
+			}
+		}
+		def ita {
+			def hurt {
+				sound00:"/sounds/vo/ita/hurt/boy_ouch.ogg"
+				sound01:"/sounds/vo/ita/hurt/boy_auuu.ogg"
+				count:"2"
+			}
+			def action {
+				sound00:"/sounds/vo/ita/action/awesome.ogg"
+				sound01:"/sounds/vo/ita/action/beautiful.ogg"
+				sound02:"/sounds/vo/ita/action/holy_cow.ogg"
+				sound03:"/sounds/vo/ita/action/i_cant_believe_it.ogg"
+				sound04:"/sounds/vo/ita/action/survival_of_the_fitest.ogg"
+				sound05:"/sounds/vo/ita/action/that_is_incredible.ogg"
+				sound06:"/sounds/vo/ita/action/that_what_its_all.ogg"
+				sound07:"/sounds/vo/ita/action/what_till_i_tell_the_guys.ogg"
+				sound08:"/sounds/vo/ita/action/wow_look_at_that.ogg"
+				count:"9"
+			}
+			def attacked {
+				sound00:"/sounds/vo/ita/attacked/ahhhhhrghhhh.ogg"
+				sound01:"/sounds/vo/ita/attacked/help.ogg"
+				sound02:"/sounds/vo/ita/attacked/hurry_shoot.ogg"
+				sound03:"/sounds/vo/ita/attacked/oh_no.ogg"
+				sound04:"/sounds/vo/ita/attacked/run_run.ogg"
+				sound05:"/sounds/vo/ita/attacked/shoot.ogg"
+				count:"6"
+			}
+			def cheat {
+				sound00:"/sounds/vo/ita/miss/what_the.ogg"
+				count:"1"
+			}
+			def hit {
+				sound00:"/sounds/vo/ita/hit/good_shot.ogg"
+				sound01:"/sounds/vo/ita/hit/perfect_shot.ogg"
+				sound02:"/sounds/vo/ita/hit/nice_shot.ogg"
+				count:"3"
+			}
+			def hit_animal {
+				sound00:"/sounds/vo/ita/hit/not_a_deadly_shot_track_it.ogg"
+				sound01:"/sounds/vo/ita/hit/not_sure__where_that_hit.ogg"
+				sound02:"/sounds/vo/ita/hit/that_will_be_easy_to_track.ogg"
+				sound03:"/sounds/vo/ita/hit/thatll_take_him_down.ogg"
+				sound04:"/sounds/vo/ita/hit/darn_going_to_have_to_track_it.ogg"
+				sound05:"/sounds/vo/ita/hit/hit_but_no_vitals.ogg"
+				sound06:"/sounds/vo/ita/hit/hmm_body_shot.ogg"
+				count:"7"
+			}
+			def hit_animal_vitals {
+				sound00:"/sounds/vo/ita/hit/good_vital_hit.ogg"
+				count:"1"
+			}
+			def hit_animal_heart {
+				sound00:"/sounds/vo/ita/hit/heart_shot.ogg"
+				sound01:"/sounds/vo/ita/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def hit_animal_lung {
+				sound00:"/sounds/vo/ita/hit/lung_shot.ogg"
+				sound01:"/sounds/vo/ita/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def hit_animal_spine {
+				sound00:"/sounds/vo/ita/hit/got_the_spine.ogg"
+				sound01:"/sounds/vo/ita/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def hit_animal_head {
+				sound00:"/sounds/vo/ita/hit/head_shot.ogg"
+				sound01:"/sounds/vo/ita/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def miss {
+				sound00:"/sounds/vo/ita/miss/another_miss.ogg"
+				sound01:"/sounds/vo/ita/miss/aww_horrible_shot.ogg"
+				sound02:"/sounds/vo/ita/miss/back_to_the_range.ogg"
+				sound03:"/sounds/vo/ita/miss/barrel_must_be_bent.ogg"
+				sound04:"/sounds/vo/ita/miss/got_to_calm_down.ogg"
+				sound05:"/sounds/vo/ita/miss/got_to_relax.ogg"
+				sound06:"/sounds/vo/ita/miss/is_that_animal_a_ghost.ogg"
+				sound07:"/sounds/vo/ita/miss/is_this_thing_sighted.ogg"
+				sound08:"/sounds/vo/ita/miss/ooops.ogg"
+				sound09:"/sounds/vo/ita/miss/remember_to_aim.ogg"
+				sound10:"/sounds/vo/ita/miss/what_the.ogg"
+				sound11:"/sounds/vo/ita/miss/wow_bad_shot.ogg"
+				count:"12"
+			}
+			def monster {
+				sound00:"/sounds/vo/ita/monster/beautiful.ogg"
+				sound01:"/sounds/vo/ita/monster/look_at_the_size.ogg"
+				sound02:"/sounds/vo/ita/monster/monster.ogg"
+				sound03:"/sounds/vo/ita/monster/nice.ogg"
+				sound04:"/sounds/vo/ita/monster/now_thats_a_monster.ogg"
+				sound05:"/sounds/vo/ita/monster/now_thats_a_trophy.ogg"
+				sound06:"/sounds/vo/ita/monster/very_nice_animal.ogg"
+				sound07:"/sounds/vo/ita/monster/wow_look_at_him.ogg"
+				count:"8"
+			}
+			def small {
+				sound00:"/sounds/vo/ita/small/it_might_do.ogg"
+				sound01:"/sounds/vo/ita/small/its_no_monster.ogg"
+				sound02:"/sounds/vo/ita/small/not_a_trophy.ogg"
+				sound03:"/sounds/vo/ita/small/not_to_big.ogg"
+				sound04:"/sounds/vo/ita/small/thats_tiny.ogg"
+				count:"5"
+			}
+			def trail {
+				sound00:"/sounds/vo/ita/trail/could_be_a_big_animal.ogg"
+				sound01:"/sounds/vo/ita/trail/hmmm_some_tracks.ogg"
+				sound02:"/sounds/vo/ita/trail/lokky_here_oh_yeah.ogg"
+				sound03:"/sounds/vo/ita/trail/look_at_these.ogg"
+				sound04:"/sounds/vo/ita/trail/tracks_follow_them.ogg"
+				sound05:"/sounds/vo/ita/trail/wonder_where_they_lead.ogg"
+				count:"6"
+			}
+			def trophy {
+				sound00:"/sounds/vo/ita/trophy/awesome_sight.ogg"
+				sound01:"/sounds/vo/ita/trophy/better_tag_my_animal.ogg"
+				sound02:"/sounds/vo/ita/trophy/i_better_stop_shaking.ogg"
+				sound03:"/sounds/vo/ita/trophy/i_need_a_picture.ogg"
+				sound04:"/sounds/vo/ita/trophy/im_so_pumped.ogg"
+				sound05:"/sounds/vo/ita/trophy/nice_animal.ogg"
+				sound06:"/sounds/vo/ita/trophy/thats_a_beautiful_animal.ogg"
+				count:"7"
+			}
+		}
+		def lady {
+			def hurt {
+				sound00:"/sounds/vo/lady/hurt/woman_auuu.ogg"
+				sound01:"/sounds/vo/lady/hurt/woman_auuu_1.ogg"
+				sound02:"/sounds/vo/lady/hurt/woman_auuu_2.ogg"
+				sound03:"/sounds/vo/lady/hurt/woman_ouch.ogg"
+				count:"4"
+			}
+			def action {
+				sound00:"/sounds/vo/lady/action/awesome.ogg"
+				sound01:"/sounds/vo/lady/action/beautiful.ogg"
+				sound02:"/sounds/vo/lady/action/holy_cow.ogg"
+				sound03:"/sounds/vo/lady/action/i_cant_believe_it.ogg"
+				sound04:"/sounds/vo/lady/action/survival_of_the_fitest.ogg"
+				sound05:"/sounds/vo/lady/action/that_is_incredible.ogg"
+				sound06:"/sounds/vo/lady/action/thats_what_its_all_about.ogg"
+				sound07:"/sounds/vo/lady/action/wait_till_i_tell_the_girls_about_this.ogg"
+				sound08:"/sounds/vo/lady/action/wait_till_i_tell_the_guys_about_this.ogg"
+				sound09:"/sounds/vo/lady/action/wow_look_at_that.ogg"
+				count:"10"
+			}
+			def attacked {
+				sound00:"/sounds/vo/lady/attacked/ahhhhhhhrghh.ogg"
+				sound01:"/sounds/vo/lady/attacked/help.ogg"
+				sound02:"/sounds/vo/lady/attacked/hurry_shoot.ogg"
+				sound03:"/sounds/vo/lady/attacked/oh_no.ogg"
+				sound04:"/sounds/vo/lady/attacked/run_run.ogg"
+				sound05:"/sounds/vo/lady/attacked/shoot.ogg"
+				count:"6"
+			}
+			def cheat {
+				sound00:"/sounds/vo/lady/miss/what_the.ogg"
+				count:"1"
+			}
+			def hit {
+				sound00:"/sounds/vo/lady/hit/good_shot.ogg"
+				sound01:"/sounds/vo/lady/hit/nice_shot.ogg"
+				sound02:"/sounds/vo/lady/hit/perfect_shot.ogg"
+				count:"3"
+			}
+			def hit_animal {
+				sound00:"/sounds/vo/lady/hit/darn_going_to_have_to_track_it.ogg"
+				sound01:"/sounds/vo/lady/hit/not_a_deadly_shot_track_it.ogg"
+				sound02:"/sounds/vo/lady/hit/not_sure_where_that_hit.ogg"
+				sound03:"/sounds/vo/lady/hit/thatll_be_easy_to_track.ogg"
+				sound04:"/sounds/vo/lady/hit/thatll_take_him_down.ogg"
+				sound05:"/sounds/vo/lady/hit/hit_but_no_vitals.ogg"
+				sound06:"/sounds/vo/lady/hit/hmmm_body_shot.ogg"
+				count:"7"
+			}
+			def hit_animal_vitals {
+				sound00:"/sounds/vo/lady/hit/good_vital_hit.ogg"
+				count:"1"
+			}
+			def hit_animal_heart {
+				sound00:"/sounds/vo/lady/hit/thats_a_heart_shot.ogg"
+				sound01:"/sounds/vo/lady/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def hit_animal_lung {
+				sound00:"/sounds/vo/lady/hit/thats_a_lung_shot.ogg"
+				sound01:"/sounds/vo/lady/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def hit_animal_spine {
+				sound00:"/sounds/vo/lady/hit/got_the_spine.ogg"
+				sound01:"/sounds/vo/lady/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def hit_animal_head {
+				sound00:"/sounds/vo/lady/hit/head_shot.ogg"
+				sound01:"/sounds/vo/lady/hit/good_vital_hit.ogg"
+				count:"2"
+			}
+			def miss {
+				sound00:"/sounds/vo/lady/miss/another_miss.ogg"
+				sound01:"/sounds/vo/lady/miss/aww_horrible_shot.ogg"
+				sound02:"/sounds/vo/lady/miss/back_to_the_range_for_me.ogg"
+				sound03:"/sounds/vo/lady/miss/barrel_must_be_bent.ogg"
+				sound04:"/sounds/vo/lady/miss/got_to_calm_down.ogg"
+				sound05:"/sounds/vo/lady/miss/got_to_relax.ogg"
+				sound06:"/sounds/vo/lady/miss/is_that_animal_a_ghost.ogg"
+				sound07:"/sounds/vo/lady/miss/is_this_thing_sighted_in.ogg"
+				sound08:"/sounds/vo/lady/miss/ooops.ogg"
+				sound09:"/sounds/vo/lady/miss/remember_to_aim_next_time.ogg"
+				sound10:"/sounds/vo/lady/miss/what_the.ogg"
+				sound11:"/sounds/vo/lady/miss/wow_bad_shot.ogg"
+				count:"12"
+			}
+			def monster {
+				sound00:"/sounds/vo/lady/monster/beautiful.ogg"
+				sound01:"/sounds/vo/lady/monster/look_at_the_size_of_that.ogg"
+				sound02:"/sounds/vo/lady/monster/monster.ogg"
+				sound03:"/sounds/vo/lady/monster/nice.ogg"
+				sound04:"/sounds/vo/lady/monster/now_that_is_a_monster.ogg"
+				sound05:"/sounds/vo/lady/monster/now_thats_a_trophy.ogg"
+				sound06:"/sounds/vo/lady/monster/very_nice_animal.ogg"
+				sound07:"/sounds/vo/lady/monster/wow_look_at_him.ogg"
+				count:"8"
+			}
+			def small {
+				sound00:"/sounds/vo/lady/small/it_might_do.ogg"
+				sound01:"/sounds/vo/lady/small/its_no_monster.ogg"
+				sound02:"/sounds/vo/lady/small/not_to_big.ogg"
+				sound03:"/sounds/vo/lady/small/thats_tiny.ogg"
+				sound04:"/sounds/vo/lady/small/well_its_not_a_trophy.ogg"
+				count:"5"
+			}
+			def trail {
+				sound00:"/sounds/vo/lady/trail/could_be_a_big_animal.ogg"
+				sound01:"/sounds/vo/lady/trail/hmmm_some_tracks.ogg"
+				sound02:"/sounds/vo/lady/trail/i_wonder_where.ogg"
+				sound03:"/sounds/vo/lady/trail/look_at_these.ogg"
+				sound04:"/sounds/vo/lady/trail/looky_here...oh_yeah.ogg"
+				sound05:"/sounds/vo/lady/trail/tracks_lets_follow.ogg"
+				count:"6"
+			}
+			def trophy {
+				sound00:"/sounds/vo/lady/trophy/better_tag_my_animal.ogg"
+				sound01:"/sounds/vo/lady/trophy/i_better_stop_shaking.ogg"
+				sound02:"/sounds/vo/lady/trophy/i_need_a_picture_of_this.ogg"
+				sound03:"/sounds/vo/lady/trophy/im_so_pumped.ogg"
+				sound04:"/sounds/vo/lady/trophy/nice_animal.ogg"
+				sound05:"/sounds/vo/lady/trophy/that_is_a_beautiful_animal.ogg"
+				sound06:"/sounds/vo/lady/trophy/that_is_an_awesome_sight.ogg"
+				count:"7"
+			}
+		}
+		def ldy2:lady {
+		}
+	}
+}

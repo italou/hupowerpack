@@ -1,0 +1,1772 @@
+SiiNunit
+{
+
+## HU CORNER Target Range
+## Creator: ita
+## Version: 1.1 (13 Out 2010)
+## Efective range: from 3100 yards (straight-line) up to 3400 yards.
+## Max range: 4250 yards
+## NOTES:
+## placement: (+E -W, H, +S -N) SCALE (Rotation/Normals)
+## Rotations (red arrow):
+## (&248d3000; 0, 1, 0) South
+## (1; 0, 0, 0) North
+## (&3f3504f3; 0, &bf3504f3, 0) Est
+## (&3f2b4c25; 0, &3f3e3ebd, 0) West (almost...)
+## (&3f720d81; 0, &3ea6b0df, 0) NW
+## (&bebba60c; 0, &3f6e2fd9, 0) SE
+
+## GROUND
+
+body_inst : units.objects_ins.floor1 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (0, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor2 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (200, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor3 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (400, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor4 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (600, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor5 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (800, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor6 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1000, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor7 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1200, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor8 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1400, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor9 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1600, 0, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor10 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-200, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor11 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-400, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor12 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-600, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor13 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-800, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor14 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1000, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor15 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1200, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor16 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1400, -70, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor17 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1600, 0, 0) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor18 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (0, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor19 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (200, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor20 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (400, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor21 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (600, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor22 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (800, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor23 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1000, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor24 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1200, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor25 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1400, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor26 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1600, 0, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor27 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-200, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor28 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-400, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor29 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-600, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor30 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-800, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor31 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1000, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor32 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1200, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor33 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1400, -70, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor34 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1600, 0, 550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor35 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (0, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor36 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (200, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor37 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (400, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor38 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (600, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor39 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (800, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor40 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1000, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor41 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1200, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor42 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1400, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor43 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1600, 0, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor44 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-200, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor45 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-400, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor46 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-600, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor47 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-800, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor48 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1000, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor49 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1200, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor50 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1400, -70, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor51 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1600, 0, 1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor52 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (0, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor53 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (200, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor54 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (400, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor55 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (600, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor56 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (800, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor57 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1000, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor58 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1200, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor59 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1400, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor60 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1600, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor61 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-200, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor62 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-400, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor63 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-600, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor64 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-800, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor65 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1000, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor66 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1200, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor67 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1400, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor68 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1600, 0, 1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor69 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (0, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor70 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (200, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor71 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (400, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor72 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (600, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor73 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (800, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor74 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1000, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor75 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1200, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor76 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1400, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor77 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1600, 0, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor78 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-200, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor79 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-400, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor80 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-600, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor81 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-800, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor82 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1000, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor83 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1200, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor84 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1400, -70, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor85 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1600, 0, -550) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor86 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (0, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor87 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (200, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor88 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (400, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor89 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (600, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor90 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (800, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor91 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1000, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor92 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1200, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor93 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1400, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor94 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1600, 0, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor95 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-200, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor96 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-400, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor97 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-600, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor98 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-800, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor99 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1000, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor100 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1200, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor101 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1400, -70, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor102 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1600, 0, -1100) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor103 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (0, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor104 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (200, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor105 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (400, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor106 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (600, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor107 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (800, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor108 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1000, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor109 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1200, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor110 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1400, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor111 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (1600, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor112 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-200, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor113 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-400, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor114 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-600, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor115 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-800, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor116 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1000, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor117 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1200, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor118 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1400, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_inst : units.objects_ins.floor119 {
+ body_desc: units.objects_des.floor_desc1
+ placement: (-1600, 0, -1650) 100 (1; 0, 0, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_desc : units.objects_des.floor_desc1 {
+ model_file: "/models/objects/boards/boards.ma"
+ model_anim: ""
+ look: stained
+ variant: default
+ unique_instances: 1
+ is_collidable: true
+}
+
+## Range 1 - Boxstand
+
+body_inst : boxstand2 {
+ body_desc: units.boxstands.body_desc1
+ placement: (-1376.23, 129.767, -644.947) 1 (&3f2b4c25; 0, &3f3e3ebd, 0)
+ ground_color: (&3ecd1e42, &3ed70330, &3ea598da)
+ ground_normal: (&bd624ed1, &3f7e2577, &bdda7107)
+ ground_point: (&4460fff4, &41d2c263, &c480feaf)
+}
+
+body_desc : units.boxstands.body_desc1 {
+ model_file: "/models/objects/boxstand/object.ma"
+ model_anim: ""
+ look: default
+ variant: default
+ unique_instances: 1
+ is_collidable: true
+}
+
+target : locator1.new_targets.btarget_a100 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1286.2, 131, -661.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a200 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1193.7, 131, -658.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a300 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1101.9, 131, -655.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a400 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1010.35, 131, -652.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a500 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-918.85, 131, -649.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a600 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-827.4, 131, -646.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a700 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-735.95, 131, -643.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a800 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-644.55, 131, -640.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a900 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-553.1, 131, -637.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-461.65, 131, -634.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k1 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-370.3, 131, -629.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k2 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-278.95, 131, -623.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k3 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-187.63, 131, -617.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k4 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-96.3, 131, -611.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k5 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-5, 131, -605.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k6 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (86.3, 131, -599.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k7 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (177.6, 131, -593.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k8 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (268.9, 131, -587.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a1k9 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (360.2, 131, -581.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (451.4, 131, -574.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k1 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (542.7, 131, -568.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k2 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (634, 131, -562.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k3 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (725.25, 131, -556.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k4 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (816.5, 131, -550.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k5 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (907.8, 131, -544.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k6 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (999.05, 131, -538.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k7 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1090.3, 131, -532.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k8 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1181.6, 131, -526.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a2k9 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1272.8, 131, -520.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a3k {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1364.1, 131, -514.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_a3k1 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1455.35, 131, -508.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+## Range 2 - Ground
+
+body_desc : body_desc42 {
+ model_file: "/models/objects/targetroof/right.ma"
+ model_anim: ""
+ look: default
+ variant: default
+ unique_instances: 1
+ is_collidable: true
+}
+
+body_inst : targetroof1 {
+ body_desc: body_desc42
+ placement: (-1383.8, 131, -609) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (&b10c8fbd, 1, &b2d57b5f)
+ ground_point: (&44115e65, &41250eee, &c42e9964)
+}
+
+target : locator1.new_targets.btarget_b100 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1293.1, 131, -621.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b200 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1201, 131, -618.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b300 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1109.4, 131, -615.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b400 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1017.9, 131, -612.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b500 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-926.4, 131, -609.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b600 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-835, 131, -606.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b700 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-743.6, 131, -603.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b800 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-652.15, 131, -600.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b900 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-560.75, 131, -597.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-469.35, 131, -594.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k1 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-377.95, 131, -589.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k2 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-286.65, 131, -583.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k3 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-195.33, 131, -577.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k4 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-104, 131, -571.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k5 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-12.7, 131, -565.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k6 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (78.6, 131, -559.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k7 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (169.85, 131, -553.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k8 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (261.15, 131, -547.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b1k9 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (352.45, 131, -541.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (443.7, 131, -534.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k1 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (534.95, 131, -528.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k2 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (626.2, 131, -522.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k3 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (717.48, 131, -516.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k4 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (808.72, 131, -510.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k5 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (900, 131, -504.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k6 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (991.25, 131, -498.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k7 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1082.52, 131, -492.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k8 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1173.78, 131, -486.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b2k9 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1265.05, 131, -480.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b3k {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1356.3, 131, -474.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_b3k1 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1447.56, 131, -468.947) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+## Range 1-2 Fencing
+
+body_desc : body_desc34 {
+ model_file: "/models/objects/fencing/board.ma"
+ model_anim: ""
+ look: stained
+ variant: default
+ unique_instances: 1
+ is_collidable: true
+}
+
+body_inst : fence1 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -610.182) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence2 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -614.182) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence3 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -618.182) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence4 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -622.182) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence5 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -626.182) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence6 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -630.182) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence7 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -634.182) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence8 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -638.182) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence_end1 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -642.1) 1 (&248d3000; 0, 1, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence9 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -604.027) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_inst : fence10 {
+ body_desc: body_desc34
+ placement: (-1383.64, 131, -600.027) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415d6bb, &42166567, &c3f1a909)
+}
+
+body_desc : body_desc35 {
+ model_file: "/models/objects/fencing/pale.ma"
+ model_anim: ""
+ look: stained
+ variant: default
+ unique_instances: 1
+ is_collidable: true
+}
+
+body_inst : pole1 {
+ body_desc: body_desc35
+ placement: (-1383.64, 131, -607.902) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415cd2a, &42166567, &c3f77c19)
+}
+
+body_inst : pole2 {
+ body_desc: body_desc35
+ placement: (-1379.77, 131, -642.092) 1 (&3f3504f3; 0, &bf3504f3, 0)
+ ground_color: (&3f000000, &3f000000, &3f000000)
+ ground_normal: (0, 1, 0)
+ ground_point: (&4415cd2a, &42166567, &c3f77c19)
+}
+
+## Range 3 - Hill
+
+body_inst : boxtand1 {
+ body_desc: units.boxstands.body_desc1
+ placement: (-1372.28, 192, -1065.44) 1 (&3f2b4c25; 0, &3f3e3ebd, 0)
+ ground_color: (&3ecd1e42, &3ed70330, &3ea598da)
+ ground_normal: (&bd624ed1, &3f7e2577, &bdda7107)
+ ground_point: (&4460fff4, &41d2c263, &c480feaf)
+}
+
+target : locator1.new_targets.btarget_c200 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1213.8, 168.2, -1152.9) 1 (&3f3b39ff; 0, &bf2e9772, 0)
+}
+
+target : locator1.new_targets.btarget_c300 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1101.8, 147, -1056) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_c400 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-1018.3, 131.8, -997.2) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_c500 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (-918.8, 141.4, -1104.2) 1 (&3f3b39ff; 0, &bf2e9772, 0)
+}
+
+## Map Targets
+
+target : locator1.new_targets.btarget_b3k2 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1162.1, 131.8, 835.9) 1 (&bebba60c; 0, &3f6e2fd9, 0)
+}
+
+target : locator1.new_targets.btarget_b3k3 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1225, 131.8, 909.4) 1 (&bebba60c; 0, &3f6e2fd9, 0)
+}
+
+target : locator1.new_targets.btarget_b3k4 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1294.9, 131.8, 971.9) 1 (&bebba60c; 0, &3f6e2fd9, 0)
+}
+
+target : locator1.new_targets.btarget_d1 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (898.7, 147, -50.9) 1 (&bebba60c; 0, &3f6e2fd9, 0)
+}
+
+target : locator1.new_targets.btarget_d1a {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (898.7, 147, -55.9) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_d2 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1454, 181.9, 386.6) 1 (&bebba60c; 0, &3f6e2fd9, 0)
+}
+
+target : locator1.new_targets.btarget_d2a {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1454, 181.9, 381.6) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_d3 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1481.6, 181.1, 491) 1 (&bebba60c; 0, &3f6e2fd9, 0)
+}
+
+target : locator1.new_targets.btarget_d3a {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1481.6, 181.1, 486) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_d4 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1479.6, 141.6, 626.2) 1 (&bebba60c; 0, &3f6e2fd9, 0)
+}
+
+target : locator1.new_targets.btarget_d4a {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1479.6, 141.6, 621.2) 1 (&3f3504f3; 0, &bf3504f3, 0)
+}
+
+target : locator1.new_targets.btarget_d5 {
+ model_file: "/models/objects/targetbow/object.ma"
+ look: default
+ variant: default
+ placement: (1475.2, 131.8, 1324.2) 1 (&bebba60c; 0, &3f6e2fd9, 0)
+}
+
+## MISC STUFF
+
+body_inst : units.objects_ins.house {
+ body_desc: units.objects_des.house_desc1
+ placement: (-1316.93, 136.126, -771.029) 1 (&3f3b39ff; 0, &bf2e9772, 0)
+ ground_color: (&3eeddf46, &3ee0d634, &3eca878b)
+ ground_normal: (&bd1c38fb, &3f7fc71b, &bc894746)
+ ground_point: (&c469ccd4, &41ead67b, &43905237)
+}
+
+body_desc : units.objects_des.house_desc1 {
+ model_file: "/models/objects/house/object.ma"
+ model_anim: ""
+ look: default
+ variant: default
+ unique_instances: 1
+ is_collidable: true
+}
+
+body_inst : _nameless.ranger {
+ body_desc: units.objects_des.ranger_desc1
+ placement: (-1325.61, 136.552, -777.974) 1 (&3f3b39ff; 0, &bf2e9772, 0)
+ ground_color: (&3f04e4ce, &3efc3aee, &3eed098c)
+ ground_normal: (&badb1778, &3f7ec428, &bdc8cbc0)
+ ground_point: (&442f66e4, &41e9627f, &c422491f)
+}
+
+body_desc : units.objects_des.ranger_desc1 {
+ model_file: "/models/objects/ranger/object.ma"
+ model_anim: ""
+ look: army
+ variant: default
+ unique_instances: 1
+ is_collidable: true
+}
+
+body_inst : units.houses_ins.tank {
+ body_desc: units.objects_des.transform171
+ placement: (-1319.47, 138.211, -797.486) 1 (&3f3b39ff; 0, &bf2e9772, 0)
+ ground_color: (&3efe1cdc, &3ede62da, &3e8e6b81)
+ ground_normal: (&be8f11b5, &3f758e49, &bd301ca9)
+ ground_point: (&4493a94a, &c208a72f, &c49ee4ae)
+}
+
+body_desc : units.objects_des.transform171 {
+ model_file: "/models/objects/tank/object.ma"
+ model_anim: ""
+ look: rusty
+ variant: default
+ unique_instances: 1
+ is_collidable: true
+}
+
+body_inst : objects.usign {
+ body_desc: des.body_desc12
+ placement: (-1328.43, 136.022, -767.085) 1 (&3f6944fc; 0, &3ed2ea68, 0)
+ ground_color: (&3e99999a, &3e99999a, &3e99999a)
+ ground_normal: (&bdc3e62d, &3f7e918f, &bd3744f0)
+ ground_point: (&44528920, &c1326023, &c3c4f310)
+}
+
+body_desc : des.body_desc12 {
+ model_file: "/models/objects/sign/object.ma"
+ model_anim: ""
+ look: default
+ variant: default
+ unique_instances: 1
+ is_collidable: true
+}
+
+}

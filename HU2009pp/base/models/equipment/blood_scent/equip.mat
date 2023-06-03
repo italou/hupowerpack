@@ -1,0 +1,7 @@
+material : "hu.dif" {
+	texture[0] : "/models/equipment/blood_scent/equip.tobj"
+	diffuse : { 1 , 1 , 1 }
+	shininess : 16
+	specular : { 0 , 0 , 0 }
+	ambient : { 1 , 1 , 1 }
+}

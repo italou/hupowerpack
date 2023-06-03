@@ -1,0 +1,10 @@
+"grizzly atv" : "vehicle.pmd" {
+	features {
+	}
+
+	animations {
+	}
+	
+	behaviors {
+	}
+}

@@ -1,0 +1,23 @@
+SiiNunit
+#.45 Platinum AeroTip Bullet
+{
+
+projectile : _nameless
+{
+ bc: 0.278
+ muzzle: 1980
+ weight: 300
+ model: .model
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/ball/projectile.pmd"
+ look: default
+ variant: default
+}
+
+}
+

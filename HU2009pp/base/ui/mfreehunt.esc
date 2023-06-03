@@ -1,0 +1,1062 @@
+estruct {
+	client {
+		entities {
+			entity "ui.window" {
+				evalues {
+					"clip_children" : "false"
+					"wclass" : "edited"
+					"coords" : "0 0 1024 768"
+					"fitting" : "true"
+					"name" : "window"
+				}
+				entities {
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "2 2 130 48"
+							"id" : "9999"
+							"name" : "uifx"
+						}
+						entities {
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "1 557 328 653"
+							"layer" : "-1"
+							"name" : "mapsettings"
+						}
+						entities {
+							entity "ui.comp.common.slider" {
+								evalues {
+									"value" : "155"
+									"action_on_drag" : "true"
+									"layer" : "1"
+									"id" : "50"
+									"tooltip" : "@@et_ge_timeofday@@"
+									"coords" : "106 571 328 600"
+									"name" : "time_slider"
+								}
+							}
+							entity "ui.comp.common.dropdown" {
+								evalues {
+									"look" : "16"
+									"list_management" : "true"
+									"tooltip" : "@@et_ge_weather@@"
+									"coords" : "106 607 325 628"
+									"layer" : "1"
+									"id" : "40"
+									"name" : "weather"
+								}
+								entities {
+									entity "ui.comp.common.list" {
+										evalues {
+											"look" : "24"
+											"item_width" : "180.00043"
+											"item_height" : "22.00000"
+											"coords" : "106 470 325 607"
+											"layer" : "3"
+											"name" : "ui.comp.list"
+										}
+										entities {
+											entity "ui.comp.text" {
+												evalues {
+													"text" : "<color value=@@rgb_main@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+													"layer" : "2"
+													"coords" : "106 470 359 607"
+												}
+											}
+										}
+									}
+								}
+							}
+							entity "ui.comp.common.dropdown" {
+								evalues {
+									"look" : "16"
+									"list_management" : "true"
+									"tooltip" : "@@mt_fh_map@@"
+									"coords" : "106 631 325 652"
+									"layer" : "1"
+									"id" : "30"
+									"name" : "map"
+								}
+								entities {
+									entity "ui.comp.common.list" {
+										evalues {
+											"look" : "24"
+											"item_width" : "180.00043"
+											"item_height" : "22.00000"
+											"coords" : "106 300 325 631"
+											"layer" : "3"
+											"name" : "ui.comp.list"
+										}
+										entities {
+											entity "ui.comp.text" {
+												evalues {
+													"text" : "<color value=@@rgb_main@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+													"layer" : "2"
+													"coords" : "106 300 357 631"
+												}
+											}
+										}
+									}
+								}
+							}
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "7"
+									"value" : "@@mm_map@@"
+									"layer" : "1"
+									"coords" : "1 631 97 653"
+									"name" : "t_map"
+								}
+							}
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "7"
+									"value" : "@@em_weather@@"
+									"layer" : "1"
+									"coords" : "1 607 97 629"
+									"name" : "t_weather"
+								}
+							}
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "7"
+									"value" : "@@em_timeofday@@"
+									"layer" : "1"
+									"coords" : "1 582 97 604"
+									"name" : "t_timet_weather"
+								}
+							}
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "6"
+									"value" : "12:00 PM"
+									"layer" : "1"
+									"id" : "60"
+									"coords" : "184 557 264 581"
+									"name" : "time_text"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "21 82 331 547"
+							"layer" : "-1"
+							"name" : "population"
+						}
+						entities {
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "63"
+									"value" : "@@mm_animalpopulation@@"
+									"layer" : "1"
+									"coords" : "21 515 331 547"
+									"name" : "t_population"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "36"
+									"value2" : "@@mm_dangerousyes@@"
+									"value" : "@@mm_dangerousno@@"
+									"button_type" : "1"
+									"layer" : "1"
+									"id" : "95"
+									"tooltip" : "@@et_ge_dangerousanimals@@"
+									"coords" : "60 82 293 106"
+									"name" : "danimals"
+								}
+							}
+							entity "ui.comp.common.dropdown" {
+								evalues {
+									"look" : "28"
+									"tooltip" : "@@mt_fh_species@@"
+									"coords" : "37 410 169 496"
+									"layer" : "1"
+									"id" : "500"
+									"name" : "species0"
+								}
+								entities {
+									entity "ui.comp.common.list" {
+										evalues {
+											"look" : "29"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_gap" : "5.00000"
+											"item_width" : "64.00000"
+											"item_height" : "64.00000"
+											"multi_column" : "true"
+											"coords" : "169 289 586 496"
+											"layer" : "12"
+											"name" : "ui.comp.list"
+										}
+										entities {
+											entity "ui.comp.text" {
+												evalues {
+													"text" : "<color value=@@rgb_main@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+													"layer" : "11"
+													"coords" : "169 284 587 496"
+												}
+											}
+										}
+									}
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "36"
+									"value" : "HIGH"
+									"layer" : "1"
+									"id" : "510"
+									"tooltip" : "@@mt_fh_population@@"
+									"coords" : "37 386 169 410"
+									"name" : "density0"
+								}
+							}
+							entity "ui.comp.common.dropdown" {
+								evalues {
+									"look" : "28"
+									"tooltip" : "@@mt_fh_species@@"
+									"coords" : "184 410 316 496"
+									"layer" : "1"
+									"id" : "550"
+									"name" : "species1"
+								}
+								entities {
+									entity "ui.comp.common.list" {
+										evalues {
+											"look" : "29"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_gap" : "5.00000"
+											"item_width" : "64.00000"
+											"item_height" : "64.00000"
+											"multi_column" : "true"
+											"coords" : "316 282 734 496"
+											"layer" : "4"
+											"name" : "ui.comp.list"
+										}
+										entities {
+											entity "ui.comp.text" {
+												evalues {
+													"text" : "<color value=@@rgb_main@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+													"layer" : "3"
+													"coords" : "316 284 734 496"
+												}
+											}
+										}
+									}
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "36"
+									"value" : "HIGH"
+									"layer" : "1"
+									"id" : "560"
+									"tooltip" : "@@mt_fh_population@@"
+									"coords" : "184 386 316 410"
+									"name" : "density1"
+								}
+							}
+							entity "ui.comp.common.dropdown" {
+								evalues {
+									"look" : "28"
+									"tooltip" : "@@mt_fh_species@@"
+									"coords" : "37 282 169 368"
+									"layer" : "1"
+									"id" : "600"
+									"name" : "species2"
+								}
+								entities {
+									entity "ui.comp.common.list" {
+										evalues {
+											"look" : "29"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_gap" : "5.00000"
+											"item_width" : "64.00000"
+											"item_height" : "64.00000"
+											"multi_column" : "true"
+											"coords" : "169 155 587 368"
+											"layer" : "12"
+											"name" : "ui.comp.list"
+										}
+										entities {
+											entity "ui.comp.text" {
+												evalues {
+													"text" : "<color value=@@rgb_main@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+													"layer" : "11"
+													"coords" : "169 156 587 368"
+												}
+											}
+										}
+									}
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "36"
+									"value" : "HIGH"
+									"layer" : "1"
+									"id" : "610"
+									"tooltip" : "@@mt_fh_population@@"
+									"coords" : "37 258 169 282"
+									"name" : "density2"
+								}
+							}
+							entity "ui.comp.common.dropdown" {
+								evalues {
+									"look" : "28"
+									"tooltip" : "@@mt_fh_species@@"
+									"coords" : "184 282 316 368"
+									"layer" : "1"
+									"id" : "650"
+									"name" : "species3"
+								}
+								entities {
+									entity "ui.comp.common.list" {
+										evalues {
+											"look" : "29"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_gap" : "5.00000"
+											"item_width" : "64.00000"
+											"item_height" : "64.00000"
+											"multi_column" : "true"
+											"coords" : "316 152 731 368"
+											"layer" : "12"
+											"name" : "ui.comp.list"
+										}
+										entities {
+											entity "ui.comp.text" {
+												evalues {
+													"text" : "<color value=@@rgb_main@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+													"layer" : "11"
+													"coords" : "316 156 734 368"
+												}
+											}
+										}
+									}
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "36"
+									"value" : "HIGH"
+									"layer" : "1"
+									"id" : "660"
+									"tooltip" : "@@mt_fh_population@@"
+									"coords" : "184 258 316 282"
+									"name" : "density3"
+								}
+							}
+							entity "ui.comp.common.dropdown" {
+								evalues {
+									"look" : "28"
+									"tooltip" : "@@mt_fh_species@@"
+									"coords" : "37 154 169 240"
+									"layer" : "1"
+									"id" : "700"
+									"name" : "species4"
+								}
+								entities {
+									entity "ui.comp.common.list" {
+										evalues {
+											"look" : "29"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_gap" : "5.00000"
+											"item_width" : "64.00000"
+											"item_height" : "64.00000"
+											"multi_column" : "true"
+											"coords" : "168 94 584 309"
+											"layer" : "12"
+											"name" : "ui.comp.list"
+										}
+										entities {
+											entity "ui.comp.text" {
+												evalues {
+													"text" : "<color value=@@rgb_main@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+													"layer" : "11"
+													"coords" : "168 97 586 309"
+												}
+											}
+										}
+									}
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "36"
+									"value" : "HIGH"
+									"layer" : "1"
+									"id" : "710"
+									"tooltip" : "@@mt_fh_population@@"
+									"coords" : "37 130 169 154"
+									"name" : "density4"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "36"
+									"value" : "HIGH"
+									"layer" : "1"
+									"id" : "760"
+									"tooltip" : "@@mt_fh_population@@"
+									"coords" : "184 130 316 154"
+									"name" : "density5"
+								}
+							}
+							entity "ui.comp.common.dropdown" {
+								evalues {
+									"look" : "28"
+									"tooltip" : "@@mt_fh_species@@"
+									"coords" : "184 154 316 240"
+									"layer" : "1"
+									"id" : "750"
+									"name" : "species5"
+								}
+								entities {
+									entity "ui.comp.common.list" {
+										evalues {
+											"look" : "29"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_data" : "0"
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_text" : ""
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_active" : "false"
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_pml" : "/material/ui/icon/a_buffalo.mat "
+											"item_gap" : "5.00000"
+											"item_width" : "64.00000"
+											"item_height" : "64.00000"
+											"multi_column" : "true"
+											"coords" : "316 94 731 309"
+											"layer" : "12"
+											"name" : "ui.comp.list"
+										}
+										entities {
+											entity "ui.comp.text" {
+												evalues {
+													"text" : "<color value=@@rgb_main@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+													"layer" : "11"
+													"coords" : "316 97 734 309"
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "356 202 1004 669"
+							"layer" : "5"
+							"name" : "map"
+						}
+						entities {
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+									"layer" : "2"
+									"id" : "80"
+									"coords" : "356 202 1004 669"
+									"name" : "map"
+								}
+							}
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "10"
+							"button_type" : "2"
+							"layer" : "3"
+							"id" : "85"
+							"coords" : "612 562 628 578"
+							"name" : "startpos"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "40"
+							"value" : "/material/ui/icon/c_type.mat "
+							"layer" : "1"
+							"id" : "225"
+							"coords" : "869 74 984 176"
+							"name" : "camo outfit"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"layer" : "10"
+							"id" : "72"
+							"tooltip" : "@@mt_eq_camos@@"
+							"coords" : "853 71 1002 176"
+							"name" : "equip_camos"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ui_static_back.mat xscale=stretch yscale=stretch>"
+							"layer" : "-5"
+							"coords" : "0 0 1024 768"
+							"name" : "ui static background"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "37"
+							"value" : "@@mm_freehunt@@"
+							"layer" : "1"
+							"coords" : "24 678 1008 728"
+							"name" : "t_freehunt"
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "0 0 1024 768"
+							"layer" : "-1"
+							"name" : "bgr"
+						}
+						entities {
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<img src=/material/ui/frame_v.mat yscale=stretch left=0.5 right=1>"
+									"layer" : "5"
+									"coords" : "849 74 854 176"
+									"name" : "v5"
+								}
+							}
+							entity "ui.comp.common.frame" {
+								evalues {
+									"layer" : "1"
+									"coords" : "352 70 1008 180"
+								}
+							}
+							entity "ui.comp.common.frame" {
+								evalues {
+									"coords" : "352 198 1008 673"
+								}
+							}
+							entity "ui.comp.common.frame" {
+								evalues {
+									"coords" : "16 69 337 673"
+								}
+							}
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<color value=@@rgb_bck@@ ><img src=/material/ui/top.mat height=64><img src=/material/ui/color.mat  width=1024 height=640 color=@@rgb_bck@@><img src=/material/ui/bottom.mat  height=64>"
+									"layer" : "-4"
+									"coords" : "0 0 1024 768"
+								}
+							}
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<img src=/material/ui/frame_v.mat yscale=stretch left=0.5 right=1>"
+									"layer" : "5"
+									"coords" : "568 74 573 176"
+									"name" : "v1"
+								}
+							}
+							entity "ui.comp.uifx.common.text" {
+								evalues {
+									"look" : "38"
+									"layer" : "2"
+									"id" : "999"
+									"coords" : "20 20 777 46"
+									"name" : "tooltip"
+								}
+							}
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"layer" : "9"
+							"id" : "70"
+							"tooltip" : "@@mt_eq_weapons@@"
+							"area" : "349 68 568 182"
+							"coords" : "349 68 568 182"
+							"name" : "equip_weapons"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"layer" : "10"
+							"id" : "71"
+							"tooltip" : "@@mt_eq_items@@"
+							"coords" : "571 71 852 179"
+							"name" : "equip_items"
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "14"
+							"value" : "66|@@mm_back@@"
+							"layer" : "1"
+							"id" : "10"
+							"tooltip" : "@@mt_ht_back@@"
+							"coords" : "779 0 909 68"
+							"name" : "back"
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "14"
+							"value" : "66|@@mm_hunt@@"
+							"layer" : "1"
+							"id" : "20"
+							"tooltip" : "@@mt_eq_hunt@@"
+							"coords" : "892 0 1022 68"
+							"name" : "hunt"
+						}
+					}
+					entity "ui.comp.common.list" {
+						evalues {
+							"look" : "38"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_data" : "0"
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_text" : ""
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_active" : "false"
+							"item_pml" : "<img src=/material/ui/color.mat >"
+							"item_pml" : "<img src=/material/ui/color.mat >"
+							"item_pml" : "<img src=/material/ui/color.mat >"
+							"item_pml" : "<img src=/material/ui/color.mat >"
+							"item_pml" : "<img src=/material/ui/color.mat >"
+							"item_gap" : "4.00000"
+							"item_width" : "64.00000"
+							"item_height" : "45.00000"
+							"multi_column" : "true"
+							"coords" : "576 63 849 172"
+							"layer" : "5"
+							"id" : "210"
+							"name" : "items"
+						}
+						entities {
+						}
+					}
+					entity "ui.comp.common.list" {
+						evalues {
+							"look" : "37"
+							"item_gap" : "4.00000"
+							"item_width" : "204.00000"
+							"item_height" : "45.00000"
+							"coords" : "360 62 567 172"
+							"layer" : "5"
+							"id" : "220"
+							"name" : "weapons"
+						}
+						entities {
+						}
+					}
+				}
+			}
+			entity "ui.handler.menu.free_hunt" {
+				evalues {
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+SiiNunit
+{
+
+fog : .fog.thick {
+  clear_visibility_radius: 50.0f
+  base_color: (0.627f, 0.619f, 0.565f)
+  suppresses_shadows: true
+  suppresses_sun: true
+}
+
+environment : .fog {
+  pretty_name: "@@df_weather_fog@@"
+  skybox_look_name: "africa_f"
+  skybox_variant_name: "africa"
+  skybox_cloudiness: 1.0f
+ 
+  temperature: temperature.warm
+  humidity: humidity.dry
+  wind: wind.calm
+  sun: sun.normal
+  fog: .fog.thick
+  rain: rain.normal
+  snow: snow.normal
+  lightning: lightning.normal
+
+  ambient_sounds_fullpath: "/sounds/ambient/amb_south_fog.sii"
+}
+
+}

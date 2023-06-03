@@ -1,0 +1,7 @@
+material : "hu.dif_spec" {
+	texture[0] : "/models/equipment/ecscope/equip.tobj"
+	ambient : { 0.64462 , 0.64462 , 0.64462 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.47108 , 0.47108 , 0.47108 }
+	shininess : 60
+}

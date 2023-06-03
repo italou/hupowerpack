@@ -1,0 +1,16 @@
+"wolfcall" : "/models/equipment/hand/equip.pmd" {
+
+	features {
+		@include "/models/equipment/pba/features.pba.part"
+	}
+
+	animations {
+		"lower" : "/models/equipment/hand/call_lower.pma"
+		"raise" : "/models/equipment/hand/call_raise.pma"
+	}
+
+	behaviors {
+		@include "raise.pba.bhv"
+		@include "/models/equipment/pba/lower.pba.bhv"
+	}
+}

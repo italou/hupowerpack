@@ -1,0 +1,58 @@
+"408cheytac" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/rifle/features.pba.part"
+	}
+
+	animations {
+		"raise"	: "/models/weapons/375magbolt/raise.pma"
+		"lower"	: "/models/weapons/375magbolt/lower.pma"
+
+		"open" : "/models/weapons/375magbolt/open.pma"
+		"close" : "/models/weapons/375magbolt/close.pma"
+		"load" : "/models/weapons/375magbolt/load.pma"
+
+		"reload" : "/models/weapons/375magbolt/reload.pma"
+		"fire" : "/models/weapons/375magbolt/fire.pma"
+
+		"s_raise" : "/models/weapons/375magbolt/s_raise.pma"
+		"s_lower" : "/models/weapons/375magbolt/s_lower.pma"
+		"s_reload" : "/models/weapons/375magbolt/s_reload.pma"
+
+		"i_raise" : "/models/weapons/375magbolt/i_raise.pma"
+		"i_lower" : "/models/weapons/375magbolt/i_lower.pma"
+		"i_fire" : "/models/weapons/375magbolt/i_fire.pma"
+		"i_reload" : "/models/weapons/375magbolt/i_reload.pma"
+
+		"aim2hold" : "/models/weapons/375magbolt/aim2hold.pma"
+		"hold2aim" : "/models/weapons/375magbolt/hold2aim.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/rifle/raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/lower.pba.bhv"
+
+		@include "/models/weapons/375magbolt/open.pba.bhv"
+		@include "/models/weapons/375magbolt/close.pba.bhv"
+		@include "/models/weapons/375magbolt/load.pba.bhv"
+
+		@include "/models/weapons/375magbolt/reload.pba.bhv"
+		@include "/models/weapons/pba/rifle/fire.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/s_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/s_raise.pba.bhv"
+		@include "/models/weapons/375magbolt/s_reload.pba.bhv"
+		@include "/models/weapons/375magbolt/s_open.pba.bhv"
+		@include "/models/weapons/375magbolt/s_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/i_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_raise.pba.bhv"
+		@include "/models/weapons/375magbolt/i_reload.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_fire.pba.bhv"
+		@include "/models/weapons/375magbolt/i_open.pba.bhv"
+		@include "/models/weapons/375magbolt/i_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/hold2up.pba.bhv"
+		@include "/models/weapons/pba/rifle/up2hold.pba.bhv"
+	}
+}

@@ -1,0 +1,24 @@
+"recurvbow2" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/bow/features.pba.part"
+	}
+
+	animations {
+		"raise" : "/models/weapons/recurvebow/raise.pma"
+		"lower" : "/models/weapons/recurvebow/lower.pma"
+		"fire" : "/models/weapons/recurvebow/fire.pma"
+
+		"hold2aim" : "/models/weapons/recurvebow/hold2aim.pma"
+		"aim2hold" : "/models/weapons/recurvebow/aim2hold.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/recurvebow/raise.pba.bhv"
+		@include "/models/weapons/recurvebow/lower.pba.bhv"
+		@include "/models/weapons/recurvebow/fire.pba.bhv"
+
+		@include "/models/weapons/pba/bow/hold2up.pba.bhv"
+		@include "/models/weapons/pba/bow/up2hold.pba.bhv"
+	}
+}

@@ -1,0 +1,16 @@
+"blood_scent" : "/models/equipment/hand/equip.pmd" {
+
+	features {
+		@include "/models/equipment/pba/features.pba.part"
+	}
+
+	animations {
+		"lower" : "/models/equipment/hand/scent_lower.pma"
+		"raise" : "/models/equipment/hand/scent_raise.pma"
+	}
+
+	behaviors {
+		@include "raise.pba.bhv"
+		@include "/models/equipment/pba/lower.pba.bhv"
+	}
+}

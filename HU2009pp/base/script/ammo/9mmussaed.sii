@@ -1,0 +1,36 @@
+SiiNunit
+# 9mm Makarov Federal
+#
+# Cartridge Type: American Eagle Handgun
+#   Bullet Style: Full Metal Jacket
+#   Index Number: AE9MK
+#     Zero-Range: 50 yards
+{
+
+projectile : _nameless
+{
+ bc: 0.110
+ muzzle: 1000
+ weight: 95
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/casing/projectile.pmd"
+ look: default
+ variant: smallarm
+}
+
+}
+

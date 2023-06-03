@@ -1,0 +1,7 @@
+material : "hu.dif_spec.nc" {
+	texture[0] : "/models/objects/pole2/brazil.tobj"
+	diffuse : { 1 , 1 , 1 }
+	shininess : 60
+	specular : { 0.28926 , 0.28926 , 0.28926 }
+	ambient : { 1 , 1 , 1 }
+}

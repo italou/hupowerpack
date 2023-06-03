@@ -1,0 +1,9 @@
+material : "hu.dif_spec.env" {
+	texture[0] : "eye.tobj"
+	texture[1] : "/material/environment/sun_reflection.tobj"
+	ambient : { 1 , 1 , 1 }
+	specular : { 1 , 1 , 1 }
+	env_factor : { 1 , 1 , 1 }
+	shininess : 60
+	diffuse : { 1 , 1 , 1 }
+}

@@ -1,0 +1,24 @@
+"psef7gx" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/bow/features.pba.part"
+	}
+
+	animations {
+		"raise" : "/models/weapons/compbow/raise.pma"
+		"lower" : "/models/weapons/compbow/lower.pma"
+		"fire" : "/models/weapons/compbow/fire.pma"
+
+		"hold2aim" : "/models/weapons/compbow/hold2aim.pma"
+		"aim2hold" : "/models/weapons/compbow/aim2hold.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/compbow/raise.pba.bhv"
+		@include "/models/weapons/compbow/lower.pba.bhv"
+		@include "/models/weapons/compbow/fire.pba.bhv"
+
+		@include "/models/weapons/pba/bow/hold2up.pba.bhv"
+		@include "/models/weapons/pba/bow/up2hold.pba.bhv"
+	}
+}

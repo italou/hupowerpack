@@ -1,0 +1,12 @@
+SiiNunit
+{
+
+horse : _nameless {
+	pba_filename: "/models/vehicles/h3/vehicle.pba"
+	ac_enter_look: 73
+	ac_exit_look: 74
+	hunter_state_look: 75
+	icon_filename: "/material/ui/icon/ihorse3.mat"
+}
+
+}

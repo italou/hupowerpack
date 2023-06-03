@@ -1,0 +1,1740 @@
+extdefs "basedefs.def"
+
+#############################################################
+# --- WEAPONS (item definitions) ---
+#############################################################
+
+## BOLT_ACTION
+def 303_british_bolt:weapon_bolt {
+	short:"@@df_303_s@@"
+	long:"@@df_303_l@@"
+	desc:"@@df_303_desc@@"
+	pba_main:"/models/weapons/303britishbolt"
+	icon:"/material/ui/icon/w_303_british_bolt.mat"
+	glow:"/material/ui/icon/w_303_british_bolt_glow.mat"
+	ammo_count:"5"
+	ammo:"/script/ammo/303british.sii"
+	snd_fire:"/sounds/weapons/ws_303_fire_v1.ogg"
+	load_once:"true"
+	photopose_category:"303"
+	view_rot:"< 3 270 0 >"
+	zero_range:"100"
+}
+
+## .243 Remington 700 CDL (model: 30-06_bolt)
+def r700cdl:weapon_bolt {
+	short:"@@df_r700cdl_s@@"
+	long:"@@df_r700cdl_l@@"
+	desc:"@@df_r700cdl_desc@@"
+	pba_main:"/models/weapons/r700cdl"
+	look:"3006"
+	icon:"/material/ui/icon/w_r700cdl.mat"
+	glow:"/material/ui/icon/w_30-06_bolt_glow.mat"
+	load_1ammo:"true"
+	ammo_count:"4"
+	ammo:"/script/ammo/prsc243wa.sii"
+	photopose_category:"bolt"
+	snd_fire:"/sounds/weapons/ws_243_fire_v2.ogg"
+	view_rot:"< 0 274 -3 >"
+	zero_range:"200"
+}
+
+
+## 8mm Mauser Bolt (model: 303_british_bolt)
+def 8mm_bolt:weapon_bolt {
+	short:"@@df_8mm_s@@"
+	long:"@@df_8mm_l@@"
+	desc:"@@df_8mm_desc@@"
+	pba_main:"/models/weapons/8mmgermanybolt"
+	icon:"/material/ui/icon/w_8mm_germany_bolt.mat"
+	glow:"/material/ui/icon/w_8mm_germany_bolt_glow.mat"
+	ammo_count:"5"
+	ammo:"/script/ammo/8mm.sii"
+	snd_fire:"/sounds/weapons/ws_338_fire_v1.ogg"
+	load_once:"true"
+	photopose_category:"303"
+	view_rot:"< 3 250 0 >"
+	zero_range:"100"
+}
+
+def 270_bolt:weapon_bolt {
+	short:"@@df_270_s@@"
+	long:"@@df_270_l@@"
+	desc:"@@df_270_desc@@"
+	pba_main:"/models/weapons/270bolt"
+	look:"270"
+	icon:"/material/ui/icon/w_270_bolt.mat"
+	glow:"/material/ui/icon/w_270_bolt_glow.mat"
+	load_1ammo:"true"
+	ammo_count:"5"
+	ammo:"/script/ammo/270win.sii"
+	photopose_category:"bolt"
+	snd_fire:"/sounds/weapons/ws_270_fire_v1.ogg"
+	view_rot:"< 1 271 0 >"
+	zero_range:"170"
+}
+
+def 280_bolt:270_bolt {
+	short:"@@df_280_s@@"
+	long:"@@df_280_l@@"
+	desc:"@@df_280_desc@@"
+	look:"280"
+	ammo_count:"5"
+	ammo:"/script/ammo/280rem.sii"
+	snd_fire:"/sounds/weapons/ws_280_fire_v1.ogg"
+	icon:"/material/ui/icon/w_280_bolt.mat"
+	glow:"/material/ui/icon/w_280_bolt_glow.mat"
+	view_rot:"< 0 269 0 >"
+	zero_range:"140"
+}
+
+def 22-250_bolt:270_bolt {
+	short:"@@df_22-250_s@@"
+	long:"@@df_22-250_l@@"
+	desc:"@@df_22-250_desc@@"
+	look:"250"
+	ammo_count:"5"
+	ammo:"/script/ammo/22-250rem.sii"
+	snd_fire:"/sounds/weapons/ws_280_fire_v2.ogg"
+	icon:"/material/ui/icon/w_22-250_bolt.mat"
+	glow:"/material/ui/icon/w_22-250_bolt_glow.mat"
+	view_rot:"< 0 269 0 >"
+	zero_range:"180"
+}
+
+def 375_magnum_bolt:weapon_bolt {
+	short:"@@df_375_s@@"
+	long:"@@df_375_l@@"
+	desc:"@@df_375_desc@@"
+	pba_main:"/models/weapons/375magbolt"
+	look:"375"
+	icon:"/material/ui/icon/w_375_magnum_bolt.mat"
+	glow:"/material/ui/icon/w_375_magnum_bolt_glow.mat"
+	ammo_char:"M"
+	ammo_count:"5"
+	ammo:"/script/ammo/375mag.sii"
+	snd_fire:"/sounds/weapons/ws_375_fire_v2.ogg"
+	photopose_category:"bolt"
+	load_once:"true"
+	view_rot:"< -1 272 2 >"
+	zero_range:"120"
+}
+
+def 338_bolt:375_magnum_bolt {
+	short:"@@df_338_s@@"
+	long:"@@df_338_l@@"
+	desc:"@@df_338_desc@@"
+	look:"338"
+	ammo_char:"M"
+	ammo_count:"5"
+	ammo:"/script/ammo/338mag.sii"
+	snd_fire:"/sounds/weapons/ws_338_fire_v3.ogg"
+	icon:"/material/ui/icon/w_338_magnum_bolt.mat"
+	glow:"/material/ui/icon/w_338_magnum_bolt_glow.mat"
+	view_rot:"< 2 267 -1 >"
+	zero_range:"130"
+}
+
+
+#.338 Sako TRG-42 (model: 30-06_bolt)
+def sakotrg42:weapon_bolt {
+	short:"@@df_sakotrg42_s@@"
+	long:"@@df_sakotrg42_l@@"
+	desc:"@@df_sakotrg42_desc@@"
+	pba_main:"/models/weapons/sakotrg"
+	look:"3006"
+	icon:"/material/ui/icon/w_sakotrg42.mat"
+	glow:"/material/ui/icon/w_30-06_bolt_glow.mat"
+	load_1ammo:"true"
+	ammo_count:"10"
+	ammo:"/script/ammo/sakotrg42.sii"
+	photopose_category:"bolt"
+	snd_fire:"/sounds/weapons/338lapua.ogg"
+	view_rot:"< 0 274 -3 >"
+	zero_range:"300"
+}
+
+## .50 BMG (model: 375_magnum_bolt)
+def 50c_mag_bolt:weapon_bolt {
+	short:"@@df_50_s@@"
+	long:"@@df_50_l@@"
+	desc:"@@df_50_desc@@"
+	pba_main:"/models/weapons/50cmagbolt"
+	look:"338"
+	icon:"/material/ui/icon/w_50bmgbolt.mat"
+	glow:"/material/ui/icon/w_50bmgbolt_glow.mat"
+	ammo_char:"M"
+	ammo_count:"5"
+	photopose_category:"bolt"
+	load_once:"true"
+	load_force:"false"
+	view_rot:"< -1 272 2 >"
+	zero_range:"200"
+	ammo:"/script/ammo/50.sii"
+	snd_fire:"/sounds/weapons/ws_243_fire_v2.ogg"
+	snd_missfire:"/sounds/weapons/ws_bolt_dryfire.ogg"
+}
+
+## .338 LM Timberwolf (model: 375_magnum_bolt)
+def 338lap_bolt:50c_mag_bolt {
+	short:"@@df_338lap_s@@"
+	long:"@@df_338lap_l@@"
+	desc:"@@df_338lap_desc@@"
+	look:"375"
+	ammo:"/script/ammo/338lap.sii"
+	snd_fire:"/sounds/weapons/338lapua.ogg"
+	icon:"/material/ui/icon/w_338lap.mat"
+	glow:"/material/ui/icon/w_375_magnum_bolt_glow.mat"
+	view_rot:"< 2 267 -1 >"
+}
+
+## .408 CT Timberwolf (model: 375_magnum_bolt)
+def 408chey_bolt:50c_mag_bolt {
+	short:"@@df_408cheytac_s@@"
+	long:"@@df_408cheytac_l@@"
+	desc:"@@df_408cheytac_desc@@"
+	pba_main:"/models/weapons/408cheytac"
+	ammo:"/script/ammo/408cheytac.sii"
+	snd_fire:"/sounds/weapons/408cheytac.ogg"
+	icon:"/material/ui/icon/w_408cheytac.mat"
+	glow:"/material/ui/icon/w_375_magnum_bolt_glow.mat"
+	view_rot:"< 2 267 -1 >"
+}
+
+## .25-06 Remington 700 CDL (model: 30-06_bolt)
+def 25-06_r700cdl:r700cdl {
+	short:"@@df_25-06_r700cdl_s@@"
+	long:"@@df_25-06_r700cdl_l@@"
+	desc:"@@df_25-06_r700cdl_desc@@"
+	ammo:"/script/ammo/prc2506ra.sii"
+	snd_fire:"/sounds/weapons/ws_3006_fire_v1.ogg"
+}
+
+def 30-06_bolt:weapon_bolt {
+	short:"@@df_30-06_s@@"
+	long:"@@df_30-06_l@@"
+	desc:"@@df_30-06_desc@@"
+	pba_main:"/models/weapons/3006bolt"
+	look:"3006"
+	icon:"/material/ui/icon/w_30-06_bolt.mat"
+	glow:"/material/ui/icon/w_30-06_bolt_glow.mat"
+	load_1ammo:"true"
+	ammo_count:"5"
+	ammo:"/script/ammo/30-06.sii"
+	photopose_category:"bolt"
+	snd_fire:"/sounds/weapons/ws_3006_fire_v2.ogg"
+	view_rot:"< -3 274 -3 >"
+	zero_range:"100"
+}
+
+## .30-06 A-Bolt Stalker (model: 30-06_bolt)
+def bboltss:weapon_bolt {
+	short:"@@df_bboltss_s@@"
+	long:"@@df_bboltss_l@@"
+	desc:"@@df_bboltss_desc@@"
+	pba_main:"/models/weapons/bboltss"
+	look:"3006"
+	icon:"/material/ui/icon/w_bboltss.mat"
+	glow:"/material/ui/icon/w_30-06_bolt_glow.mat"
+	load_1ammo:"true"
+	ammo_count:"4"
+	ammo:"/script/ammo/bboltss.sii"
+	photopose_category:"bolt"
+	snd_fire:"/sounds/weapons/bstalker_fire_v1.ogg"
+	view_rot:"< 0 274 -3 >"
+	zero_range:"200"
+}
+
+def 308_bolt:30-06_bolt {
+	short:"@@df_308_s@@"
+	long:"@@df_308_l@@"
+	desc:"@@df_308_desc@@"
+	look:"308"
+	ammo_count:"5"
+	ammo:"/script/ammo/308.sii"
+	snd_fire:"/sounds/weapons/ws_308_fire_v1.ogg"
+	icon:"/material/ui/icon/w_308_bolt.mat"
+	glow:"/material/ui/icon/w_308_bolt_glow.mat"
+	view_rot:"< -1 269 -21 >"
+	zero_range:"110"
+}
+
+def 6mm_bolt:30-06_bolt {
+	short:"@@df_6mm_s@@"
+	long:"@@df_6mm_l@@"
+	desc:"@@df_6mm_desc@@"
+	look:"6mm"
+	ammo_count:"5"
+	ammo:"/script/ammo/6mm.sii"
+	snd_fire:"/sounds/weapons/ws_6mm_fire_v1.ogg"
+	icon:"/material/ui/icon/w_6_mm_bolt.mat"
+	glow:"/material/ui/icon/w_6_mm_bolt_glow.mat"
+	view_rot:"< 0 272 4 >"
+	zero_range:"140"
+}
+
+## .284 FireBird (model: 30-06_bolt)
+def 1000_bolt:weapon_bolt {
+	short:"@@df_284_s@@"
+	long:"@@df_284_l@@"
+	desc:"@@df_284_desc@@"
+	pba_main:"/models/weapons/1000bolt"
+	look:"6mm"
+	icon:"/material/ui/icon/w_2_84_bolt.mat"
+	glow:"/material/ui/icon/w_2_84_bolt_glow.mat"
+	load_1ammo:"true"
+	ammo_count:"4"
+	ammo:"/script/ammo/284.sii"
+	photopose_category:"bolt"
+	snd_fire:"/sounds/weapons/ws_6mm_fire_v1.ogg"
+	view_rot:"< 0 272 4 >"
+	zero_range:"300"
+}
+
+## PzB 39 (model: 30-06_bolt)
+def PzB_39:1000_bolt {
+	short:"@@df_pzb39_s@@"
+	long:"@@df_pzb39_l@@"
+	desc:"@@df_pzb39_desc@@"
+	look:"308"
+	ammo_count:"1"
+	ammo:"/script/ammo/pzb39.sii"
+	snd_fire:"/sounds/weapons/ws_338_fire_v3.ogg"
+	icon:"/material/ui/icon/w_pzb39bolt.mat"
+	glow:"/material/ui/icon/w_pzb39bolt_glow.mat"
+	view_rot:"< -1 269 -21 >"
+	zero_range:"300"
+}
+
+## 7mm-08 Remington 700 CDL (model: 30-06_bolt)
+def 7mm08_r700cdl:r700cdl {
+	short:"@@df_7mm08_r700cdl_s@@"
+	long:"@@df_7mm08_r700cdl_l@@"
+	desc:"@@df_7mm08_r700cdl_desc@@"
+	ammo:"/script/ammo/pra7m08rb.sii"
+	snd_fire:"/sounds/weapons/ws_7mm_fire_v1.ogg"
+}
+
+## 7mm WSM Model 70 (model: 30-06_bolt)
+def 7mwsm70:weapon_bolt {
+	short:"@@df_7mwsm70_s@@"
+	long:"@@df_7mwsm70_l@@"
+	desc:"@@df_7mwsm70_desc@@"
+	pba_main:"/models/weapons/7mwsm70"
+	look:"3006"
+	icon:"/material/ui/icon/w_7mwsm70.mat"
+	glow:"/material/ui/icon/w_30-06_bolt_glow.mat"
+	load_1ammo:"true"
+	ammo_count:"4"
+	ammo:"/script/ammo/p7wsmtt1.sii"
+	photopose_category:"bolt"
+	snd_fire:"/sounds/weapons/ws_300mag_fire.ogg"
+	view_rot:"< 0 274 0 >"
+	zero_range:"200"
+}
+
+## 7.62x51mm M40A3 (model: 30-06_bolt)
+def m40a37:30-06_bolt {
+	short:"@@df_m40a37_s@@"
+	long:"@@df_m40a37_l@@"
+	desc:"@@df_m40a37_desc@@"
+	pba_main:"/models/weapons/m40a37"
+	look:"308"
+	ammo_count:"5"
+	ammo:"/script/ammo/m40a37.sii"
+	snd_fire:"/sounds/weapons/ws_6mm_fire_v2.ogg"
+	icon:"/material/ui/icon/w_m40a37.mat"
+	glow:"/material/ui/icon/w_308_bolt_glow.mat"
+	view_rot:"< -1 269 -21 >"
+	zero_range:"250"
+}
+
+## 7.62 x 54R Mosin Nagant (model: 303_british_bolt)
+def 762mosinnagant:weapon_bolt {
+	short:"@@df_762mosinnagant_s@@"
+	long:"@@df_762mosinnagant_l@@"
+	desc:"@@df_762mosinnagant_desc@@"
+	pba_main:"/models/weapons/762mosinnagant"
+	icon:"/material/ui/icon/w_762_mosin_nagant.mat"
+	glow:"/material/ui/icon/w_303_british_bolt_glow.mat"
+	ammo_count:"5"
+	ammo:"/script/ammo/762mosinnagant.sii"
+	snd_fire:"/sounds/weapons/ws_375_fire_v2.ogg"
+	load_once:"true"
+	photopose_category:"303"
+	view_rot:"< 2 267 -1 >"
+	zero_range:"130"
+}
+
+## .35 Whelen 700 CDL (model: 30-06_bolt)
+def 35w_r700cdl:r700cdl {
+	short:"@@df_35w_r700cdl_s@@"
+	long:"@@df_35w_r700cdl_l@@"
+	desc:"@@df_35w_r700cdl_desc@@"
+	ammo:"/script/ammo/r35wh3.sii"
+	snd_fire:"/sounds/weapons/ws_270_fire_v1.ogg"
+	zero_range:"150"
+}
+
+
+## LEVER ACTION
+
+## .17 Rem BA Henry Lever (model: 243_lever)
+def 17hmr_lever:weapon_lever {
+	short:"@@df_17hmr_s@@"
+	long:"@@df_17hmr_l@@"
+	desc:"@@df_17hmr_desc@@"
+	pba_main:"/models/weapons/17hmrlever"
+	icon:"/material/ui/icon/w_17hmr_lever.mat"
+	glow:"/material/ui/icon/w_243_lever_glow.mat"
+	ammo_count:"11"
+	ammo:"/script/ammo/pra17ra.sii"
+	photopose_category:"lever"
+	snd_fire:"/sounds/weapons/ws_270_fire_v2.ogg"
+	zero_range:"250"
+}
+
+## .223 Rem Lever (model: 243_lever)
+def 223_lever:weapon_lever {
+	short:"@@df_223_s@@"
+	long:"@@df_223_l@@"
+	desc:"@@df_223_desc@@"
+	pba_main:"/models/weapons/223lever"
+	icon:"/material/ui/icon/w_223_lever.mat"
+	glow:"/material/ui/icon/w_243_lever_glow.mat"
+	ammo_count:"7"
+	ammo:"/script/ammo/223.sii"
+	photopose_category:"lever"
+	snd_fire:"/sounds/weapons/223.ogg"
+	zero_range:"150"
+}
+
+
+def 243_lever:weapon_lever {
+	short:"@@df_243_s@@"
+	long:"@@df_243_l@@"
+	desc:"@@df_243_desc@@"
+	pba_main:"/models/weapons/243lever"
+	icon:"/material/ui/icon/w_243_lever.mat"
+	glow:"/material/ui/icon/w_243_lever_glow.mat"
+	ammo_count:"7"
+	ammo:"/script/ammo/243.sii"
+	photopose_category:"lever"
+	snd_fire:"/sounds/weapons/ws_243_fire_v1.ogg"
+	zero_range:"135"
+}
+
+def 30-30_lever:weapon_lever {
+	short:"@@df_30-30_s@@"
+	long:"@@df_30-30_l@@"
+	desc:"@@df_30-30_desc@@"
+	pba_main:"/models/weapons/3030lever"
+	icon:"/material/ui/icon/w_30-30_lever.mat"
+	glow:"/material/ui/icon/w_30-30_lever_glow.mat"
+	ammo_count:"7"
+	ammo:"/script/ammo/30-30.sii"
+	snd_fire:"/sounds/weapons/ws_3030_fire_v1.ogg"
+	scoped:"false"
+	zero_range:"110"
+}
+
+def 45-70_lever:weapon_lever {
+	short:"@@df_45-70_s@@"
+	long:"@@df_45-70_l@@"
+	desc:"@@df_45-70_desc@@"
+	pba_main:"/models/weapons/4570lever"
+	icon:"/material/ui/icon/w_45-70_lever.mat"
+	glow:"/material/ui/icon/w_45-70_lever_glow.mat"
+	ammo_count:"7"
+	ammo:"/script/ammo/45-70.sii"
+	photopose_category:"lever"
+	snd_fire:"/sounds/weapons/ws_45-70_fire.ogg"
+	zero_range:"135"
+}
+
+## .45 Colt Henry Lever (model: 30-30_lever)
+def 45c_lever:weapon_lever {
+	short:"@@df_45clever_s@@"
+	long:"@@df_45clever_l@@"
+	desc:"@@df_45clever_desc@@"
+	pba_main:"/models/weapons/45clever"
+	icon:"/material/ui/icon/w_45c_lever.mat"
+	glow:"/material/ui/icon/w_30-30_lever_glow.mat"
+	ammo_count:"8"
+	ammo:"/script/ammo/r45c1.sii"
+	snd_fire:"/sounds/weapons/ws_45-70_fire.ogg"
+	scoped:"false"
+	zero_range:"75"
+}
+
+
+## AUTOMATIC
+def 7mm_auto:weapon_auto {
+	short:"@@df_7mm_s@@"
+	long:"@@df_7mm_l@@"
+	desc:"@@df_7mm_desc@@"
+	pba_main:"/models/weapons/7mmauto"
+	look:"7mm"
+	icon:"/material/ui/icon/w_7mm_auto.mat"
+	glow:"/material/ui/icon/w_7mm_auto_glow.mat"
+	attach_group:"arm"
+	photopose_category:"7mm"
+	ammo_count:"5"
+	ammo:"/script/ammo/7mm.sii"
+	snd_fire:"/sounds/weapons/ws_7mm_fire_v1.ogg"
+	load_once:"true"
+	view_rot:"< 0 271 3 >"
+	zero_range:"160"
+}
+
+## 7mm Debs Big Girl (model: 7mm_auto)
+def debsbg:7mm_auto {
+	short:"@@df_debsbg_s@@"
+	long:"@@df_debsbg_l@@"
+	desc:"@@df_debsbg_desc@@"
+	pba_main:"/models/weapons/debs"
+	icon:"/material/ui/icon/w_debs.mat"
+	ammo:"/script/ammo/debsbg.sii"
+	snd_fire:"/sounds/weapons/ws_9mm_fire_v2.ogg"
+	view_rot:"< 0 271 0 >"
+	zero_range:"250"
+}
+
+## .30-378 Debs UH XE (model: 7mm_auto)
+def debsxe:7mm_auto {
+	short:"@@df_debsxe_s@@"
+	long:"@@df_debsxe_l@@"
+	desc:"@@df_debsxe_desc@@"
+	pba_main:"/models/weapons/debsxe"
+	icon:"/material/ui/icon/w_debsxe.mat"
+	ammo_count:"3"
+	ammo:"/script/ammo/debsxe.sii"
+	snd_fire:"/sounds/weapons/ws_9mm_fire_v2.ogg"
+	view_rot:"< 0 271 0 >"
+	zero_range:"300"
+}
+
+## M107 SASR (model: 7mm_auto)
+def 50_snipe:weapon_auto {
+	short:"@@df_107_s@@"
+	long:"@@df_107_l@@"
+	desc:"@@df_107_desc@@"
+	pba_main:"/models/weapons/50snipe"
+	look:"7mm"
+	icon:"/material/ui/icon/w_107_auto.mat"
+	glow:"/material/ui/icon/w_107_auto_glow.mat"
+	attach_group:"arm"
+	photopose_category:"7mm"
+	ammo_count:"10"
+	ammo:"/script/ammo/107.sii"
+	snd_fire:"/sounds/weapons/ws_375_fire_v2.ogg"
+	load_once:"true"
+	view_rot:"< 0 271 3 >"
+	zero_range:"300"
+}
+
+def 300_auto:7mm_auto {
+	short:"@@df_300_s@@"
+	long:"@@df_300_l@@"
+	desc:"@@df_300_desc@@"
+	look:"300"
+	ammo_char:"M"
+	ammo_count:"5"
+	ammo:"/script/ammo/300winmag.sii"
+	snd_fire:"/sounds/weapons/ws_300_fire_v1.ogg"
+	icon:"/material/ui/icon/w_300_mag_auto.mat"
+	glow:"/material/ui/icon/w_300_mag_auto_glow.mat"
+	view_rot:"< 2 266 -2 >"
+	zero_range:"135"
+}
+
+## .416 Barrett (model: 7mm_auto)
+def 416_auto:50_snipe {
+	short:"@@df_416_s@@"
+	long:"@@df_416_l@@"
+	desc:"@@df_416_desc@@"
+	look:"300"
+	ammo_char:"M"
+	ammo_count:"5"
+	ammo:"/script/ammo/416.sii"
+	snd_fire:"/sounds/weapons/416.ogg"
+	icon:"/material/ui/icon/w_m_99_bolt.mat"
+	glow:"/material/ui/icon/w_m_99_bolt_glow.mat"
+	view_rot:"< 0 266 -2 >"
+	zero_range:"300"
+}
+
+## .450 BM Chameleon (model: 7mm_auto)
+def 450bm:7mm_auto {
+	short:"@@df_450bm_s@@"
+	long:"@@df_450bm_l@@"
+	desc:"@@df_450bm_desc@@"
+	pba_main:"/models/weapons/450bm"
+	icon:"/material/ui/icon/w_450bm.mat"
+	ammo:"/script/ammo/450bm.sii"
+	snd_fire:"/sounds/weapons/ws_9mm_fire_v2.ogg"
+	view_rot:"< 0 271 0 >"
+	zero_range:"150"
+}
+
+
+## MUZZLELOADERS
+
+## .45 Muzzleloader (model: 54_muzzleloader)
+def 45_muzzleloader:weapon_muzzleloader {
+	short:"@@df_45muzz_s@@"
+	long:"@@df_45muzz_l@@"
+	desc:"@@df_45muzz_desc@@"
+	pba_main:"/models/weapons/45muzzleloader"
+	icon:"/material/ui/icon/w_45_muzzle_loader.mat"
+	glow:"/material/ui/icon/w_54_muzzle_loader_glow.mat"
+	ammo_count:"1"
+	ammo:"/script/ammo/45muzz.sii"
+	photopose_category:"muzzle"
+	snd_fire:"/sounds/weapons/45muzzie.ogg"
+	view_rot:"< 0 270 0 >"
+	zero_range:"150"
+}
+
+## .50 FPB Hornady Muzzleloader (model: 54_muzzleloader)
+def 50_muzzleloader:45_muzzleloader {
+	short:"@@df_50_muzzleloader_s@@"
+	long:"@@df_50_muzzleloader_l@@"
+	desc:"@@df_50_muzzleloader_desc@@"
+	pba_main:"/models/weapons/50muzzleloader"
+	icon:"/material/ui/icon/w_50_muzzle_loader.mat"
+	ammo:"/script/ammo/50muzz.sii"
+	snd_fire:"/sounds/weapons/ws_muzzle_fire_v5.ogg"
+	zero_range:"100"
+}
+
+def 54_muzzleloader:weapon_muzzleloader {
+	short:"@@df_54_s@@"
+	long:"@@df_54_l@@"
+	desc:"@@df_54_desc@@"
+	pba_main:"/models/weapons/54muzzleloader"
+	icon:"/material/ui/icon/w_54_muzzle_loader.mat"
+	glow:"/material/ui/icon/w_54_muzzle_loader_glow.mat"
+	ammo_count:"1"
+	ammo:"/script/ammo/54.sii"
+	photopose_category:"muzzle"
+	snd_fire:"/sounds/weapons/ws_muzzle_fire_v2.ogg"
+	view_rot:"< -3 272 1 >"
+	zero_range:"100"
+}
+
+
+## BOWS
+def comp_bow:weapon_bow {
+	short:"@@df_cbow_s@@"
+	long:"@@df_cbow_l@@"
+	desc:"@@df_cbow_desc@@"
+	pba_main:"/models/weapons/compbow"
+	icon:"/material/ui/icon/w_compound_bow.mat"
+	glow:"/material/ui/icon/w_compound_bow_glow.mat"
+	ammo_char:"r"
+	ammo_count:"1"
+	ammo:"/script/ammo/carrow.sii"
+	attach_model:"/models/equipment/compbow/equip.pmd"
+	attach_part:"DefaultPart"
+	photopose_category:"comp"
+	attach_group:"bow"
+	snd_fire:"/sounds/weapons/ws_bow_fire_v2.ogg"
+	offset_rot:"< -0.6 0.0 0.0 >"
+	adjustable_sights:"false"
+	scoped:"false"
+	zero_range:"20"
+	view_dist:"< 0.05 0.05 -2.1 >"
+	view_rot:"< -30 130 -60 >"
+	arms_anim:"cb_raise"	
+	root_bone:"compbone0"
+	pose:"photopose_cbow"
+}
+
+## PSE X-Force 7 GX (model: comp_bow)
+def psef7gx_bow:comp_bow {
+	short:"@@df_psef7gx_s@@"
+	long:"@@df_psef7gx_l@@"
+	desc:"@@df_psef7gx_desc@@"
+	pba_main:"/models/weapons/psef7gx"
+	icon:"/material/ui/icon/w_psef7gx_bow.mat"
+	ammo:"/script/ammo/psef7gx.sii"
+	snd_fire:"/sounds/weapons/ws_bow_fire_v7.ogg"
+	zero_range:"100"
+	view_rot:"< -25 120 -50 >"
+}
+
+def recurve_bow:weapon_bow {
+	short:"@@df_rbow_s@@"
+	long:"@@df_rbow_l@@"
+	desc:"@@df_rbow_desc@@"
+	pba_main:"/models/weapons/recurvebow"
+	icon:"/material/ui/icon/w_recurve_bow.mat"
+	glow:"/material/ui/icon/w_recurve_bow_glow.mat"
+	ammo_char:"r"
+	ammo_count:"1"
+	ammo:"/script/ammo/rarrow.sii"
+	attach_model:"/models/equipment/recurvebow/equip.pmd"
+	attach_part:"DefaultPart"
+	photopose_category:"recurve"
+	attach_group:"bow"
+	snd_fire:"/sounds/weapons/ws_bow_fire_v4.ogg"
+	offset_rot:"< 0.0 -0.25 0.0 >"
+	adjustable_sights:"false"
+	scoped:"false"
+	zero_range:"15"
+	view_dist:"< 0.05 0.05 -2.4 >"
+	view_rot:"< -30 130 -60 >"
+	arms_anim:"rb_raise"
+	root_bone:"compbone0"
+	pose:"photopose_rbow"
+}
+
+## Jaguar Take-Down Black (model: recurve_bow)
+def recurvbow2:recurve_bow {
+	short:"@@df_recurvbow2_s@@"
+	long:"@@df_recurvbow2_l@@"
+	desc:"@@df_recurvbow2_desc@@"
+	pba_main:"/models/weapons/recurvbow2"
+	icon:"/material/ui/icon/w_recurv_bow2.mat"
+	ammo:"/script/ammo/recurvbow2.sii"
+	snd_fire:"/sounds/weapons/ws_bow_fire_v8.ogg"
+	adjustable_sights:"true"
+	zero_range:"50"
+}
+
+def long_bow:weapon_bow {
+	short:"@@df_lbow_s@@"
+	long:"@@df_lbow_l@@"
+	desc:"@@df_lbow_desc@@"
+	pba_main:"/models/weapons/longbow"
+	icon:"/material/ui/icon/w_longbow.mat"
+	glow:"/material/ui/icon/w_longbow_glow.mat"
+	ammo_count:"1"
+	ammo:"/script/ammo/larrow.sii"
+	attach_model:"/models/equipment/longbow/equip.pmd"
+	attach_part:"DefaultPart"
+	photopose_category:"longbow"
+	attach_group:"bow"
+	snd_fire:"/sounds/weapons/ws_bow_fire_v6.ogg"
+	offset_rot:"< 5.0 -0.3 0.0 >"
+	adjustable_sights:"false"
+	scoped:"false"
+	zero_range:"10"
+	view_dist:"< 0.05 0.05 -2.7 >"
+	view_rot:"< -32 130 -56 >"
+	arms_anim:"lb_raise"
+	root_bone:"compbone0"
+	pose:"photopose_lbow"
+}
+
+## CROSSBOWS
+def crossbow:weapon_crossbow {
+	short:"@@df_xbow_s@@"
+	long:"@@df_xbow_l@@"
+	desc:"@@df_xbow_desc@@"
+	pba_main:"/models/weapons/crossbow"
+	icon:"/material/ui/icon/w_crossbow.mat"
+	glow:"/material/ui/icon/w_crossbow_glow.mat"
+	ammo_count:"1"
+	ammo:"/script/ammo/xarrow.sii"
+	attach_group:"xbow"
+	snd_fire:"/sounds/weapons/ws_crossbow_fire_v3.ogg"
+	zero_range:"50"
+	view_dist:"< 0 0 -2.3 >"
+	view_rot:"< -15 130 15 >"
+	arms_anim:"xb_raise"
+	root_bone:"Bone07"
+}
+
+## SHOTGUNS
+def 8_ga_2barrel:weapon_shotgun {
+	short:"@@df_8ga_s@@"
+	long:"@@df_8ga_l@@"
+	desc:"@@df_8ga_desc@@"
+	pba_main:"/models/weapons/8ga2barrel"
+	icon:"/material/ui/icon/w_8_ga_2barrel.mat"
+	glow:"/material/ui/icon/w_8_ga_2barrel_glow.mat"
+	ammo_char:"A"
+	ammo_count:"2"
+	ammo:"/script/ammo/8ga.sii"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"double"
+	snd_fire:"/sounds/weapons/ws_8ga_fire_v1.ogg"
+	photopose_category:"8ga"
+	load_once:"true"
+	case_once:"true"
+	scoped:"false"
+	view_rot:"< -1 273 4 >"
+}
+
+## .577 T Rex (model: 8_ga_2barrel)
+def 577trex:weapon_shotgun {
+	short:"@@df_577_s@@"
+	long:"@@df_577_l@@"
+	desc:"@@df_577_desc@@"
+	pba_main:"/models/weapons/577trex"
+	icon:"/material/ui/icon/w_577trex.mat"
+	glow:"/material/ui/icon/w_8_ga_2barrel_glow.mat"
+	ammo_char:"M"
+	ammo_count:"2"
+	ammo:"/script/ammo/577trex.sii"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"double"
+	snd_fire:"/sounds/weapons/heavy.ogg"
+	photopose_category:"8ga"
+	load_once:"true"
+	case_once:"true"
+	scoped:"false"
+	view_rot:"< -1 273 4 >"
+	zero_range:"50"
+}
+
+def 10ga_over:weapon_shotgun {
+	short:"@@df_10ga_s@@"
+	long:"@@df_10ga_l@@"
+	desc:"@@df_10ga_desc@@"
+	pba_main:"/models/weapons/10gaover"
+	look:"10ga"
+	icon:"/material/ui/icon/w_10_ga_over.mat"
+	glow:"/material/ui/icon/w_10_ga_over_glow.mat"
+	ammo_char:"D"
+	ammo_count:"2"
+	ammo:"/script/ammo/10ga00.sii"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"over"
+	snd_fire:"/sounds/weapons/ws_10ga_fire_v3.ogg"
+	photopose_category:"10ga"
+	load_once:"true"
+	case_once:"true"
+	scoped:"false"
+	view_rot:"< 2 271 -2 >"
+	zero_range:"55"
+}
+
+def 10ga_over_turkey:10ga_over {
+	short:"@@df_10ga_turkey_s@@"
+	long:"@@df_10ga_turkey_l@@"
+	desc:"@@df_10ga_turkey_desc@@"
+	look:"camo"
+	icon:"/material/ui/icon/w_10_ga_over_turkey.mat"
+	glow:"/material/ui/icon/w_10_ga_over_turkey_glow.mat"
+	ammo:"/script/ammo/10ga_4.sii"
+}
+
+## 12ga Browning Citori XS Sporting (model: 10ga_over)
+def citorixs:weapon_shotgun {
+	short:"@@df_citorixs_s@@"
+	long:"@@df_citorixs_l@@"
+	desc:"@@df_citorixs_desc@@"
+	pba_main:"/models/weapons/citorixs"
+	look:"10ga"
+	icon:"/material/ui/icon/w_citorixs.mat"
+	glow:"/material/ui/icon/w_10_ga_over_glow.mat"
+	ammo_char:"D"
+	ammo_count:"2"
+	ammo:"/script/ammo/citorixs.sii"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"over"
+	snd_fire:"/sounds/weapons/ws_12ga_pump_fire_v3.ogg"
+	photopose_category:"10ga"
+	load_once:"true"
+	case_once:"true"
+        zero_sights:"true"
+	scoped:"false"
+	view_rot:"< 2 271 -2 >"
+	zero_range:"100"
+}
+
+def 12ga_auto:weapon_shotgun {
+	short:"@@df_12a_s@@"
+	long:"@@df_12a_l@@"
+	desc:"@@df_12a_desc@@"
+	pba_main:"/models/weapons/12gaauto"
+	look:"12ga"
+	icon:"/material/ui/icon/w_12_ga_auto.mat"
+	glow:"/material/ui/icon/w_12_ga_auto_glow.mat"
+	ammo_count:"5"
+	ammo:"/script/ammo/12ga.sii"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"auto"
+	snd_fire:"/sounds/weapons/ws_12ga_pump_fire_v3.ogg"
+	photopose_category:"12auto"
+	view_rot:"< 1 267 -1 >"
+}
+
+def 12ga_auto_turkey:12ga_auto {
+	short:"@@df_12a_turkey_s@@"
+	long:"@@df_12a_turkey_l@@"
+	desc:"@@df_12a_turkey_desc@@"
+	look:"camo"
+	icon:"/material/ui/icon/w_12_ga_auto_turkey.mat"
+	glow:"/material/ui/icon/w_12_ga_auto_turkey_glow.mat"
+	ammo:"/script/ammo/12ga_5.sii"
+}
+
+def 12ga_pump:weapon_shotgun {
+	short:"@@df_12p_s@@"
+	long:"@@df_12p_l@@"
+	desc:"@@df_12p_desc@@"
+	pba_main:"/models/weapons/12gapump"
+	look:"12ga"
+	icon:"/material/ui/icon/w_12_ga_pump.mat"
+	glow:"/material/ui/icon/w_12_ga_pump_glow.mat"
+	ammo_count:"5"
+	ammo:"/script/ammo/12ga00.sii"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"pump"
+	photopose_category:"12pump"
+	snd_fire:"/sounds/weapons/ws_12ga_pump_fire_v2.ogg"
+	zero_range:"55"
+}
+
+def 12ga_pump_turkey:12ga_pump {
+	short:"@@df_12p_turkey_s@@"
+	long:"@@df_12p_turkey_l@@"
+	desc:"@@df_12p_turkey_desc@@"
+	look:"camo"
+	icon:"/material/ui/icon/w_12_ga_pump_turkey.mat"
+	glow:"/material/ui/icon/w_12_ga_pump_turkey_glow.mat"
+	ammo:"/script/ammo/12ga_4.sii"
+}
+
+## 12ga Ithaca DeerSlayer III (model: 12ga_pump)
+def ithacads:weapon_shotgun {
+	short:"@@df_ithacads_s@@"
+	long:"@@df_ithacads_l@@"
+	desc:"@@df_ithacads_desc@@"
+	pba_main:"/models/weapons/ithacads"
+	look:"12ga"
+	icon:"/material/ui/icon/w_ithacads.mat"
+	glow:"/material/ui/icon/w_12_ga_pump_glow.mat"
+	ammo_count:"5"
+	ammo:"/script/ammo/ithacads.sii"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"pump"
+	photopose_category:"12pump"
+	snd_fire:"/sounds/weapons/ws_12ga_pump_fire_v3.ogg"
+	zero_range:"100"
+}
+
+## 20ga Ithaca TurkeySlayer III (model: 12ga_pump)
+def ithacats:weapon_shotgun {
+	short:"@@df_ithacats_s@@"
+	long:"@@df_ithacats_l@@"
+	desc:"@@df_ithacats_desc@@"
+	pba_main:"/models/weapons/ithacats"
+	look:"12ga"
+	icon:"/material/ui/icon/w_ithacats.mat"
+	glow:"/material/ui/icon/w_12_ga_pump_glow.mat"
+	ammo_count:"5"
+	ammo:"/script/ammo/ithacats.sii"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"pump"
+	photopose_category:"12pump"
+	snd_fire:"/sounds/weapons/ws_12ga_pump_fire_v2.ogg"
+	zero_range:"75"
+}
+
+
+## PISTOLS
+def 9_mm_pistol:weapon_pistol {
+	short:"@@df_9mm_s@@"
+	long:"@@df_9mm_l@@"
+	desc:"@@df_9mm_desc@@"
+	pba_main:"/models/weapons/9mmpistol"
+	icon:"/material/ui/icon/w_9_mm_pistol.mat"
+	glow:"/material/ui/icon/w_9_mm_pistol_glow.mat"
+	ammo_count:"10"
+	ammo:"/script/ammo/9mm.sii"
+	attach_model:"/models/equipment/gun/equip.pmd"
+	attach_part:"pistol"
+	snd_fire:"/sounds/weapons/ws_9mm_fire_v1.ogg"
+	load_once:"true"
+	scoped:"false"
+	special:"last_fire_and_load"
+	view_dist:"< 0 -0.05 -0.75 >"
+	arms_anim:"gun_raise"
+}
+
+## 9mm USS ARIZONA Edition (model: 9_mm_pistol)
+def 9mmussaed:weapon_pistol {
+	short:"@@df_9mmussaed_s@@"
+	long:"@@df_9mmussaed_l@@"
+	desc:"@@df_9mmussaed_desc@@"
+	pba_main:"/models/weapons/9mmussaed"
+	icon:"/material/ui/icon/w_9_mm_ussaed.mat"
+	glow:"/material/ui/icon/w_9_mm_pistol_glow.mat"
+	ammo_count:"10"
+	ammo:"/script/ammo/9mmussaed.sii"
+	attach_model:"/models/equipment/gun/equip.pmd"
+	attach_part:"pistol"
+	snd_fire:"/sounds/weapons/ws_9mm_fire_v1.ogg"
+	load_once:"true"
+	scoped:"false"
+	special:"last_fire_and_load"
+	view_dist:"< 0 -0.05 -0.75 >"
+	arms_anim:"gun_raise"
+}
+
+## .45 Auto M1911 (model: 9_mm_pistol)
+def 45_Auto_pistol:weapon_pistol {
+	short:"@@df_45_s@@"
+	long:"@@df_45_l@@"
+	desc:"@@df_45_desc@@"
+	pba_main:"/models/weapons/45cpistol"
+	icon:"/material/ui/icon/w_45_c_pistol.mat"
+	glow:"/material/ui/icon/w_45_c_pistol_glow.mat"
+	ammo_count:"9"
+	ammo:"/script/ammo/45.sii"
+	attach_model:"/models/equipment/gun/equip.pmd"
+	attach_part:"pistol"
+	snd_fire:"/sounds/weapons/ws_44cal_fire_v1.ogg"
+	load_once:"true"
+	scoped:"false"
+	special:"last_fire_and_load"
+	view_dist:"< 0 -0.05 -0.75 >"
+	arms_anim:"gun_raise"
+}
+
+def 375_magnum_revolver:weapon_pistol {
+	short:"@@df_357r_s@@"
+	long:"@@df_357r_l@@"
+	desc:"@@df_357r_desc@@"
+	pba_main:"/models/weapons/357revolver"
+	icon:"/material/ui/icon/w_375_magnum_revolver.mat"
+	glow:"/material/ui/icon/w_375_magnum_revolver_glow.mat"
+	ammo_count:"6"
+	ammo:"/script/ammo/357mag.sii"
+	attach_model:"/models/equipment/pistol/equip.pmd"
+	attach_part:"revolver"
+	snd_fire:"/sounds/weapons/ws_357revolver_fire_v1.ogg"
+	load_once:"true"
+	case_once:"true"
+	special:"dryfire_animated"
+	view_dist:"< 0 -0.07 -1 >"
+	arms_anim:"gun_raise"
+}
+
+## .44 Revolver (model: 375_magnum_revolver)
+def 44_magnum_revolver:weapon_pistol {
+	short:"@@df_44_s@@"
+	long:"@@df_44_l@@"
+	desc:"@@df_44_desc@@"
+	pba_main:"/models/weapons/44mrevolver"
+	icon:"/material/ui/icon/w_44c_magnum_revolver.mat"
+	glow:"/material/ui/icon/w_44c_magnum_revolver_glow.mat"
+	ammo_count:"6"
+	ammo:"/script/ammo/44mag.sii"
+	attach_model:"/models/equipment/pistol/equip.pmd"
+	attach_part:"revolver"
+	snd_fire:"/sounds/weapons/ws_10ga_fire_v2.ogg"
+	load_once:"true"
+	zero_range:"100"
+	case_once:"true"
+	special:"dryfire_animated"
+	view_dist:"< 0 -0.07 -1 >"
+	arms_anim:"gun_raise"
+	public:"true"
+}
+
+## 500 S&W Magnum Revolver (model: 375_magnum_revolver)
+def 500_magnum_revolver:weapon_pistol {
+	short:"@@df_500_s@@"
+	long:"@@df_500r_l@@"
+	desc:"@@df_500r_desc@@"
+	pba_main:"/models/weapons/500revolver"
+	icon:"/material/ui/icon/w_500_magnum_revolver.mat"
+	glow:"/material/ui/icon/w_500_magnum_revolver_glow.mat"
+	ammo_count:"5"
+	ammo:"/script/ammo/500.sii"
+	attach_model:"/models/equipment/pistol/equip.pmd"
+	attach_part:"revolver"
+	snd_fire:"/sounds/weapons/ws_10ga_fire_v2.ogg"
+	load_once:"true"
+	zero_range:"100"
+	case_once:"true"
+	special:"dryfire_animated"
+	view_dist:"< 0 -0.07 -1 >"
+	arms_anim:"gun_raise"
+	public:"true"
+}
+
+##AIR GUN
+def air_gun:weapon_bolt {
+	short:"@@df_air_s@@"
+	long:"@@df_air_l@@"
+	desc:"@@df_air_desc@@"
+	pba_main:"/models/weapons/airgun"
+	icon:"/material/ui/icon/w_air_gun.mat"
+	glow:"/material/ui/icon/w_air_gun_glow.mat"
+	ammo_char:"I"
+	ammo_count:"1"
+	ammo:"/script/ammo/air.sii"
+	snd_fire:"/sounds/weapons/ws_air_fire.ogg"
+	load_once:"true"
+	scoped:"false"
+#	public:"false"
+	public:"true"
+	zero_sights:"true"
+	special:"last_fire_and_load"
+	arms_anim:"frms_raise"
+	flash_bone:""
+}
+
+#############################################################
+# --- NON-STANDALONE EQUIPMENT (item definitions) ---
+#############################################################
+
+## 4.5-18x RF Leupold
+def scope1_4:weapon_scope {
+	short:"@@df_s1_4@@"
+	long:"@@df_s1_4@@"
+	ui:"/ui/scope1.esc"
+	ui_bow:"/ui/gscope_r4x.esc"
+	zoom_min:"4.5"
+	zoom_max:"18"
+	zoom_step:"1.5"
+	variant:"scope3_9"
+}
+
+## 5-22x RF Nightforce NXS quick zoom
+def scope3_9:weapon_scope {
+	short:"@@df_s3_9@@"
+	long:"@@df_s3_9@@"
+	ui:"/ui/scope3.esc"
+	ui_bow:"/ui/gscope_r4x.esc"
+	zoom_min:"5"
+	zoom_max:"22"
+	zoom_step:"3.5"
+	variant:"scope4_14"
+}
+
+## 8-40x R.F. Zeiss Rapid-Z Varmint (Black)
+def scope4_14:weapon_scope {
+	short:"@@df_s4_14@@"
+	long:"@@df_s4_14@@"
+	ui:"/ui/scope2.esc"
+	ui_bow:"/ui/gscope_r4x.esc"
+	zoom_min:"8"
+	zoom_max:"40"
+	zoom_step:"4"
+	variant:"scope4_14"
+}
+
+## 8-40x RF Circle Duplex
+def scope4_12rf:weapon_scope {
+	short:"@@df_s4_12rf@@"
+	long:"@@df_s4_12rf@@"
+	ui:"/ui/scope4.esc"
+	ui_bow:"/ui/gscope_r3x.esc"
+	zoom_min:"8"
+	zoom_max:"40"
+	zoom_step:"4"
+	variant:"scope4_12"
+}
+
+
+#############################################################
+# --- EQUIPMENT ITEMS (item definitions) ---
+#############################################################
+
+# -- MISC
+def rf_binocs:scope_base {
+	short:"@@df_rfbinocs_s@@"
+	long:"@@df_rfbinocs_l@@"
+	desc:"@@df_rfbinocs_desc@@"
+	scope:"/ui/gbinoc.esc"
+	pba:"/models/equipment/binoculars/equip.pba"
+	camo_look:"true"
+	icon:"/material/ui/icon/i_binoculars.mat"
+	glow:"/material/ui/icon/i_binoculars_glow.mat"
+	zoom_min:"4"
+	zoom_max:"8"
+	zoom_step:"1"
+	arms_anim:"binoc_up"
+}
+
+def sp_scope:scope_base {
+	short:"@@df_spscope_s@@"
+	long:"@@df_spscope_l@@"
+	desc:"@@df_spscope_desc@@"
+	pba:"/models/equipment/rfscope/equip.pba"
+	camo_look:"true"
+	icon:"/material/ui/icon/i_rf_scope.mat"
+	glow:"/material/ui/icon/i_rf_scope_glow.mat"
+	zoom_min:"4"
+	zoom_max:"16"
+	zoom_step:"1"
+}
+
+# LW Spotting Scope (model: sp_scope)
+def lw_scope:sp_scope {
+	short:"Scope (4-25x)"
+	long:"Spotting Scope (4-25x)"
+	zoom_max:"25"
+	zoom_step:"4"
+}
+
+# Euro Camo Spotting Scope (model: sp_scope)
+def ec_scope:scope_base {
+	short:"@@df_ecscope_s@@"
+	long:"@@df_ecscope_l@@"
+	desc:"@@df_ecscope_desc@@"
+	pba:"/models/equipment/ecscope/equip.pba"
+	camo_look:"true"
+	icon:"/material/ui/icon/i_ec_scope.mat"
+	glow:"/material/ui/icon/i_rf_scope_glow.mat"
+	zoom_min:"20"
+	zoom_max:"60"
+	zoom_step:"4"
+}
+
+def map:eqitem_base {
+	short:"@@df_map_s@@"
+	long:"@@df_map_l@@"
+	desc:"@@df_map_desc@@"
+	script:"/script/item/map.sii"
+	pba:"/models/equipment/map/equip.pba"
+	camo_look:"true"
+	area_variant:"true"
+	imap:"/ui/gmap.esc"
+	icon:"/material/ui/icon/i_map.mat"
+	glow:"/material/ui/icon/i_map_glow.mat"
+	use_sound:"/sounds/items/eq_map.ogg"
+	category:"misc"
+}
+
+# -- SCENTS
+def cover_scent:scent_base {
+	short:"@@df_cscent_s@@"
+	long:"@@df_cscent_l@@"
+	desc:"@@df_cscent_desc@@"
+	pba:"/models/equipment/coverscent/equip.pba"
+	attach_model:"/models/equipment/coverscent/equip.pmd"
+	cover_type:"true"
+	cover_value:"0.3"
+	cover_wear:"0.006"
+	icon:"/material/ui/icon/i_coverscent.mat"
+	glow:"/material/ui/icon/i_coverscent_glow.mat"
+}
+
+def buck_urine:scent_base {
+	short:"@@df_burine_s@@"
+	long:"@@df_burine_l@@"
+	desc:"@@df_burine_desc@@"
+	pba:"/models/equipment/buckurine/equip.pba"
+	attach_model:"/models/equipment/buckurine/equip.pmd"
+	icon:"/material/ui/icon/i_buckurine.mat"
+	glow:"/material/ui/icon/i_buckurine_glow.mat"
+	attract00:"wtail:buck:0.45:sexual"
+	attract01:"wtail:doe:0.23:sexual"
+	attract02:"mule:buck:0.23:sexual"
+	attract03:"mule:doe:0.14:sexual"
+	repell00:"all:0.08:sexual"
+}
+
+def elk_scent:scent_base {
+	short:"@@df_elkscent_s@@"
+	long:"@@df_elkscent_l@@"
+	desc:"@@df_elkscent_desc@@"
+	pba:"/models/equipment/elkscent/equip.pba"
+	attach_model:"/models/equipment/elkscent/equip.pmd"
+	icon:"/material/ui/icon/i_elkscent.mat"
+	glow:"/material/ui/icon/i_elkscent_glow.mat"
+	attract00:"elk:bull:0.6:sexual"
+	attract01:"elk:cow:0.3:sexual"
+	repell00:"all:0.07:sexual"
+	fadeout_time:"220"
+}
+
+def tarsal_gland:scent_base {
+	short:"@@df_tarsalgland_s@@"
+	long:"@@df_tarsalgland_l@@"
+	desc:"@@df_tarsalgland_desc@@"
+	pba:"/models/equipment/tarsalgland/equip.pba"
+	attach_model:"/models/equipment/tarsalgland/equip.pmd"
+	icon:"/material/ui/icon/i_tarsalgland.mat"
+	glow:"/material/ui/icon/i_tarsalgland_glow.mat"
+	attract00:"wtail:buck:0.38:sexual"
+	attract01:"wtail:doe:0.39:sexual"
+	attract02:"mule:buck:0.12:sexual"
+	attract03:"mule:doe:0.15:sexual"
+	attract04:"grizzly:0.05:food"
+	repell00:"all:0.05:sexual"
+}
+
+# Blood Scent (model: tarsal_gland)
+def blood_scent:scent_base {
+	short:"@@df_bloodscent_s@@"
+	long:"@@df_bloodscent_l@@"
+	desc:"@@df_bloodscent_desc@@"
+	pba:"/models/equipment/blood_scent/equip.pba"
+	attach_model:"/models/equipment/blood_scent/equip.pmd"
+	icon:"/material/ui/icon/i_bloodscent.mat"
+	glow:"/material/ui/icon/i_tarsalgland_glow.mat"
+	attract00:"wolf:0.4:food"
+	attract01:"grizzly:0.35:food"
+	attract02:"lion:0.32:food"
+	repell00:"all:0.25:food"
+}
+
+## -- CALLS
+def grunt_call:call_base {
+	short:"@@df_gruntcall_s@@"
+	long:"@@df_gruntcall_l@@"
+	desc:"@@df_gruntcall_desc@@"
+	pba:"/models/equipment/gruntcall/equip.pba"
+	attach_model:"/models/equipment/gruntcall/equip.pmd"
+	icon:"/material/ui/icon/i_gruntcall.mat"
+	glow:"/material/ui/icon/i_gruntcall_glow.mat"
+	attract00:"wtail:buck:0.45:sexual"
+	attract01:"wtail:doe:0.15:sexual"
+	attract02:"mule:buck:0.23:sexual"
+	attract03:"mule:doe:0.14:sexual"
+	repell00:"all:0.1:sexual"
+}
+
+def doe_bleat:call_base {
+	short:"@@df_doebleat_s@@"
+	long:"@@df_doebleat_l@@"
+	desc:"@@df_doebleat_desc@@"
+	pba:"/models/equipment/doebleat/equip.pba"
+	attach_model:"/models/equipment/doebleat/equip.pmd"
+	icon:"/material/ui/icon/i_doebleat.mat"
+	glow:"/material/ui/icon/i_doebleat_glow.mat"
+	attract00:"wtail:buck:0.3:sexual"
+	attract01:"wtail:doe:0.15:sexual"
+	attract02:"mule:buck:0.17:sexual"
+	attract03:"mule:doe:0.09:sexual"
+	repell00:"all:0.1:sexual"
+}
+
+def ecow_call:call_base {
+	short:"@@df_ecowcall_s@@"
+	long:"@@df_ecowcall_l@@"
+	desc:"@@df_ecowcall_desc@@"
+	pba:"/models/equipment/elkcowcall/equip.pba"
+	attach_model:"/models/equipment/elkcowcall/equip.pmd"
+	icon:"/material/ui/icon/i_ecowcall.mat"
+	glow:"/material/ui/icon/i_ecowcall_glow.mat"
+	attract00:"elk:bull:0.23:sexual"
+	attract01:"elk:cow:0.15:sexual"
+	repell00:"all:0.08:sexual"
+}
+
+def elk_bugle:call_base {
+	short:"@@df_elkbugle_s@@"
+	long:"@@df_elkbugle_l@@"
+	desc:"@@df_elkbugle_desc@@"
+	pba:"/models/equipment/ebuglecall/equip.pba"
+	attach_model:"/models/equipment/ebuglecall/equip.pmd"
+	icon:"/material/ui/icon/i_ebuglecall.mat"
+	glow:"/material/ui/icon/i_ebuglecall_glow.mat"
+	attract00:"elk:bull:0.45:sexual"
+	attract01:"elk:cow:0.15:sexual"
+	repell00:"all:0.15:sexual"
+}
+
+def mcow_call:call_base {
+	short:"@@df_mcowcall_s@@"
+	long:"@@df_mcowcall_l@@"
+	desc:"@@df_mcowcall_desc@@"
+	pba:"/models/equipment/mcowcall/equip.pba"
+	attach_model:"/models/equipment/mcowcall/equip.pmd"
+	icon:"/material/ui/icon/i_mcowcall.mat"
+	glow:"/material/ui/icon/i_mcowcall_glow.mat"
+	attract00:"moose:bull:0.23:sexual"
+	attract01:"moose:cow:0.15:sexual"
+	repell00:"all:0.08:sexual"
+}
+
+def mbull_call:call_base {
+	short:"@@df_mbullcall_s@@"
+	long:"@@df_mbullcall_l@@"
+	desc:"@@df_mbullcall_desc@@"
+	pba:"/models/equipment/mbullcall/equip.pba"
+	attach_model:"/models/equipment/mbullcall/equip.pmd"
+	icon:"/material/ui/icon/i_mbullcall.mat"
+	glow:"/material/ui/icon/i_mbullcall_glow.mat"
+	attract00:"moose:bull:0.45:sexual"
+	attract01:"moose:cow:0.23:sexual"
+	repell00:"all:0.08:sexual"
+}
+
+def predator_call:call_base {
+	short:"@@df_predatorcall_s@@"
+	long:"@@df_predatorcall_l@@"
+	desc:"@@df_predatorcall_desc@@"
+	pba:"/models/equipment/predatorcall/equip.pba"
+	attach_model:"/models/equipment/predatorcall/equip.pmd"
+	icon:"/material/ui/icon/i_predatorcall.mat"
+	glow:"/material/ui/icon/i_predatorcall_glow.mat"
+	attract00:"grizzly:0.45:food"
+	repell00:"all:0.15:food"
+}
+
+## Universal Call (model: predator_call)
+def universal_call:call_base {
+	short:"@@df_unicall_s@@"
+	long:"@@df_unicall_l@@"
+	desc:"@@df_unicall_desc@@"
+	pba:"/models/equipment/unicall/equip.pba"
+	attach_model:"/models/equipment/unicall/equip.pmd"
+	icon:"/material/ui/icon/i_unicall.mat"
+	glow:"/material/ui/icon/i_predatorcall_glow.mat"
+	attract00:"all:0.15:food"
+	attract00:"all:0.15:sexual"
+}
+
+# Wolf Call (model: predator_call)
+def wolf_call:call_base {
+	short:"@@df_wolfcall_s@@"
+	long:"@@df_wolfcall_l@@"
+	desc:"@@df_wolfcall_desc@@"
+	pba:"/models/equipment/wolfcall/equip.pba"
+	attach_model:"/models/equipment/wolfcall/equip.pmd"
+	icon:"/material/ui/icon/i_wolfcall.mat"
+	glow:"/material/ui/icon/i_predatorcall_glow.mat"
+	attract00:"wolf:0.5:food"
+	attract01:"grizzly:0.15:food"
+	repell00:"all:0.10:food"
+}
+
+def antler_scraper:call_base {
+	short:"@@df_ascraper_s@@"
+	long:"@@df_ascraper_l@@"
+	desc:"@@df_ascraper_desc@@"
+	pba:"/models/equipment/antlerscraper/equip.pba"
+	attach_model:"/models/equipment/antlerscraper/equip.pmd"
+	attach_bone:"scraper"
+	icon:"/material/ui/icon/i_antlerscraper.mat"
+	glow:"/material/ui/icon/i_antlerscraper_glow.mat"
+	onstand_use:"false"
+	attract00:"wtail:buck:0.15:sexual"
+	attract01:"wtail:doe:0.08:sexual"
+	attract02:"mule:buck:0.15:sexual"
+	attract03:"mule:doe:0.08:sexual"
+	repell00:"all:0.6:sexual"
+}
+
+def rattling_antlers:call_base {
+	short:"@@df_rantlers_s@@"
+	long:"@@df_rantlers_l@@"
+	desc:"@@df_rantlers_desc@@"
+	pba:"/models/equipment/rattlingantlers/equip.pba"
+	camo_look:"true"
+	icon:"/material/ui/icon/i_antlers.mat"
+	glow:"/material/ui/icon/i_antlers_glow.mat"
+	attract00:"wtail:buck:0.6:sexual"
+	attract01:"wtail:doe:0.03:sexual"
+	attract02:"mule:buck:0.45:sexual"
+	attract03:"mule:doe:0.12:sexual"
+	repell00:"all:0.6:sexual"
+}
+
+def turkey_boxcall:call_base {
+	short:"@@df_boxcall_s@@"
+	long:"@@df_boxcall_l@@"
+	desc:"@@df_boxcall_desc@@"
+	pba:"/models/equipment/boxcall/equip.pba"
+	attach_model:"/models/equipment/boxcall/equip.pmd"
+	attach_bone:"scent"
+	icon:"/material/ui/icon/i_boxcall.mat"
+	glow:"/material/ui/icon/i_boxcall_glow.mat"
+	attract00:"turkey:gobbler:0.3:sexual"
+	attract01:"turkey:hen:0.15:sexual"
+	repell00:"all:0.1:sexual"
+}
+
+
+## -- LURES
+def bear_bait:bait_base {
+	short:"@@df_bearbait_s@@"
+	long:"@@df_bearbait_l@@"
+	desc:"@@df_bearbait_desc@@"
+	pmd:"/models/equipment/bearbait/equip.pmd"
+	icon:"/material/ui/icon/i_bearbait.mat"
+	glow:"/material/ui/icon/i_bearbait_glow.mat"
+	cannot:"@@df_bt_bbaitna@@"
+	put_sound:"/sounds/items/eq_bear_bait.ogg"
+	get_sound:"/sounds/items/eq_bear_bait.ogg"
+	attract_type:"smell"
+	attract00:"grizzly:0.45:food"
+	repell00:"all:0.3:food"
+	onstand_use:"false"
+}
+
+def salt_lick:bait_base {
+	short:"@@df_saltlick_s@@"
+	long:"@@df_saltlick_l@@"
+	desc:"@@df_saltlick_desc@@"
+	pmd:"/models/equipment/saltlick/equip.pmd"
+	look:"default"
+	icon:"/material/ui/icon/i_saltlick.mat"
+	glow:"/material/ui/icon/i_saltlick_glow.mat"
+	cannot:"@@df_bt_bsaltna@@"
+	put_sound:"/sounds/items/eq_bear_bait.ogg"
+	get_sound:"/sounds/items/eq_bear_bait.ogg"
+	attract00:"all:0.15:food"
+	onstand_use:"false"
+}
+
+# H S Doe Estrus Scent Wafers (model: salt_lick)
+def doe_wafer:bait_base {
+	short:"@@df_doewafer_s@@"
+	long:"@@df_doewafer_l@@"
+	desc:"@@df_doewafer_desc@@"
+	pmd:"/models/equipment/doewafer/equip.pmd"
+	look:"default"
+	icon:"/material/ui/icon/i_doewafer.mat"
+	glow:"/material/ui/icon/i_saltlick_glow.mat"
+	cannot:"@@df_bt_bsaltna@@"
+	put_sound:"/sounds/items/eq_bear_bait.ogg"
+	get_sound:"/sounds/items/eq_bear_bait.ogg"
+	cover_type:"true"
+	cover_value:"0.45"
+	cover_wear:"0.002"
+	attract_type:"smell"
+	attract00:"wtail:buck:0.40:sexual"
+	attract01:"wtail:doe:0.20:sexual"
+	attract02:"mule:buck:0.20:sexual"
+	attract03:"mule:doe:0.10:sexual"
+	repell00:"all:0.08:sexual"
+	onstand_use:"false"
+}
+
+def pronghorn_decoy:bait_base {
+	short:"@@df_pronghorndecoy_s@@"
+	long:"@@df_pronghorndecoy_l@@"
+	desc:"@@df_pronghorndecoy_desc@@"
+	pmd:"/models/equipment/pronghorn/equip.pmd"
+	look:"default"
+	icon:"/material/ui/icon/i_prongdecoy.mat"
+	glow:"/material/ui/icon/i_prongdecoy_glow.mat"
+	put_sound:"/sounds/items/eq_bear_bait.ogg"
+	get_sound:"/sounds/items/eq_bear_bait.ogg"
+	cannot:"@@df_bt_pdecoyna@@"
+	align2sfc:"false"
+	attract00:"pronghorn:0.67:sexual"
+	repell00:"all:0.08:sexual"
+	onstand_use:"false"
+}
+
+def wtail_decoy:bait_base {
+	short:"@@df_wtaildecoy_s@@"
+	long:"@@df_wtaildecoy_l@@"
+	desc:"@@df_wtaildecoy_desc@@"
+	pmd:"/models/equipment/whitetail/equip.pmd"
+	look:"default"
+	icon:"/material/ui/icon/i_whitedecoy.mat"
+	glow:"/material/ui/icon/i_whitedecoy_glow.mat"
+	put_sound:"/sounds/items/eq_bear_bait.ogg"
+	get_sound:"/sounds/items/eq_bear_bait.ogg"
+	cannot:"@@df_bt_pdecoyna@@"
+	align2sfc:"false"
+	attract00:"wtail:0.38:sexual"
+	attract01:"mule:0.05:sexual"
+	repell00:"all:0.08:sexual"
+	onstand_use:"false"
+}
+
+def turkey_decoy:bait_base {
+	short:"@@df_turkeydecoy_s@@"
+	long:"@@df_turkeydecoy_l@@"
+	desc:"@@df_turkeydecoy_desc@@"
+	pmd:"/models/equipment/turkey/equip.pmd"
+	look:"default"
+	icon:"/material/ui/icon/i_turkeydecoy.mat"
+	glow:"/material/ui/icon/i_turkeydecoy_glow.mat"
+	put_sound:"/sounds/items/eq_bear_bait.ogg"
+	get_sound:"/sounds/items/eq_bear_bait.ogg"
+	cannot:"@@df_bt_pdecoyna@@"
+	align2sfc:"false"
+	attract00:"turkey:0.7:sexual"
+	repell00:"all:0.08:sexual"
+	onstand_use:"false"
+}
+
+# Wolf Decoy (model: wolf ambient animal)
+def wolf_decoy:bait_base {
+	short:"@@df_wolfdecoy_s@@"
+	long:"@@df_wolfdecoy_l@@"
+	desc:"@@df_wolfdecoy_desc@@"
+	pmd:"/models/equipment/wolf/equip.pmd"
+	look:"default"
+	icon:"/material/ui/icon/i_wolfdecoy.mat"
+	glow:"/material/ui/icon/i_wolfdecoy_glow.mat"
+	put_sound:"/sounds/items/eq_bear_bait.ogg"
+	get_sound:"/sounds/items/eq_bear_bait.ogg"
+	cannot:"@@df_bt_pdecoyna@@"
+	align2sfc:"false"
+	attract00:"wolf:male:0.62:sexual"
+	attract01:"wolf:female:0.58:sexual"
+	repell00:"all:0.1:sexual"
+	onstand_use:"false"
+}
+
+
+## -- BLINDS
+def tripod:blind_base {
+	short:"@@df_tripod_s@@"
+	long:"@@df_tripod_l@@"
+	desc:"@@df_tripod_desc@@"
+	pmd:"/models/equipment/tripod/equip.pmd"
+	look:"default"
+	icon:"/material/ui/icon/i_tripod.mat"
+	glow:"/material/ui/icon/i_tripod_glow.mat"
+	script:"/script/item/tripod.sii"
+	put_sound:"/sounds/items/eq_treestand.ogg"
+	get_sound:"/sounds/items/eq_treestand.ogg"
+	onstand_use:"false"
+}
+
+def tripod_camo:blind_base {
+	short:"@@df_tripodcamo_s@@"
+	long:"@@df_tripodcamo_l@@"
+	desc:"@@df_tripodcamo_desc@@"
+	pmd:"/models/equipment/tpcamo/equip.pmd"
+	look:"default"
+	icon:"/material/ui/icon/i_tpcamo.mat"
+	glow:"/material/ui/icon/i_tripod_glow.mat"
+	script:"/script/item/tripod_camo.sii"
+	put_sound:"/sounds/items/eq_treestand.ogg"
+	get_sound:"/sounds/items/eq_treestand.ogg"
+	onstand_use:"false"
+}
+
+def treestand:blind_base {
+	short:"@@df_treestand_s@@"
+	long:"@@df_treestand_l@@"
+	desc:"@@df_treestand_desc@@"
+	pmd:"/models/equipment/treestand/equip.pmd"
+	look:"default"
+	icon:"/material/ui/icon/i_tree_stand.mat"
+	glow:"/material/ui/icon/i_tree_stand_glow.mat"
+	script:"/script/item/treestand.sii"
+	put_sound:"/sounds/items/eq_treestand.ogg"
+	get_sound:"/sounds/items/eq_treestand.ogg"
+	onstand_use:"false"
+}
+
+def groundblind:blind_base {
+	short:"@@df_groundblind_s@@"
+#	long:"@@df_groundblind_l@@"
+	long:"Tent Blind (summer)"
+	desc:"@@df_groundblind_desc@@"
+	pmd:"/models/equipment/groundblind/equip.pmd"
+	look:"summer"	
+	icon:"/material/ui/icon/i_ground_blind.mat"
+	glow:"/material/ui/icon/i_ground_blind_glow.mat"
+	script:"/script/item/groundblind.sii"
+	put_sound:"/sounds/items/eq_bear_bait.ogg"
+	get_sound:"/sounds/items/eq_bear_bait.ogg"
+	onstand_use:"false"
+}
+
+def grndblind_atm:groundblind {
+	long:"Tent Blind (autumn)"
+	look:"autumn"
+	icon:"/material/ui/icon/i_ground_b_atm.mat"
+}
+
+def grndblind_mud:groundblind {
+	long:"Tent Blind (mud)"
+	look:"mud"
+	icon:"/material/ui/icon/i_ground_b_mud.mat"
+}
+
+def grndblind_spr:groundblind {
+	long:"Tent Blind (spring)"
+	look:"spring"
+	icon:"/material/ui/icon/i_ground_b_spr.mat"
+}
+
+def grndblind_wnt:groundblind {
+	long:"Tent Blind (winter)"
+	look:"winter"
+	icon:"/material/ui/icon/i_ground_b_wtr.mat"
+}
+
+def blindbox:blind_base {
+	short:"@@df_blindbox_s@@"
+#	long:"@@df_blindbox_l@@"
+	long:"Ground Blind (green)"
+	desc:"@@df_blindbox_desc@@"
+	pmd:"/models/equipment/blindbox/equip.pmd"
+	look:"green"
+	icon:"/material/ui/icon/i_blind_box.mat"
+	glow:"/material/ui/icon/i_blind_box_glow.mat"
+	script:"/script/item/blind.sii"
+	put_sound:"/sounds/items/eq_bear_bait.ogg"
+	get_sound:"/sounds/items/eq_bear_bait.ogg"
+	onstand_use:"false"
+	align2sfc:"true"
+}
+
+def blindbox2:blindbox {
+	long:"Ground Blind (red)"
+	look:"red"
+	icon:"/material/ui/icon/i_blind_b_r.mat"
+}
+
+## -- VEHICLES
+def atv:vehicle_base {
+	script:"/script/item/atv.sii"
+	short:"@@df_atv_s@@"
+	long:"@@df_atv_l@@"
+	desc:"@@df_atv_desc@@"
+	icon:"/material/ui/icon/i_atv.mat"
+	glow:"/material/ui/icon/i_atv_glow.mat"
+}
+
+# Forest King ATV (model: atv)
+def atv2:vehicle_base {
+	script:"/script/item/atv2.sii"
+	short:"@@df_atv2_s@@"
+	long:"@@df_atv2_l@@"
+	desc:"@@df_atv2_desc@@"
+	icon:"/material/ui/icon/iatv2.mat"
+	glow:"/material/ui/icon/i_atv_glow.mat"
+}
+
+# Grizzly ATV (model: atv)
+def atv3:vehicle_base {
+	script:"/script/item/atv3.sii"
+	short:"@@df_atv3_s@@"
+	long:"@@df_atv3_l@@"
+	desc:"@@df_atv3_desc@@"
+	icon:"/material/ui/icon/i_atv3.mat"
+	glow:"/material/ui/icon/i_atv_glow.mat"
+}
+
+def horse:vehicle_base {
+	script:"/script/item/horse.sii"
+	short:"@@df_horse_s@@"
+long:"@@df_horse_l@@"
+	desc:"@@df_horse_desc@@"
+	icon:"/material/ui/icon/i_horse.mat"
+	glow:"/material/ui/icon/i_horse_glow.mat"
+}
+
+# Black Horse (model: horse)
+def horse2:vehicle_base {
+	script:"/script/item/horse2.sii"
+	short:"@@df_horse2_s@@"
+	long:"@@df_horse2_l@@"
+	desc:"@@df_horse2_desc@@"
+	icon:"/material/ui/icon/ihorse2.mat"
+	glow:"/material/ui/icon/i_horse_glow.mat"
+}
+
+# Zebra Horse (model: horse)
+def horse3:vehicle_base {
+	script:"/script/item/horse3.sii"
+	short:"@@df_horse3_s@@"
+	long:"@@df_horse3_l@@"
+	desc:"@@df_horse3_desc@@"
+	icon:"/material/ui/icon/ihorse3.mat"
+	glow:"/material/ui/icon/ihorse3_glow.mat"
+}

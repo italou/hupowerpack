@@ -1,0 +1,10 @@
+material : "hu.dif_spec.nm_offs.env" {
+	texture[0] : "/models/weapons/450bm/cc_rest.tobj"
+	normalmap : "/models/weapons/7mmauto/rest_no.tobj"
+	texture[1] : "/material/environment/generic_reflection.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.30578 , 0.289551 , 0.137601 }
+	shininess : 90
+	env_factor : { 1 , 1 , 1 }
+}

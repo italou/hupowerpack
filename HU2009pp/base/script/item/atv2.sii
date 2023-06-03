@@ -1,0 +1,12 @@
+SiiNunit
+{
+
+atv : _nameless {
+	pba_filename: "/models/vehicles/a2/vehicle.pba"
+	ac_enter_look: 65
+	ac_exit_look: 66
+	hunter_state_look: 67
+	icon_filename: "/material/ui/icon/iatv2.mat"
+}
+
+}
