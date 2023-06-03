@@ -1,0 +1,3 @@
+"black horse" : "vehicle.pmd" {
+	@include "animal.pba.part"
+}

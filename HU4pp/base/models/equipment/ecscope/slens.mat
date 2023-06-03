@@ -1,0 +1,9 @@
+material : "hu.dif_spec.env" {
+	texture[0] : "/models/equipment/ecscope/slens.tobj"
+	texture[1] : "/material/environment/generic_reflection.tobj"
+	ambient : { 1 , 1 , 1 }
+	specular : { 0.92562 , 0.92562 , 0.92562 }
+	env_factor : { 0.533 , 0.791407 , 1 }
+	shininess : 50
+	diffuse : { 1 , 1 , 1 }
+}

@@ -1,0 +1,260 @@
+estruct {
+	client {
+		entities {
+			entity "ui.window" {
+				evalues {
+					"wclass" : "edited"
+					"coords" : "0 192 790 768"
+					"fitting" : "true"
+					"name" : "window"
+				}
+				entities {
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<color value=@@rgb_margini@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+							"area" : "4 744 853 750"
+							"coords" : "4 741 786 764"
+						}
+					}
+					entity "ui.comp.common.frame" {
+						evalues {
+							"layer" : "-5"
+							"coords" : "0 192 790 768"
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "227 696 568 728"
+							"layer" : "-1"
+						}
+						entities {
+							entity "ui.comp.common.button" {
+								evalues {
+									"value2" : "@@df_gcat_eqitems@@"
+									"value" : "@@df_gcat_eqitems@@"
+									"button_type" : "2"
+									"layer" : "1"
+									"id" : "22"
+									"tooltip" : "@@et_gr_geartype@@"
+									"coords" : "401 696 568 728"
+									"name" : "equipment"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value2" : "<align hstyle=right>@@df_gcat_weapons@@</align>"
+									"value" : "<align hstyle=right>@@df_gcat_weapons@@</align>"
+									"button_type" : "2"
+									"layer" : "1"
+									"id" : "21"
+									"tooltip" : "@@et_gr_geartype@@"
+									"coords" : "227 696 381 728"
+									"name" : "weapons"
+								}
+							}
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<color value=@@rgb_main@@><img src=/material/ui/color.mat width=1024 height=32>"
+							"layer" : "-1"
+							"coords" : "4 702 786 734"
+							"name" : "belts"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "6"
+							"value" : "@@em_available@@"
+							"layer" : "1"
+							"coords" : "216 637 476 661"
+							"name" : "t_catavail"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "6"
+							"value" : "@@em_available@@"
+							"layer" : "1"
+							"coords" : "622 637 770 661"
+							"name" : "t_itemavail"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "6"
+							"value" : "@@em_categories@@"
+							"layer" : "1"
+							"coords" : "20 637 198 661"
+							"name" : "t_categories"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "6"
+							"value" : "@@em_items@@"
+							"layer" : "1"
+							"coords" : "362 637 604 661"
+							"name" : "t_items"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<color value=@@rgb_margini@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+							"coords" : "4 196 786 264"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<color value=@@rgb_bck@@><img src=/material/ui/color.mat xscale=stretch yscale=stretch>"
+							"layer" : "-2"
+							"coords" : "4 264 786 764"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "16"
+							"value" : "@@em_gearsettings_cap@@"
+							"layer" : "1"
+							"coords" : "4 740 786 764"
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "29 670 342 692"
+							"id" : "30"
+							"name" : "wslot"
+						}
+						entities {
+							entity "ui.comp.common.button" {
+								evalues {
+									"look" : "26"
+									"value2" : "@@mm_enabled@@"
+									"value" : "@@mm_disabled@@"
+									"button_type" : "1"
+									"layer" : "1"
+									"id" : "10"
+									"tooltip" : "@@et_gr_secondaryslot@@"
+									"coords" : "216 670 342 692"
+									"name" : "slot2"
+								}
+							}
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "7"
+									"value" : "@@em_secondaryslot@@"
+									"layer" : "1"
+									"coords" : "29 670 212 692"
+									"name" : "t_slot2"
+								}
+							}
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "16"
+							"value" : "@@em_availableweapons@@"
+							"layer" : "1"
+							"id" : "300"
+							"coords" : "12 296 778 320"
+							"name" : "available weapons"
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "14"
+							"value" : "74|@@mm_close@@"
+							"layer" : "3"
+							"id" : "1"
+							"tooltip" : "@@et_closedialog@@"
+							"coords" : "648 196 786 264"
+							"name" : "close"
+						}
+					}
+					entity "ui.comp.common.list" {
+						evalues {
+							"look" : "26"
+							"item_gap" : "5.00000"
+							"item_width" : "128.00011"
+							"item_height" : "22.00000"
+							"slider_management" : "true"
+							"coords" : "216 329 345 630"
+							"layer" : "1"
+							"id" : "110"
+							"name" : "category items"
+						}
+						entities {
+						}
+					}
+					entity "ui.comp.common.list" {
+						evalues {
+							"look" : "26"
+							"item_gap" : "5.00000"
+							"item_width" : "178.00011"
+							"item_height" : "22.00000"
+							"coords" : "20 329 199 630"
+							"layer" : "1"
+							"id" : "100"
+							"name" : "category names"
+						}
+						entities {
+						}
+					}
+					entity "ui.comp.common.list" {
+						evalues {
+							"look" : "25"
+							"item_gap" : "5.00000"
+							"item_width" : "148.00011"
+							"item_height" : "22.00000"
+							"slider_management" : "true"
+							"coords" : "622 329 770 630"
+							"layer" : "1"
+							"id" : "210"
+							"name" : "item items"
+						}
+						entities {
+							entity "ui.comp.common.slider" {
+								evalues {
+									"value" : "230"
+									"action_on_drag" : "true"
+									"layer" : "1"
+									"coords" : "770 329 791 630"
+								}
+							}
+						}
+					}
+					entity "ui.comp.common.list" {
+						evalues {
+							"look" : "26"
+							"item_gap" : "5.00000"
+							"item_width" : "264.00021"
+							"item_height" : "22.00000"
+							"coords" : "362 329 604 630"
+							"layer" : "1"
+							"id" : "200"
+							"name" : "item names"
+						}
+						entities {
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "16"
+							"value" : "@@em_availableequipment@@"
+							"layer" : "1"
+							"id" : "310"
+							"coords" : "12 265 778 289"
+							"name" : "available equipment"
+						}
+					}
+				}
+			}
+			entity "ui.handler.edit.gear_prop" {
+				evalues {
+				}
+			}
+		}
+	}
+}

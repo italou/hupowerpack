@@ -1,0 +1,23 @@
+SiiNunit
+#.50 FPB Hornady Muzzleloader 
+{
+
+projectile : _nameless
+{
+ bc: 0.245
+ muzzle: 2100
+ weight: 300
+ model: .model
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/ball/projectile.pmd"
+ look: default
+ variant: default
+}
+
+}
+

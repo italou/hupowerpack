@@ -1,0 +1,78 @@
+estruct {
+	client {
+		entities {
+			entity "ui.window" {
+				evalues {
+					"wclass" : "edited"
+					"coords" : "0 0 1024 768"
+					"name" : "window"
+				}
+				entities {
+					# Red Vertical line
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/reticle.mat width=1 yscale=stretch color=@@reticle_color_bright@@>"
+							"layer" : "1"
+							"p2p_pml" : "true"
+							"coords" : "512 58 542 710"
+							"name" : "top reticle"
+						}
+					}
+									
+					# 200 Yard with red horizontal line
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/reticle.mat xscale=stretch height=1 color=@@reticle_color_bright@@>"
+							"layer" : "1"
+							"p2p_pml" : "true"
+							"coords" : "175 368 849 384"
+							"name" : "left reticle"
+						}
+					}					
+
+										
+					entity "ui.comp.common.text" {
+						evalues {
+							"layer" : "2"
+							"id" : "2"
+							"coords" : "0 13 1024 43"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ingame/scope2corner.mat xscale=stretch yscale=stretch left=1 right=0>"
+							"layer" : "2"
+							"coords" : "512 384 1024 768"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ingame/scope2corner.mat xscale=stretch yscale=stretch left=1 right=0 top=1 bottom=0>"
+							"layer" : "2"
+							"coords" : "512 0 1024 384"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ingame/scope2corner.mat xscale=stretch yscale=stretch top=1 bottom=0>"
+							"layer" : "2"
+							"coords" : "0 0 512 384"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ingame/scope2corner.mat xscale=stretch yscale=stretch>"
+							"layer" : "3"
+							"coords" : "0 384 512 768"
+						}
+					}
+				}
+			}
+			entity "ui.handler.ingame.scope" {
+				evalues {
+				}
+			}
+		}
+	}
+}
+

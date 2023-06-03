@@ -1,0 +1,24 @@
+SiiNunit
+#107 
+{
+
+projectile : _nameless
+{
+ bc: 0.7
+ muzzle: 2800
+ weight: 660
+
+ model: .model
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+}
+

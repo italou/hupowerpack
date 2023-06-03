@@ -1,0 +1,23 @@
+SiiNunit
+#PSE X-FORCE 7 GX compound bow arrow
+{
+
+projectile : _nameless
+{
+ bc: 0.021
+ muzzle: 670
+ weight: 283
+ arrow: true
+ model: .model
+ model_sticker: "arrow"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/arrow/projectile.pmd"
+ look: default
+ variant: default
+}
+
+}
+

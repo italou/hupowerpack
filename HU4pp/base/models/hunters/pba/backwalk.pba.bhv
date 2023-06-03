@@ -1,0 +1,33 @@
+"backwalk" {
+	attributes {
+	}
+	features {
+		"body" : "backwalk" .
+	}
+	channels {
+		"first" {
+			0.00 anim {
+				anim : "backwalk"
+				s_weight : "1.00"
+				e_weight : "1.00"
+				length : "1.00"
+				proportional : "true"
+			}
+			0.11 info {
+				info : "footstep"
+			}
+			0.31 info {
+				info : "footstep"
+			}
+			0.52 info {
+				info : "footstep"
+			}
+			0.77 info {
+				info : "footstep"
+			}
+			0.99 info {
+				info : "footstep"
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+HUNTING UNLIMITED 4 POWERPACK
+by ita - HU Corner @ http://hucorner.imbl.net
+
+The HU 4 PowerPack is the ultimate modding pack for Hunting Unlimited 4 game. This pack contains over 36 more weapons, 7 hunting scopes to choose from, 5 new hunters, game fixes and lots more of equipment.
+It also includes the HU Corner (target) Range as well as increased shooting, RF and viewing distance limits. Check Readme.txt file at the end of installation for complete details.
+
+REQUIREMENTS:
+  - Hunting Unlimited 4 installed.
+
+DISCLAIMER: THIS PACK WAS FULLY TESTED. NO RESPONSIBILITY IS TAKEN. INSTALL AND USE IT AT YOUR OWN RISK!

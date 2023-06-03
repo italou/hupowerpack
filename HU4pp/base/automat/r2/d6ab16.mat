@@ -1,0 +1,10 @@
+material : "hu.dif_spec.nm_offs.env" {
+	texture[0] : "/models/weapons/recurvbow2/body.tobj"
+	normalmap : "/models/weapons/recurvebow/body_no.tobj"
+	texture[1] : "/material/environment/generic_reflection.tobj"
+	ambient : { 0.395 , 0.423132 , 1 }
+	diffuse : { 0.24 , 0.27534 , 1 }
+	specular : { 0 , 0 , 0.45454 }
+	shininess : 4
+	env_factor : { 1 , 1 , 1 }
+}

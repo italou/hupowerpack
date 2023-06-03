@@ -1,0 +1,10 @@
+material : "hu.dif_spec.nm_offs.env" {
+	texture[0] : "/models/weapons/50snipe/f_stock_300.tobj"
+	normalmap : "/models/weapons/7mmauto/f_stock_300_no.tobj"
+	texture[1] : "/material/environment/generic_reflection.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.207 , 0.150262 , 0.111159 }
+	shininess : 4
+	env_factor : { 1 , 1 , 1 }
+}

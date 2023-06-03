@@ -1,0 +1,8 @@
+material : "hu.dif_spec.nm_offs" {
+	texture[0] : "/models/weapons/psef7gx/rest.tobj"
+	normalmap[0] : "/models/weapons/compbow/rest_no.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.4876 , 0.4876 , 0.4876 }
+	shininess : 60
+}

@@ -1,0 +1,150 @@
+"mhc" : "hunter.pmd" {
+	features {
+		@include "/models/hunters/pba/features.pba.part"
+	}
+
+	animations {
+	"stand" : "/models/hunters/man/stand.pma"
+#"stand2crouch" : "/models/hunters/man/std2crch.pma"
+
+#"walk" : "/models/hunters/man/walk.pma"
+#"walk1" : "/models/hunters/man/walk1.pma"
+#"walk2" : "/models/hunters/man/walk2.pma"
+#"walk3" : "/models/hunters/man/walk3.pma"
+#"strafe_l" : "/models/hunters/man/strafe_l.pma"
+#"strafe_r" : "/models/hunters/man/strafe_r.pma"
+
+#"backwalk" : "/models/hunters/man/backwalk.pma"
+
+#"run" : "/models/hunters/man/run.pma"
+#"run1" : "/models/hunters/man/run1.pma"
+#"run2" : "/models/hunters/man/run2.pma"
+#"run3" : "/models/hunters/man/run3.pma"
+#"run_strafe_l" : "/models/hunters/man/run_strafe_l.pma"
+#"run_strafe_r" : "/models/hunters/man/run_strafe_r.pma"
+
+#"crawl" : "/models/hunters/man/crawl.pma"
+#"crawl_back" : "/models/hunters/man/crawl_bck.pma"
+#"crawl_idle" : "/models/hunters/man/crwl_idle.pma"
+#"crawl2crouch" : "/models/hunters/man/crwl2crch.pma"
+
+#"crouch" : "/models/hunters/man/crouch.pma"
+#"crouch_back" : "/models/hunters/man/crouch_bck.pma"
+"crouch_idle" : "/models/hunters/man/crch_idle.pma"
+#"crouch2stand" : "/models/hunters/man/crch2std.pma"
+#"crouch2crawl" : "/models/hunters/man/crch2crwl.pma"
+
+#"walk_turn" : "/models/hunters/man/walk_turn.pma"
+
+#-----------------
+# arm animations
+#-----------------
+#"binoc_up" : "/models/hunters/man/binoc_up.pma" {
+#	priority : "5"
+#}
+#"binoc_down" : "/models/hunters/man/binoc_dwn.pma" {
+#	priority : "5"
+#}
+#"cb_raise" : "/models/hunters/man/cb_raise.pma" {
+#	priority : "5"
+#}
+#"cb_lower" : "/models/hunters/man/cb_lower.pma" {
+#	priority : "5"
+#}
+#"lb_raise" : "/models/hunters/man/lb_raise.pma" {
+#	priority : "5"
+#}
+#"lb_lower" : "/models/hunters/man/lb_lower.pma" {
+#	priority : "5"
+#}
+#"rb_raise" : "/models/hunters/man/rb_raise.pma" {
+#	priority : "5"
+#}
+#"rb_lower" : "/models/hunters/man/rb_lower.pma" {
+#	priority : "5"
+#}
+#"xb_raise" : "/models/hunters/man/xb_raise.pma" {
+#	priority : "5"
+#}
+#"xb_lower" : "/models/hunters/man/xb_lower.pma" {
+#	priority : "5"
+#}
+#"gun_raise" : "/models/hunters/man/gun_raise.pma" {
+#	priority : "5"
+#}
+#"gun_lower" : "/models/hunters/man/gun_lower.pma" {
+#	priority : "5"
+#}
+#"frms_raise" : "/models/hunters/man/frms_raise.pma" {
+#	priority : "5"
+#}
+#"frms_lower" : "/models/hunters/man/frms_lower.pma" {
+#	priority : "5"
+#}
+#"item_raise" : "/models/hunters/man/item_raise.pma" {
+#	priority : "5"
+#}
+#"item_lower" : "/models/hunters/man/item_lower.pma" {
+#	priority : "5"
+#}
+#-----------------
+# photopose animations
+#-----------------
+#"frms_photo" : "/models/hunters/man/frms_photo.pma" {
+#	priority : "5"
+#}
+#"gun_photo" : "/models/hunters/man/gun_photo.pma" {
+#	priority : "5"
+#}
+#"xb_photo" : "/models/hunters/man/xb_photo.pma" {
+#	priority : "5"
+#}
+
+
+#-----------------
+# other animations
+#-----------------
+
+#"death" : "/models/hunters/man/death.pma"
+
+#-----------------
+# atv animations
+#-----------------
+
+"atv_on" : "/models/hunters/man/atv_gon.pma"
+"atv_off" : "/models/hunters/man/atv_gof.pma"
+"atv_sit" : "/models/hunters/man/atv_sit.pma"
+"atv_tleft" : "/models/hunters/man/atv_tleft.pma"
+"atv_tright" : "/models/hunters/man/atv_tright.pma"
+
+#-----------------
+# horse animations
+#-----------------
+
+"horse_on" : "/models/hunters/man/h_mount.pma"
+"horse_off" : "/models/hunters/man/h_dismount.pma"
+"horse_sit" : "/models/hunters/man/h_stand.pma"
+"horse_walk" : "/models/hunters/man/h_walk.pma"
+"horse_leap" : "/models/hunters/man/h_leap.pma"
+"horse_gallop" : "/models/hunters/man/h_gallop.pma"
+"horse_bolt" : "/models/hunters/man/h_stand_idle.pma"
+
+"horse_sit2walk" : "/models/hunters/man/h_stand2walk.pma"
+"horse_walk2sit" : "/models/hunters/man/h_walk2stand.pma"
+		
+	}
+
+	behaviors {
+		@include "/models/hunters/pba/behaviors.pba.part"
+	}
+
+	transitions {
+		simple {
+			@include "/models/hunters/pba/transitions/simple.pba.part"
+		}
+
+		complex {
+			@include "/models/hunters/pba/transitions/complex.pba.part"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+"citoriXS" : "_weapon.pmd" {
+	features {
+		@include "/models/weapons/pba/showroom/features.pba.part"
+	}
+
+	animations {
+		"open" : "/models/weapons/10gaover/showroom/_open.pma"
+		"close" : "/models/weapons/10gaover/showroom/_close.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/showroom/open.pba.bhv"
+		@include "/models/weapons/pba/showroom/close.pba.bhv"
+	}
+}

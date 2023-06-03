@@ -1,0 +1,12 @@
+SiiNunit {
+
+world : .world.target_range {
+ landscape_filename: "/maps/alberta/landscape.lnd"
+ billboards_filename: "/models/billboards.sii"
+ world_units_filename: "/maps/target_range/landscape.game.sii"
+ grass_filename: "/maps/alberta/grass.sii"
+ scenic_music_filename: "/script/scenic_music/america.sii"
+}
+
+}
+

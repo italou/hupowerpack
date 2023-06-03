@@ -1,0 +1,633 @@
+###########################
+#
+#	Rapid-Z Varmint Reticle with RF v1.0
+#
+#	author: ita
+#
+###########################
+
+estruct {
+	client {
+		entities {
+			entity "ui.window" {
+				evalues {
+					"wclass" : "edited"
+					"coords" : "0 0 1024 768"
+					"name" : "window"
+				}
+## Vertical Main Line
+				entities {
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "1"
+							"p2p_pml" : "true"
+							"coords" : "512 70 542 416"
+							"name" : "top reticle"
+						}
+					}
+## Horizontal Main Line
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "1"
+							"p2p_pml" : "true"
+							"coords" : "297 368 727 384"
+							"name" : "left reticle"
+						}
+					}
+	## Horizontal Lines
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 663 518 679"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 641 518 657"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 619 518 635"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 597 518 613"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 575 518 591"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 553 518 569"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 531 518 547"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 509 518 525"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 487 518 503"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 465 518 481"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 443 518 459"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 421 518 437"
+						}
+					}					
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "509 416 515 432"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 411 518 427"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "509 406 515 422"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 401 518 417"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "484 354 539 370"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "505 345 519 361"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "472 334 552 350"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "500 323 524 339"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "457 311 567 327"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "496 295 528 311"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "432 277 592 293"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 257 519 273"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 230 519 246"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 208 519 224"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 186 519 202"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 164 519 180"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 142 519 158"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 120 519 136"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 98 519 114"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 76 519 92"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=2>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "506 54 519 70"
+						}
+					}
+	## Vertical Lines
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "209	378	239	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "231	378	261	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "253	378	283	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "277	378	307	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "282	381	312	387"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "287	378	317	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "292	381	322	387"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "297	378	327	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "424	382	454	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "446	382	476	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "468	382	498	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "490	382	520	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "512	382	542	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "534	382	564	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "556	382	586	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "578	382	608	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "600	382	630	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "472	291	502	295"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "484	324	514	328"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "490	348	520	352"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "496	368	526	372"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "528	368	558	372"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "534	348	564	352"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "540	324	570	328"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "552	291	582	295"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "727	378	757	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "732	381	762	387"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "737	378	767	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "742	381	772	387"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "747	378	777	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "771	378	801	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "793	378	823	390"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat width=2 yscale=stretch>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "815	378	845	390"
+						}
+					}
+
+	## Blocks
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=8>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "297	370	391	386"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/darken.mat xscale=stretch height=8>"
+							"layer" : "2"
+							"p2p_pml" : "true"
+							"coords" : "633	370	727	386"
+						}
+					}
+
+# RF
+					entity "ui.comp.common.text" {
+						evalues {
+							"layer" : "2"
+							"id" : "2"
+							"coords" : "0 13 1024 43"
+						}
+					}
+					
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ingame/scope_corner.mat xscale=stretch yscale=stretch left=1 right=0>"
+							"layer" : "2"
+							"coords" : "512 384 1024 768"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ingame/scope_corner.mat xscale=stretch yscale=stretch left=1 right=0 top=1 bottom=0>"
+							"layer" : "2"
+							"coords" : "512 0 1024 384"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ingame/scope_corner.mat xscale=stretch yscale=stretch top=1 bottom=0>"
+							"layer" : "2"
+							"coords" : "0 0 512 384"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/ingame/scope_corner.mat xscale=stretch yscale=stretch>"
+							"layer" : "3"
+							"coords" : "0 384 512 768"
+						}
+					}
+				}
+			}
+			entity "ui.handler.ingame.scope" {
+				evalues {
+				}
+			}
+		}
+	}
+}

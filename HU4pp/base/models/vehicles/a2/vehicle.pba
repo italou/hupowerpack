@@ -1,0 +1,10 @@
+"forest king atv" : "vehicle.pmd" {
+	features {
+	}
+
+	animations {
+	}
+	
+	behaviors {
+	}
+}

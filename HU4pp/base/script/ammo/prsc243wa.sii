@@ -1,0 +1,37 @@
+SiiNunit
+# .243 Win Remington
+#
+#         Cartridge Type: Premier Scirocco Bonded
+#           Bullet Style: Swift Scirocco Bonded
+#           Index Number: PRSC243WA
+# Short-Range Trajectory: 150 yards
+#  Long-Range Trajectory: 200 yards
+{
+
+projectile : _nameless
+{
+ bc: 0.390
+ muzzle: 3120
+ weight: 90
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/casing/projectile.pmd"
+ look: default
+ variant: rifle
+}
+
+}
+

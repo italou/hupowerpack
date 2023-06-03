@@ -1,0 +1,36 @@
+SiiNunit
+# 7mm Federal Win Short Mag
+#
+#         Cartridge Type: Premium Vital-Shock
+#           Bullet Style: Trophy Bonded Tip
+#           Index Number: P7WSMTT1
+#  Long-Range Trajectory: 200 yards
+{
+
+projectile : _nameless
+{
+ bc: 0.520
+ muzzle: 3000
+ weight: 160
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/casing/projectile.pmd"
+ look: default
+ variant: rifle
+}
+
+}
+
