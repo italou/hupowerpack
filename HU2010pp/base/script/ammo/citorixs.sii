@@ -1,0 +1,31 @@
+SiiNunit
+#Win XP3
+{
+
+projectile : _nameless
+{
+ bc: 0.188
+ muzzle: 2000
+ weight: 300
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/pellet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/shell/projectile.pmd"
+ look: blue
+ variant: default
+}
+
+}
+

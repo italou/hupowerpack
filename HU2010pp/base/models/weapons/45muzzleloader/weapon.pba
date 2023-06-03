@@ -1,0 +1,52 @@
+"45_muzzleloader" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/rifle/features.pba.part"
+	}
+
+	animations {
+		"raise"	: "/models/weapons/54muzzleloader/raise.pma"
+		"lower"	: "/models/weapons/54muzzleloader/lower.pma"
+
+		"open" : "/models/weapons/54muzzleloader/open.pma"
+		"close" : "/models/weapons/54muzzleloader/close.pma"
+		"load" : "/models/weapons/54muzzleloader/load.pma"
+
+		"fire" : "/models/weapons/54muzzleloader/fire.pma"
+
+		"s_raise" : "/models/weapons/54muzzleloader/s_raise.pma"
+		"s_lower" : "/models/weapons/54muzzleloader/s_lower.pma"
+
+		"i_raise" : "/models/weapons/54muzzleloader/i_raise.pma"
+		"i_lower" : "/models/weapons/54muzzleloader/i_lower.pma"
+		"i_fire" : "/models/weapons/54muzzleloader/i_fire.pma"
+
+		"aim2hold" : "/models/weapons/54muzzleloader/aim2hold.pma"
+		"hold2aim" : "/models/weapons/54muzzleloader/hold2aim.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/rifle/raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/lower.pba.bhv"
+
+		@include "/models/weapons/54muzzleloader/open.pba.bhv"
+		@include "/models/weapons/54muzzleloader/close.pba.bhv"
+		@include "/models/weapons/54muzzleloader/load.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/fire.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/s_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/s_raise.pba.bhv"
+		@include "/models/weapons/54muzzleloader/s_open.pba.bhv"
+		@include "/models/weapons/54muzzleloader/s_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/i_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_fire.pba.bhv"
+		@include "/models/weapons/54muzzleloader/i_open.pba.bhv"
+		@include "/models/weapons/54muzzleloader/i_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/hold2up.pba.bhv"
+		@include "/models/weapons/pba/rifle/up2hold.pba.bhv"
+	}
+}

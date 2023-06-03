@@ -1,0 +1,15 @@
+"recurvbow2" : "_weapon.pmd" {
+	features {
+		@include "/models/weapons/pba/showroom/features.pba.part"
+	}
+
+	animations {
+		"open" : "/models/weapons/recurvebow/showroom/_open.pma"
+		"close" : "/models/weapons/recurvebow/showroom/_close.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/showroom/open.pba.bhv"
+		@include "/models/weapons/pba/showroom/close.pba.bhv"
+	}
+}

@@ -1,0 +1,1654 @@
+extdefs"/def/basedefs.def"
+def ambient_animals {
+	def ambient_animal00 {
+		position:"< -996.178 27.5537 0.253848 >"
+		type:"ambient.animal.vulture"
+	}
+	def ambient_animal01 {
+		position:"< 458.907 20.6986 7.67439 >"
+		type:"ambient.animal.vulture"
+	}
+	def ambient_animal02 {
+		position:"< -1013.16 25.9327 10.7274 >"
+		type:"ambient.animal.vulture"
+	}
+	def ambient_animal03 {
+		position:"< -1006.17 27.3325 2.84481 >"
+		type:"ambient.animal.vulture"
+	}
+	def ambient_animal04 {
+		position:"< -1020.37 26.433 -5.10397 >"
+		type:"ambient.animal.vulture"
+	}
+}
+def animals {
+	def animal01:/ai_type {
+		aipreset:"ai_dumb"
+		bonus_tag:"true"
+		fact_call_perception:"0.00000"
+		fact_enemy:"0.00000"
+		fact_enemy_perception:"0.00000"
+		fact_hunter:"0.00000"
+		fact_hunter_perception:"0.00000"
+		fact_mate:"0.00000"
+		fact_mate_perception:"0.00000"
+		fact_pain:"0.00000"
+		fact_pain_perception:"0.00000"
+		fact_partner:"0.00000"
+		fact_partner_perception:"0.00000"
+		fact_prey:"0.00000"
+		fact_prey_perception:"0.00000"
+		fact_rival:"0.00000"
+		fact_rival_perception:"0.00000"
+		fade_enemy:"0.00000"
+		fade_hunter:"0.00000"
+		fade_mate:"0.00000"
+		fade_pain:"0.00000"
+		fade_partner:"0.00000"
+		fade_prey:"0.00000"
+		fade_rival:"0.00000"
+		mate:""
+		mountain_animal:"false"
+		name:"Elephant2443"
+		orientation:"< 0.0414511 0 0.999141 >"
+		position:"< 635.1 -35.4533 -1333.05 >"
+		scale:"0.99258"
+		score:"19.00001"
+		species:"elephant"
+		type:"bull"
+		val_aggression:"0.00000"
+		val_attack_probability:"0.00000"
+		val_hunger:"0.00000"
+		val_sex:"0.00000"
+		val_stress:"0.00000"
+		val_thirst:"0.00000"
+		val_tiredness:"0.00000"
+		weight:"10646.27539"
+		def left_antler {
+			atypicality:"1.00000"
+			main_beam:"simple_beam_part4"
+			scale:"1.00000"
+			seed:"51327"
+			typicality:"0.33333"
+		}
+		def right_antler {
+			atypicality:"1.00000"
+			main_beam:"simple_beam_part4"
+			scale:"1.00000"
+			seed:"4396"
+			typicality:"0.33333"
+		}
+		def script {
+		}
+	}
+	def animal04:/ai_type {
+		aipreset:"ai_insensitive"
+		fact_call_perception:"0.50000"
+		fact_enemy:"2.00000"
+		fact_enemy_perception:"0.50000"
+		fact_hunter:"1.00000"
+		fact_hunter_perception:"0.20000"
+		fact_mate:"0.05000"
+		fact_mate_perception:"0.50000"
+		fact_pain:"2.00000"
+		fact_pain_perception:"0.50000"
+		fact_partner:"0.20000"
+		fact_partner_perception:"0.02000"
+		fact_prey:"0.50000"
+		fact_prey_perception:"0.50000"
+		fact_rival:"0.20000"
+		fact_rival_perception:"0.02000"
+		fade_enemy:"0.05000"
+		fade_hunter:"0.20000"
+		fade_mate:"2.00000"
+		fade_pain:"0.10000"
+		fade_partner:"0.05000"
+		fade_prey:"0.05000"
+		fade_rival:"0.05000"
+		mate:""
+		mountain_animal:"false"
+		name:"animal04"
+		orientation:"< 0.415495 0 0.909595 >"
+		position:"< -1246.87 43.3202 1248.73 >"
+		scale:"1.26770"
+		score:"0.00000"
+		species:"kudu"
+		type:"bull"
+		val_aggression:"0.00000"
+		val_attack_probability:"0.00000"
+		val_hunger:"0.30000"
+		val_sex:"0.10000"
+		val_stress:"0.00000"
+		val_thirst:"0.20000"
+		val_tiredness:"0.00000"
+		weight:"668.79840"
+		def left_antler {
+			atypicality:"0.00000"
+			main_beam:"simple_beam_part6"
+			scale:"1.00000"
+			seed:"812"
+			typicality:"0.66667"
+		}
+		def right_antler {
+			atypicality:"0.00000"
+			main_beam:"simple_beam_part6"
+			scale:"1.00000"
+			seed:"22337"
+			typicality:"0.66667"
+		}
+		def script {
+		}
+	}
+	def animal05:/ai_type {
+		aipreset:"ai_insensitive"
+		fact_call_perception:"0.50000"
+		fact_enemy:"2.00000"
+		fact_enemy_perception:"0.50000"
+		fact_hunter:"1.00000"
+		fact_hunter_perception:"0.20000"
+		fact_mate:"0.05000"
+		fact_mate_perception:"0.50000"
+		fact_pain:"2.00000"
+		fact_pain_perception:"0.50000"
+		fact_partner:"0.20000"
+		fact_partner_perception:"0.02000"
+		fact_prey:"0.50000"
+		fact_prey_perception:"0.50000"
+		fact_rival:"0.20000"
+		fact_rival_perception:"0.02000"
+		fade_enemy:"0.05000"
+		fade_hunter:"0.20000"
+		fade_mate:"2.00000"
+		fade_pain:"0.10000"
+		fade_partner:"0.05000"
+		fade_prey:"0.05000"
+		fade_rival:"0.05000"
+		mate:""
+		mountain_animal:"false"
+		name:"animal05"
+		orientation:"< 0.932835 0 0.360305 >"
+		position:"< -1247.44 43.8185 1256.31 >"
+		scale:"1.03528"
+		score:"0.00000"
+		species:"kudu"
+		type:"bull"
+		val_aggression:"0.00000"
+		val_attack_probability:"0.00000"
+		val_hunger:"0.30000"
+		val_sex:"0.10000"
+		val_stress:"0.00000"
+		val_thirst:"0.20000"
+		val_tiredness:"0.00000"
+		weight:"492.21069"
+		def left_antler {
+			atypicality:"0.00000"
+			main_beam:"simple_beam_part5"
+			scale:"1.00000"
+			seed:"15843"
+			typicality:"0.66667"
+		}
+		def right_antler {
+			atypicality:"0.00000"
+			main_beam:"simple_beam_part5"
+			scale:"1.00000"
+			seed:"40254"
+			typicality:"0.66667"
+		}
+		def script {
+		}
+	}
+	def animal09:/ai_type {
+		aipreset:"ai_dumb"
+		fact_call_perception:"0.00000"
+		fact_enemy:"0.00000"
+		fact_enemy_perception:"0.00000"
+		fact_hunter:"0.00000"
+		fact_hunter_perception:"0.00000"
+		fact_mate:"0.00000"
+		fact_mate_perception:"0.00000"
+		fact_pain:"0.00000"
+		fact_pain_perception:"0.00000"
+		fact_partner:"0.00000"
+		fact_partner_perception:"0.00000"
+		fact_prey:"0.00000"
+		fact_prey_perception:"0.00000"
+		fact_rival:"0.00000"
+		fact_rival_perception:"0.00000"
+		fade_enemy:"0.00000"
+		fade_hunter:"0.00000"
+		fade_mate:"0.00000"
+		fade_pain:"0.00000"
+		fade_partner:"0.00000"
+		fade_prey:"0.00000"
+		fade_rival:"0.00000"
+		mate:""
+		mountain_animal:"false"
+		name:"animal09"
+		orientation:"< 0.779818 0 0.626006 >"
+		position:"< -1226 -30.7538 -1337.86 >"
+		scale:"1.13307"
+		score:"19.00031"
+		species:"elephant"
+		type:"bull"
+		val_aggression:"0.00000"
+		val_attack_probability:"0.00000"
+		val_hunger:"0.00000"
+		val_sex:"0.00000"
+		val_stress:"0.00000"
+		val_thirst:"0.00000"
+		val_tiredness:"0.00000"
+		weight:"11676.17969"
+		def left_antler {
+			atypicality:"0.00000"
+			main_beam:"simple_beam_part5"
+			scale:"1.00000"
+			seed:"8630"
+			typicality:"0.66667"
+		}
+		def right_antler {
+			atypicality:"0.00000"
+			main_beam:"simple_beam_part5"
+			scale:"1.00000"
+			seed:"29693"
+			typicality:"0.66667"
+		}
+		def script {
+		}
+	}
+	def animal10:/ai_type {
+		aipreset:"ai_dumb"
+		fact_call_perception:"0.00000"
+		fact_enemy:"0.00000"
+		fact_enemy_perception:"0.00000"
+		fact_hunter:"0.00000"
+		fact_hunter_perception:"0.00000"
+		fact_mate:"0.00000"
+		fact_mate_perception:"0.00000"
+		fact_pain:"0.00000"
+		fact_pain_perception:"0.00000"
+		fact_partner:"0.00000"
+		fact_partner_perception:"0.00000"
+		fact_prey:"0.00000"
+		fact_prey_perception:"0.00000"
+		fact_rival:"0.00000"
+		fact_rival_perception:"0.00000"
+		fade_enemy:"0.00000"
+		fade_hunter:"0.00000"
+		fade_mate:"0.00000"
+		fade_pain:"0.00000"
+		fade_partner:"0.00000"
+		fade_prey:"0.00000"
+		fade_rival:"0.00000"
+		mate:""
+		mountain_animal:"false"
+		name:"Elephant2948"
+		orientation:"< 0.998203 0 0.0599199 >"
+		position:"< -1357.46 13.576 -1.09003 >"
+		scale:"1.06418"
+		score:"19.00085"
+		species:"elephant"
+		type:"bull"
+		val_aggression:"0.00000"
+		val_attack_probability:"0.00000"
+		val_hunger:"0.00000"
+		val_sex:"0.00000"
+		val_stress:"0.00000"
+		val_thirst:"0.00000"
+		val_tiredness:"0.00000"
+		weight:"10932.91895"
+		def left_antler {
+			atypicality:"0.00000"
+			main_beam:"simple_beam_part3"
+			scale:"1.00000"
+			seed:"53422"
+			typicality:"0.66667"
+		}
+		def right_antler {
+			atypicality:"0.00000"
+			main_beam:"simple_beam_part4"
+			scale:"1.00000"
+			seed:"24360"
+			typicality:"0.66667"
+		}
+		def script {
+		}
+	}
+}
+def checkpoints {
+	def checkpoint00 {
+		diameter:"100.00000"
+		message:"Now that's what I'd call a longshot! The next shot will be a little trickier.. Bag your animal and head eastwards..."
+		position:"< 649.194 -34.6077 -1317.73 >"
+	}
+	def checkpoint01 {
+		diameter:"100.00000"
+		message:"There's a lot of junk around that old german tank.. Let's head over there and check it out.."
+		position:"< 847.077 -21.9934 -1325.63 >"
+	}
+	def checkpoint02 {
+		diameter:"59.00000"
+		message:"Old Rommel's tank. What a mess.. There's nothing of use here so let's head up to those totems to the southeast "
+		position:"< 1186.42 -33.2035 -1289.96 >"
+	}
+	def checkpoint03 {
+		diameter:"74.00000"
+		message:"Follow the totems down south until you get to the box stand."
+		position:"< 1355.14 -24.1057 -1042.84 >"
+	}
+	def checkpoint04 {
+		diameter:"14.00000"
+		message:"Do you feel lucky? Get in there and scope the surroundings.. fire through a window, grab a drink, sit back and enjoy the flight"
+		position:"< 1339.53 1.96613 2.05231 >"
+	}
+	def checkpoint05 {
+		diameter:"58.00000"
+		message:"You're almost there... "
+		position:"< 1309.41 -8.38439 -653.66 >"
+	}
+	def checkpoint06 {
+		diameter:"9.00000"
+		message:"Don't move! Look around and you shall find the moa.. Then find the Canadian flag and try to shoot at that ball on top of the pole."
+		no_score:"true"
+		position:"< 634.534 50.6946 900.116 >"
+	}
+	def checkpoint07 {
+		diameter:"31.00000"
+		message:"There, another stand on that mountainside to the south.. "
+		position:"< -1198.21 42.7523 1204.45 >"
+	}
+	def checkpoint08 {
+		diameter:"23.00000"
+		message:"This darn heat is killing me.. before I go up there, I'll have sit in the river down there..."
+		position:"< -1203.64 66.7851 1362.21 >"
+	}
+	def checkpoint09 {
+		diameter:"8.00000"
+		message:"Got your moa? Ok then let's finish this.. look for another flag among the trees to the north.. same procedure as the first time..."
+		position:"< -1210.76 75.2078 1391.16 >"
+	}
+	def checkpoint10 {
+		diameter:"100.00000"
+		message:"Cool.. now that's creative"
+		no_score:"true"
+		position:"< 540.408 -1.08882 5.19006 >"
+	}
+	def checkpoint11 {
+		diameter:"90.00000"
+		message:"This is gonna be a long drive...  I hope I don't kill myself before I get there"
+		position:"< 1171.88 -2.20016 -23.4684 >"
+	}
+	def checkpoint12 {
+		diameter:"100.00000"
+		message:"Talk about redneck rampage"
+		position:"< -990.247 26.9472 24.2849 >"
+	}
+	def checkpoint13 {
+		diameter:"100.00000"
+		message:"That shot was insane.. Bag your animal and follow the path of the dead.."
+		position:"< -1329.28 9.18796 -10.1575 >"
+	}
+	def checkpoint14 {
+		diameter:"23.00000"
+		message:"I think I just saw a stand up on that mountainside ahead..."
+		position:"< -1209.1 44.7703 1195.72 >"
+	}
+	def checkpoint15 {
+		diameter:"100.00000"
+		message:"Once you've bagged your animal this mission is completed. Congratulations on your new LR records.. You will most likely never do shots like these again Lets do some exploring."
+		position:"< -1206.34 -29.9773 -1310.9 >"
+	}
+	def checkpoint16 {
+		diameter:"100.00000"
+		message:"I better just follow the river up north"
+		no_score:"true"
+		position:"< 818.013 -16.2455 354.312 >"
+	}
+}
+def containers {
+	def container00 {
+		normal:"< -0.0242312 0.99955 -0.0176722 >"
+		orientation:"< 0.99932 0 -0.0368823 >"
+		position:"< 635.369 -4.10508 -252.038 >"
+		type:"flag_canada"
+	}
+	def container01 {
+		normal:"< 0.0198119 0.997833 -0.0627407 >"
+		orientation:"< 0.626684 0 0.779273 >"
+		position:"< 632.608 -3.87174 -244.525 >"
+		type:"tent_yellow"
+	}
+	def container02 {
+		normal:"< -0.192305 0.976294 -0.0993398 >"
+		orientation:"< -0.297984 0 0.954571 >"
+		position:"< 632.138 50.2917 899.264 >"
+		type:"totem"
+	}
+	def container03 {
+		normal:"< 0.0710884 0.990999 0.113434 >"
+		orientation:"< -0.47033 0 -0.88249 >"
+		position:"< 638.678 -6.49601 -216.917 >"
+		type:"totem"
+	}
+	def container04 {
+		normal:"< -0.0639527 0.997103 0.0411866 >"
+		orientation:"< 0.342825 0 0.939399 >"
+		position:"< 1177.91 -35.4638 -1290.06 >"
+		type:"barrel"
+	}
+	def container05 {
+		normal:"< -0.0639527 0.997103 0.0411866 >"
+		orientation:"< 0.905735 0 -0.423845 >"
+		position:"< 1172.54 -35.8665 -1288.66 >"
+		type:"pneu"
+	}
+	def container06 {
+		normal:"< -0.0701613 0.996524 -0.0449132 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 1177.66 -35.5344 -1282.63 >"
+		type:"pneu"
+	}
+	def container07 {
+		normal:"< -0.0639527 0.997103 0.0411866 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 1173.04 -35.9011 -1287.04 >"
+		type:"bucket"
+	}
+	def container08 {
+		normal:"< -0.0639527 0.997103 0.0411866 >"
+		orientation:"< -0.915961 0 -0.401268 >"
+		position:"< 1169.04 -36.0734 -1289.09 >"
+		type:"haypack"
+	}
+	def container09 {
+		normal:"< -0.0601577 0.997174 0.0449966 >"
+		orientation:"< 0.928551 0 0.371204 >"
+		position:"< 1164.79 -36.1699 -1293.34 >"
+		type:"drag"
+	}
+	def container10 {
+		normal:"< -0.0639527 0.997103 0.0411866 >"
+		orientation:"< -0.813061 0 -0.582179 >"
+		position:"< 1171.41 -36.049 -1285.99 >"
+		type:"can"
+	}
+	def container100 {
+		normal:"< -0.100572 0.991536 -0.0821062 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1257.3 29.6504 919.2 >"
+		type:"gravestone_cross"
+	}
+	def container101 {
+		normal:"< -0.0574399 0.991677 -0.11523 >"
+		orientation:"< -0.406207 0 -0.913781 >"
+		position:"< -1254.42 32.9299 942.627 >"
+		type:"gravestone_cross"
+	}
+	def container102 {
+		normal:"< 0.27169 0.956623 0.10515 >"
+		orientation:"< 0.394331 0 -0.918968 >"
+		position:"< -1244.99 38.2479 1017.82 >"
+		type:"gravestone_cross"
+	}
+	def container103 {
+		normal:"< 0.0785028 0.992312 -0.0956745 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1245.73 38.315 985.448 >"
+		type:"gravestone_cross"
+	}
+	def container104 {
+		normal:"< 0.175776 0.984296 0.0162374 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1239.77 35.6082 1048.25 >"
+		type:"gravestone_cross"
+	}
+	def container105 {
+		normal:"< 0.142762 0.973188 -0.180343 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1235.88 39.198 1077.13 >"
+		type:"gravestone_cross"
+	}
+	def container106 {
+		normal:"< 0.0961775 0.988877 -0.113453 >"
+		orientation:"< 0.602546 0 -0.798084 >"
+		position:"< -1214.96 41.7803 1113.22 >"
+		type:"gravestone_cross"
+	}
+	def container107 {
+		normal:"< 0.0962226 0.989917 -0.10395 >"
+		orientation:"< -0.362806 0 -0.931865 >"
+		position:"< -1216.56 46.3413 1152.79 >"
+		type:"gravestone_cross"
+	}
+	def container108 {
+		normal:"< 0.0707749 0.995937 0.0556732 >"
+		orientation:"< 0.289182 0 -0.957274 >"
+		position:"< -1212.71 46.4267 1177.45 >"
+		type:"gravestone_cross"
+	}
+	def container109 {
+		normal:"< 0.161112 0.980238 0.11479 >"
+		orientation:"< 0.397891 0 -0.917433 >"
+		position:"< 644.995 -7.2965 -214.475 >"
+		type:"totem"
+	}
+	def container11 {
+		normal:"< -0.064096 0.997188 -0.0388359 >"
+		orientation:"< 0.468628 0 0.883395 >"
+		position:"< 1168.43 -36.14 -1282.61 >"
+		type:"camp_fire"
+	}
+	def container110 {
+		name:"cont2"
+		normal:"< 0.116262 0.691991 -0.712483 >"
+		orientation:"< -0.990966 0 -0.134114 >"
+		position:"< 617.03 100.856 1471.89 >"
+		type:"feeder_lght"
+	}
+	def container111 {
+		name:"cont"
+		normal:"< 0.116262 0.691991 -0.712483 >"
+		orientation:"< -0.99667 0 -0.0815356 >"
+		position:"< 617.843 96.0587 1467.37 >"
+		type:"feeder_lght"
+	}
+	def container112 {
+		name:"cont3"
+		normal:"< 0.116262 0.691991 -0.712483 >"
+		orientation:"< -0.979874 0 -0.199619 >"
+		position:"< 618.572 90.4657 1462.05 >"
+		type:"feeder_lght"
+	}
+	def container113 {
+		normal:"< 0.116262 0.691991 -0.712483 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 603.388 92.5335 1461.58 >"
+		type:"feeder_lght"
+	}
+	def container114 {
+		normal:"< 0.14548 0.670481 -0.727524 >"
+		orientation:"< 0.984916 0 -0.173032 >"
+		position:"< 600.65 97.3631 1465.57 >"
+		type:"feeder_lght"
+	}
+	def container115 {
+		normal:"< 0.116262 0.691991 -0.712483 >"
+		orientation:"< 0.999919 0 0.0127138 >"
+		position:"< 605.992 95.9948 1465.37 >"
+		type:"feeder_lght"
+	}
+	def container116 {
+		normal:"< 0.14548 0.670481 -0.727524 >"
+		orientation:"< 0.202204 0 -0.979343 >"
+		position:"< 602.932 99.6362 1468.12 >"
+		type:"feeder_lght"
+	}
+	def container117 {
+		normal:"< 0.14548 0.670481 -0.727524 >"
+		orientation:"< -0.839684 0 -0.543075 >"
+		position:"< 604.358 103.201 1471.69 >"
+		type:"feeder_lght"
+	}
+	def container118 {
+		normal:"< 0.0543505 0.676689 -0.73426 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 591.553 94.2311 1461.93 >"
+		type:"feeder_lght"
+	}
+	def container119 {
+		normal:"< 0.0543505 0.676689 -0.73426 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 593.38 101.068 1468.37 >"
+		type:"feeder_lght"
+	}
+	def container12 {
+		normal:"< -0.0120254 0.999922 -0.00336131 >"
+		orientation:"< -0.797564 0 -0.603234 >"
+		position:"< 1359.06 -24.1997 -1057.23 >"
+		type:"feeder_slvr"
+	}
+	def container120 {
+		normal:"< 0.0543505 0.676689 -0.73426 >"
+		orientation:"< 0.969028 0 -0.246951 >"
+		position:"< 588.779 98.2294 1465.41 >"
+		type:"feeder_lght"
+	}
+	def container121 {
+		normal:"< 0.0543505 0.676689 -0.73426 >"
+		orientation:"< 0.960095 0 -0.279673 >"
+		position:"< 595.879 97.3652 1465.14 >"
+		type:"feeder_lght"
+	}
+	def container122 {
+		normal:"< 0.0543505 0.676689 -0.73426 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 584.587 95.0959 1462.21 >"
+		type:"haypack"
+	}
+	def container123 {
+		normal:"< -0.00922897 0.708072 -0.70608 >"
+		orientation:"< -0.999969 0 -0.00782133 >"
+		position:"< 574.129 94.8814 1461.7 >"
+		type:"feeder_lght"
+	}
+	def container124 {
+		normal:"< -0.00922897 0.708072 -0.70608 >"
+		orientation:"< -0.999979 0 -0.00651263 >"
+		position:"< 573.961 100.08 1466.91 >"
+		type:"feeder_lght"
+	}
+	def container125 {
+		normal:"< -0.00922897 0.708072 -0.70608 >"
+		orientation:"< -0.987356 0 -0.158517 >"
+		position:"< 573.232 105.063 1471.92 >"
+		type:"feeder_lght"
+	}
+	def container126 {
+		normal:"< -0.00922897 0.708072 -0.70608 >"
+		orientation:"< 0.0769026 0 -0.997039 >"
+		position:"< 578.072 101.875 1468.66 >"
+		type:"feeder_lght"
+	}
+	def container127 {
+		normal:"< 0.00407295 0.708081 -0.706119 >"
+		orientation:"< -0.952144 0 -0.30565 >"
+		position:"< 580.307 105.588 1472.39 >"
+		type:"feeder_lght"
+	}
+	def container128 {
+		normal:"< 0.105136 0.950234 -0.293261 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1211.08 76.51 1396.29 >"
+		type:"box_stand"
+	}
+	def container129 {
+		normal:"< 0.0954636 0.990083 0.103067 >"
+		orientation:"< -0.164864 0 -0.986316 >"
+		position:"< -1205.13 44.0626 1198.83 >"
+		type:"totem"
+	}
+	def container13 {
+		normal:"< -0.0639527 0.997103 0.0411866 >"
+		orientation:"< -0.887087 0 -0.461602 >"
+		position:"< 1172.63 -35.7541 -1291.23 >"
+		type:"ammobox_lay"
+	}
+	def container130 {
+		normal:"< 0.0618927 0.991318 0.116013 >"
+		orientation:"< 0.568092 0 0.822965 >"
+		position:"< -1189.87 40.6699 1217.79 >"
+		type:"totem"
+	}
+	def container131 {
+		normal:"< 0.0385646 0.957071 0.287277 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1186.25 33.976 1252.07 >"
+		type:"totem"
+	}
+	def container132 {
+		altitude:"15"
+		normal:"< -0.0341292 0.999405 0.00506111 >"
+		orientation:"< 0.998799 0 0.0489935 >"
+		position:"< -1213.47 35.3933 857.12 >"
+		type:"flag_zambia"
+	}
+	def container133 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.00893831 0 -0.99996 >"
+		position:"< -1169.66 26.5582 1280.31 >"
+		type:"skull"
+	}
+	def container134 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1169.64 26.7075 1279.62 >"
+		type:"skull"
+	}
+	def container135 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1169.6 26.8551 1278.94 >"
+		type:"skull"
+	}
+	def container136 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.976746 0 -0.214399 >"
+		position:"< -1170.23 26.9129 1278.78 >"
+		type:"skull"
+	}
+	def container137 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.952731 0 -0.303816 >"
+		position:"< -1170.8 26.9422 1278.74 >"
+		type:"skull"
+	}
+	def container138 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.971183 0 -0.238336 >"
+		position:"< -1170.29 26.5785 1280.33 >"
+		type:"skull"
+	}
+	def container139 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.992491 0 -0.122318 >"
+		position:"< -1170.94 26.6076 1280.31 >"
+		type:"skull"
+	}
+	def container14 {
+		normal:"< -0.0639527 0.997103 0.0411866 >"
+		orientation:"< -0.970021 0 -0.243023 >"
+		position:"< 1165.99 -36.3726 -1286.58 >"
+		type:"can"
+	}
+	def container140 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1171.09 26.4791 1280.93 >"
+		type:"skull"
+	}
+	def container141 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< -0.995452 0 -0.0952686 >"
+		position:"< -1171.05 26.3398 1281.56 >"
+		type:"skull"
+	}
+	def container142 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< -0.999875 0 -0.0158355 >"
+		position:"< -1170.15 26.2999 1281.59 >"
+		type:"skull"
+	}
+	def container143 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< -0.994807 0 -0.101777 >"
+		position:"< -1169.43 26.2672 1281.61 >"
+		type:"skull"
+	}
+	def container144 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.995224 0 -0.0976206 >"
+		position:"< -1167.79 26.7997 1278.88 >"
+		type:"skull"
+	}
+	def container145 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0.981964 0 -0.18907 >"
+		position:"< -1166.93 26.7639 1278.89 >"
+		type:"skull"
+	}
+	def container146 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0.990268 0 -0.139176 >"
+		position:"< -1166.02 26.7176 1278.95 >"
+		type:"skull"
+	}
+	def container147 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1165.97 26.5476 1279.72 >"
+		type:"skull"
+	}
+	def container148 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1166.04 26.4134 1280.35 >"
+		type:"skull"
+	}
+	def container149 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.997301 0 -0.0734179 >"
+		position:"< -1166.87 26.4309 1280.42 >"
+		type:"skull"
+	}
+	def container15 {
+		normal:"< -0.279431 0.959203 -0.0429945 >"
+		orientation:"< -0.224109 0 0.974564 >"
+		position:"< 1183.62 -34.0594 -1283.98 >"
+		type:"can"
+	}
+	def container150 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1166.03 26.2249 1281.22 >"
+		type:"skull"
+	}
+	def container151 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.975757 0 -0.218858 >"
+		position:"< -1166.15 26.0836 1281.89 >"
+		type:"skull"
+	}
+	def container152 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.983703 0 -0.179804 >"
+		position:"< -1167.01 26.122 1281.86 >"
+		type:"skull"
+	}
+	def container153 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.993731 0 -0.111796 >"
+		position:"< -1167.86 26.1699 1281.79 >"
+		type:"skull"
+	}
+	def container154 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1164.19 26.191 1281.06 >"
+		type:"skull"
+	}
+	def container155 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1164.13 26.3743 1280.2 >"
+		type:"skull"
+	}
+	def container156 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< -0.749037 0 -0.662528 >"
+		position:"< -1163.77 26.0216 1281.76 >"
+		type:"skull"
+	}
+	def container157 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1164.13 26.527 1279.5 >"
+		type:"skull"
+	}
+	def container158 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0.869968 0 -0.493109 >"
+		position:"< -1163.4 26.6096 1279 >"
+		type:"skull"
+	}
+	def container159 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0.427805 0 0.903871 >"
+		position:"< -1162.65 26.4764 1279.48 >"
+		type:"skull"
+	}
+	def container16 {
+		normal:"< -0.0365888 0.998941 -0.0278931 >"
+		orientation:"< 0.881429 0 0.472316 >"
+		position:"< 1360.21 -24.2248 -1061.44 >"
+		type:"totem"
+	}
+	def container160 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0.231109 0 0.972928 >"
+		position:"< -1162.57 26.3252 1280.16 >"
+		type:"skull"
+	}
+	def container161 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0.157926 0 0.987451 >"
+		position:"< -1162.65 26.1296 1281.07 >"
+		type:"skull"
+	}
+	def container162 {
+		normal:"< 0.0367157 0.976537 0.212195 >"
+		orientation:"< 0.811335 0 -0.584582 >"
+		position:"< -1163.26 26.0055 1281.75 >"
+		type:"skull"
+	}
+	def container163 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1161.04 25.9234 1281.74 >"
+		type:"bucket"
+	}
+	def container164 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< -0.203087 0 -0.979161 >"
+		position:"< -1159.52 26.3236 1279.64 >"
+		type:"skull"
+	}
+	def container165 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0.999944 0 -0.0105838 >"
+		position:"< -1158.91 26.3986 1279.19 >"
+		type:"skull"
+	}
+	def container166 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1158.2 26.3549 1279.27 >"
+		type:"skull"
+	}
+	def container167 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1158.01 26.1952 1279.97 >"
+		type:"skull"
+	}
+	def container168 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< -0.704879 0 -0.709327 >"
+		position:"< -1159.18 26.1704 1280.29 >"
+		type:"skull"
+	}
+	def container169 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< -0.984488 0 0.175452 >"
+		position:"< -1158.6 26.1162 1280.44 >"
+		type:"skull"
+	}
+	def container17 {
+		normal:"< -0.012 0.999796 -0.0162211 >"
+		orientation:"< -0.932976 0 -0.359938 >"
+		position:"< 1351.05 -24.0663 -1037.39 >"
+		type:"totem"
+	}
+	def container170 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1158.04 26.0623 1280.59 >"
+		type:"skull"
+	}
+	def container171 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1158.03 25.8957 1281.35 >"
+		type:"skull"
+	}
+	def container172 {
+		normal:"< 0.036549 0.976475 0.212513 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1158.01 25.7126 1282.19 >"
+		type:"skull"
+	}
+	def container173 {
+		name:"ncontainer173"
+		normal:"< -0.0467658 0.99888 -0.00724758 >"
+		orientation:"< -0.821977 0 -0.569521 >"
+		position:"< 520.454 -35.0053 -1170.66 >"
+		type:"feeder_lght"
+	}
+	def container174 {
+		normal:"< -0.0436413 0.999039 -0.00409558 >"
+		orientation:"< -0.855474 0 -0.517845 >"
+		position:"< 524.257 -34.8647 -1176.55 >"
+		type:"feeder_lght"
+	}
+	def container175 {
+		normal:"< -0.0436401 0.999012 -0.00840962 >"
+		orientation:"< -0.325687 0 -0.945478 >"
+		position:"< 522.938 -34.9319 -1178.69 >"
+		type:"feeder_lght"
+	}
+	def container176 {
+		normal:"< -0.0467658 0.99888 -0.00724758 >"
+		orientation:"< 0.999989 0 0.00468574 >"
+		position:"< 526.613 -34.7582 -1176.35 >"
+		type:"feeder_lght"
+	}
+	def container177 {
+		normal:"< 0.142425 0.986379 0.0822884 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -904.416 13.5073 36.0616 >"
+		type:"pneu"
+	}
+	def container178 {
+		normal:"< 0.142425 0.986379 0.0822884 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -902.422 13.3176 34.8836 >"
+		type:"pneu"
+	}
+	def container179 {
+		normal:"< 0.172356 0.981644 0.0816575 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -899.779 12.8139 36.0572 >"
+		type:"pneu"
+	}
+	def container18 {
+		normal:"< -0.0373189 0.998993 -0.02489 >"
+		orientation:"< 0.0732069 0 0.997317 >"
+		position:"< 1337.8 -19.5752 -937.565 >"
+		type:"totem"
+	}
+	def container180 {
+		normal:"< 0.142425 0.986379 0.0822884 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -904.747 13.7318 33.943 >"
+		type:"pneu"
+	}
+	def container181 {
+		normal:"< 0.142425 0.986379 0.0822884 >"
+		orientation:"< 0.256838 0 -0.966454 >"
+		position:"< -900.677 13.3152 31.8936 >"
+		type:"pneu"
+	}
+	def container182 {
+		normal:"< 0.142425 0.986379 0.0822884 >"
+		orientation:"< 0.108021 0 -0.994149 >"
+		position:"< -904.082 13.2734 38.2873 >"
+		type:"pneu"
+	}
+	def container183 {
+		normal:"< 0.142425 0.986379 0.0822884 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -902.681 13.5255 32.8412 >"
+		type:"pneu"
+	}
+	def container184 {
+		normal:"< 0.172356 0.981644 0.0816575 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -897.222 12.2663 37.2437 >"
+		type:"pneu"
+	}
+	def container185 {
+		normal:"< 0.143638 0.98826 0.0520525 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -894.41 11.7373 38.4801 >"
+		type:"pneu"
+	}
+	def container19 {
+		normal:"< -0.128225 0.989056 0.0729806 >"
+		orientation:"< -0.0284498 0 0.999595 >"
+		position:"< 1336.3 -14.6987 -810.038 >"
+		type:"totem"
+	}
+	def container20 {
+		normal:"< 0.213024 0.975796 0.0494284 >"
+		orientation:"< 0.100715 0 0.994915 >"
+		position:"< 1320.12 -7.10304 -669.257 >"
+		type:"totem"
+	}
+	def container21 {
+		normal:"< -0.0639145 0.997918 0.00865557 >"
+		orientation:"< -0.0545046 0 0.998514 >"
+		position:"< 1311.27 -7.55312 -488.523 >"
+		type:"totem"
+	}
+	def container22 {
+		normal:"< 0.182024 0.978987 -0.0919363 >"
+		orientation:"< -0.0288397 0 0.999584 >"
+		position:"< 1308.12 0.405555 -319.548 >"
+		type:"totem"
+	}
+	def container23 {
+		normal:"< -0.0671322 0.996078 -0.0576438 >"
+		orientation:"< -0.288628 0 0.957441 >"
+		position:"< 1338.84 -2.62 -135.063 >"
+		type:"totem"
+	}
+	def container24 {
+		normal:"< -0.0142548 0.999711 0.0193563 >"
+		orientation:"< -0.264632 0 -0.96435 >"
+		position:"< 1335.52 2.03549 -2.56181 >"
+		type:"gravestone_cross"
+	}
+	def container25 {
+		normal:"< -0.0687895 0.997628 0.00241201 >"
+		orientation:"< -0.891636 0 0.452753 >"
+		position:"< -1014.31 26.997 -14.2267 >"
+		type:"ranger_army"
+	}
+	def container26 {
+		normal:"< -0.0840165 0.988145 0.128494 >"
+		orientation:"< 0.442337 0 0.896849 >"
+		position:"< -1020.05 26.3604 -0.0469812 >"
+		type:"ranger_civil"
+	}
+	def container27 {
+		normal:"< -0.0467111 0.997078 -0.060451 >"
+		orientation:"< -0.674749 0 -0.738047 >"
+		position:"< 1428.7 17.2417 86.1165 >"
+		type:"totem"
+	}
+	def container28 {
+		normal:"< -0.0845305 0.996252 0.0183416 >"
+		orientation:"< -0.792931 0 -0.609312 >"
+		position:"< -1016.05 26.848 -7.74466 >"
+		type:"totem"
+	}
+	def container29 {
+		normal:"< -0.0112392 0.999933 0.00284101 >"
+		orientation:"< -0.617706 0 0.786409 >"
+		position:"< -999.176 27.5419 -5.74243 >"
+		type:"carrion_moose"
+	}
+	def container30 {
+		normal:"< -0.0687895 0.997628 0.00241201 >"
+		orientation:"< -0.534417 0 -0.845221 >"
+		position:"< -1012.73 27.0895 -7.62768 >"
+		type:"carrion_moose"
+	}
+	def container31 {
+		normal:"< -0.0142438 0.99926 0.0357254 >"
+		orientation:"< -0.999809 0 -0.0195622 >"
+		position:"< 1340.47 2.05481 -0.0527894 >"
+		type:"box_stand"
+	}
+	def container32 {
+		normal:"< -0.0112645 0.99977 0.0182528 >"
+		orientation:"< -0.65804 0 0.752983 >"
+		position:"< -1001.66 27.4615 1.92509 >"
+		type:"carrion_moose"
+	}
+	def container33 {
+		normal:"< -0.0687895 0.997628 0.00241201 >"
+		orientation:"< 0.911528 0 0.411238 >"
+		position:"< -1009.73 27.3011 -9.56338 >"
+		type:"carrion_moose"
+	}
+	def container34 {
+		normal:"< -0.0112392 0.999933 0.00284101 >"
+		orientation:"< 0.466665 0 -0.884434 >"
+		position:"< -1006.4 27.4583 -4.88939 >"
+		type:"carrion_moose"
+	}
+	def container35 {
+		normal:"< 0.275451 0.946408 -0.168637 >"
+		orientation:"< 0.0723682 0 -0.997378 >"
+		position:"< 498.896 17.5782 -5.84772 >"
+		type:"feeder_stnd"
+	}
+	def container36 {
+		normal:"< 0.27507 0.94652 -0.168633 >"
+		orientation:"< 0.0884641 0 -0.996079 >"
+		position:"< 491.962 19.5079 -6.33487 >"
+		type:"feeder_stnd"
+	}
+	def container37 {
+		normal:"< 0.270297 0.948651 -0.164318 >"
+		orientation:"< 0.0398524 0 -0.999206 >"
+		position:"< 505.738 15.6653 -5.48344 >"
+		type:"feeder_stnd"
+	}
+	def container38 {
+		normal:"< 0.320962 0.930913 -0.174312 >"
+		orientation:"< 0.55181 0 -0.83397 >"
+		position:"< 488.433 17.6368 -24.2115 >"
+		type:"feeder_stnd"
+	}
+	def container39 {
+		normal:"< 0.320962 0.930913 -0.174312 >"
+		orientation:"< 0.471018 0 -0.882123 >"
+		position:"< 494.702 16.1782 -20.4584 >"
+		type:"feeder_stnd"
+	}
+	def container40 {
+		normal:"< 0.269247 0.94716 -0.174337 >"
+		orientation:"< -0.643755 0 -0.765232 >"
+		position:"< 500.53 14.3586 -21.2695 >"
+		type:"feeder_stnd"
+	}
+	def container41 {
+		normal:"< 0.269247 0.94716 -0.174337 >"
+		orientation:"< 0.456636 0 -0.889654 >"
+		position:"< 499.357 13.8884 -25.6352 >"
+		type:"feeder_stnd"
+	}
+	def container42 {
+		normal:"< 0.320962 0.930913 -0.174312 >"
+		orientation:"< -0.809827 0 -0.586669 >"
+		position:"< 494.09 15.4662 -25.3877 >"
+		type:"feeder_stnd"
+	}
+	def container43 {
+		normal:"< 0.27507 0.94652 -0.168633 >"
+		orientation:"< 0.999633 0 -0.0270748 >"
+		position:"< 489.234 19.0648 -13.2715 >"
+		type:"feeder_stnd"
+	}
+	def container44 {
+		normal:"< 0.27507 0.94652 -0.168633 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 493.291 18.4089 -10.3353 >"
+		type:"feeder_stnd"
+	}
+	def container45 {
+		normal:"< 0.275451 0.946408 -0.168637 >"
+		orientation:"< -0.999198 0 0.0400359 >"
+		position:"< 496.006 16.908 -14.3305 >"
+		type:"feeder_stnd"
+	}
+	def container46 {
+		normal:"< 0.269247 0.94716 -0.174337 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 500.035 15.2386 -17.2525 >"
+		type:"feeder_stnd"
+	}
+	def container47 {
+		normal:"< 0.270297 0.948651 -0.164318 >"
+		orientation:"< -0.999992 0 -0.0041083 >"
+		position:"< 503.19 15.1024 -12.9236 >"
+		type:"feeder_stnd"
+	}
+	def container48 {
+		normal:"< 0.375858 0.890538 -0.256268 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 503.038 11.5613 -30.5176 >"
+		type:"barrel"
+	}
+	def container49 {
+		normal:"< 0.320962 0.930913 -0.174312 >"
+		orientation:"< 0.20403 0 -0.978965 >"
+		position:"< 490.495 14.9484 -34.7727 >"
+		type:"feeder_stnd"
+	}
+	def container50 {
+		normal:"< 0.269247 0.94716 -0.174337 >"
+		orientation:"< -0.99012 0 -0.140222 >"
+		position:"< 494.936 13.0774 -36.8692 >"
+		type:"feeder_stnd"
+	}
+	def container51 {
+		normal:"< 0.32859 0.938887 -0.102569 >"
+		orientation:"< 0.194339 0 -0.980935 >"
+		position:"< 491.06 13.8146 -40.5566 >"
+		type:"feeder_stnd"
+	}
+	def container52 {
+		normal:"< 0.375858 0.890538 -0.256268 >"
+		orientation:"< 0.234496 0 -0.972117 >"
+		position:"< 499.378 10.704 -38.8649 >"
+		type:"feeder_stnd"
+	}
+	def container53 {
+		normal:"< 0.0193731 0.985719 0.167278 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 639.813 -5.24541 -225.477 >"
+		type:"gravestone_desk"
+	}
+	def container54 {
+		normal:"< 0.0193731 0.985719 0.167278 >"
+		orientation:"< 0 0 -1 >"
+		position:"< 642.514 -5.45524 -224.554 >"
+		type:"gravestone_desk"
+	}
+	def container55 {
+		normal:"< 0.081398 0.99605 -0.0354659 >"
+		orientation:"< 0.26411 0 -0.964493 >"
+		position:"< -1342 12.8904 21.0301 >"
+		type:"gravestone_cross"
+	}
+	def container56 {
+		normal:"< 0.0670112 0.997018 0.0382812 >"
+		orientation:"< 0.210235 0 -0.977651 >"
+		position:"< -1347.53 13.0369 45.8218 >"
+		type:"gravestone_cross"
+	}
+	def container57 {
+		normal:"< 0.0573437 0.997619 0.0383044 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1350.58 13.175 47.4087 >"
+		type:"gravestone_cross"
+	}
+	def container58 {
+		normal:"< 0.0670112 0.997018 0.0382812 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1348.22 12.6207 57.8606 >"
+		type:"gravestone_cross"
+	}
+	def container59 {
+		normal:"< 0.0438246 0.998251 0.0396831 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1345.39 11.6552 80.2956 >"
+		type:"gravestone_cross"
+	}
+	def container60 {
+		normal:"< 0.0443523 0.998413 0.0346996 >"
+		orientation:"< -0.353747 0 -0.935341 >"
+		position:"< -1337.62 10.9017 100.026 >"
+		type:"gravestone_cross"
+	}
+	def container61 {
+		normal:"< 0.0672865 0.997292 0.0296956 >"
+		orientation:"< 0.239449 0 -0.970909 >"
+		position:"< -1333.45 10.1397 121.991 >"
+		type:"gravestone_cross"
+	}
+	def container62 {
+		normal:"< 0.0772965 0.996867 0.0167775 >"
+		orientation:"< 0.231708 0 -0.972785 >"
+		position:"< -1341.75 10.4014 142.502 >"
+		type:"gravestone_cross"
+	}
+	def container63 {
+		normal:"< 0.0816913 0.99618 0.0308542 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1341.59 9.85377 165.094 >"
+		type:"gravestone_cross"
+	}
+	def container64 {
+		normal:"< 0.089381 0.994137 0.0608564 >"
+		orientation:"< -0.216 0 -0.976393 >"
+		position:"< -1333.13 7.94295 188.687 >"
+		type:"gravestone_cross"
+	}
+	def container65 {
+		normal:"< 0.0875525 0.995754 0.0284312 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1332.79 7.20042 208.584 >"
+		type:"gravestone_cross"
+	}
+	def container66 {
+		normal:"< 0.0633893 0.997357 -0.0354978 >"
+		orientation:"< 0.275441 0 -0.961318 >"
+		position:"< -1338.26 8.49195 233.609 >"
+		type:"gravestone_cross"
+	}
+	def container67 {
+		normal:"< 0.00260335 0.999436 -0.0334816 >"
+		orientation:"< 0.278115 0 -0.960548 >"
+		position:"< -1346.61 10.8455 262.526 >"
+		type:"gravestone_cross"
+	}
+	def container68 {
+		normal:"< 0.00260335 0.999436 -0.0334816 >"
+		orientation:"< -0.207802 0 -0.978171 >"
+		position:"< -1348.74 11.0236 267.675 >"
+		type:"gravestone_desk"
+	}
+	def container69 {
+		normal:"< 0.016037 0.998541 0.0515689 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1351.61 10.8828 288.928 >"
+		type:"gravestone_desk"
+	}
+	def container70 {
+		normal:"< -0.0840165 0.988145 0.128494 >"
+		orientation:"< 0.991105 0 0.133083 >"
+		position:"< -1011.12 27.0234 0.698075 >"
+		type:"camp_fire"
+	}
+	def container71 {
+		normal:"< -0.0845305 0.996252 0.0183416 >"
+		orientation:"< 0.791675 0 0.610943 >"
+		position:"< -1012.62 27.0326 -1.98239 >"
+		type:"tent_green"
+	}
+	def container72 {
+		normal:"< -0.0840165 0.988145 0.128494 >"
+		orientation:"< -0.238495 0 -0.971144 >"
+		position:"< -1016.69 26.5852 0.424222 >"
+		type:"pneu"
+	}
+	def container73 {
+		normal:"< -0.0112392 0.999933 0.00284101 >"
+		orientation:"< 0.340736 0 0.940159 >"
+		position:"< -1004.68 27.4649 -0.422712 >"
+		type:"skull"
+	}
+	def container74 {
+		normal:"< -0.0489756 0.997213 0.0562896 >"
+		orientation:"< 0.976111 0 -0.217272 >"
+		position:"< -1001.87 27.3708 5.90916 >"
+		type:"skull"
+	}
+	def container75 {
+		normal:"< -0.0840165 0.988145 0.128494 >"
+		orientation:"< -0.820111 0 -0.572205 >"
+		position:"< -1016.23 26.3778 2.31792 >"
+		type:"can"
+	}
+	def container76 {
+		normal:"< -0.0840165 0.988145 0.128494 >"
+		orientation:"< 0.662556 0 -0.749012 >"
+		position:"< -1015.82 26.2181 3.81422 >"
+		type:"can"
+	}
+	def container77 {
+		normal:"< -0.0840165 0.988145 0.128494 >"
+		orientation:"< 0.936935 0 0.349503 >"
+		position:"< -1014.4 26.0075 6.36287 >"
+		type:"skull"
+	}
+	def container78 {
+		normal:"< -0.0112392 0.999933 0.00284101 >"
+		orientation:"< 0.604171 0 -0.796855 >"
+		position:"< -1006.69 27.4457 -1.59209 >"
+		type:"skull"
+	}
+	def container79 {
+		normal:"< -0.0382916 0.986997 0.156112 >"
+		orientation:"< -0.380247 0 -0.924885 >"
+		position:"< -1346.42 9.83689 303.712 >"
+		type:"gravestone_cross"
+	}
+	def container80 {
+		normal:"< -0.0383543 0.988611 0.145523 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1342.72 6.37336 326.896 >"
+		type:"gravestone_cross"
+	}
+	def container81 {
+		normal:"< -0.0313201 0.998514 0.0446052 >"
+		orientation:"< 0.286972 0 -0.957939 >"
+		position:"< -1342.31 3.36655 353.487 >"
+		type:"gravestone_cross"
+	}
+	def container82 {
+		normal:"< -0.00720744 0.999672 0.0245798 >"
+		orientation:"< 0.214934 0 -0.976629 >"
+		position:"< -1345.97 2.90743 386.89 >"
+		type:"gravestone_cross"
+	}
+	def container83 {
+		normal:"< 0.013421 0.999682 0.0213289 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1346.3 2.49307 420.257 >"
+		type:"gravestone_cross"
+	}
+	def container84 {
+		normal:"< 0.0174873 0.999688 0.0178468 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1346.44 1.54159 464.363 >"
+		type:"gravestone_cross"
+	}
+	def container85 {
+		normal:"< -0.00107564 0.999998 -0.00143521 >"
+		orientation:"< -0.316223 0 -0.948685 >"
+		position:"< -1343.79 1.28493 511.024 >"
+		type:"gravestone_cross"
+	}
+	def container86 {
+		normal:"< -0.00107562 0.999975 -0.0069367 >"
+		orientation:"< 0.333431 0 -0.942774 >"
+		position:"< -1330.64 1.36828 523.586 >"
+		type:"gravestone_desk"
+	}
+	def container87 {
+		normal:"< -0.0141208 0.998975 -0.0430132 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1301.07 2.34643 547.532 >"
+		type:"gravestone_desk"
+	}
+	def container88 {
+		normal:"< -0.0163865 0.992891 -0.117893 >"
+		orientation:"< 0.169799 0 -0.985479 >"
+		position:"< -1277.41 5.01953 569.398 >"
+		type:"gravestone_cross"
+	}
+	def container89 {
+		normal:"< -0.0155646 0.987028 -0.15979 >"
+		orientation:"< -0.208153 0 -0.978096 >"
+		position:"< -1246.59 8.78036 589.4 >"
+		type:"gravestone_cross"
+	}
+	def container90 {
+		normal:"< 0.0255656 0.991005 -0.131361 >"
+		orientation:"< 0.620175 0 0.784464 >"
+		position:"< -1242.87 14.3217 628.16 >"
+		type:"totem"
+	}
+	def container91 {
+		normal:"< 0.0181545 0.997754 -0.0644781 >"
+		orientation:"< -0.296694 0 -0.954973 >"
+		position:"< -1225.02 16.6788 654.211 >"
+		type:"gravestone_cross"
+	}
+	def container92 {
+		normal:"< 0.0337392 0.998065 -0.0522248 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1224.74 18.5791 696.088 >"
+		type:"gravestone_cross"
+	}
+	def container93 {
+		normal:"< 0.0206324 0.996519 -0.0807666 >"
+		orientation:"< 0.311384 0 -0.950284 >"
+		position:"< -1211.57 20.0998 732.933 >"
+		type:"gravestone_cross"
+	}
+	def container94 {
+		normal:"< -0.08122 0.988523 -0.127378 >"
+		orientation:"< 0 0 -1 >"
+		position:"< -1211.63 24.1355 762.516 >"
+		type:"gravestone_cross"
+	}
+	def container95 {
+		normal:"< -0.0792424 0.978644 -0.189673 >"
+		orientation:"< -0.821216 0 -0.570618 >"
+		position:"< -1208.4 29.0789 789.907 >"
+		type:"gravestone_cross"
+	}
+	def container96 {
+		normal:"< -0.0213296 0.993955 -0.107692 >"
+		orientation:"< 0.450819 0 -0.892615 >"
+		position:"< -1214.86 33.3924 816.506 >"
+		type:"gravestone_cross"
+	}
+	def container97 {
+		normal:"< 0.0537739 0.998548 -0.00333887 >"
+		orientation:"< 0.381036 0 -0.92456 >"
+		position:"< -1208.62 35.3934 843.134 >"
+		type:"gravestone_cross"
+	}
+	def container98 {
+		normal:"< 0.0508402 0.998703 0.00256654 >"
+		orientation:"< 0.192988 0 -0.981201 >"
+		position:"< -1204.7 35.2121 869.908 >"
+		type:"gravestone_cross"
+	}
+	def container99 {
+		normal:"< -0.0867319 0.995863 -0.0271033 >"
+		orientation:"< -0.810449 0 -0.585809 >"
+		position:"< -1218.31 35.0519 898.981 >"
+		type:"gravestone_cross"
+	}
+}
+def gear {
+	auto_rifles:"*"
+	auto_rifles(300_auto):"+"
+	auto_rifles(416_auto):"-"
+	auto_rifles(50_snipe):"*scope4_12rf"
+	auto_rifles(7mm_auto):"+"
+	bolt_rifles:"*"
+	bolt_rifles(22-250_bolt):"+"
+	bolt_rifles(270_bolt):"+"
+	bolt_rifles(280_bolt):"+"
+	bolt_rifles(30-06_bolt):"+"
+	bolt_rifles(303_british_bolt):"+"
+	bolt_rifles(308_bolt):"+"
+	bolt_rifles(338_bolt):"+"
+	bolt_rifles(375_magnum_bolt):"+"
+	bolt_rifles(6mm_bolt):"+"
+	bolt_rifles(6x55_bolt):"+"
+	lever_rifles:"+"
+	misc:"*"
+	misc(atv):"*"
+	misc(horse):"+"
+	misc(map):"*"
+	misc(rf_binocs):"-"
+	misc(sp_scope):"*"
+	scents:"*"
+	scents(buck_urine):"-"
+	scents(cover_scent):"*"
+	scents(elk_scent):"-"
+	scents(tarsal_gland):"-"
+	scopes:"+"
+	secondary_slot:"true"
+}
+def general {
+	area:"africa"
+	author:"BoltThrower"
+	briefing:"The quest for the three moa's. Turn up your Viewing Distance under the graphic options. Bring your rifle and get ready for some extreme long shots. The first animal can be dropped from your starting position. The moa for each shot is out there somewhere... As long as you follow the directives and stay sharp you shall triumph. Good Luck!"
+	name:"Big Game Sharpshooter"
+	time:"7"
+	weather:"clear"
+	wind_dir:"< 0 0 -1 >"
+}
+def goals {
+	bonus_sharpshooter:"true"
+	bonus_sniper:"true"
+	bonus_vitalhead:"false"
+	bonus_vitalhit:"true"
+	bonus_vitallungs:"false"
+	slot0:"elephant"
+	slot1:"elephant"
+	slot2:"elephant"
+}
+def script_points {
+}
+def start_positions {
+	def start_position00 {
+		orientation:"< 0 0 -1 >"
+		position:"< 634.986 50.837 900.057 >"
+	}
+}
+def trails {
+	def trail00 {
+		blood:"true"
+		blood_intensity:"1.00000"
+		bond:"-"
+		position:"< 635.121 -35.3219 -1329.85 >"
+		referenced:"false"
+		species:"elephant"
+	}
+	def trail01 {
+		blood:"true"
+		blood_intensity:"1.00000"
+		bond:"-"
+		position:"< -1003.44 26.9154 12.6049 >"
+		referenced:"true"
+		species:"grizzly"
+	}
+	def trail02 {
+		blood:"true"
+		blood_intensity:"0.00000"
+		bond:"trail01"
+		position:"< -996.284 27.4815 4.14411 >"
+		referenced:"true"
+		species:"grizzly"
+	}
+	def trail03 {
+		blood:"true"
+		blood_intensity:"0.00000"
+		bond:"trail02"
+		position:"< -1007.49 26.8876 9.57339 >"
+		referenced:"true"
+		species:"grizzly"
+	}
+	def trail04 {
+		blood:"true"
+		blood_intensity:"0.00000"
+		bond:"trail03"
+		position:"< -1016.12 25.5708 8.76867 >"
+		referenced:"false"
+		species:"grizzly"
+	}
+	def trail05 {
+		blood:"true"
+		blood_intensity:"0.16000"
+		bond:"-"
+		position:"< -1350.51 11.1841 271.731 >"
+		referenced:"true"
+		species:"grizzly"
+	}
+	def trail06 {
+		blood:"true"
+		blood_intensity:"0.00000"
+		bond:"trail05"
+		position:"< -1343.34 1.28177 508.488 >"
+		referenced:"false"
+		species:"buffalo"
+	}
+	def trail07 {
+		blood:"true"
+		blood_intensity:"0.00000"
+		bond:"-"
+		position:"< 634.521 -33.615 -1314.57 >"
+		referenced:"false"
+		species:"grizzly"
+	}
+}

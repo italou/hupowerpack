@@ -1,0 +1,24 @@
+"raise" {
+	attributes {
+	}
+	features {
+		"item" : "lowered" -> "raised"
+	}
+	channels {
+		"first" {
+			0.50 anim {
+				anim : "raise"
+				s_weight : "1.00"
+				e_weight : "1.00"
+				length : "1.00"
+				proportional : "false"
+			}
+			1.51 sound {
+				sound : "/sounds/items/eq_call_wolf.ogg"
+			}
+			5.45 info {
+				info : "end"
+			}
+		}
+	}
+}

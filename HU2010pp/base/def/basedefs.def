@@ -1,0 +1,518 @@
+#############################################################
+# --- EQUIPMENT (base definitions) ---
+#############################################################
+
+def item {
+	short:"__short__"			# displayed item short name (used ingame)
+	long:"__long__"				# displayed item long name (used for captions)
+	desc:"__desc__"				# item description
+	icon:"/material/ui/color.mat"	# displayed item icon
+	arms_anim:""				# 3rd person hunter starting arms animation behavior name
+	camo_look:"false"			# use default look OR look from player camo
+	script:"none"				# unit script to spawn
+	instant_use:"false"			# has no raise/lower anims just use
+	onstand_use:"true"			# can be used on stand/blind
+	fov:"60"				# display fov
+	fov_modif:"-25"				# fov modifier (directed by prism point z value in animation)
+	public:"true"
+}
+
+def eqitem_base:item {
+	glow:"/material/ui/color.mat"	# glowing (hud inventory) item icon
+	auto_lower:"false"			# do automatic lower after use
+}
+
+def weapon_base:item {
+	script:"none"
+	pba_main:""				# pba path (then use weapon.pba and _weapon.pba files)
+#	look:""					# look
+	snd_fire:""				# fire sound
+	snd_dryfire:""				# no ammo fire sound
+	snd_missfire:""				# missfired shot sound
+	missfire_prob:"0.0"			# missfire probability
+	ammo:""					# ammo script
+	ammo_count:"5"				# maximal amount of ammo
+	ammo_char:""				# ammo character (ammo.font)
+	case:""					# shot case script
+	load_once:"false"			# one load loads full ammo
+	load_force:"false"			# loading cannot be stopped (use for guns with manual case eject)
+	load_1ammo:"false"			# open animation contains load of 1 bullet
+	case_once:"false"			# casings are dropped once after reload animation
+	ammo_weight:"150"			# bullet/arrow weight [grains]
+	ammo_mvel:"1500"			# bullet/arrow initial(muzzle) velocity [fps]
+	ammo_bc:"0.5"				# bullet/arrow ballistic coefficient
+	scoped:"true"				# can have scope
+	view_dist:"< 0 -0.1 -2.1 >"		# distance for weapon dbase
+	view_rot:"< 0 270 0 >"			# initial rotation for weapon dbase
+	camo_look:"true"
+	zero_range:"150"			# zero range for default sight setup (yards)
+	adjustable_sights:"true"		# has adjustable sights
+	offset_pos:"< 0 0 0 >"			# visual position offset for tweaking
+	offset_rot:"< 0 0 0 >"			# visual rotation offset for tweaking
+	noise:"1.0"				# noise weapon produces when fired
+	zero_sights:"false"			# use 'real' sights(false) height or do it flat(true)
+	pose:"photopose"			# photopose behavior name
+	irons:"/ui/girons.esc"			# iron sights ui script
+	flash_bone:"flash"			# flash bone
+	camo_look:"true"			# all weapons have per-camo hands
+}
+
+def vehicle_base:eqitem_base {
+	category:"misc"
+}
+
+# --- misc ---
+def scope_base:eqitem_base {
+	script:"/script/item/scope.sii"	
+	pba:""					# pba 
+#	look:""					# look
+	camo_look:"true"
+	scope:"/ui/gscope.esc"
+	zoom_min:"4"
+	zoom_max:"8"
+	zoom_step:"0.5"
+	category:"misc"
+}
+
+def call_base:eqitem_base {
+	script:"/script/item/call.sii"
+	pba:""					# pba 
+	attach_bone:"call"			# name of attach bone on pba model
+	attach_model:""				# name of attachment model
+	arms_anim:"item_raise"
+	arms_lower_anim:"item_lower"
+	camo_look:"true"
+	auto_lower:"true"
+	use_sound:"/specials/notfound.ogg"
+	category:"calls"
+}
+
+def scent_base:eqitem_base {
+	script:"/script/item/scent.sii"
+	pba:""					# pba 
+	attach_bone:"scent"			# name of attach bone on pba model
+	attach_model:""				# name of attachment model
+	use_sound:"/specials/notfound.ogg"
+	arms_anim:"item_raise"
+	arms_lower_anim:"item_lower"
+	auto_lower:"true"
+	cover_type:"false"			# is it cover scent
+	cover_value:"0.3"			# cover value
+	cover_wear:"0.03"			# cover wear factor
+	category:"scents"
+	effect_range:"500"			# range of item AI effect
+	hunter_attached:"false"
+	attract_type:"smell"			# determines if factor taken from smell (wind) or visual
+}
+
+def drop_base:eqitem_base {
+	put_sound:"/specials/notfound.ogg"
+	get_sound:"/specials/notfound.ogg"
+	scale:"< 1 1 1 >"
+}
+
+def drop_lure:drop_base {
+	category:"lures"
+}
+
+def bait_base:drop_lure {
+	script:"/script/item/bait.sii"
+	align2sfc:"true"				# align to surface
+	cannot:"@@df_bt_na@@"				# cannot drop it here
+	category:"lures"
+	effect_range:"400"				# range of item effect
+	hunter_attached:"false"
+	attract_type:"smell"				# determines if taken from smell (wind) or visual
+}
+
+def blind_base:drop_base {
+	script:"/script/item/blind.sii"
+	cannot:"@@df_bd_na@@"				# cannot drop it here
+	category:"blinds"
+}
+
+def weapon_bolt:weapon_base {
+	script:"/script/item/weapon_rifle.sii"
+	snd_dryfire:"/sounds/weapons/ws_bolt_dryfire.ogg"
+	case:"/script/decals/casing.sc"
+	ammo_count:"4"
+	ammo_char:"R"
+	category:"bolt_rifles"
+	photopose_category:"bolt"
+	attach_bone:"b_arms"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"bolt"
+	noise:"1.2"
+	arms_anim:"frms_raise"
+	root_bone:"flash"
+	pose:"photopose_frms"
+	muzzle_smoke:"/defs/particles/frms_smoke.def"
+}
+
+def weapon_lever:weapon_base {
+	script:"/script/item/weapon_rifle.sii"
+	snd_dryfire:"/sounds/weapons/ws_semi_dryfire.ogg"
+	case:"/script/decals/casing.sc"
+	ammo_count:"7"
+	ammo_char:"R"
+	category:"lever_rifles"
+	photopose_category:"lever"
+	attach_bone:"b_arms"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"lever"
+	noise:"1.2"
+	arms_anim:"frms_raise"
+	root_bone:"flash"
+	pose:"photopose_frms"
+	muzzle_smoke:"/defs/particles/frms_smoke.def"
+}
+
+def weapon_auto:weapon_base {
+	script:"/script/item/weapon_rifle.sii"
+	snd_dryfire:"/sounds/weapons/ws_semi_dryfire.ogg"
+	case:"/script/decals/casing.sc"
+	ammo_count:"4"
+	ammo_char:"R"
+	category:"auto_rifles"
+	attach_bone:"b_arms"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"mm"
+	noise:"1.2"
+	arms_anim:"frms_raise"
+	root_bone:"flash"
+	pose:"photopose_frms"
+	muzzle_smoke:"/defs/particles/frms_smoke.def"
+}
+
+
+def weapon_shotgun:weapon_base {
+	script:"/script/item/weapon_rifle.sii"
+	snd_dryfire:"/sounds/weapons/ws_shotgun_dryfire_v1.ogg"
+	case:"/script/decals/shell.sc"
+	ammo_count:"5"
+	ammo_char:"S"
+	zero_range:"70"
+	category:"shotguns"
+	attach_bone:"b_arms"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"pump"
+	noise:"1.5"
+	arms_anim:"frms_raise"
+	root_bone:"flash"
+	pose:"photopose_frms"
+	muzzle_smoke:"/defs/particles/frms_smoke.def"
+}
+
+def weapon_pistol:weapon_base {
+	script:"/script/item/weapon_rifle.sii"
+	snd_dryfire:"/sounds/weapons/ws_semi_dryfire.ogg"
+	ammo_char:"P"
+	category:"pistols"
+	attach_bone:"b_gun"
+	attach_model:"/models/equipment/gun/equip.pmd"
+	attach_part:"pistol"
+	photopose_category:"pistol"
+	zero_range:"50"
+	view_dist:"< 0 0 -1.3 >"
+	noise:"1.2"
+	arms_anim:"gun_raise"
+	root_bone:"flash"
+	pose:"photopose_gun"
+	muzzle_smoke:"/defs/particles/gun_smoke.def"
+}
+
+def weapon_muzzleloader:weapon_base {
+	script:"/script/item/weapon_rifle.sii"
+	snd_dryfire:"/sounds/weapons/ws_semi_dryfire.ogg"
+	attach_bone:"b_arms"
+	attach_model:"/models/equipment/firearms/equip.pmd"
+	attach_part:"muzzle"
+	photopose_category:"muzzle"
+	ammo_char:"B"
+	category:"muzzleloaders"
+	noise:"1.6"
+	arms_anim:"frms_raise"
+	root_bone:"flash"
+	pose:"photopose_frms"
+	muzzle_smoke:"/defs/particles/mloader_smoke.def"
+}
+
+def weapon_bow:weapon_base {
+	script:"/script/item/weapon_bow.sii"
+	ammo_count:"1"
+	ammo_char:"l"
+	fov:"90"
+	category:"bows"
+	attach_bone:"ceter_bow"
+	attach_model:"/models/equipment/recurvebow/equip.pmd"
+	attach_part:"DefaultPart"
+	zero_range:"40"
+	view_dist:"< 0 0 -2 >"
+	noise:"0.1"
+	irons:"/ui/gbowirons.esc"
+}
+
+def weapon_crossbow:weapon_base {
+	script:"/script/item/weapon_bow.sii"
+	ammo_count:"1"
+	ammo_char:"C"
+	category:"crossbows"
+	photopose_category:"xbow"
+	attach_bone:"xbow"
+	attach_model:"/models/equipment/crossbow/equip.pmd"
+	attach_part:"DefaultPart"
+	zero_range:"70"
+	view_dist:"< 0 0 -1.9 >"
+	noise:"0.3"
+	arms_anim:"xb_raise"
+	pose:"photopose_xbow"
+	irons:"/ui/gbowirons.esc"
+}
+
+#############################################################
+# --- NON-STANDALONE EQUIPMENT (base definitions) ---
+#############################################################
+
+def weapon_scope:item {
+	ui:""					# scope ui script
+	zoom_min:"1"				# min zoom (1x)
+	zoom_max:"4"				# max zoom (4x)
+	zoom_step:"0.5"				# zoom step (0.5x)
+	pmd:"/models/weapons/scopes/weapon.pmd"	# scope model
+#	variant:""				# scope model variant
+	name:""					# display name
+	category:"scopes"			# gear category
+}
+
+#############################################################
+# --- MAP AREA DEFINITIONS ---
+#############################################################
+def map_area {
+	name:"Area Name"				# area display name
+	path:"area_path"				# area map path
+	desc:"Area Description"				# area description
+	img00:"/material/ui/color.mat"			# area image 00
+	img01:"/material/ui/color.mat"			# area image 01
+	img02:"/material/ui/color.mat"			# area image 02
+	img03:"/material/ui/color.mat"			# area image 03
+	public:"true"					# publicly available area?
+	interactive:"true"				# interactive map (sets GAME state or non-interactive - sets UI state)
+	map_shd_ui:"/system/ui/default/uidefault.mat"	# area map material (ui version)
+	map_shd_gm:"/material/specials/notfound.mat"	# area map material (game version)
+	map_lim:"-500000 -500000 500000 500000"		# area map limits (minx, minz, maxx, maxz)
+	freehunt_species:"*"				# freehunt species names (* = all)
+}
+
+#############################################################
+# --- SPECIES DEFINITIONS ---
+#############################################################
+def species_kind {
+	name:"Species Name"					# name of species
+	african:"false"						# is it african animal
+	slot_empty:"/material/ui/icon/a_joker_empty.mat"		# empty slot icon
+	slot_glow:"/material/ui/icon/a_wtail_glow.mat"		# glow slot icon
+	slot_full:"/material/ui/icon/a_joker.mat"		# full slot icon
+
+	freehunt_counts:"5,10,40"
+	maximal_herd_size:"8"
+	animal_db:"/script/animal_db/whitetail.def"		# animal database script
+
+	# predefined status values
+	hunger_pattern:"7:0.4:9:0.3:10:0.2:11:0.1:12:0.1:16:0.2:19:0.4"	# typical values for given times of day
+	thirst_pattern:"7:0.1:13:0.1:15:0.2:17:0.3:18:0.4:19:0.4"
+	rest_pattern:"7:0.05:10:0.1:12:0.4:13:0.4:15:0.3:16:0.1:19:0.05"
+	sex_pattern:"7:0.2:10:0.1:12:0.05:15:0.0:18:0.2:19:0.2"
+
+	# sounds
+	s_dirt1:"/sounds/animals/an_footstep_drt01.ogg"
+	s_dirt2:"/sounds/animals/an_footstep_drt02.ogg"
+	s_grass1:"/sounds/animals/an_footstep_grss01.ogg"
+	s_grass2:"/sounds/animals/an_footstep_grss02.ogg"
+	s_lvs1:"/sounds/animals/an_footstep_lvs01.ogg"
+	s_lvs2:"/sounds/animals/an_footstep_lvs02.ogg"
+	s_snow1:"/sounds/animals/an_footstep_snow01.ogg"
+	s_snow2:"/sounds/animals/an_footstep_snow02.ogg"
+	s_water1:"/sounds/animals/an_footstep_wtr01.ogg"
+	s_water2:"/sounds/animals/an_footstep_wtr02.ogg"
+	s_drop1:"/sounds/animals/an_drop_v1.ogg"
+	s_drop2:"/sounds/animals/an_drop_v2.ogg"
+}
+
+def species_type {			# type of species (buck, doe...)
+	model:""			# XML model description file
+	name:""				# displayer type name
+	type:"simple"			# control entity and animal type
+	navigation_category:"normal"	# normal navigation
+	dangerous:"false"		# can kill hunter
+
+	scale:"1"			# finetune animal scale
+
+	scoring_type:"size"
+	score_range:"0:1"
+	weight_range:"0:1"
+
+	fade_hunger:"2"			# how long it takes to completely satisfy demand (hours)
+	fact_hunger:"8"			# how long it takes to arise demand again, without time to satisfy (hours)
+	fade_thirst:"0.2"
+	fact_thirst:"10"
+	fade_tiredness:"10"
+	fact_tiredness:"14"
+	fade_aggression:"0.5"
+	fact_aggression:"0.5"
+	fade_sex:"0.2"
+	fact_sex:"48"
+	fade_stress:"0.2"
+	fact_stress:"0.2"
+	fade_fatigue:"0.5"	# short term fatigue, when running, attack and so on
+	fact_fatigue:"0.5"
+
+	calls_w_time:"30"		# start to wash away call
+	calls_w_length:"50"		# how long it takes to wash away completely
+	calls_w_call:"20"		# how long it takes to forget about last call
+	calls_ideal:"4"			# ideal number of calls
+	calls_maximal:"6"		# maximal number of calls
+	call_back:"0.0"			# call back probability
+
+	spoor_dist:"2.06"
+}
+
+def ai_type {				# preset ai params
+	name:""
+	fact_hunter:"2.000"		# how fast impulse move to bucket, 1 = full impulse in one second
+	fade_hunter:"0.050"		# how fast bucket wash away, 1 = full bucket in one second
+	fact_enemy:"2.000"		# perception of enemy animal
+	fade_enemy:"0.050"
+	fact_prey:"0.500"		# perception of prey animal
+	fade_prey:"0.050"
+	fact_mate:"0.050"		# perception of herd leader or mother
+	fade_mate:"2.000"
+	fact_partner:"0.200"		# perception of sexual partner
+	fade_partner:"0.050"
+	fact_rival:"0.200"		# perception of same species and gender or rival species
+	fade_rival:"0.050"
+	fact_pain:"2.000"		# perception of pain
+	fade_pain:"0.100"
+	fact_hunter_perception:"1.000"
+	fact_enemy_perception:"0.500"
+	fact_prey_perception:"0.500"
+	fact_mate_perception:"0.500"
+	fact_partner_perception:"0.020"
+	fact_rival_perception:"0.020"
+	fact_pain_perception:"0.500"
+	fact_call_perception:"0.500"
+	val_hunger:"0.300"		# statuses initial values
+	val_thirst:"0.200"
+	val_tiredness:"0.000"
+	val_aggression:"0.000"
+	val_sex:"0.100"
+	val_stress:"0.000"
+	val_attack_probability:"0.000"
+}
+
+def ai_type_dumb:/ai_type {
+	name:"_dumb_ test only"
+	fact_hunter:"0.000"		# how fast impulse move to bucket, 1 = full impulse in one second
+	fade_hunter:"0.00"		# how fast bucket wash away, 1 = full bucket in one second
+	fact_enemy:"0.000"		# perception of enemy animal
+	fade_enemy:"0.00"
+	fact_prey:"0.000"		# perception of prey animal
+	fade_prey:"0.00"
+	fact_mate:"0.00"		# perception of herd leader or mother
+	fade_mate:"0.000"
+	fact_partner:"0.0"		# perception of sexual partner
+	fade_partner:"0.00"
+	fact_rival:"0.00"		# perception of same species and gender or rival species
+	fade_rival:"0.00"
+	fact_pain:"0.000"		# perception of pain
+	fade_pain:"0.00"
+	fact_hunter_perception:"0.00"
+	fact_enemy_perception:"0.00"
+	fact_prey_perception:"0.00"
+	fact_mate_perception:"0.00"
+	fact_partner_perception:"0.00"
+	fact_rival_perception:"0.00"
+	fact_pain_perception:"0.00"
+	fact_call_perception:"0.00"
+	val_hunger:"0.00"		# statuses initial values
+	val_thirst:"0.00"
+	val_tiredness:"0.000"
+	val_aggression:"0.000"
+	val_sex:"0.00"
+	val_stress:"0.000"
+	val_attack_probability:"0.000"
+}
+
+def places_category {
+	name:""
+	index:""
+}
+
+def carcass_base {
+	attract_type:"smell"
+	hunter_attached:"false"
+	effect_range:"400"
+}
+
+
+#############################################################
+# --- ANTLERS DEFINITIONS ---
+#############################################################
+
+def antler_part {
+	model:""			# antlers model
+	scale_min:"0.5"			# minimum scale for this part
+	scale_max:"1"			# maximum scale for this part
+}
+
+def antler_part_beam:antler_part {
+}
+
+def antler_part_normal_tyne:antler_part {
+	occur_prob:"1"
+}
+
+def antler_part_abnormal_tyne:antler_part {
+	occur_prob:"1"
+}
+
+def antlers_type {
+	name:""				# ingame antlers name
+	model:""			# antlers model
+}
+
+#############################################################
+# --- CONTAINERS ---
+#############################################################
+
+def container_base {
+	name:"_unnamed_"		# container name
+	align2surface:"false"		# surface alignment
+	script:"/path/name.sii"		# unit script
+	avoid_by_animals:"false"	# whether animal should avoid this container
+	map_icon:""			# map icon material
+}
+
+#############################################################
+# --- TRAILS ---
+#############################################################
+
+def trail_base {
+	type:"trail"
+	limits:"300:300:600"
+	pattern:"1:3:9"
+}
+
+#############################################################
+# --- SKIES ---
+#############################################################
+
+def sky_base {
+	clouds_low:"/material/skies/cll.mat"
+	clouds_high:"/material/skies/clh.mat"
+	up:"/material/skies/az/up.mat"
+	a_up:"/material/skies/az/a_up.mat"
+	down:"/material/skies/az/down.mat"
+	side00:"/material/skies/az/l0.mat"
+	a_side00:"/material/skies/az/a_l0.mat"
+}
+

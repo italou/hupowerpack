@@ -1,0 +1,31 @@
+SiiNunit
+#8mm Mauser
+{
+
+projectile : _nameless
+{
+ bc: 0.464
+ muzzle: 2178
+ weight: 220
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/casing/projectile.pmd"
+ look: default
+ variant: rifle
+}
+
+}
+

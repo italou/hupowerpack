@@ -1,0 +1,58 @@
+"9mmussaed" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/gun/features.pba.part"
+	}
+
+	animations {
+		"raise"	: "/models/weapons/9mmpistol/raise.pma"
+		"lower"	: "/models/weapons/9mmpistol/lower.pma"
+
+		"open" : "/models/weapons/9mmpistol/open.pma"
+		"close" : "/models/weapons/9mmpistol/close.pma"
+		"load" : "/models/weapons/9mmpistol/load.pma"
+
+		"fire" : "/models/weapons/9mmpistol/fire.pma"
+
+		"i_raise" : "/models/weapons/9mmpistol/i_raise.pma"
+		"i_lower" : "/models/weapons/9mmpistol/i_lower.pma"
+		"i_fire" : "/models/weapons/9mmpistol/i_fire.pma"
+
+		"aim2hold" : "/models/weapons/9mmpistol/aim2hold.pma"
+		"hold2aim" : "/models/weapons/9mmpistol/hold2aim.pma"
+
+		"l_fire" : "/models/weapons/9mmpistol/l_fire.pma"
+		"l_open" : "/models/weapons/9mmpistol/l_open.pma"
+		"l_load" : "/models/weapons/9mmpistol/l_load.pma"
+		"l_close" : "/models/weapons/9mmpistol/l_close.pma"
+
+		"il_fire" : "/models/weapons/9mmpistol/il_fire.pma"
+		"il_open" : "/models/weapons/9mmpistol/il_open.pma"
+		"il_load" : "/models/weapons/9mmpistol/il_load.pma"
+		"il_close" : "/models/weapons/9mmpistol/il_close.pma"
+
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/gun/raise.pba.bhv"
+		@include "/models/weapons/pba/gun/lower.pba.bhv"
+
+		@include "/models/weapons/9mmpistol/open.pba.bhv"
+		@include "/models/weapons/9mmpistol/close.pba.bhv"
+		@include "/models/weapons/9mmpistol/load.pba.bhv"
+
+		@include "/models/weapons/pba/gun/fire.pba.bhv"
+
+		@include "/models/weapons/pba/gun/i_lower.pba.bhv"
+		@include "/models/weapons/pba/gun/i_raise.pba.bhv"
+		@include "/models/weapons/pba/gun/i_fire.pba.bhv"
+		@include "/models/weapons/9mmpistol/i_open.pba.bhv"
+		@include "/models/weapons/9mmpistol/i_close.pba.bhv"
+
+		@include "/models/weapons/pba/gun/hold2up.pba.bhv"
+		@include "/models/weapons/pba/gun/up2hold.pba.bhv"
+
+		@include "/models/weapons/9mmpistol/special.pba.bhv"
+		@include "/models/weapons/9mmpistol/i_special.pba.bhv"
+	}
+}

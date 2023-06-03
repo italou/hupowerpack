@@ -1,0 +1,20 @@
+SiiNunit
+{
+ambient_animals_server : .server {
+  spawn_frequency_seconds: 7.0f
+  max_simultaneous_animals: 5
+  min_spawn_distance: 10.0f
+  max_spawn_distance: 20.0f
+
+  # Birds.
+  species_links[]: ambient.animal.buzzard
+  species_links[]: ambient.animal.crow
+  species_links[]: ambient.animal.duck.male
+  species_links[]: ambient.animal.duck.female
+  species_links[]: ambient.animal.eagle
+  species_links[]: ambient.animal.sparrow
+  species_links[]: ambient.animal.vulture
+  species_links[]: ambient.animal.woodpecker
+}
+}
+

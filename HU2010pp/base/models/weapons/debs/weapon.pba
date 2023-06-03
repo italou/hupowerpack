@@ -1,0 +1,52 @@
+"debsbg" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/rifle/features.pba.part"
+	}
+
+	animations {
+		"raise"	: "/models/weapons/7mmauto/raise.pma"
+		"lower"	: "/models/weapons/7mmauto/lower.pma"
+
+		"open" : "/models/weapons/7mmauto/open.pma"
+		"close" : "/models/weapons/7mmauto/close.pma"
+		"load" : "/models/weapons/7mmauto/load.pma"
+
+		"fire" : "/models/weapons/7mmauto/fire.pma"
+
+		"s_raise" : "/models/weapons/7mmauto/s_raise.pma"
+		"s_lower" : "/models/weapons/7mmauto/s_lower.pma"
+
+		"i_raise" : "/models/weapons/7mmauto/i_raise.pma"
+		"i_lower" : "/models/weapons/7mmauto/i_lower.pma"
+		"i_fire" : "/models/weapons/7mmauto/i_fire.pma"
+
+		"aim2hold" : "/models/weapons/7mmauto/aim2hold.pma"
+		"hold2aim" : "/models/weapons/7mmauto/hold2aim.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/rifle/raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/lower.pba.bhv"
+
+		@include "/models/weapons/7mmauto/open.pba.bhv"
+		@include "/models/weapons/7mmauto/close.pba.bhv"
+		@include "/models/weapons/7mmauto/load.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/fire.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/s_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/s_raise.pba.bhv"
+		@include "/models/weapons/7mmauto/s_open.pba.bhv"
+		@include "/models/weapons/7mmauto/s_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/i_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_fire.pba.bhv"
+		@include "/models/weapons/7mmauto/i_open.pba.bhv"
+		@include "/models/weapons/7mmauto/i_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/hold2up.pba.bhv"
+		@include "/models/weapons/pba/rifle/up2hold.pba.bhv"
+	}
+}

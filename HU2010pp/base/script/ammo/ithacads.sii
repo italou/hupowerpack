@@ -1,0 +1,33 @@
+SiiNunit
+# Federal 12ga 3/4 oz Premium Vital-Shok Barnes Expander Tipped Sabot Slug
+# Load NO: P151 XT1
+# Factory Zero-Range: 100 yards
+{
+
+projectile : _nameless
+{
+ bc: 0.203
+ muzzle: 1900
+ weight: 328
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/ball/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/shell/projectile.pmd"
+ look: red
+ variant: default
+}
+
+}
+

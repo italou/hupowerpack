@@ -1,0 +1,11 @@
+SiiNunit {
+
+world : .world.colorado {
+ landscape_filename: "/maps/colorado/landscape.lnd"
+ billboards_filename: "/models/billboards.sii"
+ world_units_filename: "/maps/colorado/landscape.game.sii"
+ grass_filename: "/maps/colorado/grass.sii"
+ scenic_music_filename: "/script/scenic_music/rockies.sii"
+}
+
+}

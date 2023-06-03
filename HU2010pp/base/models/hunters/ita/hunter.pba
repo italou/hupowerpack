@@ -1,0 +1,38 @@
+"ita" : "hunter.pmd" {
+	features {
+		@include "/models/hunters/pba/features.pba.part"
+	}
+
+	animations {
+		"stand" : "/models/hunters/boy/stand.pma"
+		"crouch_idle" : "/models/hunters/boy/crch_idle.pma"
+		"atv_on" : "/models/hunters/boy/atv_gon.pma"
+		"atv_off" : "/models/hunters/boy/atv_gof.pma"
+		"atv_sit" : "/models/hunters/boy/atv_sit.pma"
+		"atv_tleft" : "/models/hunters/boy/atv_tleft.pma"
+		"atv_tright" : "/models/hunters/boy/atv_tright.pma"
+		"horse_on" : "/models/hunters/boy/h_mount.pma"
+		"horse_off" : "/models/hunters/boy/h_dismount.pma"
+		"horse_sit" : "/models/hunters/boy/h_stand.pma"
+		"horse_walk" : "/models/hunters/boy/h_walk.pma"
+		"horse_leap" : "/models/hunters/boy/h_leap.pma"
+		"horse_gallop" : "/models/hunters/boy/h_gallop.pma"
+		"horse_bolt" : "/models/hunters/boy/h_stand_idle.pma"
+		"horse_sit2walk" : "/models/hunters/boy/h_stand2walk.pma"
+		"horse_walk2sit" : "/models/hunters/boy/h_walk2stand.pma"
+	}
+
+	behaviors {
+		@include "/models/hunters/pba/behaviors.pba.part"
+	}
+
+	transitions {
+		simple {
+			@include "/models/hunters/pba/transitions/simple.pba.part"
+		}
+
+		complex {
+			@include "/models/hunters/pba/transitions/complex.pba.part"
+		}
+	}
+}

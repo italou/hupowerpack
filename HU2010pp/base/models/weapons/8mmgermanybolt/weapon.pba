@@ -1,0 +1,58 @@
+"8mm_bolt" : "weapon.pmd" {
+
+	features {
+		@include "/models/weapons/pba/rifle/features.pba.part"
+	}
+
+	animations {
+		"raise"	: "/models/weapons/303britishbolt/raise.pma"
+		"lower"	: "/models/weapons/303britishbolt/lower.pma"
+
+		"open" : "/models/weapons/303britishbolt/open.pma"
+		"close" : "/models/weapons/303britishbolt/close.pma"
+		"load" : "/models/weapons/303britishbolt/load.pma"
+
+		"reload" : "/models/weapons/303britishbolt/reload.pma"
+		"fire" : "/models/weapons/303britishbolt/fire.pma"
+
+		"s_raise" : "/models/weapons/303britishbolt/s_raise.pma"
+		"s_lower" : "/models/weapons/303britishbolt/s_lower.pma"
+		"s_reload" : "/models/weapons/303britishbolt/s_reload.pma"
+
+		"i_raise" : "/models/weapons/303britishbolt/i_raise.pma"
+		"i_lower" : "/models/weapons/303britishbolt/i_lower.pma"
+		"i_fire" : "/models/weapons/303britishbolt/i_fire.pma"
+		"i_reload" : "/models/weapons/303britishbolt/i_reload.pma"
+
+		"aim2hold" : "/models/weapons/303britishbolt/aim2hold.pma"
+		"hold2aim" : "/models/weapons/303britishbolt/hold2aim.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/rifle/raise.pba.bhv"
+		@include "/models/weapons/pba/rifle/lower.pba.bhv"
+
+		@include "/models/weapons/303britishbolt/open.pba.bhv"
+		@include "/models/weapons/303britishbolt/close.pba.bhv"
+		@include "/models/weapons/303britishbolt/load.pba.bhv"
+
+		@include "/models/weapons/303britishbolt/reload.pba.bhv"
+		@include "/models/weapons/pba/rifle/fire.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/s_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/s_raise.pba.bhv"
+		@include "/models/weapons/303britishbolt/s_reload.pba.bhv"
+		@include "/models/weapons/303britishbolt/s_open.pba.bhv"
+		@include "/models/weapons/303britishbolt/s_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/i_lower.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_raise.pba.bhv"
+		@include "/models/weapons/303britishbolt/i_reload.pba.bhv"
+		@include "/models/weapons/pba/rifle/i_fire.pba.bhv"
+		@include "/models/weapons/303britishbolt/i_open.pba.bhv"
+		@include "/models/weapons/303britishbolt/i_close.pba.bhv"
+
+		@include "/models/weapons/pba/rifle/hold2up.pba.bhv"
+		@include "/models/weapons/pba/rifle/up2hold.pba.bhv"
+	}
+}

@@ -1,0 +1,19 @@
+SiiNunit
+{
+
+blind : _nameless {
+ ladder: .ladder_base
+}
+
+ladder_base : .ladder_base {
+ top : .ladder_top
+ range : 1.0
+ hunter_state_look : 72
+}
+
+ladder_top : .ladder_top {
+ view_offset : 0.52
+ pitch_limit : 30
+}
+
+}

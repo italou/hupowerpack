@@ -1,0 +1,19 @@
+SiiNunit
+{
+
+body_desc : _nameless.0001
+{
+ model_file : "/models/objects/tollbar/object.pmd"
+ look : redwhite
+ variant : default
+ is_collidable : true
+ unique_instances : 1
+}
+
+
+body_inst : _nameless {
+ body_desc : _nameless.0001
+}
+
+}
+

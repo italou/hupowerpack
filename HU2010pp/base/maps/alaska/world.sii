@@ -1,0 +1,11 @@
+SiiNunit {
+
+world : .world.minnesota {
+ landscape_filename: "/maps/alaska/landscape.lnd"
+ billboards_filename: "/models/billboards.sii"
+ world_units_filename: "/maps/alaska/landscape.game.sii"
+ grass_filename: "/maps/alaska/grass.sii"
+ scenic_music_filename: "/script/scenic_music/alaska.sii"
+}
+
+}

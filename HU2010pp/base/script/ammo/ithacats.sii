@@ -1,0 +1,33 @@
+SiiNunit
+#20 ga 1-3/4 oz. #4 turkey shot
+{
+
+projectile : _nameless
+{
+ pellet_count: 20
+ pellet_drift: 0.22
+ bc: 0.072
+ muzzle: 1350
+ weight: 36
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/pellet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/shell/projectile.pmd"
+ look: orange
+ variant: default
+}
+
+}
+

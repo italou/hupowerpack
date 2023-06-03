@@ -1,0 +1,11 @@
+SiiNunit {
+
+world : .world.alberta {
+ landscape_filename: "/maps/alberta/landscape.lnd"
+ billboards_filename: "/models/billboards.sii"
+ world_units_filename: "/maps/alberta/landscape.game.sii"
+ grass_filename: "/maps/alberta/grass.sii"
+ scenic_music_filename: "/script/scenic_music/rockies.sii"
+}
+
+}

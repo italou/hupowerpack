@@ -1,0 +1,161 @@
+SiiNunit
+{
+antler_part_simple : .smplbeam0 {
+  pretty_name: "0 @@em_an_score@@ 10-15" 
+  model: "/models/animals/whitetail/antlers/ab.pmd"
+  variant: "a0"
+  min_simple_score: 10
+  max_simple_score: 15
+}
+
+antler_part_simple : .smplbeam1 {
+  pretty_name: "1 @@em_an_score@@ 15-25"
+  model: "/models/animals/whitetail/antlers/ab.pmd"
+  variant: "a1"
+  min_simple_score: 15
+  max_simple_score: 25
+}
+
+antler_part_simple : .smplbeam2 {
+  pretty_name: "2 @@em_an_score@@ 20-47.5"
+  model: "/models/animals/whitetail/antlers/ab.pmd"
+  variant: "a2"
+  min_simple_score: 20
+  max_simple_score: 47.5
+}
+
+antler_part_simple : .smplbeam3 {
+  pretty_name: "3 @@em_an_score@@ 30-62.5"
+  model: "/models/animals/whitetail/antlers/ab.pmd"
+  variant: "a3"
+  min_simple_score: 30
+  max_simple_score: 62.5
+}
+
+antler_part_simple : .smplbeam4 {
+  pretty_name: "4 @@em_an_score@@ 40-85"
+  model: "/models/animals/whitetail/antlers/ab.pmd"
+  variant: "a4"
+  min_simple_score: 40
+  max_simple_score: 85
+}
+
+antler_part_simple : .smplbeam5 {
+  pretty_name: "5 @@em_an_score@@ 50-105"
+  model: "/models/animals/whitetail/antlers/ab.pmd"
+  variant: "a5"
+  min_simple_score: 50
+  max_simple_score: 105
+}
+
+antler_part_simple : .smplbeam6 {
+  pretty_name: "6 @@em_an_score@@ 100-115"
+  model: "/models/animals/whitetail/antlers/ab.pmd"
+  variant: "a6"
+  min_simple_score: 100
+  max_simple_score: 115
+}
+
+antler_part_simple : .smplbeam7 {
+  pretty_name: "7 @@em_an_score@@ 110-135"
+  model: "/models/animals/whitetail/antlers/ab.pmd"
+  variant: "a7"
+  min_simple_score: 110
+  max_simple_score: 135
+}
+
+antler_part_beam : .beam0 {
+  pretty_name: "Main Beam 1" 
+  model: "/models/animals/whitetail/antlers/mbp0.pmd"
+}
+
+antler_part_beam : .beam1 {
+  pretty_name: "Main Beam 2" 
+  model: "/models/animals/whitetail/antlers/mbp1.pmd"
+}
+
+antler_part_beam : .beam2 {
+  pretty_name: "Main Beam 3" 
+  model: "/models/animals/whitetail/antlers/mbp2.pmd"
+}
+
+antler_part_beam : .beam3 {
+  pretty_name: "Main Beam 4" 
+  model: "/models/animals/whitetail/antlers/mbp3.pmd"
+}
+
+antler_part_typical : .typical0 {
+  model: "/models/animals/whitetail/antlers/nbp0.pmd"
+}
+
+antler_part_typical : .typical1 {
+  model: "/models/animals/whitetail/antlers/nbp1.pmd"
+}
+
+antler_part_typical : .typical2 {
+  model: "/models/animals/whitetail/antlers/nbp2.pmd"
+}
+
+antler_part_typical : .typical3 {
+  model: "/models/animals/whitetail/antlers/nbp3.pmd"
+}
+
+antler_part_atypical : .atypical0 {
+  model: "/models/animals/whitetail/antlers/abp0.pmd"
+}
+
+antler_part_atypical : .atypical1 {
+  model: "/models/animals/whitetail/antlers/abp1.pmd"
+}
+
+antler_part_atypical : .atypical2 {
+  model: "/models/animals/whitetail/antlers/abp2.pmd"
+}
+
+antler_part_atypical : .atypical3 {
+  model: "/models/animals/whitetail/antlers/abp3.pmd"
+}
+
+antler_part_typical : .perm0 {
+  model: "/models/animals/whitetail/antlers/nbp0.pmd"
+}
+
+antler_part_typical : .perm1 {
+  model: "/models/animals/whitetail/antlers/nbp0.pmd"
+}
+
+antler_part_typical : .perm2 {
+  model: "/models/animals/whitetail/antlers/nbp0.pmd"
+}
+
+antler_part_typical : .perm3 {
+  model: "/models/animals/whitetail/antlers/nbp0.pmd"
+}
+
+antler_factory : .factory {
+  simple_beam_parts[]: .smplbeam0
+  simple_beam_parts[]: .smplbeam1
+  simple_beam_parts[]: .smplbeam2
+  simple_beam_parts[]: .smplbeam3
+  simple_beam_parts[]: .smplbeam4
+  simple_beam_parts[]: .smplbeam5
+  simple_beam_parts[]: .smplbeam6
+  simple_beam_parts[]: .smplbeam7
+  beam_parts[]: .beam0
+  beam_parts[]: .beam1
+  beam_parts[]: .beam2
+  beam_parts[]: .beam3
+  typical_tyne_parts[]: .typical0
+  typical_tyne_parts[]: .typical1
+  typical_tyne_parts[]: .typical2
+  typical_tyne_parts[]: .typical3
+  atypical_tyne_parts[]: .atypical0
+  atypical_tyne_parts[]: .atypical1
+  atypical_tyne_parts[]: .atypical2
+  atypical_tyne_parts[]: .atypical3
+  permanent_tyne_parts[]: .perm0
+  permanent_tyne_parts[]: .perm1
+  permanent_tyne_parts[]: .perm2
+  permanent_tyne_parts[]: .perm3
+}
+}

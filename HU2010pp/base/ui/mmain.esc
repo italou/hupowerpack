@@ -1,0 +1,577 @@
+estruct {
+	client {
+		entities {
+			entity "ui.window" {
+				evalues {
+					"wclass" : "edited"
+					"coords" : "0 0 1024 768"
+					"name" : "window"
+				}
+				entities {
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "9"
+							"value" : "@@game_url@@"
+							"layer" : "2"
+							"id" : "501"
+							"tooltip" : "@@mt_mm_gametitle@@"
+							"coords" : "14 549 336 710"
+							"name" : "Gametitle icon"
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "0 0 1024 768"
+							"id" : "6"
+							"name" : "bck"
+						}
+						entities {
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<offset hshift=-352 vshift=-568><img src=/material/ui/ui_static_back.mat width=1024 height=768>"
+									"layer" : "-11"
+									"coords" : "352 0 1024 200"
+									"name" : "bottom"
+								}
+							}
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<img src=/material/ui/ui_static_back.mat width=1024 height=768>"
+									"layer" : "-11"
+									"coords" : "0 670 1024 768"
+									"name" : "top"
+								}
+							}
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<offset  hshift=-1008 vshift=-98><img src=/material/ui/ui_static_back.mat width=1024 height=768>"
+									"layer" : "-11"
+									"coords" : "1008 200 1024 670"
+									"name" : "right"
+								}
+							}
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<offset vshift=-98><img src=/material/ui/ui_static_back.mat width=1024 height=768>"
+									"layer" : "-11"
+									"coords" : "0 0 352 670"
+									"name" : "left"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "2 2 130 48"
+							"id" : "9999"
+							"name" : "uifx"
+						}
+						entities {
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+							entity "ui.comp.uifx.text" {
+								evalues {
+									"layer" : "1"
+									"coords" : "2 2 130 48"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"coords" : "478 281 542 345"
+						}
+						entities {
+							entity "ui.comp.common.frame" {
+								evalues {
+									"layer" : "1"
+									"coords" : "15 69 337 673"
+								}
+							}
+							entity "ui.comp.common.frame" {
+								evalues {
+									"layer" : "1"
+									"id" : "7"
+									"coords" : "352 199 1008 673"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "0 0 1024 768"
+							"layer" : "-1"
+							"name" : "background"
+						}
+						entities {
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<img src=/material/ui/color.mat color=@@rgb_bck@@ width=352 height=640><img src=/material/ui/color.mat color=@@rgb_bck@@ width=672 height=32><ret><offset hshift=1008 vshift=32><img src=/material/ui/color.mat color=@@rgb_bck@@ width=16 height=608><ret><offset hshift=352><offset vshift=506><img src=/material/ui/color.mat color=@@rgb_bck@@ width=656 height=134>"
+									"layer" : "-1"
+									"coords" : "0 64 1024 704"
+									"name" : "fill"
+								}
+							}
+							entity "ui.comp.uifx.common.text" {
+								evalues {
+									"look" : "38"
+									"layer" : "2"
+									"id" : "999"
+									"coords" : "26 20 1000 46"
+									"name" : "tooltip"
+								}
+							}
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<color value=@@rgb_bck@@ ><img src=/material/ui/bottom.mat width=1024 height=64>"
+									"layer" : "-1"
+									"coords" : "0 0 1024 64"
+									"name" : "bottom"
+								}
+							}
+							entity "ui.comp.text" {
+								evalues {
+									"text" : "<color value=@@rgb_bck@@ ><img src=/material/ui/top.mat width=1024 height=64>"
+									"layer" : "-1"
+									"coords" : "0 704 1024 768"
+									"name" : "top"
+								}
+							}
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "34"
+							"value" : "@@hucorner_web@@"
+							"layer" : "2"
+							"id" : "502"
+							"tooltip" : "@@mt_mm_hucorner@@"
+							"coords" : "200 80 328 208"
+							"name" : "HU Corner icon"
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "31"
+							"value" : "<img src=/material/ui/ingame/m_gold.mat color=ffffffff>x3 <img src=/material/ui/ingame/m_silver.mat color=ffffffff>x3 <img src=/material/ui/ingame/m_bronze.mat color=ffffffff>x3"
+							"id" : "220"
+							"coords" : "353 48 1008 84"
+							"name" : "awards"
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/no_map.mat left=0.09>"
+							"layer" : "-5"
+							"id" : "5"
+							"coords" : "355 201 1005 669"
+							"name" : "ui static background"
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "37 161 317 243"
+							"layer" : "1"
+							"name" : "menu system"
+						}
+						entities {
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_quit@@|left"
+									"layer" : "2"
+									"id" : "90"
+									"tooltip" : "@@mt_mm_quit@@"
+									"coords" : "37 161 317 193"
+									"name" : "quit"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_options@@|left"
+									"layer" : "2"
+									"id" : "70"
+									"tooltip" : "@@mt_mm_options@@"
+									"coords" : "37 211 317 243"
+									"name" : "options"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_about@@|left"
+									"layer" : "2"
+									"id" : "80"
+									"tooltip" : "@@mt_mm_about@@"
+									"coords" : "37 186 317 218"
+									"name" : "about"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "38 261 318 369"
+							"layer" : "1"
+							"name" : "menu candy"
+						}
+						entities {
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_weaponshowroom@@|right"
+									"layer" : "2"
+									"id" : "140"
+									"tooltip" : "@@mt_mm_weaponshowroom@@"
+									"coords" : "38 287 318 319"
+									"name" : "weapon db"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_mapoverview@@|right"
+									"layer" : "2"
+									"id" : "150"
+									"tooltip" : "@@mt_mm_mapoverview@@"
+									"coords" : "38 261 318 293"
+									"name" : "map db"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_gameanimals@@|right"
+									"layer" : "2"
+									"id" : "130"
+									"tooltip" : "@@mt_mm_gameanimals@@"
+									"coords" : "38 312 318 344"
+									"name" : "animal db"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_help@@|right"
+									"layer" : "2"
+									"id" : "120"
+									"tooltip" : "@@mt_mm_help@@"
+									"coords" : "38 337 318 369"
+									"name" : "help"
+								}
+							}
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "353 84 1008 134"
+							"layer" : "1"
+							"name" : "player profile"
+						}
+						entities {
+							entity "ui.comp.common.text" {
+								evalues {
+									"look" : "39"
+									"value" : "John Doe"
+									"layer" : "2"
+									"id" : "210"
+									"coords" : "353 84 1008 134"
+									"name" : "hunter name"
+								}
+							}
+						}
+					}
+					entity "ui.comp.text" {
+						evalues {
+							"text" : "<img src=/material/ui/color.mat color=90800000 xscale=stretch yscale=stretch><ret><align hstyle=center vstyle=center>hunter<br>icon</align>"
+							"layer" : "1"
+							"id" : "200"
+							"coords" : "535 777 608 848"
+							"name" : "hunter icon"
+						}
+					}
+					entity "ui.comp.group" {
+						evalues {
+							"fitting" : "true"
+							"coords" : "38 392 318 526"
+							"layer" : "1"
+							"name" : "menu main"
+						}
+						entities {
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_tournaments@@|left"
+									"layer" : "2"
+									"id" : "60"
+									"tooltip" : "@@mt_mm_tournaments@@"
+									"area" : "38 392 251 424"
+									"coords" : "38 392 318 424"
+									"name" : "tournaments"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_usermissions@@|left"
+									"layer" : "2"
+									"id" : "50"
+									"tooltip" : "@@mt_mm_usermissions@@"
+									"coords" : "38 417 318 449"
+									"name" : "user missons"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_targetrange@@|left"
+									"layer" : "2"
+									"id" : "30"
+									"tooltip" : "@@mt_mm_targetrange@@"
+									"coords" : "38 442 318 474"
+									"name" : "target range"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_freehunt@@|left"
+									"layer" : "2"
+									"id" : "20"
+									"tooltip" : "@@mt_mm_freehunt@@"
+									"coords" : "38 468 318 500"
+									"name" : "free hunt"
+								}
+							}
+							entity "ui.comp.common.button" {
+								evalues {
+									"value" : "@@mm_challenges@@|left"
+									"layer" : "2"
+									"id" : "10"
+									"tooltip" : "@@mt_mm_challenges@@"
+									"coords" : "38 494 318 526"
+									"name" : "challenges"
+								}
+							}
+						}
+					}
+					entity "ui.comp.common.text" {
+						evalues {
+							"look" : "7"
+							"value" : "@@g_mm_version@@?.?"
+							"layer" : "2"
+							"id" : "230"
+							"coords" : "754 20 989 42"
+							"name" : "version"
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "8"
+							"value" : "http://www.scssoft.com"
+							"layer" : "2"
+							"id" : "500"
+							"tooltip" : "@@mt_mm_scs@@"
+							"coords" : "100 85 190 165"
+							"name" : "SCS icon"
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"value" : "@@mm_trophyroom@@|right"
+							"layer" : "2"
+							"id" : "110"
+							"tooltip" : "@@mt_mm_trophyroom@@"
+							"coords" : "352 159 551 191"
+							"name" : "trophy room"
+						}
+					}
+					entity "ui.comp.common.button" {
+						evalues {
+							"look" : "42"
+							"value" : "@@mm_hunterprofile@@|right"
+							"layer" : "2"
+							"id" : "100"
+							"tooltip" : "@@mt_mm_hunterprofile@@"
+							"area" : "553 159 808 183"
+							"coords" : "553 159 808 191"
+							"name" : "hunter profile"
+						}
+					}
+				}
+			}
+			entity "ui.handler.menu.main" {
+				evalues {
+				}
+			}
+		}
+	}
+}

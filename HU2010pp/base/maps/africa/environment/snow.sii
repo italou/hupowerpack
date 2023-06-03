@@ -1,0 +1,28 @@
+SiiNunit
+{
+
+fog : .fog.cloud {
+  far_density: 0.8f
+  base_color: (0.067f, 0.231f, 0.318f)
+}
+
+environment : .snow {
+  pretty_name: "@@df_weather_snow@@"
+  skybox_look_name: "africa_c"
+  skybox_variant_name: "africa"
+  skybox_cloudiness: 0.7f
+ 
+  temperature: temperature.cold
+  humidity: humidity.wet
+  wind: wind.gentle
+  sun: sun.normal
+  fog: .fog.cloud
+  rain: rain.normal
+  snow: snow.normal
+  lightning: lightning.normal
+
+  ambient_sounds_fullpath: "/sounds/ambient/amb_north_snow.sii"
+}
+
+}
+

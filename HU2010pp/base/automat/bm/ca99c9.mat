@@ -1,0 +1,8 @@
+material : "hu.dif_spec.nm_offs" {
+	texture[0] : "/models/weapons/450bm/ca_f_stock.tobj"
+	normalmap[0] : "/models/weapons/450bm/f_stock_no.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.15702 , 0.15702 , 0.15702 }
+	shininess : 4
+}

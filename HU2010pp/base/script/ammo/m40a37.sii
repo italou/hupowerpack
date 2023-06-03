@@ -1,0 +1,31 @@
+SiiNunit
+#7.62MM M118 LR 175 GR BTHP
+{
+
+projectile : _nameless
+{
+ bc: 0.490
+ muzzle: 2600
+ weight: 175
+ model: .model
+ casing: .casing
+ trail_smoke: "particle.pellet.trail"
+ muzzle_smoke: "emitter.muzzle.smoke"
+}
+
+model_object : .model
+{
+ model_desc: "/models/weapons/projectiles/bullet/projectile.pmd"
+ look: default
+ variant: default
+}
+
+model_object : .casing
+{
+ model_desc: "/models/weapons/projectiles/casing/projectile.pmd"
+ look: default
+ variant: rifle
+}
+
+}
+

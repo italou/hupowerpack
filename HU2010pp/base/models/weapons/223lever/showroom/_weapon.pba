@@ -1,0 +1,15 @@
+"243_lever" : "_weapon.pmd" {
+	features {
+		@include "/models/weapons/pba/showroom/features.pba.part"
+	}
+
+	animations {
+		"open" : "/models/weapons/243lever/showroom/_open.pma"
+		"close" : "/models/weapons/243lever/showroom/_close.pma"
+	}
+
+	behaviors {
+		@include "/models/weapons/pba/showroom/open.pba.bhv"
+		@include "/models/weapons/pba/showroom/close.pba.bhv"
+	}
+}

@@ -1,0 +1,10 @@
+material : "hu.dif_spec.nm_offs.env" {
+	texture[0] : "/models/weapons/500revolver/stock.tobj"
+	normalmap : "/models/weapons/357revolver/stock_no.tobj"
+	texture[1] : "/material/environment/generic_reflection.tobj"
+	ambient : { 1 , 1 , 1 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.09918 , 0.09918 , 0.09918 }
+	shininess : 5
+	env_factor : { 1 , 1 , 1 }
+}

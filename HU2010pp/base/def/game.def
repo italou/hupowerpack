@@ -1,0 +1,3679 @@
+extdefs "basedefs.def"
+
+#############################################################
+# --- MAP AREAS ---
+#############################################################
+def map_areas {
+	def alaska:/map_area {
+		name:"@@df_area_alaska@@"
+		path:"/maps/alaska"
+		map_shd_ui:"/material/ui/areas/m_alaska_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_alaska_gm.mat"
+		map_lim:"-1580 -1560 1600 1600"
+		desc:"@@df_area_alaska_desc@@"
+		img00:"/material/ui/areas/shot_alaska0.mat"
+		img01:"/material/ui/areas/shot_alaska1.mat"
+		img02:"/material/ui/areas/shot_alaska2.mat"
+		img03:"/material/ui/areas/shot_alaska3.mat"
+	}
+
+	def alberta:/map_area {
+		name:"@@df_area_alberta@@"
+		path:"/maps/alberta"
+		map_shd_ui:"/material/ui/areas/m_alberta_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_alberta_gm.mat"
+		map_lim:"-1500 -1500 1500 1500"
+		desc:"@@df_area_alberta_desc@@"
+		img00:"/material/ui/areas/shot_alberta0.mat"
+		img01:"/material/ui/areas/shot_alberta1.mat"
+		img02:"/material/ui/areas/shot_alberta2.mat"
+		img03:"/material/ui/areas/shot_alberta3.mat"
+	}
+
+	def arizona:/map_area {
+		name:"@@df_area_arizona@@"
+		path:"/maps/arizona"
+		map_shd_ui:"/material/ui/areas/m_arizona_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_arizona_gm.mat"
+		map_lim:"-1500 -1500 1500 1500"
+		desc:"@@df_area_arizona_desc@@"
+		img00:"/material/ui/areas/shot_arizona0.mat"
+		img01:"/material/ui/areas/shot_arizona1.mat"
+		img02:"/material/ui/areas/shot_arizona2.mat"
+		img03:"/material/ui/areas/shot_arizona3.mat"
+	}	
+
+	def bavaria:/map_area {
+		name:"@@df_area_bavaria@@"
+		path:"/maps/bavaria"
+		map_shd_ui:"/material/ui/areas/m_bavaria_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_bavaria_gm.mat"
+		map_lim:"-1500 -1500 1500 1500"
+		desc:"@@df_area_bavaria_desc@@"
+		img00:"/material/ui/areas/shot_bavaria0.mat"
+		img01:"/material/ui/areas/shot_bavaria1.mat"
+		img02:"/material/ui/areas/shot_bavaria2.mat"
+		img03:"/material/ui/areas/shot_bavaria3.mat"
+	}
+
+	def colorado:/map_area {
+		name:"@@df_area_colorado@@"
+		path:"/maps/colorado"
+		map_shd_ui:"/material/ui/areas/m_colorado_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_colorado_gm.mat"
+		map_lim:"-1500 -1500 1500 1500"
+		desc:"@@df_area_colorado_desc@@"
+		img00:"/material/ui/areas/shot_colorado0.mat"
+		img01:"/material/ui/areas/shot_colorado1.mat"
+		img02:"/material/ui/areas/shot_colorado2.mat"
+		img03:"/material/ui/areas/shot_colorado3.mat"
+	}
+
+	def minnesota:/map_area {
+		name:"@@df_area_minnesota@@"
+		path:"/maps/minnesota"
+		map_shd_ui:"/material/ui/areas/m_minnesota_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_minnesota_gm.mat"
+		map_lim:"-1500 -1500 1500 1500"
+		desc:"@@df_area_minnesota_desc@@"
+		img00:"/material/ui/areas/shot_minnesota0.mat"
+		img01:"/material/ui/areas/shot_minnesota1.mat"
+		img02:"/material/ui/areas/shot_minnesota2.mat"
+		img03:"/material/ui/areas/shot_minnesota3.mat"
+	}
+
+	def montana:/map_area {
+		name:"@@df_area_montana@@"
+		path:"/maps/montana"
+		map_shd_ui:"/material/ui/areas/m_montana_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_montana_gm.mat"
+		map_lim:"-1500 -1500 1500 1500"
+		desc:"@@df_area_montana_desc@@"
+		img00:"/material/ui/areas/shot_montana0.mat"
+		img01:"/material/ui/areas/shot_montana1.mat"
+		img02:"/material/ui/areas/shot_montana2.mat"
+		img03:"/material/ui/areas/shot_montana3.mat"
+	}
+
+	def oregon:/map_area {
+		name:"@@df_area_oregon@@"
+		path:"/maps/oregon"
+		map_shd_ui:"/material/ui/areas/m_oregon_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_oregon_gm.mat"
+		map_lim:"-1500 -1500 1500 1500"
+		desc:"@@df_area_oregon_desc@@"
+		img00:"/material/ui/areas/shot_oregon0.mat"
+		img01:"/material/ui/areas/shot_oregon1.mat"
+		img02:"/material/ui/areas/shot_oregon2.mat"
+		img03:"/material/ui/areas/shot_oregon3.mat"
+	}	
+
+	def pennsylvania:/map_area {
+		name:"@@df_area_pennsylvania@@"
+		path:"/maps/pennsylvania"
+		map_shd_ui:"/material/ui/areas/m_pennsylvania_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_pennsylvania_gm.mat"
+		map_lim:"-1613 -1470 1560 1560"
+		desc:"@@df_area_pennsylvania_desc@@"
+		img00:"/material/ui/areas/shot_pennsylvania0.mat"
+		img01:"/material/ui/areas/shot_pennsylvania1.mat"
+		img02:"/material/ui/areas/shot_pennsylvania2.mat"
+		img03:"/material/ui/areas/shot_pennsylvania3.mat"
+	}
+
+	def texas:/map_area {
+		name:"@@df_area_texas@@"
+		path:"/maps/texas"
+		map_shd_ui:"/material/ui/areas/m_texas_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_texas_gm.mat"
+		map_lim:"-1500 -1500 1500 1500"
+		desc:"@@df_area_texas_desc@@"
+		img00:"/material/ui/areas/shot_texas0.mat"
+		img01:"/material/ui/areas/shot_texas1.mat"
+		img02:"/material/ui/areas/shot_texas2.mat"
+		img03:"/material/ui/areas/shot_texas3.mat"
+	}
+
+	def africa:/map_area {
+		name:"@@df_area_africa@@"
+		path:"/maps/africa"
+		map_shd_ui:"/material/ui/areas/m_africa_ui.mat"
+		map_shd_gm:"/material/ui/areas/m_africa_gm.mat"
+		map_lim:"-1500 -1500 1500 1500"
+		desc:"@@df_area_africa_desc@@"
+		img00:"/material/ui/areas/shot_africa0.mat"
+		img01:"/material/ui/areas/shot_africa1.mat"
+		img02:"/material/ui/areas/shot_africa2.mat"
+		img03:"/material/ui/areas/shot_africa3.mat"
+	}
+
+	def valleyad:/map_area {
+		name:"Green Valley"
+		path:"/maps/valleyad"
+		map_shd_ui:"/material/ui/areas/m_guess_gm.mat"
+		map_shd_gm:"/material/ui/areas/m_guess_gm.mat"
+		map_lim:"-500 -500 500 500"
+		desc:"Green Valley: Mini map from game with no borders. Watch out to not fall out!"
+	}
+
+	def valleyafr:/map_area {
+		name:"Africa Valley"
+		path:"/maps/valleyafr"
+		map_shd_ui:"/material/ui/areas/m_guess_gm.mat"
+		map_shd_gm:"/material/ui/areas/m_guess_gm.mat"
+		map_lim:"-500 -500 500 500"
+		desc:"Africa Valley: Mini map from game with no borders. Watch out to not fall out!"
+	}	
+
+	def ui:/map_area {
+		name:"INTERNAL-ui map"
+		path:"/maps/ui"
+		public:"false"
+		interactive:"false"
+	}
+
+	def ui_off:/map_area {
+		name:"INTERNAL-ui map off"
+		path:"/maps/ui_off"
+		public:"false"
+		interactive:"false"
+	}
+
+	def ad:/map_area {
+		name:"INTERNAL-animal db map"
+		path:"/maps/ad"
+		public:"false"
+		interactive:"false"
+	}
+
+	def ad_africa:/map_area {
+		name:"INTERNAL-african animal db map"
+		path:"/maps/ad_africa"
+		public:"false"
+		interactive:"false"
+	}
+
+	def trophy_room:/map_area {
+		name:"INTERNAL-trophy room map"
+		path:"/maps/trophy_room"
+		public:"false"
+		interactive:"false"
+	}
+
+	def target_range:/map_area {
+		name:"INTERNAL-target range map"
+		path:"/maps/target_range"
+		public:"false"
+		default_time:"8"
+	}
+
+	def ai_test:/map_area {
+		name:"INTERNAL ai Test map"
+		path:"/maps/ai_test"
+		public:"false"
+		default_time:"9"
+	}
+
+	def archery_range:/map_area {
+		name:"INTERNAL-archery_range map"
+		path:"/maps/archery_range"
+		public:"false"
+		default_time:"7"
+	}
+
+	def deer_drive:/map_area {
+		name:"INTERNAL-deer_drive map"
+		path:"/maps/deer_drive"
+		public:"false"
+		default_time:"12"
+	}
+
+	def squirrel_bash:/map_area {
+		name:"INTERNAL-squirrel_bash map"
+		path:"/maps/squirrel_bash"
+		public:"false"
+		default_time:"7"
+	}
+}
+
+#############################################################
+# --- WEAPON CATEGORIES ---
+#############################################################
+def gear_categories {
+	def weapons {
+		slots:"1"
+		available:"@@em_availableweapons@@"
+		class00:"weapon_scope"
+		class01:"weapon_base"
+
+		def scopes {
+			name:"@@df_gcat_scopes@@"
+		}
+		def bolt_rifles {
+			name:"@@df_gcat_boltrifles@@"
+		}
+		def lever_rifles {
+			name:"@@df_gcat_leverrifles@@"
+		}
+		def auto_rifles {
+			name:"@@df_gcat_autorifles@@"
+		}
+		def muzzleloaders {
+			name:"@@df_gcat_muzzleloaders@@"
+		}
+		def bows {
+			name:"@@df_gcat_bows@@"
+		}
+		def crossbows {
+			name:"@@df_gcat_crossbows@@"
+		}
+		def shotguns {
+			name:"@@df_gcat_shotguns@@"
+		}
+		def pistols {
+			name:"@@df_gcat_pistols@@"
+		}
+	}
+
+	def eqitems {
+		slots:"8"
+		available:"@@em_availableequipment@@"
+		class00:"eqitem_base"
+
+		def scents {
+			name:"@@df_gcat_scents@@"
+		}
+		def calls {
+			name:"@@df_gcat_calls@@"
+		}
+		def lures {
+			name:"@@df_gcat_lures@@"
+		}
+		def blinds {
+			name:"@@df_gcat_blinds@@"
+		}
+		def misc {
+			name:"@@df_gcat_misc@@"
+		}
+	}
+}
+
+#############################################################
+# --- PLACES CATEGORIES ---
+#############################################################
+def places_categories {
+
+	def deer:/places_category {
+		name:"Whitetailisch"
+		index:"1"
+	}
+
+	def bear:/places_category {
+		name:"bear"
+		index:"2"
+	}
+
+	def elk:/places_category {
+		name:"Elk"
+		index:"3"
+	}
+
+	def goat:/places_category {
+		name:"Goat"
+		index:"4"
+	}
+
+	def buffalo:/places_category {
+		name:"Buffalo"
+		index:"5"
+	}
+}
+
+#############################################################
+# --- SPECIES TYPES ---
+#############################################################
+def species {
+	def wtail:/species_kind {
+		animal_db:"/script/animal_db/whitetail.def"
+		name:"@@df_spc_wtail@@"
+		slot_empty:"/material/ui/icon/a_wtail_empty.mat"
+		slot_glow:"/material/ui/icon/a_wtail_glow.mat"
+		slot_full:"/material/ui/icon/a_wtail.mat"
+		index:"1"
+		species_interaction:"0,-1,-1,-1,-1,-1,-7,-1,-1,-1,-7,-8,-1,-7,-1,-1,-7,-1"
+		trail_type:"wtail_trail"
+		spoor_dist:"2.00"
+		desc0:"@@df_desc0_wtail@@"
+		desc1:"@@df_desc1_wtail@@"
+		score_max:"155"
+
+		male_travel_damage:"4.0"
+		female_travel_damage:"4.0"
+		young_travel_damage:"4.0"
+
+		pc_lungs_travel_damage:"4.0"
+		pc_head_impact_damage:"2.0"
+		pc_head_travel_damage:"4.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+		
+		def buck:/species_type {
+			name:"@@df_gen_buck@@"
+			model:"/models/animals/whitetail/animal.pba"
+			variant:"buck"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"deer"
+			gender:"1"
+			scoring_type:"antlers"
+			weight_range:"125.4:278.2"
+			s_specific:"/sounds/animals/an_wt_buck.ogg"
+			call_back:"0.40"
+			antlers:"/models/animals/whitetail/antlers_male.sii"
+			
+			def ai_presets {
+				def default:/ai_type {
+					fact_hunter_perception:"0.600"
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.020"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"
+					fact_hunter_perception:"0.300"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.800"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def doe:/species_type {
+			name:"@@df_gen_doe@@"
+			model:"/models/animals/whitetail/animal.pba"
+			variant:"doe"
+			scale:"0.8"
+			type:"deer"
+			places_category:"deer"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:25"
+			weight_range:"99.9:151.3"
+			s_specific:"/sounds/animals/an_wt_doe.ogg"
+			call_back:"0.30"
+
+			def ai_presets {
+				def default:/ai_type {
+					fact_hunter_perception:"0.500"
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.050"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/whitetail/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			type:"deer"
+			places_category:"deer"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"40:70"
+			s_specific:"/sounds/animals/an_wt_doe.ogg"
+
+			def ai_presets {
+				def default:/ai_type {
+					fact_hunter_perception:"0.400"
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.100"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.600"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def buffalo:/species_kind {
+		animal_db:"/script/animal_db/buffalo.def"
+		name:"@@df_spc_buffalo@@"
+		slot_empty:"/material/ui/icon/a_buffalo_empty.mat"
+		slot_glow:"/material/ui/icon/a_buffalo_glow.mat"
+		slot_full:"/material/ui/icon/a_buffalo.mat"
+		index:"2"
+		species_interaction:"1,0,1,1,1,1,-2,1,1,1,3,3,1,-2,1,1,3,1"
+		root_rotation:"< 0 90 90 >"
+		trail_type:"buffalo_trail"
+		spoor_dist:"1.00"
+		desc0:"@@df_desc0_buffalo@@"
+		desc1:"@@df_desc1_buffalo@@"
+		score_max:"75"
+
+		# has tough skin - hard to enter
+		male_impact_absorption:"1.7"
+		female_impact_absorption:"1.7"
+		young_impact_absorption:"1.7"
+
+		male_impact_damage:"1.8"
+		female_impact_damage:"1.8"
+		young_impact_damage:"1.8"
+
+		male_travel_damage:"0.3"
+		female_travel_damage:"0.3"
+		young_travel_damage:"0.3"
+
+		pc_head_travel_damage:"0.3"
+		pc_head_instant:"true"
+
+		pc_lungs_impact_damage:"2.0"
+		pc_lungs_travel_damage:"2.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+
+		def bull:/species_type {
+			name:"@@df_gen_bull@@"
+			model:"/models/animals/buffalo/animal.pba"
+			variant:"bull"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"buffalo"
+			gender:"1"
+			scoring_type:"antlers"
+			weight_range:"660:2024"
+			healing_factor:"0.1"
+			dangerous:"true"
+			antlers:"/models/animals/buffalo/antlers_male.sii"
+			s_specific:"/sounds/animals/an_bi_bull.ogg"
+			call_back:"0.40"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+					val_attack_probability:"0.100"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cow:/species_type {
+			name:"@@df_gen_cow@@"
+			model:"/models/animals/buffalo/animal.pba"
+			variant:"cow"
+			scale:"0.8"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"buffalo"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:25"
+			antler_type:"generated"
+			weight_range:"600:1960"
+			healing_factor:"0.1"
+			dangerous:"true"
+			antlers:"/models/animals/buffalo/antlers_female.sii"
+			s_specific:"/sounds/animals/an_bi_cow.ogg"
+			call_back:"0.30"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+					val_attack_probability:"0.070"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/buffalo/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"buffalo"
+			gender:"3"
+			scoring_type:"none"
+			antler_type:"generated"
+			weight_range:"350:550"
+			healing_factor:"0.1"
+			dangerous:"false"
+			antlers:"/models/animals/buffalo/antlers_young.sii"
+			s_specific:"/sounds/animals/an_bi_cow.ogg"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def pronghorn:/species_kind {
+		animal_db:"/script/animal_db/pronghorn.def"
+		name:"@@df_spc_pronghorn@@"
+		slot_empty:"/material/ui/icon/a_pronghorn_empty.mat"
+		slot_glow:"/material/ui/icon/a_pronghorn_glow.mat"
+		slot_full:"/material/ui/icon/a_pronghorn.mat"
+		index:"3"
+		species_interaction:"1,-1,0,-1,-1,-1,-7,-1,-1,-1,-8,-9,-1,-7,-1,-1,-8,1"
+		trail_type:"pronghorn_trail"
+		spoor_dist:"2.00"
+		desc0:"@@df_desc0_pronghorn@@"
+		desc1:"@@df_desc1_pronghorn@@"
+		score_max:"50"
+
+		# fragile body
+		male_impact_absorption:"0.3"
+		female_impact_absorption:"0.3"
+		young_impact_absorption:"0.3"
+
+		male_impact_damage:"2.0"
+		female_impact_damage:"2.0"
+		young_impact_damage:"2.0"
+		
+		male_travel_damage:"5.0"
+		female_travel_damage:"5.0"
+		young_travel_damage:"5.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+
+		def buck:/species_type {
+			name:"@@df_gen_buck@@"
+			model:"/models/animals/pronghorn/animal.pba"
+			variant:"buck"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"deer"
+			navigation_category:"mountain"
+			gender:"1"
+			scoring_type:"antlers"
+			weight_range:"79.2:154"
+			s_specific:"/sounds/animals/an_pr_buck.ogg"
+			call_back:"0.40"
+			antlers:"/models/animals/pronghorn/antlers_male.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.020"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+		def doe:/species_type {
+			name:"@@df_gen_doe@@"
+			model:"/models/animals/pronghorn/animal.pba"
+			variant:"doe"
+			scale:"0.8"
+			type:"deer"
+			places_category:"deer"
+			navigation_category:"mountain"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:25"
+			weight_range:"75:110"
+			s_specific:"/sounds/animals/an_pr_doe.ogg"
+			call_back:"0.30"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.050"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/pronghorn/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			type:"deer"
+			places_category:"deer"
+			navigation_category:"mountain"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"30:65"
+			s_specific:"/sounds/animals/an_pr_doe.ogg"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+	
+	def elk:/species_kind {
+		animal_db:"/script/animal_db/elk.def"
+		name:"@@df_spc_elk@@"
+		slot_empty:"/material/ui/icon/a_elk_empty.mat"
+		slot_glow:"/material/ui/icon/a_elk_glow.mat"
+		slot_full:"/material/ui/icon/a_elk.mat"
+		index:"4"
+		species_interaction:"1,-1,1,0,1,1,-5,-1,-1,-1,-3,-4,-1,-5,1,1,-3,1"
+		trail_type:"elk_trail"		
+		spoor_dist:"2.20"
+		desc0:"@@df_desc0_elk@@"
+		desc1:"@@df_desc1_elk@@"
+		score_max:"115"
+
+		# bigger animal - harder to enter
+		male_impact_absorption:"1.2"
+		female_impact_absorption:"1.2"
+		young_impact_absorption:"1.2"
+
+		male_impact_damage:"0.9"
+		female_impact_damage:"0.9"
+		young_impact_damage:"0.9"
+
+		male_travel_damage:"2.0"
+		female_travel_damage:"2.0"
+		young_travel_damage:"2.0"
+
+		pc_lungs_impact_damage:"1.5"
+		pc_lungs_travel_damage:"3.0"
+
+		pc_head_travel_damage:"4.0"
+
+		pc_heart_impact_damage:"2.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+
+		def bull:/species_type {
+			name:"@@df_gen_bull@@"
+			model:"/models/animals/elk/animal.pba"
+			variant:"bull"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"elk"
+			gender:"1"
+			scoring_type:"antlers"
+			weight_range:"376.2:999.9"
+			s_specific:"/sounds/animals/an_el_bull.ogg"
+			call_back:"0.40"
+			antlers:"/models/animals/elk/antlers_male.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.020"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cow:/species_type {
+			name:"@@df_gen_cow@@"
+			model:"/models/animals/elk/animal.pba"
+			variant:"cow"
+			scale:"0.8"
+			type:"deer"
+			places_category:"elk"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:25"
+			weight_range:"350:700"
+			s_specific:"/sounds/animals/an_el_cow.ogg"
+			call_back:"0.30"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/elk/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			type:"deer"
+			places_category:"elk"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"200:300"
+			s_specific:"/sounds/animals/an_el_cow.ogg"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+	
+	def goat:/species_kind {
+		animal_db:"/script/animal_db/mt_goat.def"
+		name:"@@df_spc_goat@@"
+		slot_empty:"/material/ui/icon/a_goat_empty.mat"
+		slot_glow:"/material/ui/icon/a_goat_glow.mat"
+		slot_full:"/material/ui/icon/a_goat.mat"
+		index:"5"
+		species_interaction:"1,-1,1,-1,0,1,-7,-1,-1,-1,-7,-8,-1,-7,1,1,-7,-1"
+		trail_type:"goat_trail"
+		spoor_dist:"1.80"
+		desc0:"@@df_desc0_goat@@"
+		desc1:"@@df_desc1_goat@@"
+		score_max:"30"
+
+		male_travel_damage:"3.0"
+		female_travel_damage:"3.0"
+		young_travel_damage:"3.0"
+
+		pc_lungs_impact_damage:"2.0"
+		pc_lungs_travel_damage:"2.0"
+
+		pc_head_impact_damage:"2.0"
+		pc_head_travel_damage:"4.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+
+		def bull:/species_type {
+			name:"@@df_gen_billy@@"
+			model:"/models/animals/mtgoat/animal.pba"
+			variant:"bull"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"goat"
+			navigation_category:"mountain"
+			gender:"1"
+			scoring_type:"antlers"
+			weight_range:"91.2:299.2"
+			s_specific:"/sounds/animals/an_mt_bull.ogg"
+			call_back:"0.40"
+			antlers:"/models/animals/mtgoat/antlers_male.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cow:/species_type {
+			name:"@@df_gen_nanny@@"
+			model:"/models/animals/mtgoat/animal.pba"
+			variant:"cow"
+			scale:"0.8"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"goat"
+			navigation_category:"mountain"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:25"
+			weight_range:"82.4:250.3"
+			s_specific:"/sounds/animals/an_mt_doe.ogg"
+			call_back:"0.30"
+			antlers:"/models/animals/mtgoat/antlers_female.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/mtgoat/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"goat"
+			navigation_category:"mountain"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"50:80"
+			s_specific:"/sounds/animals/an_mt_doe.ogg"
+			antlers:"/models/animals/mtgoat/antlers_young.sii"
+			
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+	
+	def mule:/species_kind {
+		animal_db:"/script/animal_db/mule.def"
+		name:"@@df_spc_mule@@"
+		slot_empty:"/material/ui/icon/a_mule_empty.mat"
+		slot_glow:"/material/ui/icon/a_mule_glow.mat"
+		slot_full:"/material/ui/icon/a_mule.mat"
+		index:"6"
+		species_interaction:"1,-1,1,-1,-1,0,-7,-1,-1,-1,-7,-8,-1,-7,-1,1,-7,1"
+		trail_type:"mule_trail"
+		spoor_dist:"2.60"
+		desc0:"@@df_desc0_mule@@"
+		desc1:"@@df_desc1_mule@@"
+		score_max:"120"
+
+		male_impact_damage:"2.0"
+		female_impact_damage:"2.0"
+		young_impact_damage:"2.0"
+
+		male_travel_damage:"4.0"
+		female_travel_damage:"4.0"
+		young_travel_damage:"4.0"
+		
+		pc_lungs_travel_damage:"2.0"
+
+		pc_head_travel_damage:"5.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+
+		def buck:/species_type {
+			name:"@@df_gen_buck@@"
+			model:"/models/animals/mule/animal.pba"
+			variant:"buck"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"			
+			type:"deer"
+			places_category:"deer"
+			gender:"1"
+			scoring_type:"antlers"
+			weight_range:"94.6:330"
+			s_specific:"/sounds/animals/an_mule_snarl.ogg"
+			call_back:"0.40"
+			antlers:"/models/animals/mule/antlers_male.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.020"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def doe:/species_type {
+			name:"@@df_gen_doe@@"
+			model:"/models/animals/mule/animal.pba"
+			variant:"doe"
+			scale:"0.8"
+			type:"deer"
+			places_category:"deer"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:25"
+			weight_range:"80:200"
+			s_specific:"/sounds/animals/an_mule_doe.ogg"
+			call_back:"0.30"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/mule/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			type:"deer"
+			places_category:"deer"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"40:70"
+			s_specific:"/sounds/animals/an_mule_doe.ogg"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def grizzly:/species_kind {
+		animal_db:"/script/animal_db/grizzly.def"
+		name:"@@df_spc_grizzly@@"
+		slot_empty:"/material/ui/icon/a_grizzly_empty.mat"
+		slot_glow:"/material/ui/icon/a_grizzly_glow.mat"
+		slot_full:"/material/ui/icon/a_grizzly.mat"
+		index:"7"
+		species_interaction:"7,2,7,5,7,7,0,5,5,5,1,-1,3,-1,7,7,1,5"
+		fade_hunger:"2"
+		fact_hunger:"12"
+		root_rotation:"< 0 90 90 >"
+		maximal_herd_size:"2"
+		trail_type:"grizzly_trail"
+		spoor_dist:"0.80"
+		desc0:"@@df_desc0_grizzly@@"
+		desc1:"@@df_desc1_grizzly@@"
+		score_max:"30"
+		
+		# has tough skin
+		male_impact_absorption:"3.1"
+		female_impact_absorption:"3.1"
+		young_impact_absorption:"3.1"
+
+		male_impact_damage:"0.9"
+		female_impact_damage:"0.9"
+		young_impact_damage:"0.9"
+
+		male_travel_damage:"2.0"
+		female_travel_damage:"2.0"
+		young_travel_damage:"2.0"
+
+		pc_head_instant:"true"
+		pc_head_vital:"true"
+
+		pc_lungs_travel_damage:"2.0"
+
+		pc_head_travel_damage:"3.0"
+
+		def carcass:/carcass_base {
+			attract00:"blackbear:0.3:food"
+			attract01:"cougar:0.3:food"
+			attract02:"wolf:0.3:food"
+			attract03:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+		
+		def boar:/species_type {
+			name:"@@df_gen_boar@@"
+			model:"/models/animals/grizzly/animal.pba"
+			variant:"boar"
+			scale:"1.0"
+			places_category:"bear"
+			gender:"1"
+			scoring_type:"size"
+			score_range:"19:29"
+			weight_range:"325:1320"
+			s_specific:"/sounds/animals/an_bear.ogg"
+			call_back:"0.40"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+					val_attack_probability:"0.100"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def sow:/species_type {
+			name:"@@df_gen_sow@@"
+			model:"/models/animals/grizzly/animal.pba"
+			variant:"sow"
+			scale:"0.8"
+			places_category:"bear"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:20"
+			weight_range:"215:850"
+			s_specific:"/sounds/animals/an_bear.ogg"
+			call_back:"0.30"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+					val_attack_probability:"0.100"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/grizzly/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			places_category:"bear"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"55:320"
+			s_specific:"/sounds/animals/an_gr_sow.ogg"
+			dangerous:"false"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+	
+	def moose:/species_kind {
+		animal_db:"/script/animal_db/moose.def"
+		name:"@@df_spc_moose@@"
+		slot_empty:"/material/ui/icon/a_moose_empty.mat"
+		slot_glow:"/material/ui/icon/a_moose_glow.mat"
+		slot_full:"/material/ui/icon/a_moose.mat"
+		index:"8"
+		species_interaction:"1,-1,1,1,1,1,-5,0,1,1,3,-3,-1,-5,1,1,3,1"
+		trail_type:"moose_trail"
+		spoor_dist:"2.00"
+		desc0:"@@df_desc0_moose@@"
+		desc1:"@@df_desc1_moose@@"
+		score_max:"135"
+
+		# big animal - hard to enter
+		male_impact_absorption:"1.2"
+		female_impact_absorption:"1.2"
+		young_impact_absorption:"1.2"
+
+		male_impact_damage:"1.1"
+		female_impact_damage:"1.1"
+		young_impact_damage:"1.1"
+
+		male_travel_damage:"1.2"
+		female_travel_damage:"1.2"
+		young_travel_damage:"1.2"
+
+		pc_lungs_impact_damage:"2.0"
+		pc_lungs_travel_damage:"2.0"
+
+		pc_head_impact_damage:"2.0"
+		pc_head_travel_damage:"4.0"
+
+		pc_heart_travel_damage:"1.5"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+
+		def bull:/species_type {
+			name:"@@df_gen_bull@@"
+			model:"/models/animals/moose/animal.pba"
+			variant:"bull"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"elk"
+			scoring_type:"antlers"
+			weight_range:"900:1620"
+			s_specific:"/sounds/animals/an_mo_bull.ogg"
+			call_back:"0.40"
+			dangerous:"true"
+			gender:"1"
+			antlers:"/models/animals/moose/antlers_male.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cow:/species_type {
+			name:"@@df_gen_cow@@"
+			model:"/models/animals/moose/animal.pba"
+			variant:"cow"
+			scale:"0.8"
+			type:"deer"
+			places_category:"elk"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:25"
+			weight_range:"500:880"
+			s_specific:"/sounds/animals/an_mo_cow.ogg"
+			call_back:"0.30"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/moose/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			type:"deer"
+			places_category:"elk"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"286.3:450"
+			s_specific:"/sounds/animals/an_mo_cow.ogg"
+			dangerous:"false"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.050"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def boar:/species_kind {
+		animal_db:"/script/animal_db/boar.def"
+		name:"@@df_spc_boar@@"
+		slot_empty:"/material/ui/icon/a_wildboar_empty.mat"
+		slot_glow:"/material/ui/icon/a_wildboar_glow.mat"
+		slot_full:"/material/ui/icon/a_wildboar.mat"
+		index:"10"
+		species_interaction:"1,-1,1,1,1,1,-5,-1,-1,0,-3,-3,-1,-5,1,1,-3,1"
+		fade_hunger:"2"
+		fact_hunger:"12"
+		root_rotation:"< 0 90 90 >"
+		maximal_herd_size:"2"
+		trail_type:"boar_trail"
+		spoor_dist:"1.00"
+		desc0:"@@df_desc0_boar@@"
+		desc1:"@@df_desc1_boar@@"
+		score_max:"30"
+		
+		#easy to shoot (even with 9mm)
+		male_impact_absorption:"0.3"
+		female_impact_absorption:"0.3"
+		young_impact_absorption:"0.3"
+
+		male_impact_damage:"1.0"
+		female_impact_damage:"1.0"
+		young_impact_damage:"1.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+		
+		def boar:/species_type {
+			name:"@@df_gen_boar@@"
+			model:"/models/animals/boar/animal.pba"
+			variant:"boar"
+			scale:"1.0"
+			places_category:"deer"
+			gender:"1"
+			scoring_type:"size"
+			score_range:"19:29"
+			weight_range:"110:770"
+			s_specific:"/sounds/animals/an_boar.ogg"
+			call_back:"0.40"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def sow:/species_type {
+			name:"@@df_gen_sow@@"
+			model:"/models/animals/boar/animal.pba"
+			variant:"sow"
+			scale:"0.8"
+			places_category:"deer"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:24"
+			weight_range:"110:770"
+			s_specific:"/sounds/animals/an_boar.ogg"
+			call_back:"0.30"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/boar/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			places_category:"deer"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"20:100"
+			s_specific:"/sounds/animals/an_boar.ogg"
+			dangerous:"false"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def cougar:/species_kind {
+		animal_db:"/script/animal_db/cougar.def"
+		name:"@@df_spc_cougar@@"
+		slot_empty:"/material/ui/icon/a_cougar_empty.mat"
+		slot_glow:"/material/ui/icon/a_cougar_glow.mat"
+		slot_full:"/material/ui/icon/a_cougar.mat"
+		index:"11"
+		species_interaction:"7,-3,8,3,7,7,-1,-3,3,3,0,-1,3,-1,5,7,-1,5"
+		fade_hunger:"2"
+		fact_hunger:"12"
+		root_rotation:"< 0 90 90 >"
+		maximal_herd_size:"2"
+		trail_type:"cougar_trail"
+		spoor_dist:"1.60"
+		desc0:"@@df_desc0_cougar@@"
+		desc1:"@@df_desc1_cougar@@"
+		score_max:"30"
+		
+		# has tough skin - hard to enter
+		male_impact_absorption:"1.4"
+		female_impact_absorption:"1.4"
+		young_impact_absorption:"1.4"
+
+		male_impact_damage:"0.9"
+		female_impact_damage:"0.9"
+		young_impact_damage:"0.9"
+
+		male_travel_damage:"2.0"
+		female_travel_damage:"2.0"
+		young_travel_damage:"2.0"
+
+		pc_lungs_travel_damage:"2.0"
+		pc_head_travel_damage:"3.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"wolf:0.3:food"
+			attract03:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+		
+		def tom:/species_type {
+			name:"@@df_gen_male@@"
+			model:"/models/animals/cougar/animal.pba"
+			variant:"tom"
+			scale:"1.0"
+			places_category:"bear"
+			navigation_category:"mountain"
+			gender:"1"
+			scoring_type:"size"
+			score_range:"19:29"
+			weight_range:"63.8:180"
+			s_specific:"/sounds/animals/an_cougar_male.ogg"
+			call_back:"0.40"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cat:/species_type {
+			name:"@@df_gen_felis@@"
+			model:"/models/animals/cougar/animal.pba"
+			variant:"cat"
+			scale:"0.8"
+			places_category:"bear"
+			navigation_category:"mountain"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:22"
+			weight_range:"53.8:110"
+			s_specific:"/sounds/animals/an_cougar_female.ogg"
+			call_back:"0.30"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_kitten@@"
+			model:"/models/animals/cougar/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			places_category:"bear"
+			navigation_category:"mountain"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"20:49"
+			s_specific:"/sounds/animals/an_cougar_female.ogg"
+			dangerous:"false"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.050"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def kudu:/species_kind {
+		animal_db:"/script/animal_db/kudu.def"
+		name:"@@df_spc_kudu@@"
+		african:"true"
+		slot_empty:"/material/ui/icon/a_kudu_empty.mat"
+		slot_glow:"/material/ui/icon/a_kudu_glow.mat"
+		slot_full:"/material/ui/icon/a_kudu.mat"
+		index:"9"
+		species_interaction:"1,-1,1,1,1,1,-5,-1,0,1,-3,-6,-1,-5,1,1,-3,1"
+		trail_type:"kudu_trail"		
+		spoor_dist:"2.00"
+		desc0:"@@df_desc0_kudu@@"
+		desc1:"@@df_desc1_kudu@@"
+		score_max:"75"
+
+		# bigger animal - harder to enter
+		male_impact_absorption:"1.2"
+		female_impact_absorption:"1.2"
+		young_impact_absorption:"1.2"
+
+		male_impact_damage:"0.9"
+		female_impact_damage:"0.9"
+		young_impact_damage:"0.9"
+
+		male_travel_damage:"2.0"
+		female_travel_damage:"2.0"
+		young_travel_damage:"2.0"
+
+		pc_lungs_impact_damage:"1.5"
+		pc_lungs_travel_damage:"3.0"
+		pc_head_travel_damage:"4.0"
+		pc_heart_impact_damage:"2.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+
+		def bull:/species_type {
+			name:"@@df_gen_bull@@"
+			model:"/models/animals/kudu/animal.pba"
+			variant:"bull"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"elk"
+			gender:"1"
+			scoring_type:"antlers"
+			weight_range:"264:693"
+			s_specific:"/sounds/animals/an_kudu_male.ogg"
+			call_back:"0.40"
+			antlers:"/models/animals/kudu/antlers_male.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cow:/species_type {
+			name:"@@df_gen_cow@@"
+			model:"/models/animals/kudu/animal.pba"
+			variant:"cow"
+			scale:"0.8"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"elk"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:25"
+			weight_range:"216:550"
+			s_specific:"/sounds/animals/an_el_bull.ogg"
+			call_back:"0.30"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.050"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/kudu/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"elk"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"99.9:199.9"
+			s_specific:"/sounds/animals/an_el_bull.ogg"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def lion:/species_kind {
+		animal_db:"/script/animal_db/lion.def"
+		name:"@@df_spc_lion@@"
+		african:"true"
+		slot_empty:"/material/ui/icon/a_lion_empty.mat"
+		slot_glow:"/material/ui/icon/a_lion_glow.mat"
+		slot_full:"/material/ui/icon/a_lion.mat"
+		index:"12"
+		species_interaction:"8,-3,9,4,8,8,1,3,6,3,1,0,3,1,8,8,1,5"
+		fade_hunger:"2"
+		fact_hunger:"12"
+		root_rotation:"< 0 90 90 >"
+		maximal_herd_size:"2"
+		trail_type:"lion_trail"
+		spoor_dist:"2.00"
+		desc0:"@@df_desc0_lion@@"
+		desc1:"@@df_desc1_lion@@"
+		score_max:"30"
+		
+		# has tough skin - hard to enter
+		male_impact_absorption:"1.4"
+		female_impact_absorption:"1.4"
+		young_impact_absorption:"1.4"
+
+		male_impact_damage:"0.9"
+		female_impact_damage:"0.9"
+		young_impact_damage:"0.9"
+
+		male_travel_damage:"2.0"
+		female_travel_damage:"2.0"
+		young_travel_damage:"2.0"
+
+		pc_lungs_travel_damage:"2.0"
+		pc_head_travel_damage:"3.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			repell00:"all:0.2:food"
+		}
+		
+		def lion:/species_type {
+			name:"@@df_gen_male@@"
+			model:"/models/animals/lion/animal.pba"
+			variant:"lion"
+			scale:"1.0"
+			places_category:"bear"
+			gender:"1"
+			scoring_type:"size"
+			score_range:"19:29"
+			weight_range:"330:572"
+			s_specific:"/sounds/animals/an_gr_boar.ogg"
+			call_back:"0.40"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+		def lioness:/species_type {
+			name:"@@df_gen_felis@@"
+			model:"/models/animals/lion/animal.pba"
+			variant:"lioness"
+			scale:"0.8"
+			places_category:"bear"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"12:22"
+			weight_range:"220:350"
+			s_specific:"/sounds/animals/an_gr_boar.ogg"
+			call_back:"0.30"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+		def cub:/species_type {
+			name:"@@df_gen_kitten@@"
+			model:"/models/animals/lion/animal.pba"
+			variant:"cub"
+			scale:"0.4"
+			places_category:"bear"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"89:199.9"
+			s_specific:"/sounds/animals/an_gr_sow.ogg"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.050"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+	def elephant:/species_kind {
+		animal_db:"/script/animal_db/elephant.def"
+		name:"@@df_spc_elephant@@"
+		african:"true"
+		slot_empty:"/material/ui/icon/a_elephant_empty.mat"
+		slot_glow:"/material/ui/icon/a_elephant_glow.mat"
+		slot_full:"/material/ui/icon/a_elephant.mat"
+		index:"13"
+		species_interaction:"1,-1,1,1,1,1,-3,1,1,1,-3,-3,0,-3,1,1,-3,1"
+		fade_hunger:"2"
+		fact_hunger:"12"
+		root_rotation:"< 0 90 90 >"
+		maximal_herd_size:"8"
+		trail_type:"elephant_trail"
+		spoor_dist:"1.60"
+		desc0:"@@df_desc0_elephant@@"
+		desc1:"@@df_desc1_elephant@@"
+		score_max:"30"
+		
+		# has tough skin - hard to enter, and body absorbs bullet energy quickly
+		male_impact_absorption:"20.0"
+		female_impact_absorption:"20.0"
+		young_impact_absorption:"20.0"
+
+		male_travel_absorption:"1.0"
+		female_travel_absorption:"1.0"
+		young_travel_absorption:"1.0"
+
+		male_impact_damage:"0.01"
+		female_impact_damage:"0.01"
+		young_impact_damage:"0.01"
+
+		male_travel_damage:"0.0"
+		female_travel_damage:"0.0"
+		young_travel_damage:"0.0"
+
+		pc_head_impact_absorption:"0.0"
+		pc_head_travel_absorption:"0.0"
+		pc_head_impact_damage:"1.0"
+		pc_head_travel_damage:"0.0"
+		pc_head_instant:"false"
+		pc_head_vital:"false"
+
+		pc_lungs_instant:"false"
+		pc_lungs_vital:"false"
+
+		pc_spine_instant:"false"
+		pc_spine_vital:"false"
+
+		pc_heart_instant:"false"
+		pc_heart_vital:"false"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+		
+		def bull:/species_type {
+			name:"@@df_gen_bull@@"
+			model:"/models/animals/elephant/animal.pba"
+			variant:"bull"
+			scale:"1.0"
+			type:"deer"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			places_category:"bear"
+			gender:"1"
+			scoring_type:"size"
+			score_range:"19:29"
+			weight_range:"7920:13200"
+			s_specific:"/sounds/animals/an_elephant_bull.ogg"
+			call_back:"0.40"
+			dangerous:"true"
+			antlers:"/models/animals/elephant/antlers_male.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+					val_attack_probability:"0.100"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+		def cow:/species_type {
+			name:"@@df_gen_cow@@"
+			model:"/models/animals/elephant/animal.pba"
+			variant:"cow"
+			scale:"0.8"
+			type:"deer"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			places_category:"bear"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"13:24"
+			weight_range:"6920:10200"
+			s_specific:"/sounds/animals/an_elephant_sow.ogg"
+			call_back:"0.30"
+			dangerous:"true"
+			antlers:"/models/animals/elephant/antlers_female.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+					val_attack_probability:"0.100"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}		
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/elephant/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			type:"deer"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			places_category:"bear"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"1000:4000"
+			s_specific:"/sounds/animals/an_elephant_sow.ogg"
+			dangerous:"true"
+			antlers:"/models/animals/elephant/antlers_young.sii"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+	def blackbear:/species_kind {
+		animal_db:"/script/animal_db/blackbear.def"
+		name:"@@df_spc_blackbear@@"
+		slot_empty:"/material/ui/icon/a_blackbear_empty.mat"
+		slot_glow:"/material/ui/icon/a_blackbear_glow.mat"
+		slot_full:"/material/ui/icon/a_blackbear.mat"
+		index:"14"
+		species_interaction:"7,2,7,5,7,7,-1,5,5,5,1,-1,3,0,7,7,1,5"
+		fade_hunger:"2"
+		fact_hunger:"12"
+		root_rotation:"< 0 90 90 >"
+		maximal_herd_size:"2"
+		trail_type:"grizzly_trail"
+		spoor_dist:"0.80"
+		desc0:"@@df_desc0_blackbear@@"
+		desc1:"@@df_desc1_blackbear@@"
+		score_max:"30"
+		
+		# has tough skin
+		male_impact_absorption:"3.1"
+		female_impact_absorption:"3.1"
+		young_impact_absorption:"3.1"
+
+		male_impact_damage:"0.9"
+		female_impact_damage:"0.9"
+		young_impact_damage:"0.9"
+
+		male_travel_damage:"2.0"
+		female_travel_damage:"2.0"
+		young_travel_damage:"2.0"
+
+		pc_head_instant:"true"
+		pc_head_vital:"true"
+		pc_lungs_travel_damage:"2.0"
+		pc_head_travel_damage:"3.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"cougar:0.3:food"
+			attract02:"wolf:0.3:food"
+			attract03:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+		
+		def boar:/species_type {
+			name:"@@df_gen_boar@@"
+			model:"/models/animals/blackbear/animal.pba"
+			variant:"boar"
+			scale:"1.0"
+			places_category:"bear"
+			gender:"1"
+			scoring_type:"size"
+			score_range:"19:29"
+			weight_range:"250:850"
+			s_specific:"/sounds/animals/an_bear.ogg"
+			call_back:"0.40"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+					val_attack_probability:"0.100"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def sow:/species_type {
+			name:"@@df_gen_sow@@"
+			model:"/models/animals/blackbear/animal.pba"
+			variant:"sow"
+			scale:"0.8"
+			places_category:"bear"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:24"
+			weight_range:"115:450"
+			s_specific:"/sounds/animals/an_bear.ogg"
+			call_back:"0.30"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+					val_attack_probability:"0.100"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.200"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/blackbear/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			places_category:"bear"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"55:215"
+			s_specific:"/sounds/animals/an_bear.ogg"
+			dangerous:"false"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def bighorn:/species_kind {
+		animal_db:"/script/animal_db/bighorn.def"
+		name:"@@df_spc_bighorn@@"
+		slot_empty:"/material/ui/icon/a_bighorn_empty.mat"
+		slot_glow:"/material/ui/icon/a_bighorn_glow.mat"
+		slot_full:"/material/ui/icon/a_bighorn.mat"
+		index:"15"
+		species_interaction:"1,-1,1,-1,-1,1,-7,-1,-1,-1,-7,-8,-1,-7,0,1,-7,1"
+		trail_type:"goat_trail"
+		spoor_dist:"1.80"
+		desc0:"@@df_desc0_bighorn@@"
+		desc1:"@@df_desc1_bighorn@@"
+		score_max:"30"
+
+		male_travel_damage:"3.0"
+		female_travel_damage:"3.0"
+		young_travel_damage:"3.0"
+
+		pc_lungs_impact_damage:"2.0"
+		pc_lungs_travel_damage:"2.0"
+		pc_head_impact_damage:"2.0"
+		pc_head_travel_damage:"4.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+
+		def bull:/species_type {
+			name:"@@df_gen_billy@@"
+			model:"/models/animals/bighorn/animal.pba"
+			variant:"bull"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"goat"
+			navigation_category:"mountain"
+			gender:"1"
+			scoring_type:"antlers"
+			weight_range:"91.2:299.2"
+			s_specific:"/sounds/animals/an_mt_bull.ogg"
+			call_back:"0.40"
+			antlers:"/models/animals/bighorn/antlers_male.sii"
+			
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cow:/species_type {
+			name:"@@df_gen_nanny@@"
+			model:"/models/animals/bighorn/animal.pba"
+			variant:"cow"
+			scale:"0.8"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"goat"
+			navigation_category:"mountain"
+			gender:"2"
+			scoring_type:"antlers"
+			score_range:"15:25"
+			weight_range:"82.4:220.3"
+			s_specific:"/sounds/animals/an_mt_doe.ogg"
+			call_back:"0.30"
+			antlers:"/models/animals/bighorn/antlers_female.sii"
+			
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/bighorn/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"goat"
+			navigation_category:"mountain"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"50:80"
+			s_specific:"/sounds/animals/an_mt_doe.ogg"
+			antlers:"/models/animals/bighorn/antlers_young.sii"
+			
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def turkey:/species_kind {
+		animal_db:"/script/animal_db/turkey.def"
+		name:"@@df_spc_turkey@@"
+		slot_empty:"/material/ui/icon/a_turkey_empty.mat"
+		slot_glow:"/material/ui/icon/a_turkey_glow.mat"
+		slot_full:"/material/ui/icon/a_turkey.mat"
+		index:"16"
+		species_interaction:"1,-1,1,-1,-1,1,-7,-1,-1,-1,-7,-8,-1,-7,1,0,-7,-1"
+		trail_type:"turkey_trail"
+		spoor_dist:"0.35"
+		desc0:"@@df_desc0_turkey@@"
+		desc1:"@@df_desc1_turkey@@"
+		score_max:"30"
+
+		male_travel_damage:"3.0"
+		female_travel_damage:"3.0"
+		young_travel_damage:"3.0"
+
+		pc_lungs_impact_damage:"2.0"
+		pc_lungs_travel_damage:"2.0"
+		pc_head_impact_damage:"2.0"
+		pc_head_travel_damage:"4.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+
+		def gobbler:/species_type {
+			name:"@@df_gen_gobbler@@"
+			model:"/models/animals/turkey/animal.pba"
+			variant:"gobbler"
+			scale:"1.0"
+			places_category:"deer"
+			gender:"1"
+			scoring_type:"size"
+			score_range:"15:29"
+			weight_range:"6.2:18.6"
+			s_specific:"/sounds/animals/an_tk_gobbler.ogg"
+			call_back:"0.40"
+			
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def hen:/species_type {
+			name:"@@df_gen_hen@@"
+			model:"/models/animals/turkey/dirtyhack.pba"
+			variant:"hen"
+			scale:"0.8"
+			type:"deer"
+			places_category:"deer"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"5:15"
+			weight_range:"2.2:8.5"
+			s_specific:"/sounds/animals/an_tk_hen.ogg"
+			call_back:"0.30"
+			
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_poult@@"
+			model:"/models/animals/turkey/dirtyhack.pba"
+			variant:"poult"
+			scale:"0.5"
+			type:"deer"
+			places_category:"deer"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"1:3"
+			s_specific:"/sounds/animals/an_tk_hen.ogg"
+			
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+	def wolf:/species_kind {
+		animal_db:"/script/animal_db/wolf.def"
+		name:"@@df_spc_wolf@@"
+		slot_empty:"/material/ui/icon/a_wolf_empty.mat"
+		slot_glow:"/material/ui/icon/a_wolf_glow.mat"
+		slot_full:"/material/ui/icon/a_wolf.mat"
+		index:"17"
+		species_interaction:"7,-3,8,3,7,7,-1,-3,3,3,-1,-1,3,-1,5,7,0,5"
+		fade_hunger:"2"
+		fact_hunger:"12"
+		root_rotation:"< 0 90 90 >"
+		maximal_herd_size:"2"
+		trail_type:"wolf_trail"
+		spoor_dist:"1.60"
+		desc0:"@@df_desc0_wolf@@"
+		desc1:"@@df_desc1_wolf@@"
+		score_max:"30"
+		
+		# has tough skin - hard to enter
+		male_impact_absorption:"1.4"
+		female_impact_absorption:"1.4"
+		young_impact_absorption:"1.4"
+
+		male_impact_damage:"0.9"
+		female_impact_damage:"0.9"
+		young_impact_damage:"0.9"
+
+		male_travel_damage:"2.0"
+		female_travel_damage:"2.0"
+		young_travel_damage:"2.0"
+
+		pc_lungs_travel_damage:"2.0"
+		pc_head_travel_damage:"3.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+		
+		def male:/species_type {
+			name:"@@df_gen_male@@"
+			model:"/models/animals/wolf/animal.pba"
+			variant:"male"
+			scale:"1.0"
+			places_category:"bear"
+			navigation_category:"mountain"
+			gender:"1"
+			scoring_type:"size"
+			score_range:"19:29"
+			weight_range:"65:150"
+			s_specific:"/sounds/animals/an_wolf_male.ogg"
+			call_back:"0.40"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def female:/species_type {
+			name:"@@df_gen_female@@"
+			model:"/models/animals/wolf/animal.pba"
+			variant:"female"
+			scale:"0.8"
+			places_category:"bear"
+			navigation_category:"mountain"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:22"
+			weight_range:"52:110"
+			s_specific:"/sounds/animals/an_wolf_female.ogg"
+			call_back:"0.30"
+			dangerous:"true"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.050"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def pup:/species_type {
+			name:"@@df_gen_pup@@"
+			model:"/models/animals/wolf/animal.pba"
+			variant:"pup"
+			scale:"0.5"
+			places_category:"bear"
+			navigation_category:"mountain"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"20:49"
+			s_specific:"/sounds/animals/an_wolf_female.ogg"
+			dangerous:"false"
+
+			def ai_presets {
+				def default:/ai_type {
+					name:"@@em_ps_default@@"
+					fade_stress:"0.1"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.05"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+					fade_stress:"0.1"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.2"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.050"
+					fade_stress:"0.1"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+	def reddeer:/species_kind {
+		animal_db:"/script/animal_db/reddeer.def"
+		name:"@@df_spc_reddeer@@"
+		slot_empty:"/material/ui/icon/a_reddeer_empty.mat"
+		slot_glow:"/material/ui/icon/a_reddeer_glow.mat"
+		slot_full:"/material/ui/icon/a_reddeer.mat"
+		index:"18"
+		species_interaction:"-1,-1,-1,-1,-1,-1,-7,-1,-1,-1,-7,-8,-1,-7,-1,-1,-7,0"
+		trail_type:"reddeer_trail"
+		spoor_dist:"2.20"
+		desc0:"@@df_desc0_reddeer@@"
+		desc1:"@@df_desc1_reddeer@@"
+		score_max:"115"
+
+		# bigger animal - harder to enter
+		male_impact_absorption:"1.2"
+		female_impact_absorption:"1.2"
+		young_impact_absorption:"1.2"
+
+		male_impact_damage:"0.9"
+		female_impact_damage:"0.9"
+		young_impact_damage:"0.9"
+
+		male_travel_damage:"2.0"
+		female_travel_damage:"2.0"
+		young_travel_damage:"2.0"
+
+		pc_lungs_impact_damage:"1.5"
+		pc_lungs_travel_damage:"3.0"
+
+		pc_head_travel_damage:"4.0"
+
+		pc_heart_impact_damage:"2.0"
+
+		def carcass:/carcass_base {
+			attract00:"grizzly:0.3:food"
+			attract01:"blackbear:0.3:food"
+			attract02:"cougar:0.3:food"
+			attract03:"wolf:0.3:food"
+			attract04:"lion:0.3:food"
+			repell00:"all:0.2:food"
+		}
+		
+		def buck:/species_type {
+			name:"@@df_gen_stag@@"
+			model:"/models/animals/reddeer/animal.pba"
+			variant:"buck"
+			scale:"1.0"
+			la_bone:"a_l"
+			ra_bone:"a_r"
+			type:"deer"
+			places_category:"deer"
+			gender:"1"
+			scoring_type:"antlers"
+			weight_range:"350.4:550.2"
+			s_specific:"/sounds/animals/an_rd_male.ogg"
+			call_back:"0.40"
+			antlers:"/models/animals/reddeer/antlers_male.sii"
+			
+			def ai_presets {
+				def default:/ai_type {
+					fact_hunter_perception:"0.600"
+					name:"@@em_ps_default@@"
+					val_attack_probability:"0.020"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"
+					fact_hunter_perception:"0.300"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.800"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.100"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def doe:/species_type {
+			name:"@@df_gen_hind@@"
+			model:"/models/animals/reddeer/animal.pba"
+			variant:"doe"
+			scale:"0.8"
+			type:"deer"
+			places_category:"deer"
+			gender:"2"
+			scoring_type:"size"
+			score_range:"15:25"
+			weight_range:"264.9:385.3"
+			s_specific:"/sounds/animals/an_el_cow.ogg"
+			call_back:"0.30"
+
+			def ai_presets {
+				def default:/ai_type {
+					fact_hunter_perception:"0.500"
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.200"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.700"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.050"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+
+		def cub:/species_type {
+			name:"@@df_gen_cub@@"
+			model:"/models/animals/reddeer/animal.pba"
+			variant:"cub"
+			scale:"0.5"
+			type:"deer"
+			places_category:"deer"
+			gender:"3"
+			scoring_type:"none"
+			weight_range:"100:200"
+			s_specific:"/sounds/animals/an_el_cow.ogg"
+
+			def ai_presets {
+				def default:/ai_type {
+					fact_hunter_perception:"0.400"
+					name:"@@em_ps_default@@"
+				}
+				def ai_insensitive:/ai_type {
+					name:"@@em_ps_insensitive@@"
+					fact_hunter:"1.000"
+					fade_hunter:"0.200"
+					fade_stress:"0.1"		
+					fact_hunter_perception:"0.100"
+				}
+				def ai_normal:/ai_type {
+					name:"@@em_ps_calm@@"
+				}
+				def ai_sensitive:/ai_type {
+					name:"@@em_ps_sensitive@@"
+					fact_hunter:"2.000"
+					fade_hunter:"0.050"
+					fade_stress:"0.4"		
+					fact_hunter_perception:"0.600"
+				}
+				def ai_aggressive:/ai_type {
+					name:"@@em_ps_aggressive@@"
+					val_aggression:"0.300"
+					val_attack_probability:"0.000"
+				}
+				def ai_dumb:/ai_type_dumb {
+				}
+			}
+		}
+	}
+
+}
+
+#############################################################
+# --- AMBIENT ANIMAL TYPES ---
+#############################################################
+def ambient_animals {
+	def ambient.animal.eagle {
+		name:"@@df_spc_eagle@@"
+	}
+	def ambient.animal.woodpecker {
+		name:"@@df_spc_woodpecker@@"
+	}
+	def ambient.animal.sparrow {
+		name:"@@df_spc_sparrow@@"
+	}
+	def ambient.animal.buzzard {
+		name:"@@df_spc_buzzard@@"
+	}
+	def ambient.animal.duck.male {
+		name:"@@df_spc_duck1@@"
+	}
+	def ambient.animal.duck.female {
+		name:"@@df_spc_duck2@@"
+	}
+	def ambient.animal.crow {
+		name:"@@df_spc_crow@@"
+	}
+	def ambient.animal.vulture {
+		name:"@@df_spc_vulture@@"
+	}
+}
